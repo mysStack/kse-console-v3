@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - release-4.1.5
+      - 'feature/**'
   pull_request:
     branches:
       - main
