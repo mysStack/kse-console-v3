@@ -1,0 +1,38 @@
+name: Build V3 Console
+
+on:
+  push:
+    branches:
+      - main
+      - release-4.1.5
+  pull_request:
+    branches:
+      - main
+      - release-4.1.5
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出源码
+        uses: actions/checkout@v4
+
+      - name: 使用 Node.js 14
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - name: 安装依赖
+        run: yarn install --frozen-lockfile
+
+      - name: 构建 V3 静态资源
+        run: yarn build:client
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: console-v3dist-${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
