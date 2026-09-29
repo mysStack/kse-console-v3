@@ -18,7 +18,7 @@
 
 import React from 'react'
 import { Form } from '@kube-design/components'
-import { EnvironmentInput } from 'components/Inputs'
+import { EnvFromInput, EnvironmentInput } from 'components/Inputs'
 import RootStore from 'stores/root'
 
 import { lazy } from 'utils'
@@ -83,6 +83,14 @@ export default class Environments extends React.Component {
             cluster={cluster}
             projectDetail={projectDetail}
             handleInputError={this.handleErrorStatus}
+          />
+        </Form.Item>
+        <Form.Item>
+          <EnvFromInput
+            name={`${this.prefix}envFrom`}
+            namespace={namespace}
+            isFederated={isFederated}
+            cluster={cluster}
           />
         </Form.Item>
       </Form.Group>

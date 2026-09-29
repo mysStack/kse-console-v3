@@ -84,6 +84,12 @@ module.exports = {
   CURRENT_VALUE: 'Current: {value}',
   // Environment Variables
   ENVIRONMENT_VARIABLE_PL: 'Environment Variables',
+  ENVIRONMENT_REFERENCE_PL: 'ConfigMap or Secret References',
+  ENVIRONMENT_REFERENCE_DESC: 'Inject all keys from a ConfigMap or Secret into the container.',
+  ADD_ENVIRONMENT_REFERENCE: 'Add Config Reference',
+  ENVIRONMENT_PREFIX: 'Prefix (optional)',
+  SELECT_RESOURCE: 'Select resource',
+  NO_CONFIGMAP_SECRET: 'No ConfigMaps or Secrets are available in this namespace.',
   // Events
   EVENT_AGE: 'Occurred',
   EVENT_AGE_DATA: '{lastTime}<br/>({count} times over {duration})',

@@ -82,6 +82,12 @@ module.exports = {
   CURRENT_VALUE: 'Current: {value}',
   // Environment Variables
   ENVIRONMENT_VARIABLE_PL: '環境變量',
+  ENVIRONMENT_REFERENCE_PL: '引用配置字典或保密字典',
+  ENVIRONMENT_REFERENCE_DESC: '將配置字典或保密字典的所有鍵注入容器。',
+  ADD_ENVIRONMENT_REFERENCE: '新增配置引用',
+  ENVIRONMENT_PREFIX: '前綴（可選）',
+  SELECT_RESOURCE: '選擇資源',
+  NO_CONFIGMAP_SECRET: '目前命名空間沒有可用的配置字典或保密字典。',
   // Events
   EVENT_AGE: '發生時間',
   EVENT_AGE_DATA: '{lastTime}<br/>({count} times over {duration})',

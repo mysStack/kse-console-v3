@@ -17,6 +17,7 @@
  */
 
 import { isEmpty, cloneDeep } from 'lodash'
+import { cleanEnvFrom } from 'components/Inputs/EnvironmentInput/envFrom'
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
@@ -145,6 +146,13 @@ export default class ContaineForm extends React.Component {
 
         if (data.env) {
           data.env = data.env.filter(({ name }) => !isEmpty(name))
+        }
+
+        if (data.envFrom) {
+          data.envFrom = cleanEnvFrom(data.envFrom)
+          if (isEmpty(data.envFrom)) {
+            delete data.envFrom
+          }
         }
 
         if (data.ports) {

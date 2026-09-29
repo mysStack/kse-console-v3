@@ -1,0 +1,39 @@
+@import '~scss/variables';
+
+.wrapper {
+  position: relative;
+}
+
+.heading {
+  margin-bottom: 8px;
+  color: $text-color;
+  font-weight: 600;
+}
+
+.item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-right: 60px;
+
+  :global {
+    .select,
+    input {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .select:first-child {
+      flex: 0 0 130px;
+    }
+  }
+}
+
+.empty {
+  margin-top: 8px;
+  color: $second-text-color;
+}
+
+.refresh {
+  margin-top: 8px;
+}
