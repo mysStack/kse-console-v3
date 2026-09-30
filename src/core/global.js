@@ -19,6 +19,18 @@
 import { get, uniq, isEmpty, includes, cloneDeep } from 'lodash'
 import { safeParseJSON, compareVersion } from 'utils'
 
+export function normalizeProjectNavs(projectNavs) {
+  if (Array.isArray(projectNavs)) {
+    return projectNavs
+  }
+
+  if (projectNavs && Array.isArray(projectNavs.children)) {
+    return [{ ...projectNavs, items: projectNavs.children }]
+  }
+
+  return []
+}
+
 /** A global class for authorization check. */
 export default class GlobalValue {
   constructor() {
@@ -308,19 +320,21 @@ export default class GlobalValue {
     if (!this._cache_[`project_${cluster}_${project}_navs`]) {
       const navs = []
 
-      cloneDeep(globals.config.projectNavs).forEach(nav => {
-        const filteredItems = nav.items.filter(item => {
-          item.cluster = cluster
-          return this.checkNavItem(item, params =>
-            this.hasPermission({ ...params, cluster, workspace, project })
-          )
-        })
+      normalizeProjectNavs(cloneDeep(globals.config.projectNavs)).forEach(
+        nav => {
+          const filteredItems = nav.items.filter(item => {
+            item.cluster = cluster
+            return this.checkNavItem(item, params =>
+              this.hasPermission({ ...params, cluster, workspace, project })
+            )
+          })
 
-        if (!isEmpty(filteredItems)) {
-          this.checkClusterVersionRequired(filteredItems, cluster)
-          navs.push({ ...nav, items: filteredItems })
+          if (!isEmpty(filteredItems)) {
+            this.checkClusterVersionRequired(filteredItems, cluster)
+            navs.push({ ...nav, items: filteredItems })
+          }
         }
-      })
+      )
 
       this._cache_[`project_${cluster}_${project}_navs`] = navs
     }
