@@ -31,6 +31,16 @@ export function normalizeProjectNavs(projectNavs) {
   return []
 }
 
+export function normalizeGlobalNavs(globalNavs) {
+  if (Array.isArray(globalNavs)) {
+    return globalNavs
+  }
+
+  return globalNavs && Array.isArray(globalNavs.children)
+    ? globalNavs.children
+    : []
+}
+
 /** A global class for authorization check. */
 export default class GlobalValue {
   constructor() {
@@ -219,7 +229,7 @@ export default class GlobalValue {
     if (!this._cache_['globalNavs']) {
       const navs = []
 
-      cloneDeep(globals.config.globalNavs).forEach(nav => {
+      normalizeGlobalNavs(cloneDeep(globals.config.globalNavs)).forEach(nav => {
         if (this.checkNavItem(nav, params => this.hasPermission(params))) {
           navs.push(nav)
         }
@@ -240,18 +250,20 @@ export default class GlobalValue {
     if (!this._cache_[`cluster_${cluster}_navs`] || needRebuild) {
       const navs = []
 
-      cloneDeep(globals.config.clusterNavs).forEach(nav => {
-        const filteredItems = nav.items.filter(item => {
-          item.cluster = cluster
-          return this.checkNavItem(item, params =>
-            this.hasPermission({ ...params, cluster })
-          )
-        })
-        if (!isEmpty(filteredItems)) {
-          this.checkClusterVersionRequired(filteredItems, cluster)
-          navs.push({ ...nav, items: filteredItems })
+      normalizeProjectNavs(cloneDeep(globals.config.clusterNavs)).forEach(
+        nav => {
+          const filteredItems = nav.items.filter(item => {
+            item.cluster = cluster
+            return this.checkNavItem(item, params =>
+              this.hasPermission({ ...params, cluster })
+            )
+          })
+          if (!isEmpty(filteredItems)) {
+            this.checkClusterVersionRequired(filteredItems, cluster)
+            navs.push({ ...nav, items: filteredItems })
+          }
         }
-      })
+      )
 
       this._cache_[`cluster_${cluster}_navs`] = navs
     }
@@ -263,14 +275,16 @@ export default class GlobalValue {
     if (!this._cache_['accessNavs']) {
       const navs = []
 
-      cloneDeep(globals.config.accessNavs).forEach(nav => {
-        const filteredItems = nav.items.filter(item =>
-          this.checkNavItem(item, params => this.hasPermission(params))
-        )
-        if (!isEmpty(filteredItems)) {
-          navs.push({ ...nav, items: filteredItems })
+      normalizeProjectNavs(cloneDeep(globals.config.accessNavs)).forEach(
+        nav => {
+          const filteredItems = nav.items.filter(item =>
+            this.checkNavItem(item, params => this.hasPermission(params))
+          )
+          if (!isEmpty(filteredItems)) {
+            navs.push({ ...nav, items: filteredItems })
+          }
         }
-      })
+      )
 
       this._cache_['accessNavs'] = navs
     }
@@ -290,17 +304,19 @@ export default class GlobalValue {
     if (!this._cache_[`workspace_${workspace}_navs`]) {
       const navs = []
 
-      cloneDeep(globals.config.workspaceNavs).forEach(nav => {
-        const filteredItems = nav.items.filter(item =>
-          this.checkNavItem(item, params =>
-            this.hasPermission({ ...params, workspace })
+      normalizeProjectNavs(cloneDeep(globals.config.workspaceNavs)).forEach(
+        nav => {
+          const filteredItems = nav.items.filter(item =>
+            this.checkNavItem(item, params =>
+              this.hasPermission({ ...params, workspace })
+            )
           )
-        )
 
-        if (!isEmpty(filteredItems)) {
-          navs.push({ ...nav, items: filteredItems })
+          if (!isEmpty(filteredItems)) {
+            navs.push({ ...nav, items: filteredItems })
+          }
         }
-      })
+      )
 
       this._cache_[`workspace_${workspace}_navs`] = navs
     }
@@ -354,21 +370,23 @@ export default class GlobalValue {
     if (!this._cache_[`devops_${cluster}_${devops}_navs`]) {
       const navs = []
 
-      cloneDeep(globals.config.devopsNavs).forEach(nav => {
-        const filteredItems = nav.items.filter(item => {
-          item.cluster = cluster
-          return this.checkNavItem(item, params =>
-            this.hasPermission({ ...params, cluster, workspace, devops })
-          )
-        })
+      normalizeProjectNavs(cloneDeep(globals.config.devopsNavs)).forEach(
+        nav => {
+          const filteredItems = nav.items.filter(item => {
+            item.cluster = cluster
+            return this.checkNavItem(item, params =>
+              this.hasPermission({ ...params, cluster, workspace, devops })
+            )
+          })
 
-        if (!isEmpty(filteredItems)) {
-          this.checkClusterVersionRequired(filteredItems, cluster)
-          navs.push({ ...nav, items: filteredItems })
+          if (!isEmpty(filteredItems)) {
+            this.checkClusterVersionRequired(filteredItems, cluster)
+            navs.push({ ...nav, items: filteredItems })
+          }
+
+          this._cache_[`devops_${cluster}_${devops}_navs`] = navs
         }
-
-        this._cache_[`devops_${cluster}_${devops}_navs`] = navs
-      })
+      )
     }
 
     return this._cache_[`devops_${cluster}_${devops}_navs`]
@@ -378,7 +396,9 @@ export default class GlobalValue {
     if (!this._cache_['platformSettingsNavs']) {
       const navs = []
 
-      cloneDeep(globals.config.platformSettingsNavs).forEach(nav => {
+      normalizeProjectNavs(
+        cloneDeep(globals.config.platformSettingsNavs)
+      ).forEach(nav => {
         const filteredItems = nav.items.filter(item =>
           this.checkNavItem(item, params => this.hasPermission({ ...params }))
         )
