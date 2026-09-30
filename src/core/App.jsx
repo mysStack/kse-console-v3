@@ -29,6 +29,7 @@ import { lazy } from 'utils'
 import { renderRoutes } from 'utils/router.config'
 
 import routes from './routes'
+import { getRouterBasename } from './routerBase'
 
 const getActions = lazy(() =>
   import(/* webpackChunkName: "actions" */ 'actions')
@@ -40,13 +41,15 @@ class App extends Component {
 
     this.rootStore = new RootStore()
     this.history = syncHistoryWithStore(
-      createBrowserHistory(),
+      createBrowserHistory({
+        basename: getRouterBasename(window.location.pathname),
+      }),
       this.rootStore.routing
     )
   }
 
   componentDidMount() {
-    getActions().then(actions =>
+    getActions().then((actions) =>
       this.rootStore.registerActions(actions.default)
     )
   }
