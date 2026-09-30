@@ -26,6 +26,26 @@ import cookie from 'utils/cookie'
 import Base from './base'
 import List from './base.list'
 
+export const getRulesUrl = ({ name, ...params }) => {
+  let query = ''
+
+  if (params.namespace || params.devops) {
+    query = params.namespace
+      ? `scope=namespace&namespace=${params.namespace}`
+      : `scope=devops&devops=${params.devops}`
+  } else if (params.workspace) {
+    query = `scope=workspace&workspace=${params.workspace}`
+  } else if (params.cluster) {
+    query = `scope=cluster&cluster=${params.cluster}`
+  } else {
+    query = 'scope=global'
+  }
+
+  return `${
+    params.cluster ? `clusters/${params.cluster}/` : ''
+  }kapis/iam.kubesphere.io/v1beta1/users/${name}/roletemplates?${query}`
+}
+
 export default class UsersStore extends Base {
   records = new List()
 
@@ -86,47 +106,37 @@ export default class UsersStore extends Base {
   @action
   async fetchRules({ name, ...params }) {
     let module = 'globalroles'
-    if (params.namespace || params.devops) {
-      module = 'roles'
-    } else if (params.workspace) {
-      module = 'workspaceroles'
-    } else if (params.cluster) {
-      module = 'clusterroles'
-    }
+    if (params.namespace || params.devops) module = 'roles'
+    else if (params.workspace) module = 'workspaceroles'
+    else if (params.cluster) module = 'clusterroles'
 
-    const resp = await request.get(
-      `kapis/iam.kubesphere.io/v1alpha2${this.getPath(params)}/${this.getModule(
-        params
-      )}/${name}/${module}`,
-      {},
-      {},
-      () => {}
-    )
+    const response = await request.get(getRulesUrl({ name, ...params }))
+    const resp = Array.isArray(response) ? response : get(response, 'items', [])
 
     let rules = {}
-    resp &&
-      resp.forEach(item => {
-        const rule = safeParseJSON(
-          get(
-            item,
-            "metadata.annotations['iam.kubesphere.io/role-template-rules']"
-          ),
-          {}
-        )
+    resp.forEach(item => {
+      const rule = safeParseJSON(
+        get(
+          item,
+          "metadata.annotations['iam.kubesphere.io/role-template-rules']"
+        ),
+        {}
+      )
 
-        Object.keys(rule).forEach(key => {
-          rules[key] = rules[key] || []
-          if (isArray(rule[key])) {
-            rules[key].push(...rule[key])
-          } else {
-            rules[key].push(rule[key])
-          }
-          rules[key] = uniq(rules[key])
-        })
+      Object.keys(rule).forEach(key => {
+        rules[key] = rules[key] || []
+        const roleTemplateName = get(item, 'metadata.name')
+        if (isArray(rule[key])) {
+          rules[key].push(...rule[key], roleTemplateName)
+        } else {
+          rules[key].push(rule[key], roleTemplateName)
+        }
+        rules[key] = uniq(rules[key])
       })
+    })
 
     switch (module) {
-      case 'globaleroles':
+      case 'globalroles':
         set(globals.user, `globalRules`, rules)
         break
       case 'clusterroles': {

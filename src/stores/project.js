@@ -26,6 +26,22 @@ import ObjectMapper from 'utils/object.mapper'
 import Base from './base'
 import List from './base.list'
 
+const getProjectPath = ({ cluster, namespace } = {}) => {
+  let path = cluster ? `/klusters/${cluster}` : ''
+  if (namespace) path += `/namespaces/${namespace}`
+  return path
+}
+
+export const getProjectResourceUrl = ({ workspace, ...params } = {}) => {
+  if (workspace) {
+    return `kapis/tenant.kubesphere.io/v1beta1/workspaces/${workspace}/namespaces`
+  }
+
+  return `kapis/resources.kubesphere.io/v1alpha3${getProjectPath(
+    params
+  )}/namespaces`
+}
+
 const withTypeSelectParams = (params, type) => {
   if (type === 'system') {
     params.labelSelector = 'kubesphere.io/workspace=system-workspace'
@@ -50,15 +66,7 @@ export default class ProjectStore extends Base {
   module = 'namespaces'
 
   getResourceUrl = ({ workspace, ...params }) => {
-    if (workspace) {
-      return `kapis/tenant.kubesphere.io/v1alpha2/workspaces/${workspace}${this.getPath(
-        params
-      )}/namespaces`
-    }
-
-    return `kapis/resources.kubesphere.io/v1alpha3${this.getPath(
-      params
-    )}/namespaces`
+    return getProjectResourceUrl({ workspace, ...params })
   }
 
   getWatchListUrl = ({ workspace, ...params }) => {
@@ -71,13 +79,7 @@ export default class ProjectStore extends Base {
   }
 
   getListUrl = (params = {}) => {
-    if (params.workspace) {
-      return `kapis/tenant.kubesphere.io/v1alpha2/workspaces/${
-        params.workspace
-      }${this.getPath(params)}/namespaces`
-    }
-
-    return `${this.apiVersion}${this.getPath(params)}/namespaces`
+    return getProjectResourceUrl(params)
   }
 
   @action
