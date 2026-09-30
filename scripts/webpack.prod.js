@@ -27,6 +27,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
 
 const root = path => resolve(__dirname, `../${path}`)
+const publicPath = process.env.V3_PUBLIC_PATH || '/dist/'
 
 const baseConfig = require('./webpack.base')
 const localeConfig = require('./webpack.locale')
@@ -39,7 +40,7 @@ const config = smp.wrap({
   output: {
     filename: '[name].[chunkhash].js',
     path: root('dist/'),
-    publicPath: '/dist/',
+    publicPath,
     chunkFilename: '[id].[chunkhash].js',
   },
   module: {

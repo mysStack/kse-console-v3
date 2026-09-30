@@ -23,6 +23,7 @@ const LocalePlugin = require('./locale-plugin')
 const root = path => resolve(__dirname, `../${path}`)
 
 const isDev = process.env.NODE_ENV === 'development'
+const publicPath = process.env.V3_PUBLIC_PATH || '/dist/'
 
 const langs = fs.readdirSync(root('locales'))
 const entries = langs.reduce(
@@ -42,7 +43,7 @@ module.exports = {
   output: {
     filename,
     path: root('dist/'),
-    publicPath: '/dist/',
+    publicPath,
   },
   plugins: [
     new LocalePlugin({ output: '../dist' }),
