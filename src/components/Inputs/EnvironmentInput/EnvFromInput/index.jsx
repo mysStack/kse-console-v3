@@ -46,6 +46,8 @@ export default class EnvFromInput extends React.Component {
     this.state = {
       configMaps: props.configMaps || [],
       secrets: props.secrets || [],
+      loading: !props.configMaps && !props.secrets,
+      loadError: false,
     }
   }
 
@@ -58,11 +60,14 @@ export default class EnvFromInput extends React.Component {
   handleGetResource = () => {
     const { namespace, cluster } = this.props
     const params = { namespace, cluster }
+    this.setState({ loading: true, loadError: false })
     Promise.all([
       this.configMapStore.fetchListByK8s(params),
       this.secretStore.fetchListByK8s(params),
     ]).then(([configMaps, secrets]) => {
-      this.setState({ configMaps, secrets })
+      this.setState({ configMaps, secrets, loading: false })
+    }).catch(() => {
+      this.setState({ loading: false, loadError: true })
     })
   }
 
@@ -72,7 +77,7 @@ export default class EnvFromInput extends React.Component {
   }
 
   render() {
-    const { configMaps, secrets } = this.state
+    const { configMaps, secrets, loading, loadError } = this.state
     const { value, onChange, ...rest } = this.props
     const values = value && value.length ? value : [{}]
 
@@ -90,7 +95,24 @@ export default class EnvFromInput extends React.Component {
         >
           <Item configMaps={configMaps} secrets={secrets} />
         </ArrayInput>
-        {isEmpty(configMaps) && isEmpty(secrets) && (
+        {loading && (
+          <div className={styles.status} data-test="env-from-loading">
+            {t('ENVIRONMENT_REFERENCE_LOADING')}
+          </div>
+        )}
+        {!loading && loadError && (
+          <div className={styles.status} data-test="env-from-error">
+            <span>{t('ENVIRONMENT_REFERENCE_LOAD_FAILED')}</span>
+            <Button
+              type="flat"
+              data-test="env-from-retry"
+              onClick={this.handleGetResource}
+            >
+              {t('RETRY')}
+            </Button>
+          </div>
+        )}
+        {!loading && !loadError && isEmpty(configMaps) && isEmpty(secrets) && (
           <div className={styles.empty}>{t('NO_CONFIGMAP_SECRET')}</div>
         )}
         <Button

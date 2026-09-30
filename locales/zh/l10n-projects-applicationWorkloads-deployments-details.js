@@ -88,6 +88,8 @@ module.exports = {
   ENVIRONMENT_PREFIX: '前缀（可选）',
   SELECT_RESOURCE: '选择资源',
   NO_CONFIGMAP_SECRET: '当前命名空间没有可用的配置字典或保密字典。',
+  ENVIRONMENT_REFERENCE_LOADING: '正在加载配置字典和保密字典…',
+  ENVIRONMENT_REFERENCE_LOAD_FAILED: '配置字典和保密字典加载失败。',
   // Events
   EVENT_AGE: '发生时间',
   EVENT_AGE_DATA: '{lastTime}<br/>（近 {duration}发生 {count} 次)',

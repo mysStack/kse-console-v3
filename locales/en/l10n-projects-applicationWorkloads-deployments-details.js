@@ -90,6 +90,8 @@ module.exports = {
   ENVIRONMENT_PREFIX: 'Prefix (optional)',
   SELECT_RESOURCE: 'Select resource',
   NO_CONFIGMAP_SECRET: 'No ConfigMaps or Secrets are available in this namespace.',
+  ENVIRONMENT_REFERENCE_LOADING: 'Loading ConfigMaps and Secrets…',
+  ENVIRONMENT_REFERENCE_LOAD_FAILED: 'Failed to load ConfigMaps and Secrets.',
   // Events
   EVENT_AGE: 'Occurred',
   EVENT_AGE_DATA: '{lastTime}<br/>({count} times over {duration})',
