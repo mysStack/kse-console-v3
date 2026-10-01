@@ -41,6 +41,7 @@ import CRONJOBS_FORM_STEPS from 'configs/steps/cronjobs'
 
 import HPAStore from 'stores/workload/hpa'
 import ServiceStore from 'stores/service'
+import { navigateToNativeWorkload } from 'utils/nativeWorkload'
 
 const FORM_STEPS = {
   deployments: DEPLOYMENTS_FORM_STEPS,
@@ -63,6 +64,10 @@ export default {
       supportGpuSelect = false,
       ...props
     }) {
+      if (navigateToNativeWorkload({ mode: 'create', kind: module })) {
+        return
+      }
+
       const kind = MODULE_KIND_MAP[module]
       const formTemplate = {
         [kind]: FORM_TEMPLATES[module]({
@@ -259,6 +264,16 @@ export default {
   },
   'workload.template.edit': {
     on({ store, detail, success, supportGpuSelect = false, ...props }) {
+      if (
+        navigateToNativeWorkload({
+          mode: 'edit',
+          kind: store.module,
+          name: get(detail, 'name'),
+        })
+      ) {
+        return
+      }
+
       const modal = Modal.open({
         onOk: data => {
           const customMode = get(data, 'spec.template.spec.customMode', {})
