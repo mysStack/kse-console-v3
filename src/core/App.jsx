@@ -30,6 +30,7 @@ import { renderRoutes } from 'utils/router.config'
 
 import routes from './routes'
 import { getRouterBasename } from './routerBase'
+import { notifyHostRouteChange } from './routeSync'
 
 const getActions = lazy(() =>
   import(/* webpackChunkName: "actions" */ 'actions')
@@ -46,12 +47,18 @@ class App extends Component {
       }),
       this.rootStore.routing
     )
+    this.unlistenRoute = this.history.listen(notifyHostRouteChange)
   }
 
   componentDidMount() {
-    getActions().then((actions) =>
+    notifyHostRouteChange(this.history.location)
+    getActions().then(actions =>
       this.rootStore.registerActions(actions.default)
     )
+  }
+
+  componentWillUnmount() {
+    this.unlistenRoute()
   }
 
   render() {
