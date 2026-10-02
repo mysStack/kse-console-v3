@@ -21,6 +21,8 @@ import { LocaleProvider } from '@kube-design/components'
 import get from 'lodash/get'
 import cookie from 'utils/cookie'
 import { getBrowserLang } from 'utils'
+import { isWujieEmbedded } from 'core/embed'
+import { getLocaleAsset } from './localeAsset'
 
 const { locale } = LocaleProvider
 
@@ -52,9 +54,22 @@ const init = async () => {
   }
 
   const locales = {}
-  const localePath = globals.localeManifest[`locale-${userLang}.json`]
-  if (userLang && localePath) {
-    const data = await request.get(`dist/${localePath}`)
+  const embedded = isWujieEmbedded()
+  let localeManifest = globals.localeManifest || {}
+
+  // Wujie mounts V3 without rendering the V3 server template, so the child
+  // window does not receive its locale manifest through `globals`.
+  if (embedded && Object.keys(localeManifest).length === 0) {
+    try {
+      localeManifest = await request.get('dist/v3dist/manifest.locale.json')
+    } catch (error) {
+      localeManifest = {}
+    }
+  }
+
+  const localeAsset = getLocaleAsset(userLang, localeManifest, embedded)
+  if (localeAsset) {
+    const data = await request.get(localeAsset)
     locales[userLang] = data
   }
 

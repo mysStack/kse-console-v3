@@ -24,6 +24,7 @@ import pathToRegexp from 'path-to-regexp'
 
 import { ICON_TYPES } from 'utils/constants'
 import { renderRoutes } from 'utils/router.config'
+import { isWujieEmbedded } from 'core/embed'
 
 import BaseInfo from './BaseInfo'
 
@@ -120,9 +121,11 @@ class DetailPage extends React.Component {
     const { stores, nav, ...sideProps } = this.props
     const { routes } = this.state
 
+    const embedded = isWujieEmbedded()
+
     return (
       <Provider {...this.stores} {...stores}>
-        <>
+        <div className={`${styles.layout} ${embedded ? styles.embedded : ''}`}>
           <div className={styles.sider}>
             <BaseInfo
               {...sideProps}
@@ -134,7 +137,7 @@ class DetailPage extends React.Component {
             {nav || this.renderNav(routes)}
             {renderRoutes(routes)}
           </div>
-        </>
+        </div>
       </Provider>
     )
   }
