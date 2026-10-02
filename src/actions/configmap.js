@@ -26,6 +26,7 @@ import { MODULE_KIND_MAP } from 'utils/constants'
 import FORM_TEMPLATES from 'utils/form.templates'
 import formPersist from 'utils/form.persist'
 import FORM_STEPS from 'configs/steps/configmaps'
+import { showConfigReferenceImpact } from './configReferenceImpact'
 
 export default {
   'configmap.create': {
@@ -85,15 +86,20 @@ export default {
   'configmap.edit': {
     on({ store, detail, success, ...props }) {
       const modal = Modal.open({
-        onOk: data => {
+        onOk: async data => {
           set(data, 'metadata.resourceVersion', detail.resourceVersion)
           if (props.isFederated) {
             set(data, 'apiVersion', store.version)
             set(data, 'kind', 'FederatedConfigMap')
           }
-          store.update(detail, data).then(() => {
+          store.update(detail, data).then(async () => {
             Modal.close(modal)
-            Notify.success({ content: t('UPDATE_SUCCESSFUL') })
+            await showConfigReferenceImpact({
+              cluster: detail.cluster,
+              namespace: detail.namespace,
+              type: 'configMap',
+              name: data.metadata.name,
+            })
             success && success()
           })
         },

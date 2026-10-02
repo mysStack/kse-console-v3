@@ -27,6 +27,7 @@ import FORM_TEMPLATES from 'utils/form.templates'
 import formPersist from 'utils/form.persist'
 import FORM_STEPS from 'configs/steps/secrets'
 import SetDefaultSecretClass from 'components/Modals/SetDefaultSecretClass'
+import { showConfigReferenceImpact } from './configReferenceImpact'
 
 export default {
   'secret.create': {
@@ -111,9 +112,14 @@ export default {
             cluster: detail.cluster,
             namespace: detail.namespace,
           })
-          store.update(detail, data).then(() => {
+          store.update(detail, data).then(async () => {
             Modal.close(modal)
-            Notify.success({ content: t('UPDATE_SUCCESSFUL') })
+            await showConfigReferenceImpact({
+              cluster: detail.cluster,
+              namespace: detail.namespace,
+              type: 'secret',
+              name: data.metadata.name,
+            })
             success && success()
           })
         },

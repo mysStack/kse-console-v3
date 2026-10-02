@@ -1,0 +1,39 @@
+@import '~scss/variables';
+
+.wrapper {
+  padding: 4px 0;
+}
+
+.hint {
+  margin: 0 0 12px;
+  color: $text-color;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  background: $card-bg-color;
+
+  & + .item {
+    margin-top: 8px;
+  }
+}
+
+.name {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.kind {
+  margin-left: 8px;
+  color: $dark-color01;
+}
+
+.status {
+  color: $dark-color01;
+  font-size: 12px;
+}

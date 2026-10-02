@@ -26,6 +26,10 @@ import Base from 'stores/base'
 
 import HpaStore from './hpa'
 import ServiceStore from '../service'
+import {
+  createCronJobRestartPatch,
+  createRestartPatch,
+} from 'utils/configReferenceImpact'
 
 export default class WorkloadStore extends Base {
   constructor(module) {
@@ -133,6 +137,14 @@ export default class WorkloadStore extends Base {
         })}/jobs/${name}?action=rerun&resourceVersion=${resourceVersion}`
       )
     )
+  }
+
+  @action
+  recreate(params) {
+    const patch = this.module === 'cronjobs'
+      ? createCronJobRestartPatch()
+      : createRestartPatch()
+    return this.patch(params, patch)
   }
 
   @action
