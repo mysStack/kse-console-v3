@@ -8,6 +8,17 @@ export const getHostRoute = pathname => {
   return pathname.slice(EMBEDDED_PREFIX.length) || '/'
 }
 
+export const getEmbeddedRoute = pathname => {
+  if (!pathname) {
+    return EMBEDDED_PREFIX
+  }
+  return pathname.startsWith(EMBEDDED_PREFIX)
+    ? pathname
+    : `${EMBEDDED_PREFIX}${
+        pathname.startsWith('/') ? pathname : `/${pathname}`
+      }`
+}
+
 export const notifyHostRouteChange = location => {
   if (typeof window === 'undefined' || !window.__POWERED_BY_WUJIE__) {
     return
@@ -16,7 +27,8 @@ export const notifyHostRouteChange = location => {
   const pathname = location?.pathname || window.location.pathname
   const search = location?.search || window.location.search
   const hash = location?.hash || window.location.hash
-  const route = `${pathname}${search}${hash}`
+  const embeddedPath = getEmbeddedRoute(pathname)
+  const route = `${embeddedPath}${search}${hash}`
   window.$wujie?.bus?.$emit('consoleRouteChange', route)
   if (window.parent !== window) {
     window.parent.postMessage(
