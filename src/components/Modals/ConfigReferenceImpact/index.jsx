@@ -82,8 +82,13 @@ export default class ConfigReferenceImpact extends React.Component {
     this.props.onCancel()
   }
 
+  handleSaveOnly = () => {
+    Notify.success({ content: t('UPDATE_SUCCESSFUL') })
+    this.props.onCancel()
+  }
+
   render() {
-    const { references, visible, onCancel, resourceName } = this.props
+    const { references, visible, resourceName } = this.props
     const { selected, statuses, submitting } = this.state
 
     return (
@@ -92,7 +97,7 @@ export default class ConfigReferenceImpact extends React.Component {
         title={t('CONFIG_REFERENCE_IMPACT_TITLE')}
         description={t('CONFIG_REFERENCE_IMPACT_DESC', { name: resourceName })}
         visible={visible}
-        onCancel={onCancel}
+        onCancel={this.handleSaveOnly}
         cancelText={t('CONFIG_REFERENCE_SAVE_ONLY')}
         onOk={this.handleRestart}
         okText={t('CONFIG_REFERENCE_RESTART_SELECTED')}

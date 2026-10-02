@@ -95,6 +95,7 @@ module.exports = {
   CONFIG_REFERENCE_IMPACT_TITLE: 'Configuration updated',
   CONFIG_REFERENCE_IMPACT_DESC: 'Configuration {name} has been saved.',
   CONFIG_REFERENCE_IMPACT_HINT: 'The following workloads reference this configuration. Saving alone is the default; select workloads to roll them out.',
+  CONFIG_REFERENCE_IMPACT_LOAD_FAILED: 'The configuration was saved, but affected workloads could not be queried.',
   CONFIG_REFERENCE_SAVE_ONLY: 'Save only',
   CONFIG_REFERENCE_RESTART_SELECTED: 'Restart selected workloads',
   CONFIG_REFERENCE_RESTART_SUCCESS: 'Selected workloads were restarted.',
