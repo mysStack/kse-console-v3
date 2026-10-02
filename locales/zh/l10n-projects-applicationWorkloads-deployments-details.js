@@ -92,6 +92,7 @@ module.exports = {
   ENVIRONMENT_REFERENCE_LOAD_FAILED: '配置字典和保密字典加载失败。',
   CONFIG_REFERENCE_IMPACT_TITLE: '配置已更新',
   CONFIG_REFERENCE_IMPACT_DESC: '配置字典或保密字典 {name} 已保存。',
+  CONFIG_REFERENCE_IMPACT_CHECKING: '正在检查引用该配置的工作负载…',
   CONFIG_REFERENCE_IMPACT_HINT: '以下工作负载引用了该配置。默认仅保存，选择后才会滚动重启。',
   CONFIG_REFERENCE_IMPACT_LOAD_FAILED: '配置已保存，但受影响工作负载查询失败。',
   CONFIG_REFERENCE_SAVE_ONLY: '仅保存',

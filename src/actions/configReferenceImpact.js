@@ -39,6 +39,7 @@ export const discoverConfigReferenceImpact = async ({
 
 export const showConfigReferenceImpact = async params => {
   const { cluster, namespace, type, name } = params
+  Notify.info({ content: t('CONFIG_REFERENCE_IMPACT_CHECKING') })
   let references
   try {
     references = await discoverConfigReferenceImpact(params)
