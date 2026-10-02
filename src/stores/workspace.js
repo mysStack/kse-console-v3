@@ -26,6 +26,9 @@ import { eventBus } from 'utils/EventBus'
 import { eventKeys } from 'utils/events'
 import ObjectMapper from 'utils/object.mapper'
 
+export const getWorkspaceClustersUrl = workspace =>
+  `kapis/tenant.kubesphere.io/v1beta1/workspaces/${workspace}/clusters`
+
 export default class WorkspaceStore extends Base {
   @observable
   initializing = true
@@ -108,10 +111,7 @@ export default class WorkspaceStore extends Base {
 
     let result
     if (globals.app.isMultiCluster) {
-      result = await request.get(
-        `kapis/tenant.kubesphere.io/v1alpha2/workspaces/${workspace}/clusters`,
-        params
-      )
+      result = await request.get(getWorkspaceClustersUrl(workspace), params)
     } else {
       result = { items: [DEFAULT_CLUSTER] }
     }

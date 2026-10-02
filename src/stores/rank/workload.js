@@ -48,7 +48,7 @@ export default class WorkloadStore extends Store {
   metrics_filter = metrics_filter.join('|')
 
   get fetchUrl() {
-    return `${this.apiVersion}/namespaces/${this.namespaces}/workloads`
+    return `${this.apiVersion}/workload_metrics`
   }
 
   @action

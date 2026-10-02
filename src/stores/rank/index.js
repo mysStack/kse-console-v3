@@ -44,10 +44,7 @@ export default class BaseRankStore {
   sort_type = 'desc'
 
   get apiVersion() {
-    if (globals.app.isMultiCluster && this.cluster) {
-      return `kapis/clusters/${this.cluster}/monitoring.kubesphere.io/v1alpha3`
-    }
-    return `kapis/monitoring.kubesphere.io/v1alpha3`
+    return `kapis/monitoring.kubesphere.io/v1beta1`
   }
 
   get fetchUrl() {
@@ -108,7 +105,12 @@ export default class BaseRankStore {
     }
 
     const result = await to(
-      request.get(this.fetchUrl, assign(defaultParams, params))
+      request.get(
+        this.fetchUrl,
+        assign(defaultParams, params),
+        { headers: { 'x-ignore-error-notify': true } },
+        () => []
+      )
     )
 
     const data = this.handleResult(result)

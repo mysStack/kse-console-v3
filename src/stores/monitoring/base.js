@@ -75,10 +75,7 @@ export default class BaseMonitoringStore {
   }
 
   get apiVersion() {
-    if (globals.app.isMultiCluster && this.cluster) {
-      return `kapis/clusters/${this.cluster}/monitoring.kubesphere.io/v1alpha3`
-    }
-    return 'kapis/monitoring.kubesphere.io/v1alpha3'
+    return 'kapis/monitoring.kubesphere.io/v1beta1'
   }
 
   getApi = () => `${this.apiVersion}/cluster`
@@ -269,7 +266,16 @@ export default class BaseMonitoringStore {
     const params = this.getParams(filters)
     const api = this.getApi(filters)
 
-    const response = await to(request.get(api, params))
+    // Monitoring is an optional extension. A missing endpoint should render
+    // an empty chart, not trigger the global 404 notification.
+    const response = await to(
+      request.get(
+        api,
+        params,
+        { headers: { 'x-ignore-error-notify': true } },
+        () => []
+      )
+    )
 
     let result = this.getResult(response)
     if (autoRefresh) {

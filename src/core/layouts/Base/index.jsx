@@ -28,6 +28,7 @@ import { isAppsPage } from 'utils'
 import { getScrollTop } from 'utils/dom'
 import { initAlias, initEvents } from 'utils/events'
 import { renderRoutes } from 'utils/router.config'
+import { isWujieEmbedded } from 'core/embed'
 
 import styles from './index.scss'
 
@@ -117,25 +118,30 @@ class BaseLayout extends Component {
 
   render() {
     const { location, rootStore } = this.props
+    const embedded = isWujieEmbedded()
     return (
       <div>
         <GlobalSVG />
-        <Header
-          innerRef={this.headerRef}
-          className={styles.header}
-          location={location}
-          onToggleNav={rootStore.toggleGlobalNav}
-          jumpTo={this.handleJumpTo}
-        />
-        {globals.user && globals.app.enableGlobalNav && (
+        {!embedded && (
+          <Header
+            innerRef={this.headerRef}
+            className={styles.header}
+            location={location}
+            onToggleNav={rootStore.toggleGlobalNav}
+            jumpTo={this.handleJumpTo}
+          />
+        )}
+        {!embedded && globals.user && globals.app.enableGlobalNav && (
           <GlobalNav
             visible={rootStore.showGlobalNav}
             navs={globals.app.getGlobalNavs()}
             onCancel={rootStore.hideGlobalNav}
           />
         )}
-        <div className={styles.main}>{renderRoutes(this.routes)}</div>
-        {globals.user && <Tools />}
+        <div className={embedded ? styles.embedded : styles.main}>
+          {renderRoutes(this.routes)}
+        </div>
+        {!embedded && globals.user && <Tools />}
       </div>
     )
   }

@@ -5,6 +5,11 @@
   min-width: $content-width;
 }
 
+.embedded {
+  min-width: 0;
+  padding: 0;
+}
+
 .nav {
   left: -($nav-width + 10px);
 }

@@ -137,7 +137,9 @@ export default class Application extends Base {
 
     const result = await request.get(
       this.getUrl({ workspace, namespace, cluster }),
-      params
+      params,
+      { headers: { 'x-ignore-error-notify': true } },
+      () => ({ items: [], total_count: 0 })
     )
 
     const data = (result.items || []).map(item => ({

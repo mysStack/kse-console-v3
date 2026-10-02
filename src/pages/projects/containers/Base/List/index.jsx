@@ -23,6 +23,7 @@ import Selector from 'projects/components/Selector'
 import React, { Component } from 'react'
 
 import { renderRoutes } from 'utils/router.config'
+import { isWujieEmbedded } from 'core/embed'
 
 @inject('rootStore', 'projectStore')
 @observer
@@ -62,6 +63,10 @@ class ProjectLayout extends Component {
       workspace,
       project: namespace,
     })
+
+    if (isWujieEmbedded()) {
+      return renderRoutes(this.getRoutes(navs))
+    }
 
     return (
       <div className="ks-page">
