@@ -22,12 +22,16 @@ import get from 'lodash/get'
 import cookie from 'utils/cookie'
 import { getBrowserLang } from 'utils'
 import { isWujieEmbedded } from 'core/embed'
-import { getLocaleAsset } from './localeAsset'
+import { getLocaleAsset, getPreferredLang } from './localeAsset'
 
 const { locale } = LocaleProvider
 
 const init = async () => {
-  const userLang = get(globals.user, 'lang') || getBrowserLang()
+  const userLang = getPreferredLang(
+    get(globals.user, 'lang'),
+    cookie('lang'),
+    getBrowserLang()
+  )
   if (userLang && cookie('lang') !== userLang) {
     cookie('lang', userLang)
   }
