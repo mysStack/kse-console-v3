@@ -1150,8 +1150,10 @@ const ClusterMapper = item => {
     kkName: get(item, 'metadata.labels["kubekey.kubesphere.io/name"]', ''),
     nodeCount: get(item, 'status.nodeCount'),
     kubernetesVersion: get(item, 'status.kubernetesVersion'),
+    kubeSphereVersion: get(item, 'status.kubeSphereVersion'),
     labels: get(item, 'metadata.labels'),
     group: get(item, 'metadata.labels["cluster.kubesphere.io/group"]', ''),
+    tags: get(item, 'metadata.labels["cluster.kubesphere.io/group"]', ''),
     isReady: globals.app.isMultiCluster
       ? get(conditions, 'Ready.status') === 'True'
       : true,

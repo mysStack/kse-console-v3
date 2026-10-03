@@ -30,6 +30,7 @@ import ClusterTitle from 'components/Clusters/ClusterTitle'
 import React from 'react'
 import { getDomTitle, getLocalTime } from 'utils'
 
+import { getClusterCardFields } from './fields'
 import styles from './index.scss'
 
 export default class ClusterCard extends React.Component {
@@ -78,6 +79,8 @@ export default class ClusterCard extends React.Component {
 
   render() {
     const { data } = this.props
+    const fields = getClusterCardFields(data)
+    const getFieldValue = key => fields.find(field => field.key === key).value
     const expiredDay = data.expiredDay
     const isExpired = expiredDay && expiredDay < 0
     const willExpired = expiredDay && expiredDay <= 10 && expiredDay >= 0
@@ -92,22 +95,37 @@ export default class ClusterCard extends React.Component {
               isExpired={isExpired}
             />
           </Column>
-          <Column className="is-2">
-            <Text title={data.nodeCount} description={t('NODE_COUNT')} />
-          </Column>
-          <Column className="is-2">
+          <Column className={styles.info}>
             <Text
-              title={data.kubernetesVersion}
+              title={getFieldValue('nodeCount')}
+              description={t('NODE_COUNT')}
+            />
+          </Column>
+          <Column className={styles.info}>
+            <Text
+              title={getFieldValue('kubernetesVersion')}
               description={t('KUBERNETES_VERSION')}
             />
           </Column>
-          <Column className="is-2">
+          <Column className={styles.info}>
             <Text
-              title={getDomTitle(data.provider || '-')}
+              title={getDomTitle(getFieldValue('kubeSphereVersion') || '-')}
+              description={t('KUBESPHERE_VERSION')}
+            />
+          </Column>
+          <Column className={styles.info}>
+            <Text
+              title={getDomTitle(getFieldValue('provider') || '-')}
               description={t('PROVIDER')}
             />
           </Column>
-          <Column className="is-2">
+          <Column className={styles.info}>
+            <Text
+              title={getDomTitle(getFieldValue('tags') || '-')}
+              description={t('TAG')}
+            />
+          </Column>
+          <Column className={styles.info}>
             {willExpired ? (
               <Text
                 title={
