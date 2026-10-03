@@ -105,24 +105,28 @@ export default class ClusterCard extends React.Component {
             <Text
               title={getFieldValue('kubernetesVersion')}
               description={t('KUBERNETES_VERSION')}
+              ellipsis
             />
           </Column>
           <Column className={styles.info}>
             <Text
               title={getDomTitle(getFieldValue('kubeSphereVersion') || '-')}
               description={t('KUBESPHERE_VERSION')}
+              ellipsis
             />
           </Column>
           <Column className={styles.info}>
             <Text
               title={getDomTitle(getFieldValue('provider') || '-')}
               description={t('PROVIDER')}
+              ellipsis
             />
           </Column>
           <Column className={styles.info}>
             <Text
               title={getDomTitle(getFieldValue('tags') || '-')}
               description={t('TAG')}
+              ellipsis
             />
           </Column>
           <Column className={styles.info}>
