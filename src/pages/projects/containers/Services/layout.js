@@ -1,8 +1,8 @@
 // Keep space for the table selection and row-action columns added by ListPage.
 export const SERVICE_COLUMN_WIDTHS = {
-  name: '18%',
-  type: '14%',
-  app: '13%',
+  name: '20%',
+  type: '13%',
+  app: '12%',
   internal: '14%',
   external: '17%',
   creation: '14%',
