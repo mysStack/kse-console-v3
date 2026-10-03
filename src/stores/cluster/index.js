@@ -26,6 +26,8 @@ import { DEFAULT_CLUSTER, LIST_DEFAULT_ORDER } from 'utils/constants'
 import { eventBus } from 'utils/EventBus'
 import { eventKeys } from 'utils/events'
 
+import { getTenantClustersUrl } from './api'
+
 export default class ClusterStore extends Base {
   @observable
   initializing = true
@@ -56,7 +58,7 @@ export default class ClusterStore extends Base {
     `kapis/cluster.kubesphere.io/v1alpha1/clusters/${cluster}/agent/deployment`
 
   getTenantUrl = (params = {}) =>
-    `kapis/tenant.kubesphere.io/v1alpha2${this.getPath(params)}/${this.module}`
+    getTenantClustersUrl(this.getPath(params))
 
   @action
   async fetchList({ from, more, ...params } = {}) {

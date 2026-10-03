@@ -30,6 +30,7 @@ import { ICON_TYPES, SERVICE_TYPES } from 'utils/constants'
 import ServiceStore from 'stores/service'
 
 import Topology from './Topology'
+import { SERVICE_COLUMN_WIDTHS } from './layout'
 
 @withProjectList({
   store: new ServiceStore(),
@@ -168,7 +169,7 @@ export default class Services extends React.Component {
         sorter: true,
         sortOrder: getSortOrder('name'),
         search: true,
-        width: '20%',
+        width: SERVICE_COLUMN_WIDTHS.name,
         render: (name, record) => (
           <Avatar
             icon={ICON_TYPES[module]}
@@ -184,7 +185,7 @@ export default class Services extends React.Component {
         title: t('SERVICE_TYPE_TCAP'),
         dataIndex: 'annotations["kubesphere.io/serviceType"]',
         isHideable: true,
-        width: '15%',
+        width: SERVICE_COLUMN_WIDTHS.type,
         render: (serviceType, record) => (
           <Text
             title={
@@ -201,7 +202,7 @@ export default class Services extends React.Component {
         dataIndex: 'app',
         isHideable: true,
         search: true,
-        width: '15%',
+        width: SERVICE_COLUMN_WIDTHS.app,
         render: (app, record) => {
           const instance = get(record, 'labels["app.kubesphere.io/instance"]')
           const name = get(record, 'labels["app.kubernetes.io/name"]')
@@ -212,7 +213,7 @@ export default class Services extends React.Component {
         title: t('INTERNAL_ACCESS'),
         dataIndex: 'clusterIP',
         isHideable: true,
-        width: '15%',
+        width: SERVICE_COLUMN_WIDTHS.internal,
         render: (_, record) => {
           return (
             <Text
@@ -226,7 +227,7 @@ export default class Services extends React.Component {
         title: t('EXTERNAL_ACCESS'),
         dataIndex: 'specType',
         isHideable: true,
-        width: '20%',
+        width: SERVICE_COLUMN_WIDTHS.external,
         render: (_, record) => this.renderExternalService(record),
       },
       {
@@ -235,7 +236,7 @@ export default class Services extends React.Component {
         sorter: true,
         sortOrder: getSortOrder('createTime'),
         isHideable: true,
-        width: '15%',
+        width: SERVICE_COLUMN_WIDTHS.creation,
         render: time => getLocalTime(time).format('YYYY-MM-DD HH:mm:ss'),
       },
     ]
