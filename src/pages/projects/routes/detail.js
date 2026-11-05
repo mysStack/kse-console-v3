@@ -99,6 +99,10 @@ export default PATH => [
     component: CRDAppDetail,
   },
   {
+    path: `${PATH}/composing/:name`,
+    component: CRDAppDetail,
+  },
+  {
     path: `${PATH}/applications/template/:id`,
     component: OPAppDetail,
   },

@@ -23,3 +23,6 @@ yarn-error.log*
 
 *.rdb
 .cache-loader
+.build-out/
+docs/parity/tools/node_modules/
+docs/parity/**/*.png

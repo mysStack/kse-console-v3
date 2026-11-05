@@ -1,0 +1,36 @@
+{
+  "base": {
+    "pod": "ks-console-v415-rea-658ff66b98-59kz8",
+    "pass": true,
+    "tries": [
+      {
+        "path": "/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+        "pass": true,
+        "textHits": 0,
+        "pre": 1,
+        "viewer": 0,
+        "unsupported": 0,
+        "err": 0,
+        "url": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+        "snippets": []
+      }
+    ]
+  },
+  "exp": {
+    "pod": "ks-console-v415-rea-658ff66b98-59kz8",
+    "pass": true,
+    "tries": [
+      {
+        "path": "/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+        "pass": true,
+        "textHits": 0,
+        "pre": 1,
+        "viewer": 0,
+        "unsupported": 0,
+        "err": 0,
+        "url": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+        "snippets": []
+      }
+    ]
+  }
+}

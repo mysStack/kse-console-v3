@@ -1,0 +1,196 @@
+# Gate A runtime checklist (core embeds only)
+
+> 总路线：`docs/parity/v3dist-rebuild-roadmap.md`（2026-11-06）。本文件只跟踪 Gate A 运行时对照。
+
+## Scope
+
+- Rebuild under test: `kse-console-v3` `feature/v3-parity` artifact (`.build-out/dist` or 30883 Node workspace publish)
+- Host baseline: `console` `release-4.1.5` (do not modify published branch; use isolated integration branch when wiring)
+- **Out of scope:** SpringCloud feature pages/locales (plugin). Still watch probe cost.
+- **Out of scope:** DB/MQ/Edge/GPU/notification enterprise packs unless page is actually opened in env.
+
+## Pre-conditions
+
+- [x] New artifact has `.v3dist-source.json` with commit SHA
+- [x] Manifest/locale packs load (`manifest.json`, `manifest.locale.json`, `locale-zh`/`locale-en`)
+- [ ] Integration uses approved tag/digest only; old v3dist retained for instant rollback
+
+## Core pages to A/B (old v3dist vs rebuild)
+
+For each resource: open list → detail → one write/read action → refresh/back → namespace switch.
+
+| Resource | List | Detail | Action smoke | RBAC negative | Notes |
+| --- | --- | --- | --- | --- | --- |
+| deployments | r3 | r3 | YAML r3; HPA r7 visual | r5 | HPA 基线菜单 / 实验对话框 |
+| pods | r3 | r4 | terminal r4; logs r4i | | stock 无 CONTAINER_LOGS tab |
+| configmaps | r3/r6 | r6 | YAML r6 | | |
+| secrets | r3/r6 | r6 | view r6 | | |
+| services | r3 | | YAML r3 | | |
+| ingresses | r3/r6 | r6 | YAML r6 | | |
+| statefulsets | r3/r6 | r6 | YAML r6 | | |
+| daemonsets | r3/r6 | r6 | YAML r6b | | |
+| jobs / cronjobs | r3/r6 | r6 | Cron YAML r6; Job 无 YAML 菜单 | | |
+| volumes / volume-snapshots | r3/r6 | r6 | view; snapshots 空表 r7 | | |
+| roles / serviceaccounts | r7 | r10 | open | | |
+| gateways / grayrelease / s2ibuilders / composing | r7/r8/r9 | | gray/s2i 开; composing 404 已修 (r9/r10) | | s2i CRD unsupported both |
+| alerts / alert-rules / log-collections / networkpolicies | r7 | | open | | 部分空表 |
+
+## Cross-cutting
+
+- [x] Wujie first load / destroy / keep-alive
+- [x] Project switch does **not** regress beyond current host-fixed probe behavior
+- [x] `checkSpringCloudIfActive` request count/latency not worse than current release image
+- [x] No new extension compatibility break for enabled extensions in test env (r11 open-only management/marketplace)
+- [x] 131 remains read-mostly; mutating tests only in isolated env
+
+## Pass rule
+
+Gate A pass = core rows above behave equivalently for operators, not locale-key count parity and not ACE mode file count parity.
+
+
+## Snapshot (/mnt/c/Users/mys93)
+
+- New locale-en keys: 4027 / old 5604 (missing 1601)
+- Core embed resources: 25
+- Deferred SpringCloud resources: 5
+- Remaining missing split: plugin_defer=411, core_candidate=133, other=1057
+
+
+## Round1 status (2026-11-02)
+
+- Mount-only override on `ks-console-v415-rea` verified; main `fde4b8733d31a10689e2`.
+- Cluster list embeds smoke: deployments/statefulsets/daemonsets/pods/services/ingresses/jobs/cronjobs/secrets/configmaps/volumes + `/consolev3/` = 13/13 pass, 0 v3dist HTTP errors.
+- Evidence: `docs/parity/gate-a-evidence/round1-smoke.md`.
+- Still open: detail/actions, RBAC negative, probe non-regression, old-vs-new A/B remount.
+
+
+## Round3 corrected A/B (2026-11-02)
+
+> 纠正：`:30881` 为完整 release-4.1.5 基线，不得挂载重建 v3dist。实验侧改为 `:30883` `ks-console-v3dist-parity`。
+
+| 项 | 30881 baseline | 30883 parity |
+| --- | --- | --- |
+| v3dist main | `main.558f452048e49db23323.js` | `main.fde4b8733d31a10689e2.js` |
+| 核心列表 11 项 | 11/11 pass | 11/11 pass |
+| Deploy detail | pass | pass |
+| Deploy Edit YAML | pass | pass |
+| Service Edit YAML | pass | pass |
+| Deploy HPA dialog | flaky/false in automation | pass |
+| SpringCloud CRD probe | 1 | 1 |
+| v3dist HTTP errors | 0 | 0 |
+
+Evidence: `docs/parity/gate-a-evidence/round3-ab-smoke.md`, screenshots `screenshots-ab/`.
+Still open: pods logs/terminal, RBAC negative, namespace switch, old evidence on wrongly-mounted 30881 invalidated.
+
+
+
+
+## Round4 pods/switch (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| Terminal | True | True |
+| CONTAINER_LOGS tab | False | True |
+| Logs via tab click (live stream) | n/a (no tab) | True (`exp-r4i-after-click.png`) |
+| Switch probe total | 1 | 1 |
+
+Evidence: `docs/parity/gate-a-evidence/round4b-pods.md`, `screenshots-ab/round4i-logs.json`.
+Note: stock missing CONTAINER_LOGS/MONITORING; rebuilt is a superset. Direct host `/logs` URL is unreliable under Wujie — use tab click.
+
+
+## Round5 RBAC negative (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| Viewer login | True | True |
+| Project overview read | True | True |
+| Deploy detail read | True | True |
+| API GET / PATCH / POST | 200 / 403 / 403 | 200 / 403 / 403 |
+| A/B write-deny equivalent | — | True |
+
+Evidence: `docs/parity/gate-a-evidence/round5-rbac.md`.
+Note: host list route `/projects/:ns/deployments` 404 for viewer on both sides (host routing); not a v3dist delta. Temp viewer cleaned up.
+
+
+## Round6 remaining core detail/YAML (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| STS / CronJob / Ingress / ConfigMap YAML | True | True |
+| DaemonSet YAML | True (r6b) | True (r6b; r6 first miss) |
+| Secret / Volume view | True | True |
+| Job list+detail | True | True |
+| Job YAML menu | automation miss | automation miss |
+| Deploy HPA dialog | not captured | True |
+| SpringCloud probe | 1 | 1 |
+| v3dist HTTP errors | 0 | 0 |
+
+Evidence: `docs/parity/gate-a-evidence/round6-detail-yaml.md`.
+
+## Round7 Wujie / secondary / HPA visual (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| Wujie deployments↔pods keep-alive | True | True |
+| Job list more | edit/rerun/delete（无 YAML） | 同左 |
+| HPA | 更多操作含「编辑自动扩缩」 | AUTOSCALING 对话框 |
+| Cluster secondary open (8) | no crash | no crash |
+| Project s2i/gray/composing (no workspace) | 404 | 404 |
+| Probe / v3 4xx | 1 / 0 | 1 / 0 |
+
+Evidence: `docs/parity/gate-a-evidence/round7-wujie-secondary.md`.
+
+## Round8 workspace s2i/gray/composing + extensions (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| `…/s2ibuilders` | empty + CRD unsupported toast | 同左 |
+| `…/grayrelease/cates` | 三类灰度卡片 | 同左 |
+| `…/composing` | Composed App 空列表 | **Wujie Not Found** |
+| `/extensions/management` | 列表可开 | 同左 |
+| `/extensions/marketplace` | 可开 | 同左 |
+| Probe / v3 4xx | 1 / 0 | 1 / 0 |
+
+Evidence: `docs/parity/gate-a-evidence/round8-workspace-ext.md`.
+
+## Round9 composing remount (2026-11-02)
+
+| 项 | 30881 stock | 30883 rebuilt |
+| --- | --- | --- |
+| v3dist main | `main.558f452048e49db23323.js` | `main.3e3fcb7888ce0f1c36a8.js` |
+| composing 404 | false | **false（已修）** |
+| composing UI | 专用空卡片 | CRDApps 空表 + CRD unsupported toast |
+
+Evidence: `docs/parity/gate-a-evidence/round9-composing.md`. Jest 3 passed. 30881 未改。
+
+## Round10 post-remount regression (2026-11-03)
+
+| 项 | 30881 stock | 30883 `main.3e3fcb` |
+| --- | --- | --- |
+| 核心列表 11 | 11/11 | 11/11 |
+| Deploy YAML | True | True |
+| Roles / SA detail | True | True |
+| composing 404 | false | false（视觉） |
+| Probe / v3 4xx | 1 / 0 | 1 / 0 |
+
+Evidence: `docs/parity/gate-a-evidence/round10-post-remount.md`.
+Still open: extension install/enable; composing 空态样式与 stock 不完全一致; 正式 tag/digest 未钉。
+
+
+## Snapshot round11 (2026-11-06)
+
+Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a-evidence/round11-extensions.md`. No install/enable mutations.
+
+## Snapshot tools baseline (2026-11-06)
+
+- `docs/parity/tools` ab-screenshot: **7/7 PASS** (maxDiffRatio=0.02) vs 30881/30883.
+- asset-manifest-diff sealed vs rebuild recorded (782 vs 250 files; expected chunk graph gap).
+- Evidence: `docs/parity/gate-a-evidence/tools-baseline.md`, `screenshots-ab/tooling/`, `asset-manifest-diff.json`.
+- Fix-loop: no fail paths → no rebuild today.
+- Still open for Gate A close-out: performance对照、钉 tag/digest、批准替换；composing 空态样式非阻塞。
+
+## Snapshot perf-ab (2026-11-06)
+
+- pass=True
+- Evidence: `docs/parity/gate-a-evidence/perf-ab.md`, `screenshots-ab/perf/perf-ab-report.json`
+- Rule: wall Δ<=+3s or <=+50%; v3dist transfer not >2x baseline

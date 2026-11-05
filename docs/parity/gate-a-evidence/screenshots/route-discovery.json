@@ -1,0 +1,109 @@
+{
+  "results": [
+    "cluster_url=http://192.168.2.131:30881/clusters/host",
+    "TRY /clusters/host/deployments notFound=false wujie=3 table=19 err=false newV3=16 url=http://192.168.2.131:30881/clusters/host/deployments text=",
+    "TRY /clusters/host/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=17 url=http://192.168.2.131:30881/clusters/host/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/app-workloads/deployments notFound=true wujie=2 table=0 err=false newV3=17 url=http://192.168.2.131:30881/clusters/host/app-workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/app-workloads/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=17 url=http://192.168.2.131:30881/clusters/host/app-workloads/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects notFound=false wujie=2 table=35 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/user text=扩展市场 应用商店 工作台 admin platform-admin host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务帐户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员",
+    "TRY /clusters/host/projects/kubesphere-system/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/app-workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/app-workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/app-workloads/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/app-workloads/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/app-workloads/pods notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/app-workloads/pods text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/app-workloads/services notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/app-workloads/services text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/config/configmaps notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/config/configmaps text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/kubesphere-system/config/secrets notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/config/secrets text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/default/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/default/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/default/app-workloads/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/default/app-workloads/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/default/app-workloads/services notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/default/app-workloads/services text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/default/config/configmaps notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/default/config/configmaps text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /clusters/host/projects/default/config/secrets notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/clusters/host/projects/default/config/secrets text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /workspaces/system-workspace/clusters/host/projects/kubesphere-system/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/workspaces/system-workspace/clusters/host/projects/kubesphere-system/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /workspaces/system-workspace/clusters/host/projects/kubesphere-system/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/workspaces/system-workspace/clusters/host/projects/kubesphere-system/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "TRY /workspaces/system-workspace/clusters/host/projects/kubesphere-system/app-workloads/workloads/deployments notFound=true wujie=2 table=0 err=false newV3=11 url=http://192.168.2.131:30881/workspaces/system-workspace/clusters/host/projects/kubesphere-system/app-workloads/workloads/deployments text=扩展市场 应用商店 工作台 admin platform-admin 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命",
+    "summary v3dist_total=254 main_hits=42 errors=0"
+  ],
+  "mainHits": [
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.css",
+      "status": 200
+    },
+    {
+      "url": "http://192.168.2.131:30881/dist/v3dist/main.fde4b8733d31a10689e2.js",
+      "status": 200
+    }
+  ],
+  "bad": []
+}

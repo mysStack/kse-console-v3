@@ -1,0 +1,558 @@
+{
+  "tool": "perf-ab",
+  "generatedAt": "2026-11-05T16:26:05.909Z",
+  "paths": {
+    "30881": {
+      "/clusters/host/projects/dev-wms/deployments": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5648,
+        "navigation": {
+          "duration": 1145.5999999996275,
+          "domContentLoaded": 1142.3999999999069,
+          "loadEvent": 1145.5999999996275
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 1089005,
+          "encodedBodySizeSum": 2504857,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 712,
+              "transferSize": 6233
+            },
+            {
+              "name": "1.9ca3a76d71946712055c.js",
+              "duration": 474,
+              "transferSize": 691037
+            },
+            {
+              "name": "3.bb6cbee4309e765b70c1.js",
+              "duration": 315,
+              "transferSize": 391735
+            },
+            {
+              "name": "0.79b1d388db9009cab691.js",
+              "duration": 16,
+              "transferSize": 0
+            },
+            {
+              "name": "1.9dcfc2ca150f3eeabe9b.css",
+              "duration": 11,
+              "transferSize": 0
+            },
+            {
+              "name": "main.558f452048e49db23323.js",
+              "duration": 8,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 1
+      },
+      "/clusters/host/projects/dev-wms/pods": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5388,
+        "navigation": {
+          "duration": 882.9000000003725,
+          "domContentLoaded": 882.8000000002794,
+          "loadEvent": 882.9000000003725
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6233,
+          "encodedBodySizeSum": 2504857,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 157,
+              "transferSize": 6233
+            },
+            {
+              "name": "1.9ca3a76d71946712055c.js",
+              "duration": 70,
+              "transferSize": 0
+            },
+            {
+              "name": "0.79b1d388db9009cab691.js",
+              "duration": 31,
+              "transferSize": 0
+            },
+            {
+              "name": "3.bb6cbee4309e765b70c1.js",
+              "duration": 27,
+              "transferSize": 0
+            },
+            {
+              "name": "1.9dcfc2ca150f3eeabe9b.css",
+              "duration": 19,
+              "transferSize": 0
+            },
+            {
+              "name": "3.460a788d2dd1417c95c2.css",
+              "duration": 14,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/clusters/host/projects/dev-wms/configmaps": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5062,
+        "navigation": {
+          "duration": 555.8999999999069,
+          "domContentLoaded": 555.8999999999069,
+          "loadEvent": 555.8999999999069
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6233,
+          "encodedBodySizeSum": 2504857,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 151,
+              "transferSize": 6233
+            },
+            {
+              "name": "1.9ca3a76d71946712055c.js",
+              "duration": 76,
+              "transferSize": 0
+            },
+            {
+              "name": "0.79b1d388db9009cab691.js",
+              "duration": 35,
+              "transferSize": 0
+            },
+            {
+              "name": "3.bb6cbee4309e765b70c1.js",
+              "duration": 31,
+              "transferSize": 0
+            },
+            {
+              "name": "1.9dcfc2ca150f3eeabe9b.css",
+              "duration": 18,
+              "transferSize": 0
+            },
+            {
+              "name": "main.558f452048e49db23323.js",
+              "duration": 13,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/clusters/host/projects/dev-wms/services": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5140,
+        "navigation": {
+          "duration": 635.5,
+          "domContentLoaded": 635.2000000001863,
+          "loadEvent": 635.5
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6233,
+          "encodedBodySizeSum": 2504857,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 324,
+              "transferSize": 6233
+            },
+            {
+              "name": "1.9ca3a76d71946712055c.js",
+              "duration": 77,
+              "transferSize": 0
+            },
+            {
+              "name": "0.79b1d388db9009cab691.js",
+              "duration": 35,
+              "transferSize": 0
+            },
+            {
+              "name": "3.bb6cbee4309e765b70c1.js",
+              "duration": 31,
+              "transferSize": 0
+            },
+            {
+              "name": "1.9dcfc2ca150f3eeabe9b.css",
+              "duration": 20,
+              "transferSize": 0
+            },
+            {
+              "name": "3.460a788d2dd1417c95c2.css",
+              "duration": 14,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/dev-workspace/clusters/host/projects/dev-wms/composing": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5184,
+        "navigation": {
+          "duration": 678.5,
+          "domContentLoaded": 678.3999999999069,
+          "loadEvent": 678.5
+        },
+        "v3": {
+          "v3ResourceCount": 15,
+          "transferSizeSum": 351053,
+          "encodedBodySizeSum": 2848177,
+          "worstByDuration": [
+            {
+              "name": "composing",
+              "duration": 204,
+              "transferSize": 6233
+            },
+            {
+              "name": "dashboard",
+              "duration": 203,
+              "transferSize": 6233
+            },
+            {
+              "name": "12.2a69b0c5dbf5a00a4a8d.js",
+              "duration": 111,
+              "transferSize": 187741
+            },
+            {
+              "name": "1.9ca3a76d71946712055c.js",
+              "duration": 111,
+              "transferSize": 0
+            },
+            {
+              "name": "73f0a88bbca1bec19fb1303c689d04c6.woff2",
+              "duration": 101,
+              "transferSize": 64932
+            },
+            {
+              "name": "b52fac2bb93c5858f3f2675e4b52e1de.woff2",
+              "duration": 93,
+              "transferSize": 65040
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      }
+    },
+    "30883": {
+      "/clusters/host/projects/dev-wms/deployments": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5404,
+        "navigation": {
+          "duration": 901.7999999998137,
+          "domContentLoaded": 900.5,
+          "loadEvent": 901.7999999998137
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6427,
+          "encodedBodySizeSum": 1861477,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 299,
+              "transferSize": 6427
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.js",
+              "duration": 32,
+              "transferSize": 0
+            },
+            {
+              "name": "0.a3106c02ed5bc92d4d2e.js",
+              "duration": 31,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.js",
+              "duration": 23,
+              "transferSize": 0
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.css",
+              "duration": 18,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.css",
+              "duration": 13,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 1
+      },
+      "/clusters/host/projects/dev-wms/pods": {
+        "httpStatus": 200,
+        "wallClockNavMs": 5161,
+        "navigation": {
+          "duration": 657.5,
+          "domContentLoaded": 657.5,
+          "loadEvent": 657.5
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6427,
+          "encodedBodySizeSum": 1861477,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 169,
+              "transferSize": 6427
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.js",
+              "duration": 27,
+              "transferSize": 0
+            },
+            {
+              "name": "0.a3106c02ed5bc92d4d2e.js",
+              "duration": 19,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.js",
+              "duration": 15,
+              "transferSize": 0
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.css",
+              "duration": 12,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.css",
+              "duration": 8,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/clusters/host/projects/dev-wms/configmaps": {
+        "httpStatus": 200,
+        "wallClockNavMs": 4897,
+        "navigation": {
+          "duration": 393.09999999962747,
+          "domContentLoaded": 392.89999999990687,
+          "loadEvent": 393.09999999962747
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6427,
+          "encodedBodySizeSum": 1861477,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 142,
+              "transferSize": 6427
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.js",
+              "duration": 51,
+              "transferSize": 0
+            },
+            {
+              "name": "0.a3106c02ed5bc92d4d2e.js",
+              "duration": 26,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.js",
+              "duration": 21,
+              "transferSize": 0
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.css",
+              "duration": 18,
+              "transferSize": 0
+            },
+            {
+              "name": "6.75118321c9a7cbe6b476.js",
+              "duration": 15,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/clusters/host/projects/dev-wms/services": {
+        "httpStatus": 200,
+        "wallClockNavMs": 4870,
+        "navigation": {
+          "duration": 366.90000000037253,
+          "domContentLoaded": 366.8000000002794,
+          "loadEvent": 366.90000000037253
+        },
+        "v3": {
+          "v3ResourceCount": 10,
+          "transferSizeSum": 6427,
+          "encodedBodySizeSum": 1861477,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 219,
+              "transferSize": 6427
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.js",
+              "duration": 20,
+              "transferSize": 0
+            },
+            {
+              "name": "0.a3106c02ed5bc92d4d2e.js",
+              "duration": 19,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.js",
+              "duration": 15,
+              "transferSize": 0
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.css",
+              "duration": 12,
+              "transferSize": 0
+            },
+            {
+              "name": "3.6245f4a9134d1592e79f.css",
+              "duration": 9,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      },
+      "/dev-workspace/clusters/host/projects/dev-wms/composing": {
+        "httpStatus": 200,
+        "wallClockNavMs": 4950,
+        "navigation": {
+          "duration": 446.1999999997206,
+          "domContentLoaded": 446.09999999962747,
+          "loadEvent": 446.1999999997206
+        },
+        "v3": {
+          "v3ResourceCount": 14,
+          "transferSizeSum": 213107,
+          "encodedBodySizeSum": 2066957,
+          "worstByDuration": [
+            {
+              "name": "dashboard",
+              "duration": 384,
+              "transferSize": 6427
+            },
+            {
+              "name": "b52fac2bb93c5858f3f2675e4b52e1de.woff2",
+              "duration": 95,
+              "transferSize": 65040
+            },
+            {
+              "name": "73f0a88bbca1bec19fb1303c689d04c6.woff2",
+              "duration": 92,
+              "transferSize": 64932
+            },
+            {
+              "name": "10.26b2c2a6a7b221fe815f.js",
+              "duration": 78,
+              "transferSize": 66133
+            },
+            {
+              "name": "10.26b2c2a6a7b221fe815f.css",
+              "duration": 47,
+              "transferSize": 10575
+            },
+            {
+              "name": "1.fd0eb28cabd0d57da948.js",
+              "duration": 21,
+              "transferSize": 0
+            }
+          ]
+        },
+        "springcloudLikeResourceHits": 0
+      }
+    }
+  },
+  "compare": [
+    {
+      "path": "/clusters/host/projects/dev-wms/deployments",
+      "baselineMs": 5648,
+      "parityMs": 5404,
+      "wallDeltaMs": -244,
+      "wallRatio": -0.04320113314447592,
+      "baselineTransfer": 1089005,
+      "parityTransfer": 6427,
+      "transferDelta": -1082578,
+      "baselineProbeHits": 1,
+      "parityProbeHits": 1,
+      "wallOk": true,
+      "transferOk": true,
+      "pass": true
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/pods",
+      "baselineMs": 5388,
+      "parityMs": 5161,
+      "wallDeltaMs": -227,
+      "wallRatio": -0.042130660727542686,
+      "baselineTransfer": 6233,
+      "parityTransfer": 6427,
+      "transferDelta": 194,
+      "baselineProbeHits": 0,
+      "parityProbeHits": 0,
+      "wallOk": true,
+      "transferOk": true,
+      "pass": true
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/configmaps",
+      "baselineMs": 5062,
+      "parityMs": 4897,
+      "wallDeltaMs": -165,
+      "wallRatio": -0.03259581193204267,
+      "baselineTransfer": 6233,
+      "parityTransfer": 6427,
+      "transferDelta": 194,
+      "baselineProbeHits": 0,
+      "parityProbeHits": 0,
+      "wallOk": true,
+      "transferOk": true,
+      "pass": true
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/services",
+      "baselineMs": 5140,
+      "parityMs": 4870,
+      "wallDeltaMs": -270,
+      "wallRatio": -0.05252918287937743,
+      "baselineTransfer": 6233,
+      "parityTransfer": 6427,
+      "transferDelta": 194,
+      "baselineProbeHits": 0,
+      "parityProbeHits": 0,
+      "wallOk": true,
+      "transferOk": true,
+      "pass": true
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "baselineMs": 5184,
+      "parityMs": 4950,
+      "wallDeltaMs": -234,
+      "wallRatio": -0.04513888888888889,
+      "baselineTransfer": 351053,
+      "parityTransfer": 213107,
+      "transferDelta": -137946,
+      "baselineProbeHits": 0,
+      "parityProbeHits": 0,
+      "wallOk": true,
+      "transferOk": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,80 @@
+{
+  "base": {
+    "pod": {
+      "ok": false,
+      "rc": 0
+    },
+    "panel": {
+      "ok": false
+    },
+    "container": {
+      "ok": false
+    },
+    "containerDts": [],
+    "containerUrl": "http://192.168.2.131:30881/clusters/host/pods",
+    "logs": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pass": false
+    },
+    "terminal": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pages": 1,
+      "pass": false
+    }
+  },
+  "exp": {
+    "pod": {
+      "ok": false,
+      "rc": 0
+    },
+    "panel": {
+      "ok": false
+    },
+    "container": {
+      "ok": false
+    },
+    "containerDts": [],
+    "containerUrl": "http://192.168.2.131:30883/clusters/host/pods",
+    "logs": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pass": false
+    },
+    "terminal": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pages": 1,
+      "pass": false
+    }
+  }
+}

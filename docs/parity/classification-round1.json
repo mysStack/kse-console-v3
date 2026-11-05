@@ -1,0 +1,209 @@
+{
+  "locale": {
+    "new_keys": 3993,
+    "old_keys": 5604,
+    "only_old_count": 1635,
+    "only_new_count": 24,
+    "only_old_sample": [
+      "ABORTED_CLIENT_TIMEOUTS",
+      "ABORTED_CONNECTIONS",
+      "ABORTED_CONNECTION_ATTEMPTS",
+      "ABOUT_KUBESPHERE_ENTERPRISE",
+      "ABSOLUTE_DELAY",
+      "ACCESS_ADDRESS_PL",
+      "ACCESS_KEY",
+      "ACCESS_KEY_DESC",
+      "ACCESS_KEY_EMPTY_TIP",
+      "ACCESS_MODE_ROX",
+      "ACCESS_MODE_RWO",
+      "ACCESS_MODE_RWX",
+      "ACL_DESC",
+      "ACTIVATE",
+      "ACTIVATED",
+      "ACTIVATION_CODE",
+      "ACTIVATION_CONDITION_SCAP",
+      "ACTIVATION_TIME",
+      "ACTIVATION_TYPE",
+      "ACTIVECLIENTS",
+      "ACTIVE_CONNECTIONS",
+      "ACTIVE_PARTS",
+      "ACTIVE_SESSIONS",
+      "ACTIVITY",
+      "ADD_CURRENT_USER",
+      "ADD_EDGE_IPPOOL",
+      "ADD_EDGE_IPPOOL_DES",
+      "ADD_EMAIL_NOTIFICATION_SUBSCRIPTION",
+      "ADD_IPPOOLL_NAMESPACE",
+      "ADD_IPPOOLL_NAMESPACE_DESC",
+      "ADD_IPPOOL_EMPTY_DES",
+      "ADD_IPPOOL_EMPTY_DES_ADMIN",
+      "ADD_NEW_NETWORK_SEGMENT",
+      "ADD_NEW_PORT",
+      "ADD_NEW_PORT_RANGE",
+      "ADD_REPLICA",
+      "ADD_STORAGE_CLASS",
+      "ADD_STORAGE_CLASS_DESC",
+      "ADD_TAGS",
+      "ADD_TAG_DESC",
+      "ADD_TAG_SUCCESSFUL",
+      "ADD_TAG_TO_CLUSTERS",
+      "ADD_TO_CLUSTERS",
+      "ADD_TO_QUICK_ACCESS",
+      "ADD_TRIGGER",
+      "ADD_TRIGGER_DESC",
+      "ADD_WORKLOAD",
+      "ADD_WORKLOAD_DESC",
+      "ADJUST_RESOURCES",
+      "ADMIN_AUTHORIZED_INVALID_LICENSE_DESC",
+      "ADMIN_CREATE_PV_DESC",
+      "ADMIN_EXPIRED_INVALID_LICENSE_DESC",
+      "ADMIN_INACTIVATED_LICENSE_DESC",
+      "ADMIN_MA_EXPIRED_LICENSE_DESC",
+      "ADMIN_OVER_RESOURCE_LICENSE_LIMIT",
+      "ADMIN_SUB_EXPIRED_LICENSE_DESC",
+      "ADMIN_UPDATE_LICENSE_DESC",
+      "ADVANCED_PERMISSIONS",
+      "ADVERTISE_ADDRESS",
+      "ADVERTISE_ADDRESS_DESC",
+      "ALARM_TARGET_REPEAT",
+      "ALERTING_NAME_TCAP",
+      "ALERTING_POLICY_CREATION_NOT_ALLOWED",
+      "ALERTING_RULE_NAME",
+      "ALERTING_SEVERITY_TCAP",
+      "ALERTING_TYPE_TCAP",
+      "ALERT_EMPTY_DESC",
+      "ALERT_MANAGEMENT",
+      "ALERT_RESOLVED",
+      "ALERT_RULE_GROUP_PL",
+      "ALERT_RULE_REQUIRED",
+      "ALLOCATED_TOTAL",
+      "ALLOW",
+      "ALLOWLIST_ENTRY_DETAIL",
+      "ALLOWLIST_ENTRY_EMPTY_DESC",
+      "ALLOWLIST_ENTRY_PL",
+      "ALL_DISABLED",
+      "ALL_KAFKA_NODES",
+      "ALL_QUERIES",
+      "ALL_SILENT_NOTIFICATIONS"
+    ],
+    "only_new_sample": [
+      "ADD_ENVIRONMENT_REFERENCE",
+      "CONFIG_REFERENCE_IMPACT_CHECKING",
+      "CONFIG_REFERENCE_IMPACT_DESC",
+      "CONFIG_REFERENCE_IMPACT_HINT",
+      "CONFIG_REFERENCE_IMPACT_LOAD_FAILED",
+      "CONFIG_REFERENCE_IMPACT_TITLE",
+      "CONFIG_REFERENCE_RESTART_FAILED_ITEM",
+      "CONFIG_REFERENCE_RESTART_PARTIAL_FAILED",
+      "CONFIG_REFERENCE_RESTART_SELECTED",
+      "CONFIG_REFERENCE_RESTART_SUCCESS",
+      "CONFIG_REFERENCE_RESTART_SUCCESS_ITEM",
+      "CONFIG_REFERENCE_SAVE_ONLY",
+      "ENVIRONMENT_PREFIX",
+      "ENVIRONMENT_REFERENCE_DESC",
+      "ENVIRONMENT_REFERENCE_LOADING",
+      "ENVIRONMENT_REFERENCE_LOAD_FAILED",
+      "ENVIRONMENT_REFERENCE_PL",
+      "NO_CONFIGMAP_SECRET",
+      "PREFER_NOSCHEDULE",
+      "RUN_FAILED",
+      "RUN_SUCCESSFUL",
+      "SELECT_RESOURCE",
+      "VALIDATE_FAILED",
+      "VALIDATE_SUCCESS"
+    ],
+    "only_old_categories": {
+      "other": 1529,
+      "enterprise_branding": 14,
+      "extension_or_product": 85,
+      "springcloud_like": 7
+    },
+    "new_langs": [
+      "locale-ar",
+      "locale-de",
+      "locale-en",
+      "locale-es",
+      "locale-fr",
+      "locale-hi",
+      "locale-ko",
+      "locale-lt",
+      "locale-pl",
+      "locale-pt",
+      "locale-tc",
+      "locale-tr",
+      "locale-zh"
+    ],
+    "old_langs": [
+      "locale-en",
+      "locale-es",
+      "locale-tc",
+      "locale-zh"
+    ]
+  },
+  "chunks": {
+    "new_js": 16,
+    "old_js": 434,
+    "old_pure_hash_js": 414,
+    "pure_hash_in_manifest": 414,
+    "pure_hash_stem_in_main": 0,
+    "new_js_bytes": 10697279,
+    "old_js_bytes": 27345650
+  },
+  "classification": [
+    {
+      "item": "Clean rebuild (Node14/yarn/client)",
+      "class": "already_equivalent",
+      "evidence": "Docker node:14-bullseye build OK; .v3dist-source.json written"
+    },
+    {
+      "item": "publicPath /dist/v3dist/",
+      "class": "already_equivalent",
+      "evidence": "Present in new main.js and old main.js"
+    },
+    {
+      "item": "Manifest + locale manifest files exist",
+      "class": "already_equivalent",
+      "evidence": "Both sides have manifest.json and manifest.locale.json"
+    },
+    {
+      "item": "Exact JS filename / content hash parity",
+      "class": "already_equivalent_not_required",
+      "evidence": "New 16 js vs old 434 js; expected under different chunk graph; Gate A does not require hash equality"
+    },
+    {
+      "item": "Chunk graph / lazy modules completeness",
+      "class": "needs_verify",
+      "evidence": "Old has 414 pure-hash js (~414 named in manifest). New consolidates into 16 bundles. Must verify dynamic import runtime loads all routes/actions."
+    },
+    {
+      "item": "locale-en key coverage vs release-4.1.5",
+      "class": "needs_source",
+      "evidence": "new=3993 old=5604 missing_in_new=1635; many enterprise/product strings absent from kse-console-v3@8843ead"
+    },
+    {
+      "item": "Locale language pack set",
+      "class": "needs_verify",
+      "evidence": "new packs=['locale-ar', 'locale-de', 'locale-en', 'locale-es', 'locale-fr', 'locale-hi', 'locale-ko', 'locale-lt', 'locale-pl', 'locale-pt', 'locale-tc', 'locale-tr', 'locale-zh'] old packs=['locale-en', 'locale-es', 'locale-tc', 'locale-zh']"
+    },
+    {
+      "item": "checkSpringCloudIfActive symbol",
+      "class": "needs_verify",
+      "evidence": "String present in both new and old top bundles; runtime behavior/blocking still needs browser evidence"
+    },
+    {
+      "item": "Workload Action strings (rollback/scale/editYaml/hpa)",
+      "class": "needs_verify",
+      "evidence": "Symbols present in both; not proof of KSE-specific action wiring"
+    },
+    {
+      "item": "release-4.1 vs release-4.1.5 v3dist delta",
+      "class": "already_equivalent_baseline_note",
+      "evidence": "739 common files, 737 identical; mostly rehash + manifests. Parity target should be 4.1.5 behavior, not 4.1 package.json version"
+    },
+    {
+      "item": "terminalEntry bundle",
+      "class": "needs_verify",
+      "evidence": "new=['terminalEntry.647e6924ddee3268f552.css', 'terminalEntry.647e6924ddee3268f552.js']; old=[]"
+    }
+  ]
+}

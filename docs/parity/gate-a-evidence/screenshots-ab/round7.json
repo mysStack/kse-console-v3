@@ -1,0 +1,355 @@
+{
+  "sides": {
+    "base": {
+      "jobs": {
+        "dtsAfterMore": [
+          "table-refresh",
+          "table-columns",
+          "table-create",
+          "table-item-edit",
+          "table-item-rerun",
+          "table-item-delete"
+        ],
+        "yamlDt": null,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0
+        },
+        "pass": false
+      },
+      "hpa": {
+        "dts": [],
+        "hpaDt": null,
+        "sig": {
+          "ace": 0,
+          "dialog": 1,
+          "pre": 0
+        },
+        "looks": false,
+        "isYaml": true,
+        "pass": false
+      },
+      "wujie": {
+        "steps": [
+          {
+            "path": "/clusters/host/deployments",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          },
+          {
+            "path": "/clusters/host/pods",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          },
+          {
+            "path": "/clusters/host/deployments",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          }
+        ],
+        "pass": true
+      },
+      "secondary": [
+        {
+          "path": "/clusters/host/roles",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 2,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/serviceaccounts",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 10,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/volume-snapshots",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/alerts",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/alert-rules",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/networkpolicies",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 10,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/gateways",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/log-collections",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/s2ibuilders",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/grayrelease",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/applications/composing",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        }
+      ],
+      "probes": 1,
+      "v3Errors": 0
+    },
+    "exp": {
+      "jobs": {
+        "dtsAfterMore": [
+          "table-refresh",
+          "table-columns",
+          "table-create",
+          "table-item-edit",
+          "table-item-rerun",
+          "table-item-delete",
+          "dashboard-header",
+          "panel-platform_information",
+          "panel-platform_resources",
+          "panel-recent_access"
+        ],
+        "yamlDt": null,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0
+        },
+        "pass": false
+      },
+      "hpa": {
+        "dts": [
+          "detail-more",
+          "detail-editHpa",
+          "detail-editYaml"
+        ],
+        "hpaDt": "detail-editHpa",
+        "sig": {
+          "ace": 0,
+          "dialog": 1,
+          "pre": 0
+        },
+        "looks": false,
+        "isYaml": false,
+        "pass": false
+      },
+      "wujie": {
+        "steps": [
+          {
+            "path": "/clusters/host/deployments",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          },
+          {
+            "path": "/clusters/host/pods",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          },
+          {
+            "path": "/clusters/host/deployments",
+            "iframes": 2,
+            "rows": 10,
+            "err": false,
+            "newV3Err": 0
+          }
+        ],
+        "pass": true
+      },
+      "secondary": [
+        {
+          "path": "/clusters/host/roles",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 2,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/serviceaccounts",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 10,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/volume-snapshots",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/alerts",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/alert-rules",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/networkpolicies",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/gateways",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/log-collections",
+          "pass": true,
+          "notFound": false,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/s2ibuilders",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/grayrelease",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        },
+        {
+          "path": "/clusters/host/projects/dev-wms/applications/composing",
+          "pass": false,
+          "notFound": true,
+          "crash": false,
+          "iframe": true,
+          "rows": 0,
+          "empty": false
+        }
+      ],
+      "probes": 1,
+      "v3Errors": 0
+    }
+  },
+  "ab": {
+    "jobs": {
+      "base": false,
+      "exp": false
+    },
+    "hpa": {
+      "base": false,
+      "exp": false
+    },
+    "wujie": {
+      "base": true,
+      "exp": true
+    },
+    "secondary": {
+      "base": 8,
+      "exp": 8,
+      "total": 11
+    },
+    "probes": {
+      "base": 1,
+      "exp": 1
+    }
+  }
+}

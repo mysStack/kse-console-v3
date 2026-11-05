@@ -1,0 +1,101 @@
+{
+  "username": "gatea-viewer-202611021325-5a17",
+  "out": [
+    {
+      "tag": "wb",
+      "url": "http://192.168.2.131:30883/dashboard",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 企业空间管理 企业空间提供了跨集群、共享资源的能力。 1 可见企业空间 快捷访问 未发现快捷访问的资源 您可以对平台资源进行添加。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令"
+    },
+    {
+      "tag": "clusters-host",
+      "url": "http://192.168.2.131:30883/clusters/host",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。"
+    },
+    {
+      "tag": "proj-home",
+      "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/overview",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 项目 dev-wms wms服务 属性 状态 活跃 集群host 企业空间dev-workspace 创建时间2026-03-30 00:29:39 创建者admin 概览 容器组 网关 配额 元数据 资源状态 9 容器组 6 部署 0 有状态副本集 0 守护进程集 3 任务 3"
+    },
+    {
+      "tag": "proj-deploy-list",
+      "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/deployments",
+      "title": "KubeSphere",
+      "has404": true,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器"
+    },
+    {
+      "tag": "proj-deploy-detail",
+      "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": true,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 部署 wms-admin-server 属性 集群host 项目dev-wms 应用wms-admin-server 创建时间2026-05-25 14:23:54 更新时间2026-10-27 16:58:05 创建者 资源状态 修改记录 元数据 环境变量 配置引用 事件 1/"
+    },
+    {
+      "tag": "proj-deploy-rs",
+      "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": true,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 部署 wms-admin-server 属性 集群host 项目dev-wms 应用wms-admin-server 创建时间2026-05-25 14:23:54 更新时间2026-10-27 16:58:05 创建者 资源状态 修改记录 元数据 环境变量 配置引用 事件 1/"
+    },
+    {
+      "tag": "ws-home",
+      "url": "http://192.168.2.131:30883/workspaces/dev-workspace/overview/usage",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 dev-workspace 系统服务 概览 项目 项目 应用管理 应用模板 应用仓库 企业空间设置 基本信息 企业空间配额 企业空间角色 企业空间成员 网关设置 概览 企业空间为 KubeSphere 提供了安全隔离的、具有访问权限控制的工作平台。这里您可以看到当前企业空间内资源"
+    },
+    {
+      "tag": "ws-projects",
+      "url": "http://192.168.2.131:30883/workspaces/dev-workspace/projects",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 dev-workspace 系统服务 概览 项目 项目 应用管理 应用模板 应用仓库 企业空间设置 基本信息 企业空间配额 企业空间角色 企业空间成员 网关设置 项目 项目用于对资源进行分组管理和控制不同用户的资源管理权限。 集群：host 名称 状态 创建时间 dev-biz-"
+    },
+    {
+      "tag": "ws-proj",
+      "url": "http://192.168.2.131:30883/workspaces/dev-workspace/clusters/host/projects/dev-wms",
+      "title": "KubeSphere",
+      "has404": true,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器"
+    },
+    {
+      "tag": "ws-deploy",
+      "url": "http://192.168.2.131:30883/workspaces/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "title": "KubeSphere",
+      "has404": true,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器"
+    },
+    {
+      "tag": "ws-deploy-rs",
+      "url": "http://192.168.2.131:30883/workspaces/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+      "title": "KubeSphere",
+      "has404": true,
+      "hasDeploy": false,
+      "snip": "应用商店 工作台 gatea-viewer-202611021325-5a17 页面未找到 抱歉，要访问的页面不存在，请检查访问地址是否正确。 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器"
+    },
+    {
+      "tag": "consolev3-list",
+      "url": "http://192.168.2.131:30883/consolev3/clusters/host/projects/dev-wms/deployments",
+      "title": "KubeSphere",
+      "has404": false,
+      "hasDeploy": false,
+      "snip": "WORKBENCH USER_GUIDE API_DOCUMENT gatea-viewer-202611021325-5a17 USER_SETTINGS LOG_OUT ABOUT TECHNICAL_SUPPORT PROJECT_PL dev-wms wms服务 ATTRIBUTES STATUS: Active CLUSTER: host WORK"
+    }
+  ]
+}

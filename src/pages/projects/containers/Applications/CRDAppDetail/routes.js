@@ -23,10 +23,12 @@ import TrafficManangement from './TrafficManangement'
 import GrayRelease from './GrayRelease'
 import Tracing from './Tracing'
 
-const PATH =
-  '/:workspace/clusters/:cluster/projects/:namespace/applications/composing/:name'
+const DETAIL_PREFIXES = [
+  '/:workspace/clusters/:cluster/projects/:namespace/applications/composing/:name',
+  '/:workspace/clusters/:cluster/projects/:namespace/composing/:name',
+]
 
-export default [
+const tabRoutes = PATH => [
   {
     path: `${PATH}/components`,
     title: 'RESOURCE_STATUS',
@@ -56,3 +58,8 @@ export default [
   },
   getIndexRoute({ path: PATH, to: `${PATH}/components`, exact: true }),
 ]
+
+export default DETAIL_PREFIXES.reduce(
+  (routes, prefix) => routes.concat(tabRoutes(prefix)),
+  []
+)

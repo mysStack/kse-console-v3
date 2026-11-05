@@ -72,6 +72,12 @@ export default [
         exact: true,
       },
       {
+        // V4 Wujie host embeds `${wujieUrlPrefix}/composing` (not applications/composing).
+        path: `${PATH}/composing`,
+        component: CRDApps,
+        exact: true,
+      },
+      {
         path: `${PATH}/applications/template`,
         component: OPApps,
         exact: true,

@@ -1,0 +1,51 @@
+{
+  "base": {
+    "dts": [
+      "detail-attrs",
+      "detail-desc",
+      "detail-terminal",
+      "detail-title",
+      "panel-health_check",
+      "panel-volume_pl"
+    ],
+    "headerTexts": [
+      "TERMINAL"
+    ],
+    "clicked": null,
+    "sig": {
+      "dialog": 0,
+      "pre": 0,
+      "ace": 0,
+      "xterm": 0,
+      "pages": 1
+    },
+    "pass": false
+  },
+  "exp": {
+    "dts": [
+      "dashboard-header",
+      "detail-attrs",
+      "detail-desc",
+      "detail-terminal",
+      "detail-title",
+      "panel-health_check",
+      "panel-platform_information",
+      "panel-platform_resources",
+      "panel-recent_access",
+      "panel-volume_pl"
+    ],
+    "headerTexts": [
+      "TERMINAL",
+      "CONTAINER_LOGS"
+    ],
+    "clicked": "text:/Logs/i",
+    "sig": {
+      "dialog": 0,
+      "pre": 0,
+      "ace": 0,
+      "xterm": 0,
+      "pages": 1
+    },
+    "pass": false
+  }
+}

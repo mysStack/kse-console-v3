@@ -1,0 +1,68 @@
+{
+  "sides": {
+    "base": {
+      "jobs": {
+        "ok": false,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0
+        },
+        "pass": false
+      },
+      "daemonsets": {
+        "ok": true,
+        "dt": "table-item-editYaml",
+        "sig": {
+          "ace": 2,
+          "dialog": 1,
+          "pre": 1
+        },
+        "pass": true
+      },
+      "hpa": {
+        "ok": true,
+        "dt": "text-fallback",
+        "sig": {
+          "ace": 2,
+          "dialog": 3,
+          "pre": 1
+        },
+        "looks": false,
+        "pass": true
+      }
+    },
+    "exp": {
+      "jobs": {
+        "ok": false,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0
+        },
+        "pass": false
+      },
+      "daemonsets": {
+        "ok": true,
+        "dt": "table-item-editYaml",
+        "sig": {
+          "ace": 2,
+          "dialog": 1,
+          "pre": 1
+        },
+        "pass": true
+      },
+      "hpa": {
+        "ok": true,
+        "dt": "detail-editHpa",
+        "sig": {
+          "ace": 0,
+          "dialog": 1,
+          "pre": 0
+        },
+        "looks": false,
+        "pass": true
+      }
+    }
+  }
+}

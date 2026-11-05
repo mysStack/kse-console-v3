@@ -147,7 +147,15 @@ const config = smp.wrap({
       'process.env.BROWSER': true,
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
-    new BundleAnalyzerPlugin({ analyzerMode: 'static' }),
+    // Gate A tooling: ANALYZE=1 writes report; STATS=1 writes webpack-stats.json for bundle-diff.
+    new BundleAnalyzerPlugin({
+      analyzerMode: process.env.ANALYZE === '1' ? 'static' : 'disabled',
+      generateStatsFile:
+        process.env.STATS === '1' || process.env.ANALYZE === '1',
+      statsFilename: 'webpack-stats.json',
+      openAnalyzer: false,
+      reportFilename: 'webpack-bundle-report.html',
+    }),
   ],
 })
 

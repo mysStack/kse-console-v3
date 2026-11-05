@@ -1,0 +1,84 @@
+{
+  "base": {
+    "pod": {
+      "ok": true,
+      "name": "ks-console-v415-rea-658ff66b98-59kz8",
+      "txt": " ks-console-v415-rea-658ff66b98-59kz8 RUNNING PODS.PHASES.RUNNING NODE_IP 10.42.0.72 2026-11-02 11:50:50 VIEW_YAML DELETE",
+      "pageNo": 0
+    },
+    "container": {
+      "ok": true,
+      "name": "ks-console"
+    },
+    "containerDts": [
+      "detail-terminal"
+    ],
+    "logs": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pass": false
+    },
+    "terminal": {
+      "ok": true,
+      "dt": "detail-terminal",
+      "sig": {
+        "ace": 0,
+        "dialog": 2,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 1,
+        "pages": 2
+      },
+      "pages": 2,
+      "pass": true
+    }
+  },
+  "exp": {
+    "pod": {
+      "ok": true,
+      "name": "ks-console-v415-rea-658ff66b98-59kz8",
+      "txt": " ks-console-v415-rea-658ff66b98-59kz8 RUNNING RUNNING NODE_IP 10.42.0.72 2026-11-02 11:50:50 VIEW_YAML DELETE",
+      "pageNo": 0
+    },
+    "container": {
+      "ok": true,
+      "name": "ks-console"
+    },
+    "containerDts": [
+      "detail-terminal"
+    ],
+    "logs": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0,
+        "overlays": 0,
+        "pages": 1
+      },
+      "pass": false
+    },
+    "terminal": {
+      "ok": true,
+      "dt": "detail-terminal",
+      "sig": {
+        "ace": 0,
+        "dialog": 2,
+        "xterm": 2,
+        "pre": 1,
+        "overlays": 1,
+        "pages": 2
+      },
+      "pages": 2,
+      "pass": true
+    }
+  }
+}

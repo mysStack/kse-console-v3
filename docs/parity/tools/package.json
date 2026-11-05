@@ -1,0 +1,17 @@
+{
+  "name": "kse-console-v3-parity-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Gate A efficiency tools: screenshot A/B, asset/manifest diff, webpack-bundle-diff wrapper",
+  "scripts": {
+    "ab:shot": "node ab-screenshot.mjs",
+    "diff:assets": "node asset-manifest-diff.mjs",
+    "diff:bundle": "node bundle-diff.mjs"
+  },
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "playwright": "1.48.2",
+    "pngjs": "^7.0.0",
+    "webpack-bundle-diff": "0.6.0"
+  }
+}

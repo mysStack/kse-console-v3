@@ -1,0 +1,403 @@
+{
+  "round": "11b",
+  "kind": "enabled-extension-open-only",
+  "ports": {
+    "30881": {
+      "discovered": [
+        {
+          "path": "/extensions/management",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management",
+          "status": "200",
+          "loggedIn": true,
+          "snippet": "扩展市场 应用商店 工作台 admin platform-admin 扩展中心 您可以在此对扩展组件进行安装、卸载、升级、配置变更、启用或禁用。 名称 安装状态 版本 启用状态 安装时间 WizTelemetry 网络可观测 WizTelemetry 网络可观测 作为 KubeSphere 发布的 WizTelemetry 可观测性平台的一部分，提供了基于 eBPF 的网络可观测能力。其中包含了 WizTelemetry BPFConductor 组件，用于在 Kubernetes 集群中高效部署和管理 eBPF 程序或插件。同时内置了多个网络可观测性相关的 eBPF 程序/插件，能够提供对第 4 层网络流量、第 7 层 HTTP 流量以及网络拓扑的深入洞察。 未安装 - - - OAuth2-Proxy 用 OAuth2-Proxy 轻松搞定统一认证，保护你的后端应用！ 未安装 - - - 快速集成 快速集成支持将Kubernetes自定义资源（CRD）及外部系统页面统一接入平台，实现"
+        },
+        {
+          "path": "/extensions/marketplace",
+          "finalUrl": "http://192.168.2.131:30881/extensions/marketplace",
+          "status": "200",
+          "loggedIn": true,
+          "snippet": "扩展市场 应用商店 工作台 admin platform-admin KubeSphere Marketplace 筛选 分类 人工智能 / 大模型 4 计算 7 数据库 0 DeepSeek 1 开发者工具 5 集成和交付 2 网络 4 可观测性 18 安全 3 存储 2 流平台和消息中间件 0 扩展组件 48 个结果 WizTelemetry 网络可观测 来自 北京青云科技股份有限公司 WizTelemetry 网络可观测 作为 KubeSphere 发布的 WizTelemetry 可观测性平台的一部分，提供了基于 eBPF 的网络可观测能力。其中包含了 WizTelemetry BPFConductor 组件，用于在 Kubernetes 集群中高效部署和管理 eBPF 程序或插件。同时内置了多个网络可观测性相关的 eBPF 程序/插件，能够提供对第 4 层网络流量、第 7 层 HTTP 流量以及网络拓扑的深入洞察。 管理 OAuth2-Proxy 来自 北京青云科技股份有限公司"
+        }
+      ],
+      "extHrefs": [
+        "/extensions/management/wiztelemetry-bpfconductor",
+        "/extensions/management/oauth2-proxy",
+        "/extensions/management/frontend-forge",
+        "/extensions/management/doris",
+        "/extensions/management/computing-device-manager",
+        "/extensions/management/wiztelemetry-tracing",
+        "/extensions/management/wiztelemetry-bpf-collector",
+        "/extensions/management/whizard-telemetry-ruler",
+        "/extensions/management/s2ibuilder",
+        "/extensions/management/nodegroup"
+      ],
+      "cardNames": [
+        "快速集成 快速集成支持将Kubernetes自定义资源（CRD）及外部系统页面统一接入平台，实现能力标准化接入、集中管理和一站式可视化运维，增强平台扩展能力。 ",
+        "KubeSphere 节点组 KubeSphere 节点组 已安装 1.0.2 已启用 2026-10-29 16:44:26"
+      ],
+      "opens": [
+        {
+          "href": "/extensions/management/wiztelemetry-bpfconductor",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/wiztelemetry-bpfconductor",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 2.0.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.1.2-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability eBPF Network Monitoring WizTe",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/oauth2-proxy",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/oauth2-proxy",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 7.6.3 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 https://github.com/oauth2-proxy/oauth2-proxy 扩展组件文档 https://oauth2-proxy.github.io/oauth2-proxy/ 分类",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/frontend-forge",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/frontend-forge",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.0 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.0 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.2.1-0 扩展组件仓库 https://github.com/kubesphere-extensions/frontend-forge 扩展组件文档 分类 开发者工具 关",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/doris",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/doris",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.1.0 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Database MPP Observability Apache Doris for W",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/computing-device-manager",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/computing-device-manager",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.1.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.2.0-0 扩展组件仓库 https://github.com/kubesphere 扩展组件文档 分类 人工智能 / 大模型 关键字 ai-machine-learning 算力设备管理 算力设备管理是一个用于 Kuber",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/wiztelemetry-tracing",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/wiztelemetry-tracing",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.6 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.6 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Tracing Observability ",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/wiztelemetry-bpf-collector",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/wiztelemetry-bpf-collector",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.0.3 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.1.2-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability eBPF Network Monitoring WizTe",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/whizard-telemetry-ruler",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/whizard-telemetry-ruler",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.5.0 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability Events Alerting WizTelemetry ",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/s2ibuilder",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/s2ibuilder",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 0.1.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.2.0-0 扩展组件仓库 https://github.com/kubesphere 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 集成和交付 关键字 integration-deliv",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/nodegroup",
+          "finalUrl": "http://192.168.2.131:30881/extensions/management/nodegroup",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.2 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.2 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.21.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 计算 关键字 nodegroup kubesphere Kub",
+          "v3dist4xxDelta": 0
+        }
+      ],
+      "v3distHttp4xx": 0,
+      "v3distSamples": [
+        {
+          "url": "http://192.168.2.131:30881/consolev3/dashboard",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/main.39ed81f6e5a43d5bb447.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/main.558f452048e49db23323.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/locale-zh.4dcfc8f8663252717a8c.json",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/locale-zh.4dcfc8f8663252717a8c.json",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/0.79b1d388db9009cab691.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/1.9ca3a76d71946712055c.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/1.9dcfc2ca150f3eeabe9b.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/5.cf8d79e7b36287e34d92.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/5.b3ebc4536a8f41200f09.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/3.460a788d2dd1417c95c2.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30881/dist/v3dist/3.bb6cbee4309e765b70c1.js",
+          "status": 200
+        }
+      ]
+    },
+    "30883": {
+      "discovered": [
+        {
+          "path": "/extensions/management",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management",
+          "status": "200",
+          "loggedIn": true,
+          "snippet": "扩展市场 应用商店 工作台 admin platform-admin 扩展中心 您可以在此对扩展组件进行安装、卸载、升级、配置变更、启用或禁用。 名称 安装状态 版本 启用状态 安装时间 WizTelemetry 网络可观测 WizTelemetry 网络可观测 作为 KubeSphere 发布的 WizTelemetry 可观测性平台的一部分，提供了基于 eBPF 的网络可观测能力。其中包含了 WizTelemetry BPFConductor 组件，用于在 Kubernetes 集群中高效部署和管理 eBPF 程序或插件。同时内置了多个网络可观测性相关的 eBPF 程序/插件，能够提供对第 4 层网络流量、第 7 层 HTTP 流量以及网络拓扑的深入洞察。 未安装 - - - OAuth2-Proxy 用 OAuth2-Proxy 轻松搞定统一认证，保护你的后端应用！ 未安装 - - - 快速集成 快速集成支持将Kubernetes自定义资源（CRD）及外部系统页面统一接入平台，实现"
+        },
+        {
+          "path": "/extensions/marketplace",
+          "finalUrl": "http://192.168.2.131:30883/extensions/marketplace",
+          "status": "200",
+          "loggedIn": true,
+          "snippet": "扩展市场 应用商店 工作台 admin platform-admin KubeSphere Marketplace 筛选 分类 人工智能 / 大模型 4 计算 7 数据库 0 DeepSeek 1 开发者工具 5 集成和交付 2 网络 4 可观测性 18 安全 3 存储 2 流平台和消息中间件 0 扩展组件 48 个结果 WizTelemetry 网络可观测 来自 北京青云科技股份有限公司 WizTelemetry 网络可观测 作为 KubeSphere 发布的 WizTelemetry 可观测性平台的一部分，提供了基于 eBPF 的网络可观测能力。其中包含了 WizTelemetry BPFConductor 组件，用于在 Kubernetes 集群中高效部署和管理 eBPF 程序或插件。同时内置了多个网络可观测性相关的 eBPF 程序/插件，能够提供对第 4 层网络流量、第 7 层 HTTP 流量以及网络拓扑的深入洞察。 管理 OAuth2-Proxy 来自 北京青云科技股份有限公司"
+        }
+      ],
+      "extHrefs": [
+        "/extensions/management/wiztelemetry-bpfconductor",
+        "/extensions/management/oauth2-proxy",
+        "/extensions/management/frontend-forge",
+        "/extensions/management/doris",
+        "/extensions/management/computing-device-manager",
+        "/extensions/management/wiztelemetry-tracing",
+        "/extensions/management/wiztelemetry-bpf-collector",
+        "/extensions/management/whizard-telemetry-ruler",
+        "/extensions/management/s2ibuilder",
+        "/extensions/management/nodegroup"
+      ],
+      "cardNames": [
+        "快速集成 快速集成支持将Kubernetes自定义资源（CRD）及外部系统页面统一接入平台，实现能力标准化接入、集中管理和一站式可视化运维，增强平台扩展能力。 ",
+        "KubeSphere 节点组 KubeSphere 节点组 已安装 1.0.2 已启用 2026-10-29 16:44:26"
+      ],
+      "opens": [
+        {
+          "href": "/extensions/management/wiztelemetry-bpfconductor",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/wiztelemetry-bpfconductor",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 2.0.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.1.2-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability eBPF Network Monitoring WizTe",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/oauth2-proxy",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/oauth2-proxy",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 7.6.3 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 https://github.com/oauth2-proxy/oauth2-proxy 扩展组件文档 https://oauth2-proxy.github.io/oauth2-proxy/ 分类",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/frontend-forge",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/frontend-forge",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.0 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.0 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.2.1-0 扩展组件仓库 https://github.com/kubesphere-extensions/frontend-forge 扩展组件文档 分类 开发者工具 关",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/doris",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/doris",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.1.0 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Database MPP Observability Apache Doris for W",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/computing-device-manager",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/computing-device-manager",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.1.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.2.0-0 扩展组件仓库 https://github.com/kubesphere 扩展组件文档 分类 人工智能 / 大模型 关键字 ai-machine-learning 算力设备管理 算力设备管理是一个用于 Kuber",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/wiztelemetry-tracing",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/wiztelemetry-tracing",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.6 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.6 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.23.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Tracing Observability ",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/wiztelemetry-bpf-collector",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/wiztelemetry-bpf-collector",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.0.3 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.1.2-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability eBPF Network Monitoring WizTe",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/whizard-telemetry-ruler",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/whizard-telemetry-ruler",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 1.5.0 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 可观测性 关键字 Observability Events Alerting WizTelemetry ",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/s2ibuilder",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/s2ibuilder",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 安装 查看文件 推荐 0.1.1 扩展组件版本 基本信息 供应商 北京青云科技股份有限公司 主页 https://kubesphere.io 发布日期 2026-08-14 Kubernetes 版本 >=1.19.0-0 KubeSphere 版本 >=4.2.0-0 扩展组件仓库 https://github.com/kubesphere 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 集成和交付 关键字 integration-deliv",
+          "v3dist4xxDelta": 0
+        },
+        {
+          "href": "/extensions/management/nodegroup",
+          "finalUrl": "http://192.168.2.131:30883/extensions/management/nodegroup",
+          "ok": true,
+          "err": "",
+          "text": "扩展市场 应用商店 工作台 admin platform-admin 返回 已安装 查看文件 推荐 1.0.2 扩展组件版本 基本信息 启用状态 已启用 安装版本 1.0.2 供应商 北京青云科技股份有限公司 主页 https://kubesphere.com.cn/ 发布日期 2026-08-14 Kubernetes 版本 >=1.21.0-0 KubeSphere 版本 >=4.0.0-0 扩展组件仓库 扩展组件文档 https://docs.kubesphere.com.cn/ 分类 计算 关键字 nodegroup kubesphere Kub",
+          "v3dist4xxDelta": 0
+        }
+      ],
+      "v3distHttp4xx": 0,
+      "v3distSamples": [
+        {
+          "url": "http://192.168.2.131:30883/consolev3/dashboard",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/main.a0f7286afd2bc5b69a7c.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/main.a0f7286afd2bc5b69a7c.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/locale-zh.46bbd8dcfeb0d72248a0.json",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/locale-zh.46bbd8dcfeb0d72248a0.json",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/0.a3106c02ed5bc92d4d2e.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/1.fd0eb28cabd0d57da948.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/6.75118321c9a7cbe6b476.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/6.75118321c9a7cbe6b476.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/1.fd0eb28cabd0d57da948.js",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/3.6245f4a9134d1592e79f.css",
+          "status": 200
+        },
+        {
+          "url": "http://192.168.2.131:30883/dist/v3dist/3.6245f4a9134d1592e79f.js",
+          "status": 200
+        }
+      ]
+    }
+  },
+  "compare": [
+    {
+      "href": "/extensions/management/wiztelemetry-bpfconductor",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/oauth2-proxy",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/frontend-forge",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/doris",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/computing-device-manager",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/wiztelemetry-tracing",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/wiztelemetry-bpf-collector",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/whizard-telemetry-ruler",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/s2ibuilder",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    },
+    {
+      "href": "/extensions/management/nodegroup",
+      "baseline_ok": true,
+      "parity_ok": true,
+      "equal": true
+    }
+  ],
+  "pass": true
+}

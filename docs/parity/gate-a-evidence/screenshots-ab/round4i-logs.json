@@ -1,0 +1,100 @@
+{
+  "base": {
+    "tabsBefore": [],
+    "click": {
+      "method": "none",
+      "ok": false
+    },
+    "hostUrlAfterClick": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+    "afterClick": {
+      "hasTabLabel": false,
+      "activeLogsTab": false,
+      "pre": 0,
+      "unsupported": 0,
+      "err": 0,
+      "logLines": 0,
+      "bodySnips": []
+    },
+    "hostOnLogsAfterDirect": false,
+    "afterDirect": {
+      "hasTabLabel": false,
+      "activeLogsTab": false,
+      "pre": 0,
+      "unsupported": 0,
+      "err": 0,
+      "logLines": 0,
+      "bodySnips": []
+    },
+    "finalUrl": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+    "pass": false,
+    "note": "Host URL may stay on resource-status while Wujie/v3 embed switches tab; content/active-tab is authoritative.",
+    "visualPass": false,
+    "visualNote": "Stock tabs: RESOURCE_STATUS + ENVIRONMENT_VARIABLE_PL only; no CONTAINER_LOGS/MONITORING (base-r4i-*.png)."
+  },
+  "exp": {
+    "tabsBefore": [
+      {
+        "text": "RESOURCE_STATUS",
+        "href": "http://192.168.2.131:30883/consolev3/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+        "cls": "_2SWDZqkY4ZzdzKpcjSkJio _2wmp-lQI4i6jOfSemwExp2",
+        "aria": null,
+        "frame": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66"
+      },
+      {
+        "text": "MONITORING",
+        "href": "http://192.168.2.131:30883/consolev3/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/monitors",
+        "cls": "_2SWDZqkY4ZzdzKpcjSkJio",
+        "aria": null,
+        "frame": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66"
+      },
+      {
+        "text": "ENVIRONMENT_VARIABLE_PL",
+        "href": "http://192.168.2.131:30883/consolev3/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/env",
+        "cls": "_2SWDZqkY4ZzdzKpcjSkJio",
+        "aria": null,
+        "frame": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66"
+      },
+      {
+        "text": "CONTAINER_LOGS",
+        "href": "http://192.168.2.131:30883/consolev3/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+        "cls": "_2SWDZqkY4ZzdzKpcjSkJio",
+        "aria": null,
+        "frame": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66"
+      }
+    ],
+    "click": {
+      "method": "href-/logs",
+      "ok": true
+    },
+    "hostUrlAfterClick": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+    "afterClick": {
+      "hasTabLabel": true,
+      "activeLogsTab": false,
+      "pre": 0,
+      "unsupported": 0,
+      "err": 0,
+      "logLines": 0,
+      "bodySnips": []
+    },
+    "hostOnLogsAfterDirect": true,
+    "afterDirect": {
+      "hasTabLabel": true,
+      "activeLogsTab": false,
+      "pre": 0,
+      "unsupported": 0,
+      "err": 0,
+      "logLines": 0,
+      "bodySnips": []
+    },
+    "finalUrl": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/logs",
+    "pass": true,
+    "note": "Host URL may stay on resource-status while Wujie/v3 embed switches tab; content/active-tab is authoritative.",
+    "visualPass": true,
+    "visualNote": "After a[href*=/logs] click: CONTAINER_LOGS active with live GET log stream (exp-r4i-after-click.png). Direct /logs host URL remounts often on RESOURCE_STATUS."
+  },
+  "verdict": {
+    "logs_operator": "rebuilt pass via tab; stock missing tab (superset not regression)",
+    "terminal": "both pass (prior round4)",
+    "probe": "1 vs 1"
+  }
+}

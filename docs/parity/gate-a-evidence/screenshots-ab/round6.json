@@ -1,0 +1,386 @@
+{
+  "sides": {
+    "base": {
+      "resources": {
+        "statefulsets": {
+          "listPass": true,
+          "rows": 10,
+          "name": "v4-pvc-sts-7fa",
+          "detail": {
+            "ok": true,
+            "name": "v4-pvc-sts-7fa",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/v4-migration-e2e/statefulsets/v4-pvc-sts-7fa/resource-status"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "daemonsets": {
+          "listPass": true,
+          "rows": 6,
+          "name": "v4-stop-ds-7fa",
+          "detail": {
+            "ok": true,
+            "name": "v4-stop-ds-7fa",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/v4-migration-e2e/daemonsets/v4-stop-ds-7fa/resource-status"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "jobs": {
+          "listPass": true,
+          "rows": 10,
+          "name": "wms-admin-29893370",
+          "detail": {
+            "ok": true,
+            "name": "wms-admin-29893370",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/jobs/wms-admin-29893370/records"
+          },
+          "yaml": {
+            "ok": false,
+            "sig": {
+              "ace": 0,
+              "dialog": 0,
+              "pre": 0,
+              "err": 0
+            },
+            "pass": false
+          },
+          "pass": false
+        },
+        "cronjobs": {
+          "listPass": true,
+          "rows": 8,
+          "name": "wms-scheduling",
+          "detail": {
+            "ok": true,
+            "name": "wms-scheduling",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/records"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "ingresses": {
+          "listPass": true,
+          "rows": 2,
+          "name": "prometheus-ingress",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-ingress",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-monitoring-system/ingresses/prometheus-ingress"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "configmaps": {
+          "listPass": true,
+          "rows": 10,
+          "name": "prometheus-k8s-rulefiles-0",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-k8s-rulefiles-0",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-monitoring-system/configmaps/prometheus-k8s-rulefiles-0/detail"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "secrets": {
+          "listPass": true,
+          "rows": 10,
+          "name": "sh.helm.release.v1.jobpilot-controller.v29",
+          "detail": {
+            "ok": true,
+            "name": "sh.helm.release.v1.jobpilot-controller.v29",
+            "hasStatus": true,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/jobpilot/secrets/sh.helm.release.v1.jobpilot-controller.v29/detail"
+          },
+          "yaml": {
+            "skipped": true
+          },
+          "pass": true
+        },
+        "volumes": {
+          "listPass": true,
+          "rows": 10,
+          "name": "prometheus-k8s-db-prometheus-k8s-0",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-k8s-db-prometheus-k8s-0",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-monitoring-system/volumes/prometheus-k8s-db-prometheus-k8s-0/resource-status"
+          },
+          "yaml": {
+            "skipped": true
+          },
+          "pass": true
+        }
+      },
+      "hpa": {
+        "ok": false,
+        "sig": {
+          "ace": 0,
+          "dialog": 1,
+          "pre": 0,
+          "err": 0
+        },
+        "looksHpa": false,
+        "pass": false
+      },
+      "probes": 1,
+      "v3Errors": 0,
+      "passCount": 7,
+      "total": 8
+    },
+    "exp": {
+      "resources": {
+        "statefulsets": {
+          "listPass": true,
+          "rows": 10,
+          "name": "v4-pvc-sts-7fa",
+          "detail": {
+            "ok": true,
+            "name": "v4-pvc-sts-7fa",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/statefulsets"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "daemonsets": {
+          "listPass": true,
+          "rows": 6,
+          "name": "v4-stop-ds-7fa",
+          "detail": {
+            "ok": true,
+            "name": "v4-stop-ds-7fa",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/daemonsets"
+          },
+          "yaml": {
+            "ok": false,
+            "pass": false,
+            "reason": "no-table"
+          },
+          "pass": false
+        },
+        "jobs": {
+          "listPass": true,
+          "rows": 10,
+          "name": "wms-scheduling-29893374",
+          "detail": {
+            "ok": true,
+            "name": "wms-scheduling-29893374",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/jobs"
+          },
+          "yaml": {
+            "ok": false,
+            "sig": {
+              "ace": 0,
+              "dialog": 0,
+              "pre": 0,
+              "err": 0
+            },
+            "pass": false
+          },
+          "pass": false
+        },
+        "cronjobs": {
+          "listPass": true,
+          "rows": 8,
+          "name": "wms-scheduling",
+          "detail": {
+            "ok": true,
+            "name": "wms-scheduling",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/cronjobs"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "ingresses": {
+          "listPass": true,
+          "rows": 2,
+          "name": "prometheus-ingress",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-ingress",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/ingresses"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "configmaps": {
+          "listPass": true,
+          "rows": 10,
+          "name": "prometheus-k8s-rulefiles-0",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-k8s-rulefiles-0",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/configmaps"
+          },
+          "yaml": {
+            "ok": true,
+            "dt": "table-item-editYaml",
+            "sig": {
+              "ace": 2,
+              "dialog": 1,
+              "pre": 1,
+              "err": 0
+            },
+            "pass": true
+          },
+          "pass": true
+        },
+        "secrets": {
+          "listPass": true,
+          "rows": 10,
+          "name": "sh.helm.release.v1.jobpilot-controller.v29",
+          "detail": {
+            "ok": true,
+            "name": "sh.helm.release.v1.jobpilot-controller.v29",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/secrets"
+          },
+          "yaml": {
+            "skipped": true
+          },
+          "pass": true
+        },
+        "volumes": {
+          "listPass": true,
+          "rows": 10,
+          "name": "prometheus-k8s-db-prometheus-k8s-0",
+          "detail": {
+            "ok": true,
+            "name": "prometheus-k8s-db-prometheus-k8s-0",
+            "hasStatus": false,
+            "url": "http://192.168.2.131:30883/clusters/host/volumes/Volumes"
+          },
+          "yaml": {
+            "skipped": true
+          },
+          "pass": true
+        }
+      },
+      "hpa": {
+        "ok": true,
+        "dt": "detail-editHpa",
+        "sig": {
+          "ace": 0,
+          "dialog": 1,
+          "pre": 0,
+          "err": 0
+        },
+        "looksHpa": false,
+        "pass": true
+      },
+      "probes": 1,
+      "v3Errors": 0,
+      "passCount": 6,
+      "total": 8
+    }
+  },
+  "ab": {
+    "resourcePassEqual": false,
+    "probes": {
+      "base": 1,
+      "exp": 1
+    },
+    "v3Errors": {
+      "base": 0,
+      "exp": 0
+    },
+    "hpa": {
+      "base": false,
+      "exp": true
+    }
+  }
+}

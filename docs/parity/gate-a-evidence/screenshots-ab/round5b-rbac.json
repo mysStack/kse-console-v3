@@ -1,0 +1,50 @@
+{
+  "username": "gatea-viewer-202611021325-5a17",
+  "ns": "dev-wms",
+  "ws": "dev-workspace",
+  "sampleDeploy": "wms-admin-server",
+  "sides": {
+    "base": {
+      "loginHttp": 200,
+      "listUrl": "http://192.168.2.131:30881/workspaces/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "list404": true,
+      "list403": false,
+      "rowVisible": false,
+      "createVisible": false,
+      "createBtn": false,
+      "detailOk": false,
+      "moreOpened": false,
+      "editYamlVisible": false,
+      "deleteVisible": false,
+      "scaleVisible": false,
+      "api": {
+        "get": 200,
+        "patch": 403,
+        "post": 403
+      },
+      "writeDenied": true,
+      "pass": false
+    },
+    "exp": {
+      "loginHttp": 200,
+      "listUrl": "http://192.168.2.131:30883/workspaces/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "list404": true,
+      "list403": false,
+      "rowVisible": false,
+      "createVisible": false,
+      "createBtn": false,
+      "detailOk": false,
+      "moreOpened": false,
+      "editYamlVisible": false,
+      "deleteVisible": false,
+      "scaleVisible": false,
+      "api": {
+        "get": 200,
+        "patch": 403,
+        "post": 403
+      },
+      "writeDenied": true,
+      "pass": false
+    }
+  }
+}

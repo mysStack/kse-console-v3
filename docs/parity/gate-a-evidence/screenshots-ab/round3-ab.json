@@ -1,0 +1,498 @@
+{
+  "summary": {
+    "base": {
+      "list_pass": 11,
+      "list_total": 11,
+      "list_fail": [],
+      "actions": {
+        "detail": {
+          "ok": true,
+          "name": "global-wms-server",
+          "hasStatus": true
+        },
+        "yaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "svcYaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "hpa": {
+          "ok": false,
+          "sig": {
+            "ace": 0,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 0
+          },
+          "pass": false
+        },
+        "v3_total": 245,
+        "main_hits": 15,
+        "v3_errors": 0,
+        "probe": 1
+      },
+      "probe": 1
+    },
+    "exp": {
+      "list_pass": 11,
+      "list_total": 11,
+      "list_fail": [],
+      "actions": {
+        "detail": {
+          "ok": true,
+          "name": "oms-server",
+          "hasStatus": false
+        },
+        "yaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "svcYaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "hpa": {
+          "ok": true,
+          "dt": "detail-editHpa",
+          "sig": {
+            "ace": 0,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 0
+          },
+          "pass": true
+        },
+        "v3_total": 260,
+        "main_hits": 30,
+        "v3_errors": 0,
+        "probe": 1
+      },
+      "probe": 1
+    }
+  },
+  "results": {
+    "base": [
+      {
+        "side": "base",
+        "path": "/clusters/host/deployments",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 9235,
+        "url": "http://192.168.2.131:30881/clusters/host/deployments"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/statefulsets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5402,
+        "url": "http://192.168.2.131:30881/clusters/host/statefulsets"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/daemonsets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 6,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5038,
+        "url": "http://192.168.2.131:30881/clusters/host/daemonsets"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/pods",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5036,
+        "url": "http://192.168.2.131:30881/clusters/host/pods"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/services",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5017,
+        "url": "http://192.168.2.131:30881/clusters/host/services"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/ingresses",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 2,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5045,
+        "url": "http://192.168.2.131:30881/clusters/host/ingresses"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/jobs",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5000,
+        "url": "http://192.168.2.131:30881/clusters/host/jobs"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/cronjobs",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 8,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 20536,
+        "url": "http://192.168.2.131:30881/clusters/host/cronjobs"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/configmaps",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5118,
+        "url": "http://192.168.2.131:30881/clusters/host/configmaps"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/secrets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5148,
+        "url": "http://192.168.2.131:30881/clusters/host/secrets"
+      },
+      {
+        "side": "base",
+        "path": "/clusters/host/volumes",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5103,
+        "url": "http://192.168.2.131:30881/clusters/host/Volumes/Volumes"
+      }
+    ],
+    "exp": [
+      {
+        "side": "exp",
+        "path": "/clusters/host/deployments",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 6677,
+        "url": "http://192.168.2.131:30883/clusters/host/deployments"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/statefulsets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5192,
+        "url": "http://192.168.2.131:30883/clusters/host/statefulsets"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/daemonsets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 6,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5115,
+        "url": "http://192.168.2.131:30883/clusters/host/daemonsets"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/pods",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5022,
+        "url": "http://192.168.2.131:30883/clusters/host/pods"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/services",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 4966,
+        "url": "http://192.168.2.131:30883/clusters/host/services"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/ingresses",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 2,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5056,
+        "url": "http://192.168.2.131:30883/clusters/host/ingresses"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/jobs",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 4994,
+        "url": "http://192.168.2.131:30883/clusters/host/jobs"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/cronjobs",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 8,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5108,
+        "url": "http://192.168.2.131:30883/clusters/host/cronjobs"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/configmaps",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 4975,
+        "url": "http://192.168.2.131:30883/clusters/host/configmaps"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/secrets",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 19377,
+        "url": "http://192.168.2.131:30883/clusters/host/secrets"
+      },
+      {
+        "side": "exp",
+        "path": "/clusters/host/volumes",
+        "pass": true,
+        "notFound": false,
+        "errLike": false,
+        "rows": 10,
+        "iframes": 2,
+        "mainHit": true,
+        "bad": 0,
+        "ms": 5099,
+        "url": "http://192.168.2.131:30883/clusters/host/volumes/Volumes"
+      }
+    ],
+    "actions": {
+      "base": {
+        "detail": {
+          "ok": true,
+          "name": "global-wms-server",
+          "hasStatus": true
+        },
+        "yaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "svcYaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "hpa": {
+          "ok": false,
+          "sig": {
+            "ace": 0,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 0
+          },
+          "pass": false
+        },
+        "v3_total": 245,
+        "main_hits": 15,
+        "v3_errors": 0,
+        "probe": 1
+      },
+      "exp": {
+        "detail": {
+          "ok": true,
+          "name": "oms-server",
+          "hasStatus": false
+        },
+        "yaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "svcYaml": {
+          "ok": true,
+          "dt": "table-item-editYaml",
+          "sig": {
+            "ace": 2,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 1
+          },
+          "pass": true
+        },
+        "hpa": {
+          "ok": true,
+          "dt": "detail-editHpa",
+          "sig": {
+            "ace": 0,
+            "dialog": 1,
+            "xterm": 0,
+            "pre": 0
+          },
+          "pass": true
+        },
+        "v3_total": 260,
+        "main_hits": 30,
+        "v3_errors": 0,
+        "probe": 1
+      }
+    },
+    "probes": {
+      "base": [
+        {
+          "url": "http://192.168.2.131:30881/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io",
+          "status": 200
+        }
+      ],
+      "exp": [
+        {
+          "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io",
+          "status": 200
+        }
+      ]
+    }
+  }
+}

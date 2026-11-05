@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "resource": "deployments",
+      "listPath": "/clusters/host/deployments",
+      "list": false
+    },
+    {
+      "resource": "pods",
+      "listPath": "/clusters/host/pods",
+      "list": false
+    },
+    {
+      "resource": "services",
+      "listPath": "/clusters/host/services",
+      "list": false
+    },
+    {
+      "resource": "secrets",
+      "listPath": "/clusters/host/secrets",
+      "list": false
+    },
+    {
+      "resource": "configmaps",
+      "listPath": "/clusters/host/configmaps",
+      "list": false
+    }
+  ],
+  "probes": [
+    {
+      "url": "http://192.168.2.131:30881/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io",
+      "status": 200,
+      "ts": 1793586806852
+    }
+  ],
+  "probe_count": 1,
+  "probe_delta_end": 0
+}

@@ -1,0 +1,42 @@
+{
+  "username": "gatea-viewer-202611021325-5a17",
+  "ns": "dev-wms",
+  "sampleDeploy": "wms-admin-server",
+  "sides": {
+    "base": {
+      "overviewOk": true,
+      "list404": false,
+      "rowVisible": false,
+      "createBtn": 0,
+      "detailOk": true,
+      "editYamlVisible": false,
+      "deleteVisible": false,
+      "api": {
+        "get": 200,
+        "patch": 403,
+        "post": 403
+      },
+      "writeDenied": true,
+      "pass": false,
+      "listSnip": ""
+    },
+    "exp": {
+      "overviewOk": true,
+      "list404": false,
+      "rowVisible": false,
+      "createBtn": 0,
+      "detailOk": true,
+      "editYamlVisible": false,
+      "deleteVisible": false,
+      "api": {
+        "get": 200,
+        "patch": 403,
+        "post": 403
+      },
+      "writeDenied": true,
+      "pass": false,
+      "listSnip": "WORKBENCH USER_GUIDE API_DOCUMENT gatea-viewer-202611021325-5a17 USER_SETTINGS LOG_OUT ABOUT TECHNICAL_SUPPORT PROJECT_PL dev-wms wms服务 ATTRIBUTES STATUS: Active CLUSTER: host WORKSPACE: dev-workspace"
+    }
+  },
+  "abEquivalent": true
+}

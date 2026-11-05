@@ -1,0 +1,389 @@
+{
+  "deferred": "springcloud_plugin",
+  "core_embeds": [
+    {
+      "resource": "pods",
+      "files": [
+        "packages/console/src/pages/projects/containers/Pods/ContainerDetail/index.tsx",
+        "packages/console/src/pages/projects/containers/Pods/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Pods/index.tsx"
+      ],
+      "file_count": 3
+    },
+    {
+      "resource": "alert-rules",
+      "files": [
+        "packages/console/src/pages/projects/containers/Alerting/Policies/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Alerting/Policies/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "composing",
+      "files": [
+        "packages/console/src/pages/projects/containers/ApplicationComposing/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/ApplicationComposing/Embed.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "cronjobs",
+      "files": [
+        "packages/console/src/pages/projects/containers/CronJobs/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/CronJobs/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "daemonsets",
+      "files": [
+        "packages/console/src/pages/projects/containers/DaemonSets/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/DaemonSets/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "ingresses",
+      "files": [
+        "packages/console/src/pages/projects/containers/Routes/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Routes/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "jobs",
+      "files": [
+        "packages/console/src/pages/projects/containers/Jobs/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Jobs/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "roles",
+      "files": [
+        "packages/console/src/pages/projects/containers/Roles/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Roles/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "s2ibuilders",
+      "files": [
+        "packages/console/src/pages/projects/containers/ImageBuilder/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/ImageBuilder/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "services",
+      "files": [
+        "packages/console/src/pages/projects/containers/Services/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Services/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "statefulsets",
+      "files": [
+        "packages/console/src/pages/projects/containers/StatefulSets/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/StatefulSets/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "volume-snapshots",
+      "files": [
+        "packages/console/src/pages/projects/containers/VolumeSnapshots/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/VolumeSnapshots/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "volumes",
+      "files": [
+        "packages/console/src/pages/projects/containers/Volumes/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/Volumes/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "alerts",
+      "files": [
+        "packages/console/src/pages/projects/containers/Alerting/Messages/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "base-info",
+      "files": [
+        "packages/console/src/pages/projects/containers/BaseInfo/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "configmaps",
+      "files": [
+        "packages/console/src/pages/projects/containers/ConfigMaps/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "custom-monitoring",
+      "files": [
+        "packages/console/src/pages/projects/containers/CustomMonitoring/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "deployments",
+      "files": [
+        "packages/console/src/pages/projects/containers/Deployments/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "gateways",
+      "files": [
+        "packages/console/src/pages/projects/containers/Gateway/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "grayrelease",
+      "files": [
+        "packages/console/src/pages/projects/containers/GrayRelease/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "log-collections",
+      "files": [
+        "packages/console/src/pages/projects/containers/LogCollection/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "networkpolicies",
+      "files": [
+        "packages/console/src/pages/projects/containers/Network/Policies/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "secrets",
+      "files": [
+        "packages/console/src/pages/projects/containers/Secrets/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "serviceAccounts",
+      "files": [
+        "packages/console/src/pages/projects/containers/ServiceAccounts/Detail/index.tsx"
+      ],
+      "file_count": 1
+    },
+    {
+      "resource": "serviceaccounts",
+      "files": [
+        "packages/console/src/pages/projects/containers/ServiceAccounts/index.tsx"
+      ],
+      "file_count": 1
+    }
+  ],
+  "springcloud_embeds": [
+    {
+      "resource": "configurations",
+      "files": [
+        "packages/console/src/pages/projects/containers/SpringCloud/configurations/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/SpringCloud/configurations/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "microservicegateways",
+      "files": [
+        "packages/console/src/pages/projects/containers/SpringCloud/microservicegateways/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/SpringCloud/microservicegateways/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "microservices",
+      "files": [
+        "packages/console/src/pages/projects/containers/SpringCloud/microservices/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/SpringCloud/microservices/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "servicerouting",
+      "files": [
+        "packages/console/src/pages/projects/containers/SpringCloud/servicerouting/Detail/index.tsx",
+        "packages/console/src/pages/projects/containers/SpringCloud/servicerouting/index.tsx"
+      ],
+      "file_count": 2
+    },
+    {
+      "resource": "microservice-instances",
+      "files": [
+        "packages/console/src/pages/projects/containers/SpringCloud/microserviceInstances/Detail/index.tsx"
+      ],
+      "file_count": 1
+    }
+  ],
+  "related_missing_heuristic": {
+    "pods": {
+      "count": 6,
+      "sample": [
+        "POD_COUNT_TCAP",
+        "POD_ENVIRONMENT_VARIABLE",
+        "POD_IP_POOL_IP_RANGE",
+        "POD_IP_POOL_NAME_DESC",
+        "POD_METADATA",
+        "POD_UTILISATION_TCAP"
+      ]
+    },
+    "alert-rules": {
+      "count": 5,
+      "sample": [
+        "ALARM_TARGET_REPEAT",
+        "ALERT_EMPTY_DESC",
+        "ALERT_MANAGEMENT",
+        "ALERT_RESOLVED",
+        "ALERT_RULE_GROUP_PL"
+      ]
+    },
+    "composing": {
+      "count": 0,
+      "sample": []
+    },
+    "cronjobs": {
+      "count": 0,
+      "sample": []
+    },
+    "daemonsets": {
+      "count": 0,
+      "sample": []
+    },
+    "ingresses": {
+      "count": 15,
+      "sample": [
+        "DELETE_MULTIPLE_ROUTE_SETTING",
+        "MICROSERVICE_ROUTE_DESC",
+        "MICROSERVICE_ROUTE_EMPTY_DESC",
+        "MICROSERVICE_ROUTE_FILTER",
+        "MICROSERVICE_ROUTE_LOW",
+        "MICROSERVICE_ROUTE_PL",
+        "MICROSERVICE_ROUTE_URL_DESC",
+        "NGINX_INGRESS_VERSION",
+        "ROUTE_SETTING",
+        "ROUTE_SETTING_DESC"
+      ]
+    },
+    "jobs": {
+      "count": 0,
+      "sample": []
+    },
+    "roles": {
+      "count": 0,
+      "sample": []
+    },
+    "s2ibuilders": {
+      "count": 0,
+      "sample": []
+    },
+    "services": {
+      "count": 7,
+      "sample": [
+        "ENDPOINT_DESC",
+        "ENDPOINT_EMPTY_TIP",
+        "ENDPOINT_TYPE",
+        "ENDPOINT_TYPE_DESC",
+        "ENDPOINT_TYPE_ERROR",
+        "SERVICE_REGISTRY",
+        "SERVICE_REGISTRY_ADDRESS"
+      ]
+    },
+    "statefulsets": {
+      "count": 0,
+      "sample": []
+    },
+    "volume-snapshots": null,
+    "volumes": null,
+    "alerts": {
+      "count": 5,
+      "sample": [
+        "ALARM_TARGET_REPEAT",
+        "ALERT_EMPTY_DESC",
+        "ALERT_MANAGEMENT",
+        "ALERT_RESOLVED",
+        "ALERT_RULE_GROUP_PL"
+      ]
+    },
+    "base-info": null,
+    "configmaps": {
+      "count": 0,
+      "sample": []
+    },
+    "custom-monitoring": null,
+    "deployments": {
+      "count": 2,
+      "sample": [
+        "ROLLBACKS_PER_SECOND",
+        "ROLLBACK_SUCCESSFUL"
+      ]
+    },
+    "gateways": {
+      "count": 33,
+      "sample": [
+        "CLUSTER_GATEWAY_GUIDE_DESC_WS",
+        "CLUSTER_NOT_SUPPORT_WORKSPACE_GATEWAY",
+        "CREATE_MICROSERVICE_GATEWAY",
+        "EDIT_MICROSERVICE_GATEWAY",
+        "ENT_CLUSTER_ENABLE_GATEWAY_DESC",
+        "ENT_CLUSTER_GATEWAY_DESC",
+        "ENT_CLUSTER_GATEWAY_GUIDE_DESC",
+        "ENT_ENABLE_GATEWAY_TIP",
+        "ENT_PROJECT_ENABLE_GATEWAY_DESC",
+        "ENT_WORKSPACE_ENABLE_GATEWAY_DESC"
+      ]
+    },
+    "grayrelease": {
+      "count": 0,
+      "sample": []
+    },
+    "log-collections": {
+      "count": 4,
+      "sample": [
+        "OPENSEARCH_CPU_USAGE",
+        "OPENSEARCH_CPU_USAGE_PER",
+        "OPENSEARCH_HEAP_MEMORY",
+        "OPENSEARCH_HEAP_MEMORY_PER"
+      ]
+    },
+    "networkpolicies": {
+      "count": 0,
+      "sample": []
+    },
+    "secrets": {
+      "count": 4,
+      "sample": [
+        "SECRET_INFO",
+        "SECRET_KEY",
+        "SECRET_KEY_DESC",
+        "SECRET_KEY_EMPTY_TIP"
+      ]
+    },
+    "serviceAccounts": null,
+    "serviceaccounts": {
+      "count": 0,
+      "sample": []
+    }
+  },
+  "locale": {
+    "old": 5604,
+    "new": 4027,
+    "missing": 1601
+  }
+}

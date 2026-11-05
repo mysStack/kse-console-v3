@@ -1,0 +1,28 @@
+{
+  "base": {
+    "clicked": null,
+    "hasLabel": false,
+    "sig": {
+      "dialog": 0,
+      "pre": 0,
+      "ace": 0,
+      "xterm": 0,
+      "logModal": 0,
+      "pages": 1
+    },
+    "pass": false
+  },
+  "exp": {
+    "clicked": "text:CONTAINER_LOGS",
+    "hasLabel": true,
+    "sig": {
+      "dialog": 0,
+      "pre": 0,
+      "ace": 0,
+      "xterm": 0,
+      "logModal": 0,
+      "pages": 1
+    },
+    "pass": false
+  }
+}

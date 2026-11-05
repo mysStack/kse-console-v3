@@ -1,0 +1,85 @@
+{
+  "question": "Can old V3 source restore release-4.1.5 v3dist lineage?",
+  "old_product": {
+    "ref": "console origin/release-4.1.5 packages/bootstrap/assets/v3dist",
+    "main_js": "main.558f452048e49db23323.js",
+    "locale_en_keys": 5604,
+    "js_files_note": "stock sealed embed; provenance commit unknown"
+  },
+  "candidates": [
+    {
+      "candidate": "kse-v3@8843ead",
+      "approx_locale_keys_in_source": 3784,
+      "intersection_with_old_v3dist_en": 3760,
+      "old_keys_missing_in_source": 1844,
+      "source_extra_vs_old": 24,
+      "markers": {
+        "ABOUT_KUBESPHERE_ENTERPRISE": false,
+        "MICROSERVICE_PL": false,
+        "DBPARAM_": false,
+        "CONFIG_REFERENCE": true,
+        "EDGEWIZE": true
+      },
+      "has_applications_composing": true,
+      "has_bare_composing_alias": false,
+      "old_v3dist_en_keys": 5604
+    },
+    {
+      "candidate": "kse-v3@origin/release-4.1.5",
+      "approx_locale_keys_in_source": 3765,
+      "intersection_with_old_v3dist_en": 3760,
+      "old_keys_missing_in_source": 1844,
+      "source_extra_vs_old": 5,
+      "markers": {
+        "ABOUT_KUBESPHERE_ENTERPRISE": false,
+        "MICROSERVICE_PL": false,
+        "DBPARAM_": false,
+        "CONFIG_REFERENCE": false,
+        "EDGEWIZE": true
+      },
+      "has_applications_composing": true,
+      "has_bare_composing_alias": false,
+      "old_v3dist_en_keys": 5604
+    },
+    {
+      "candidate": "kse-v3@v3.0.0-mystack.6",
+      "approx_locale_keys_in_source": 3773,
+      "intersection_with_old_v3dist_en": 3760,
+      "old_keys_missing_in_source": 1844,
+      "source_extra_vs_old": 13,
+      "markers": {
+        "ABOUT_KUBESPHERE_ENTERPRISE": false,
+        "MICROSERVICE_PL": false,
+        "DBPARAM_": false,
+        "CONFIG_REFERENCE": false,
+        "EDGEWIZE": true
+      },
+      "has_applications_composing": true,
+      "has_bare_composing_alias": false,
+      "old_v3dist_en_keys": 5604
+    },
+    {
+      "candidate": "console@origin/release-3.4",
+      "approx_locale_keys_in_source": 3761,
+      "intersection_with_old_v3dist_en": 3760,
+      "old_keys_missing_in_source": 1844,
+      "source_extra_vs_old": 1,
+      "markers": {
+        "ABOUT_KUBESPHERE_ENTERPRISE": false,
+        "MICROSERVICE_PL": false,
+        "DBPARAM_": false,
+        "CONFIG_REFERENCE": false,
+        "EDGEWIZE": true
+      },
+      "has_applications_composing": true,
+      "has_bare_composing_alias": false,
+      "old_v3dist_en_keys": 5604
+    }
+  ],
+  "verdict_notes": [
+    "kse-console-v3 origin/release-4.1.5 (0be9122) is ANCESTOR of 8843ead, not a fuller KSE tree.",
+    "Neither kse-console-v3 release-4.1.5 nor 8843ead contain enterprise locale markers present in sealed v3dist.",
+    "console origin/release-3.4 is community V3 reference; check marker coverage in report.",
+    "True restore requires the embed-lineage source that built main.558f4520, which is not in fetched mysStack/kse-console-v3 refs."
+  ]
+}

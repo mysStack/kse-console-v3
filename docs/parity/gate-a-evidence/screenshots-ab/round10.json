@@ -1,0 +1,298 @@
+{
+  "sides": {
+    "base": {
+      "mains": [
+        "main.558f452048e49db23323.js"
+      ],
+      "expectMainHit": true,
+      "listPass": 11,
+      "listTotal": 12,
+      "listFail": [
+        "/dev-workspace/clusters/host/projects/dev-wms/composing"
+      ],
+      "lists": [
+        {
+          "path": "/clusters/host/deployments",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/statefulsets",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/daemonsets",
+          "pass": true,
+          "rows": 6,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/pods",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/services",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/ingresses",
+          "pass": true,
+          "rows": 2,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/jobs",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/cronjobs",
+          "pass": true,
+          "rows": 8,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/configmaps",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/secrets",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/volumes",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+          "pass": false,
+          "rows": 0,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        }
+      ],
+      "yaml": {
+        "dt": "table-item-editYaml",
+        "sig": {
+          "ace": 2,
+          "dialog": 1,
+          "pre": 1
+        },
+        "pass": true
+      },
+      "extras": [
+        {
+          "path": "/clusters/host/roles",
+          "detail": {
+            "ok": true,
+            "name": "cluster-viewer",
+            "url": "http://192.168.2.131:30881/clusters/host/roles/cluster-viewer/authorizations"
+          }
+        },
+        {
+          "path": "/clusters/host/serviceaccounts",
+          "detail": {
+            "ok": true,
+            "name": "jobpilot-controller-web",
+            "url": "http://192.168.2.131:30881/clusters/host/projects/jobpilot/serviceaccounts/jobpilot-controller-web/detail"
+          }
+        }
+      ],
+      "probes": 1,
+      "v3Errors": 0
+    },
+    "exp": {
+      "mains": [
+        "main.3e3fcb7888ce0f1c36a8.js"
+      ],
+      "expectMainHit": true,
+      "listPass": 11,
+      "listTotal": 12,
+      "listFail": [
+        "/dev-workspace/clusters/host/projects/dev-wms/composing"
+      ],
+      "lists": [
+        {
+          "path": "/clusters/host/deployments",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/statefulsets",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/daemonsets",
+          "pass": true,
+          "rows": 6,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/pods",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/services",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/ingresses",
+          "pass": true,
+          "rows": 2,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/jobs",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/cronjobs",
+          "pass": true,
+          "rows": 8,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/configmaps",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/secrets",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/clusters/host/volumes",
+          "pass": true,
+          "rows": 10,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        },
+        {
+          "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+          "pass": false,
+          "rows": 0,
+          "crash": false,
+          "page404": false,
+          "composingOk": false
+        }
+      ],
+      "yaml": {
+        "dt": "table-item-editYaml",
+        "sig": {
+          "ace": 2,
+          "dialog": 1,
+          "pre": 1
+        },
+        "pass": true
+      },
+      "extras": [
+        {
+          "path": "/clusters/host/roles",
+          "detail": {
+            "ok": true,
+            "name": "cluster-viewer",
+            "url": "http://192.168.2.131:30883/clusters/host/roles/cluster-viewer/authorizations"
+          }
+        },
+        {
+          "path": "/clusters/host/serviceaccounts",
+          "detail": {
+            "ok": true,
+            "name": "jobpilot-controller-web",
+            "url": "http://192.168.2.131:30883/clusters/host/serviceaccounts"
+          }
+        }
+      ],
+      "probes": 1,
+      "v3Errors": 0
+    }
+  },
+  "ab": {
+    "listPass": {
+      "base": 11,
+      "exp": 11
+    },
+    "yaml": {
+      "base": true,
+      "exp": true
+    },
+    "probes": {
+      "base": 1,
+      "exp": 1
+    },
+    "v3Errors": {
+      "base": 0,
+      "exp": 0
+    }
+  }
+}

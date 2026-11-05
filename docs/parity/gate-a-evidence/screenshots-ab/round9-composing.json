@@ -1,0 +1,28 @@
+{
+  "sides": {
+    "base": {
+      "url": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "notFound": false,
+      "composed": true,
+      "crash": false,
+      "mains": [
+        "main.558f452048e49db23323.js:200"
+      ],
+      "pass": true,
+      "snip": ""
+    },
+    "exp": {
+      "url": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "notFound": false,
+      "composed": true,
+      "crash": false,
+      "mains": [
+        "main.3e3fcb7888ce0f1c36a8.js:200"
+      ],
+      "pass": true,
+      "snip": ""
+    }
+  },
+  "mains": {},
+  "abEquivalent": true
+}

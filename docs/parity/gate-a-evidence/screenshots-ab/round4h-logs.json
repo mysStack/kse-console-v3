@@ -1,0 +1,26 @@
+{
+  "base": {
+    "hasTab": false,
+    "tabClicked": false,
+    "hasTabAfter": false,
+    "onLogsPath": false,
+    "url": "http://192.168.2.131:30881/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+    "pre": 0,
+    "unsupported": 0,
+    "err": 0,
+    "pass": false,
+    "bodySnips": []
+  },
+  "exp": {
+    "hasTab": true,
+    "tabClicked": true,
+    "hasTabAfter": true,
+    "onLogsPath": false,
+    "url": "http://192.168.2.131:30883/clusters/host/projects/kubesphere-system/pods/ks-console-v415-rea-658ff66b98-59kz8/containers/ks-console/resource-status",
+    "pre": 0,
+    "unsupported": 0,
+    "err": 0,
+    "pass": false,
+    "bodySnips": []
+  }
+}

@@ -1,0 +1,47 @@
+# Gate A round2e
+
+```json
+{
+  "deploy_hpa": {
+    "ok": true,
+    "dt": "detail-editHpa",
+    "url": "http://192.168.2.131:30881/clusters/host/deployments",
+    "sig": {
+      "ace": 0,
+      "dialog": 1,
+      "xterm": 0,
+      "pre": 0
+    },
+    "pass": true
+  },
+  "deploy_replicas_click": {
+    "sig": {
+      "ace": 0,
+      "dialog": 0,
+      "xterm": 0,
+      "pre": 0
+    },
+    "pass": false
+  },
+  "pod_chosen": " wms-admin-29893122-t877p RUNNING RUNNING NODE_IP 10.42.0.225 2026-11-02 10:42:0",
+  "pod_dts": [
+    "detail-viewYaml",
+    "panel-container_pl",
+    "panel-platform_resources"
+  ],
+  "pod_more_menu": [
+    "detail-viewYaml",
+    "detail-delete"
+  ],
+  "pod_log_pass": false,
+  "pod_term_pass": false
+}
+```
+
+```
+HPA {"ok":true,"dt":"detail-editHpa","url":"http://192.168.2.131:30881/clusters/host/deployments","sig":{"ace":0,"dialog":1,"xterm":0,"pre":0},"pass":true}
+REPLICAS_CLICK {"sig":{"ace":0,"dialog":0,"xterm":0,"pre":0},"pass":false}
+POD_RUNNING_DTS detail-viewYaml,panel-container_pl
+POD_MORE_MENU detail-viewYaml,detail-delete
+CONSOLE_POD_HIT false
+```

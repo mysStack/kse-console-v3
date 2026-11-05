@@ -1,0 +1,77 @@
+{
+  "deployments": {
+    "detail": {
+      "ok": true,
+      "name": "pms-server"
+    },
+    "more": {
+      "ok": true,
+      "dataTest": "detail-more",
+      "where": "http://192.168.2.131:30881/clusters/host/deployments"
+    },
+    "menuDiff": [],
+    "scale": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0
+      },
+      "pass": false
+    },
+    "yaml": {
+      "ok": true,
+      "dataTest": "detail-editYaml",
+      "where": "http://192.168.2.131:30881/clusters/host/deployments",
+      "sig": {
+        "ace": 2,
+        "dialog": 1,
+        "xterm": 0,
+        "pre": 1
+      },
+      "pass": true
+    }
+  },
+  "pods": {
+    "detail": {
+      "ok": true,
+      "name": "wms-scheduling-29893120-kxwn2"
+    },
+    "logs": {
+      "ok": true,
+      "dataTest": "text:log",
+      "where": "http://192.168.2.131:30881/clusters/host/pods",
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0
+      },
+      "pass": false
+    },
+    "terminal": {
+      "ok": false,
+      "sig": {
+        "ace": 0,
+        "dialog": 0,
+        "xterm": 0,
+        "pre": 0
+      },
+      "pass": false
+    },
+    "detailTests": [
+      "dashboard-header",
+      "detail-attrs",
+      "detail-delete",
+      "detail-desc",
+      "detail-title",
+      "detail-viewYaml",
+      "panel-container_pl",
+      "panel-platform_information",
+      "panel-platform_resources",
+      "panel-recent_access",
+      "panel-volume_pl"
+    ]
+  }
+}
