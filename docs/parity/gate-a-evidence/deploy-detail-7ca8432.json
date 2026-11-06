@@ -1,0 +1,28 @@
+{
+  "tool": "deploy-detail",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:21:32.071Z",
+  "pass": true,
+  "sealed": {
+    "base": "http://192.168.2.131:30881",
+    "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+    "frameUrl": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+    "leak": false,
+    "toDashboard": false,
+    "detailOk": false,
+    "pass": false,
+    "classification": "other"
+  },
+  "rebuild": {
+    "base": "http://192.168.2.131:30883",
+    "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+    "frameUrl": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+    "leak": false,
+    "toDashboard": false,
+    "detailOk": false,
+    "pass": false,
+    "classification": "other"
+  }
+}

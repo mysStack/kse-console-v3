@@ -348,3 +348,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Ingress/网关/告警规则 7ca8432 再抽检。`ingress-alert-7ca8432.json`
 - toolbox/kubeconfig/components + S2I/applications 三次扫描 7ca8432。`toolbox-scan3-7ca8432.json`
 - 网络隔离/SA/角色/基本信息 7ca8432 再抽检。`np-sa-role-7ca8432.json`
+- Deployment 详情（含事件 tab）7ca8432。`deploy-detail-7ca8432.json`
