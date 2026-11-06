@@ -29,3 +29,8 @@
 - locale 覆盖 0.9996
 - `recovery-real-detail-yaml-ab.json`
 - Gate A 仍未关闭
+
+## 续：扩面对称
+- deploy/svc 详情对称 ok（recovery-real-detail-yaml-ab.json）
+- STS/DS/Job/Cron/SC/Snapshot/Roles/SA 列表对称（recovery-storage-sts-ab.json）
+- 无 rebuild-only 泄漏；Gate A 仍未关闭

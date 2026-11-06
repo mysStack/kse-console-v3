@@ -1,0 +1,171 @@
+{
+  "tool": "recovery-storage-sts-ab",
+  "liveCommit": "b511b4f",
+  "gateAClosed": false,
+  "generatedAt": "2026-11-06T09:13:06.680Z",
+  "pass": true,
+  "summary": {
+    "statefulsets": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "daemonsets": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "cronjobs": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "jobs": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "storageclasses": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "volume-snapshots": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "roles": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    },
+    "serviceaccounts": {
+      "s": "v3dist-ok",
+      "r": "v3dist-ok"
+    }
+  },
+  "results": {
+    "statefulsets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "daemonsets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "cronjobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 ",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAM",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "jobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899270 - 已完成 2026-11-06 17:10:29 编辑信息 重新运行 删除 wms-admin-",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899270 - 已完成 2026-11-06 17:10:29 编辑信息 重新运行 删除 wms-a",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "storageclasses": {
+      "sealed": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 49 否 否 否 open",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 ",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "volume-snapshots": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "roles": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "serviceaccounts": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-3",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}
