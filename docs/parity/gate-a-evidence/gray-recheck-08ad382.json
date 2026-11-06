@@ -1,0 +1,49 @@
+{
+  "tool": "gray-recheck",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:47:25.939Z",
+  "pass": true,
+  "note": "Expect dashboard both sides historically",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "gray": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "mesh": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleasejobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "gray": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:47:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:47:17最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "mesh": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleasejobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:47:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:47:21最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}

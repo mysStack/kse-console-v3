@@ -304,3 +304,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目 base-info/overview/quota 08ad382 对称抽检。`project-base-08ad382.json`
 - 应用 composing/template 08ad382 复扫。`apps-recheck-08ad382.json`
 - S2I builders 08ad382 复扫。`s2i-recheck-08ad382.json`
+- 灰度发布路径 08ad382 复扫（多为 dashboard 对称）。`gray-recheck-08ad382.json`
