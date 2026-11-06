@@ -1,0 +1,65 @@
+{
+  "tool": "sa-role-workspace",
+  "generatedAt": "2026-11-06T02:58:19.716Z",
+  "workspace": "dev-workspace",
+  "project": "dev-wms",
+  "saName": "default",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "saList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "listOk": true,
+        "snip": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 202"
+      },
+      "sa": {
+        "name": "default",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "服务账户 default 编辑信息 更多操作 编辑 YAML 修改角色 删除 属性 集群: host 项目: dev-wms 角色: - 创建时间: 2026-03-30 00:29:39 创建者: 数据"
+      },
+      "rolesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "name": "",
+        "listOk": true,
+        "snip": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "saList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "listOk": true,
+        "snip": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap "
+      },
+      "sa": {
+        "name": "default",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "服务账户 default 编辑信息 更多操作 编辑 YAML 修改角色 删除 属性 集群: host 项目: dev-wms 角色: - 创建时间: 2026-03-30 00:29:39 创建者: 数据"
+      },
+      "rolesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "name": "",
+        "listOk": true,
+        "snip": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Fo"
+      }
+    }
+  ],
+  "note": "read-only; hostPath A/B"
+}
