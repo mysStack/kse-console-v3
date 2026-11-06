@@ -334,3 +334,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Secret 创建/镜像仓库 UI 抽检 7ca8432。`registry-secret-create-7ca8432.json`
 - DaemonSet/STS/Pods 列表 7ca8432 回归抽检。`ds-sts-pods-7ca8432.json`
 - unsupported 二次扫描（含 S2I 回归）7ca8432。`unsupported-scan2-7ca8432.json`
+- 告警规则组/告警/监控/日志 分类抽检 7ca8432。`alert-rules-mon-7ca8432.json`

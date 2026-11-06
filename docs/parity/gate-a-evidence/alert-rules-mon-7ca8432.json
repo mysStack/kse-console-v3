@@ -1,0 +1,88 @@
+{
+  "tool": "alert-rules-mon",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:51:03.383Z",
+  "pass": true,
+  "results": {
+    "alert-rules": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 已禁用 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "alerts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 关键词 状态 告警级别 规则名称 定制内容 状态 告警级别 规则名称 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 紧急 重要 警告 提醒 规则名称 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 状态 告警级别 定制内容 状态 告警级别 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 危险告警 重要告警 一般告警 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found 404: Page Not Found",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "monitoring": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:50:14平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:50:19最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      }
+    },
+    "logs": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/logs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/logs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:50:51平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:50:56最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      }
+    }
+  }
+}
