@@ -295,3 +295,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - ConfigMap 经列表进入详情 YAML 抽检。`cm-via-list-08ad382.json`
 - Secret 详情 YAML 两侧抽检。`secret-via-list-08ad382.json`
 - Secret 列表行 YAML 抽检（详情深链两侧易 dashboard）。`secret-list-yaml-08ad382.json`
+- Service 列表行 YAML 抽检。`svc-list-yaml-08ad382.json`
