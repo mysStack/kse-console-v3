@@ -1,0 +1,78 @@
+{
+  "tool": "ds-tabs",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:32:37.367Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "resourceStatus": "dashboard",
+      "env": "dashboard",
+      "events": "dashboard"
+    },
+    "30883": {
+      "resourceStatus": "dashboard",
+      "env": "dashboard",
+      "events": "dashboard"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "prefix": "/dev-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter",
+      "resourceStatus": {
+        "path": "/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "env": {
+        "ok": false,
+        "isDashboard": true,
+        "text": "",
+        "path": "",
+        "frameUrl": "",
+        "notFound": false
+      },
+      "events": {
+        "ok": false,
+        "isDashboard": true,
+        "text": "",
+        "path": "",
+        "frameUrl": "",
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "prefix": "/dev-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter",
+      "resourceStatus": {
+        "path": "/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:32:21平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:32:32最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "env": {
+        "ok": false,
+        "isDashboard": true,
+        "text": "",
+        "path": "",
+        "frameUrl": "",
+        "notFound": false
+      },
+      "events": {
+        "ok": false,
+        "isDashboard": true,
+        "text": "",
+        "path": "",
+        "frameUrl": "",
+        "notFound": false
+      }
+    }
+  ]
+}
