@@ -1,7 +1,7 @@
 {
   "tool": "deploy-detail",
   "liveCommit": "7ca8432",
-  "generatedAt": "2026-11-06T06:21:32.071Z",
+  "generatedAt": "2026-11-06T06:23:54.218Z",
   "pass": true,
   "sealed": {
     "base": "http://192.168.2.131:30881",
