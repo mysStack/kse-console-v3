@@ -1,0 +1,38 @@
+{
+  "tool": "pvc-yaml",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:35:31.958Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "pvc": "/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0",
+      "detail": {
+        "ok": true,
+        "text": "持久卷声明 data-postgresql-dev-0 编辑信息 更多操作 编辑 YAML 克隆 扩展 删除 属性 项目: dev-db 状态: 已绑定 容量: 8Gi 访问模式: ReadWriteOnce 存储类: openebs-hostpath 供应者: openebs.io/local 持久卷: pvc-77ad3407-2e9c-4226-a34f-c05ce36573f9 创建时间: 2026-05-24 14:04:15 创建者: 资源状态 元数据 事件 已挂",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+      },
+      "yaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "pvc": "/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0",
+      "detail": {
+        "ok": true,
+        "text": "持久卷声明 data-postgresql-dev-0 编辑信息 更多操作 编辑 YAML 克隆 扩展 删除 属性 项目: dev-db 状态: 已绑定 容量: 8Gi 访问模式: ReadWriteOnce 存储类: openebs-hostpath 供应者: openebs.io/local 持久卷: pvc-77ad3407-2e9c-4226-a34f-c05ce36573f9 创建时间: 2026-05-24 14:04:15 创建者: 资源状态 元数据 事件 快照",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+      },
+      "yaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+      }
+    }
+  ]
+}
