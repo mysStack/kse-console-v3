@@ -22,6 +22,7 @@ import Base from 'stores/base'
 import { generateId } from 'utils'
 import TEMPLATE from 'utils/form.templates'
 import { S2I_SUPPORTED_TYPES, B2I_SUPPORTED_TYPES } from 'utils/constants'
+import { s2iListReject } from './listReject'
 
 import S2IRunStore from './run'
 
@@ -35,6 +36,17 @@ export default class S2IBuilderStore extends Base {
   runStore = new S2IRunStore()
 
   @observable detail = {}
+
+  // KS 4.1.x: resources.kubesphere.io/.../s2ibuilders returns
+  // "resource is not supported"; sealed UI shows friendly empty.
+  // Silence the same way as applications CRD miss.
+  @action
+  fetchList(params = {}) {
+    return super.fetchList({
+      ...params,
+      reject: s2iListReject,
+    })
+  }
 
   getS2iSupportLanguage = async params => {
     const result = await this.getBuilderTemplate(params)
