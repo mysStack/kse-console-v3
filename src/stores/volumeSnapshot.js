@@ -25,14 +25,18 @@ export default class VolumeSnapshotStore extends Base {
   }
 
   get apiVersion() {
-    return 'apis/snapshot.storage.k8s.io/v1beta1'
+    return 'apis/snapshot.storage.k8s.io/v1'
   }
+
+  // KS 4.1.x: resources.kubesphere.io volumesnapshots 404; sealed UI uses native snapshot API.
+  getResourceUrl = params =>
+    `kapis/snapshot.storage.k8s.io/v1${this.getPath(params)}/${this.module}`
 
   async createSnapshot({ name, type, sourceName, cluster, namespace }) {
     const path = this.getListUrl({ cluster, namespace })
 
     const params = {
-      apiVersion: 'snapshot.storage.k8s.io/v1beta1',
+      apiVersion: 'snapshot.storage.k8s.io/v1',
       kind: this.resourceKind,
       metadata: {
         name,

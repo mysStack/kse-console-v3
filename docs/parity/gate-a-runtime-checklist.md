@@ -306,3 +306,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - S2I builders 08ad382 复扫。`s2i-recheck-08ad382.json`
 - 灰度发布路径 08ad382 复扫（多为 dashboard 对称）。`gray-recheck-08ad382.json`
 - 卷快照 + SC 列表 08ad382 复扫（含 SC 修复后数据）。`snap-recheck-08ad382.json`
+- **重建独有（修复中）**：项目卷快照列表打 resources volumesnapshots 404 露出 Not Found；改 snapshot.storage.k8s.io/v1。`volume-snapshot-api-gap.md`

@@ -4,6 +4,7 @@ import { getWorkspaceClustersUrl } from './workspace'
 import ProjectMonitoring from './monitoring/project'
 import WorkloadRankStore from './rank/workload'
 import StorageClassStore from './storageClass'
+import VolumeSnapshotStore from './volumeSnapshot'
 
 describe('KubeSphere v4 API compatibility', () => {
   it('uses the v1beta1 role template API for project rules', () => {
@@ -58,6 +59,13 @@ describe('KubeSphere v4 API compatibility', () => {
     const store = new StorageClassStore()
     expect(store.getResourceUrl({ cluster: 'host' })).toBe(
       'kapis/storage.k8s.io/v1/klusters/host/storageclasses'
+    )
+  })
+
+  it('lists volumesnapshots via snapshot.storage.k8s.io kapis', () => {
+    const store = new VolumeSnapshotStore()
+    expect(store.getResourceUrl({ cluster: 'host', namespace: 'dev-db' })).toBe(
+      'kapis/snapshot.storage.k8s.io/v1/klusters/host/namespaces/dev-db/volumesnapshots'
     )
   })
 })

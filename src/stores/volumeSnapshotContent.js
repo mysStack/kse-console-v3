@@ -29,6 +29,9 @@ export default class VolumeSnapshotContentStore extends Base {
     return 'apis/snapshot.storage.k8s.io/v1'
   }
 
+  getResourceUrl = params =>
+    `kapis/snapshot.storage.k8s.io/v1${this.getPath(params)}/${this.module}`
+
   @action
   async fetchDetail(params) {
     this.isLoading = true
