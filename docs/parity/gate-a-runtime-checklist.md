@@ -368,3 +368,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 重建 9b1819f 后网络隔离/S2I/Deploy 验收。`np-s2i-verify-9b1819f.json`
 - Cron/Service/CM/Secret/SC 心跳 9b1819f。`hb-9b1819f.json`
 - Pods/STS/DS/Snapshot/SA/角色/Ingress/网关 心跳 9b1819f。`hb2-9b1819f.json`
+- Deploy/Service/CM/Secret/SA 行内 YAML 9b1819f。`yaml-9b1819f.json`

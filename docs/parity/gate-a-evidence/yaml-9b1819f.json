@@ -1,0 +1,98 @@
+{
+  "tool": "yaml-9b1819f",
+  "liveCommit": "9b1819f",
+  "generatedAt": "2026-11-06T07:27:21.018Z",
+  "pass": true,
+  "results": {
+    "deployments": {
+      "sealed": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      },
+      "rebuild": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      }
+    },
+    "services": {
+      "sealed": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      },
+      "rebuild": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      },
+      "rebuild": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      },
+      "rebuild": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      }
+    },
+    "serviceaccounts": {
+      "sealed": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      },
+      "rebuild": {
+        "listPath": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "clicked": true,
+        "hasYaml": true,
+        "listOk": true,
+        "pass": true
+      }
+    }
+  }
+}
