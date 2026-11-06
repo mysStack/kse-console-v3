@@ -310,3 +310,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - CRD 集群/项目路径对称抽检（4aa18ae）。`crd-wave-4aa18ae.json`
 - Pods 列表中文状态 4aa18ae 复扫。`pods-list-4aa18ae.json`
 - StatefulSet 列表 4aa18ae 抽检。`sts-list-4aa18ae.json`
+- CronJob 列表（点定时任务 tab）4aa18ae 抽检。`cron-list-4aa18ae.json`
