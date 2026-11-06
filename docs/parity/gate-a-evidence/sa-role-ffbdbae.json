@@ -1,0 +1,19 @@
+{
+  "tool": "sa-role-workspace",
+  "generatedAt": "2026-11-06T03:08:11Z",
+  "artifactCommit": "ffbdbae884a02bcb8ea864054c7b178557c45a25",
+  "passCore": true,
+  "pass": true,
+  "rolesListFixed": true,
+  "findings": [
+    "30883 roles list now shows viewer/operator/admin (IAM v1beta1)",
+    "Role detail YAML open failed on BOTH 30881 and 30883 (no Gate A delta; more-actions may lack 编辑 YAML for preset roles)",
+    "30881 saList snip empty once (timing flake); SA detail YAML still opened"
+  ],
+  "rolesList83": {
+    "hasViewer": true,
+    "hasOperator": true,
+    "listOk": true
+  },
+  "note": "hostPath A/B; Gate A not closed"
+}

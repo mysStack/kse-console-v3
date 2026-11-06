@@ -252,3 +252,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - DaemonSet `kubesphere-monitoring-system/node-exporter` YAML 只读两侧通过；HPA 本波仅 deployments 列表 smoke。`daemonset-hpa-fd49fe6.json`
 - ServiceAccount `dev-wms/default` YAML 只读两侧通过。`sa-role-fd49fe6.json`
 - 发现：项目角色列表 30883 为空、30881 有 viewer/operator。`project-roles-list-gap.md`（未修）
+- `ffbdbae` 已挂 30883；项目角色列表空洞已修（IAM v1beta1）。`sa-role-ffbdbae.json`

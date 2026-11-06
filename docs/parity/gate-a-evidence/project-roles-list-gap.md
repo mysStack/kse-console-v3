@@ -21,3 +21,4 @@ Working paths: `iam.v1beta1` and `resources.v1alpha3` (sealed list uses the latt
 ## Fix
 
 `src/stores/role.js`: switch list/template URLs from `v1alpha2` → `v1beta1`.
+- 验收 `ffbdbae`：30883 角色列表已出现 viewer/operator/admin。`sa-role-ffbdbae.json`
