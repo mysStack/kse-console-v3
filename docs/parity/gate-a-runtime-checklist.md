@@ -264,3 +264,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目网关 gateways v3 embed 两侧通过；grayreleases 两侧 dashboard（非重建独有）。`gateway-gray-653cbe2.json`
 - 监控/日志多路径两侧行为一致（多为非 embed）；custom-monitoring 两侧 embed 通过。`monitor-log-653cbe2.json`
 - 项目 base-info/overview 两侧 embed 通过；quota/limitranges 两侧同为非 embed 或空（无独有缺口）。`quota-limit-653cbe2.json`
+- `653cbe2` 回归：项目角色列表仍含 viewer/operator。`sa-role-653cbe2.json`

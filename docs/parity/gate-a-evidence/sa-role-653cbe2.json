@@ -1,0 +1,86 @@
+{
+  "tool": "sa-role-workspace",
+  "generatedAt": "2026-11-06T03:32:40.115Z",
+  "workspace": "dev-workspace",
+  "project": "dev-wms",
+  "saName": "default",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "saList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "listOk": false,
+        "snip": " "
+      },
+      "sa": {
+        "name": "default",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "服务账户 default 编辑信息 更多操作 编辑 YAML 修改角色 删除 属性 集群: host 项目: dev-wms 角色: - 创建时间: 2026-03-30 00:29:39 创建者: 数据"
+      },
+      "rolesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "name": "viewer",
+        "listOk": true,
+        "hasViewer": true,
+        "hasOperator": true,
+        "snip": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 202"
+      },
+      "role": {
+        "name": "viewer",
+        "detailOk": true,
+        "yaml": {
+          "opened": false
+        },
+        "snip": "项目角色 viewer 查看项目中的所有资源。 属性 集群: host 项目: dev-wms 创建时间: 2026-03-30 00:29:40 更新时间: 2026-11-06 11:32:12 创建者: system 权限 授权用户 权限 弹性伸缩 事件驱动伸缩查看 | 容"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "saList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "listOk": false,
+        "snip": ""
+      },
+      "sa": {
+        "name": "default",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "服务账户 default 编辑信息 更多操作 编辑 YAML 修改角色 删除 属性 集群: host 项目: dev-wms 角色: - 创建时间: 2026-03-30 00:29:39 创建者: 数据"
+      },
+      "rolesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "name": "viewer",
+        "listOk": true,
+        "hasViewer": true,
+        "hasOperator": true,
+        "snip": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 202"
+      },
+      "role": {
+        "name": "viewer",
+        "detailOk": true,
+        "yaml": {
+          "opened": false
+        },
+        "snip": "项目角色 viewer 查看项目中的所有资源。 属性 集群: host 项目: dev-wms 创建时间: 2026-03-30 00:29:40 更新时间: 2026-11-06 11:32:37 创建者: system 权限 授权用户 权限 没有找到权限"
+      }
+    }
+  ],
+  "note": "roles list still OK after IAM user v1beta1 rebuild; SA listOk flake ignored",
+  "passRoles": true
+}
