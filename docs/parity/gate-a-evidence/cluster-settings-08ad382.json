@@ -1,0 +1,131 @@
+{
+  "tool": "cluster-settings-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:12:26.763Z",
+  "pass": true,
+  "note": "Symmetric dashboard both sides = host V4-native, not rebuild-only",
+  "classify": {
+    "30881": {
+      "baseInfo": "dashboard",
+      "visibility": "dashboard",
+      "members": "dashboard",
+      "roles": "dashboard",
+      "logReceivers": "dashboard",
+      "cm": "embed"
+    },
+    "30883": {
+      "baseInfo": "dashboard",
+      "visibility": "dashboard",
+      "members": "dashboard",
+      "roles": "dashboard",
+      "logReceivers": "dashboard",
+      "cm": "embed"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "baseInfo": {
+        "path": "/clusters/host/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "visibility": {
+        "path": "/clusters/host/visibility",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "members": {
+        "path": "/clusters/host/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "roles": {
+        "path": "/clusters/host/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "logReceivers": {
+        "path": "/clusters/host/log-receivers",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "cm": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-co",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "baseInfo": {
+        "path": "/clusters/host/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:11:29平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:11:38最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "visibility": {
+        "path": "/clusters/host/visibility",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:11:29平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:11:45最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "members": {
+        "path": "/clusters/host/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:11:29平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:11:57最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "roles": {
+        "path": "/clusters/host/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:11:29平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:12:07最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "logReceivers": {
+        "path": "/clusters/host/log-receivers",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:11:29平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:12:16最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "cm": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulati",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}

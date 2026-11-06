@@ -1,0 +1,94 @@
+{
+  "tool": "volumes-sa-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:10:14.479Z",
+  "pass": true,
+  "summary": {
+    "30881": 5,
+    "30883": 5
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "clusterVolumes": {
+        "path": "/clusters/host/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/Volumes/Volumes",
+        "text": " 名称 状态 定制内容 状态 持久卷 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升序 降序 grafana openebs-hostpath 已绑定 pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324 查看 YAML RWO 2026-11-03 18:02 编辑信息 编辑 YAML 删除 promet",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "projectPvc": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 持久卷 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升序 降序 datadir-mg-rs-mongodb-restore-0 openebs-hostpath 已绑定 pvc-1acfeb37-239a-",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "sa": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 5",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "saYaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail"
+      },
+      "secretList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "clusterVolumes": {
+        "path": "/clusters/host/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/Volumes/Volumes",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 持久卷声明 持久卷 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "projectPvc": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升序 降序 datadir-mg-rs-mongodb-restore-0 openebs-hostpath 已绑定 pvc-1acfeb37-239a-40cc",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "sa": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "saYaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceAccounts/default/detail"
+      },
+      "secretList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 ",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}
