@@ -1,90 +1,113 @@
 {
   "tool": "deploy-tabs",
   "commit": "08ad382",
-  "deploy": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service",
-  "generatedAt": "2026-11-06T04:20:41.638Z",
-  "pass": false,
-  "summary": {
-    "30881": 0,
-    "30883": 4
+  "deploy": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server",
+  "deployName": "wms-scheduling-server",
+  "generatedAt": "2026-11-06T04:24:09.737Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "resourceStatus": "dashboard",
+      "revision": "dashboard",
+      "monitor": "embed",
+      "env": "embed",
+      "events": "embed"
+    },
+    "30883": {
+      "resourceStatus": "dashboard",
+      "revision": "dashboard",
+      "monitor": "embed",
+      "env": "embed",
+      "events": "embed"
+    }
   },
   "sides": [
     {
       "label": "30881",
       "base": "http://192.168.2.131:30881",
       "resourceStatus": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
-        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
-        "text": "",
-        "ok": false,
-        "isDashboard": false
-      },
-      "revision": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/revision",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/resource-status",
         "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
         "text": " ",
         "ok": false,
-        "isDashboard": true
+        "isDashboard": true,
+        "notFound": false
+      },
+      "revision": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/revision",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
       },
       "monitor": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
-        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
-        "text": "",
-        "ok": false,
-        "isDashboard": false
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/monitors",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/monitors",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 环境变量 事件",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
       },
       "env": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
-        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
-        "text": "",
-        "ok": false,
-        "isDashboard": false
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/env",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/env",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 环境变量 事件 容器：wms-scheduling-server REDIS_PASSWORD ****** DB_PASSWORD ****** RABBITMQ_PASSWORD *",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
       },
       "events": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
-        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
-        "text": "",
-        "ok": false,
-        "isDashboard": false
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/events",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 环境变量 事件 事件 类型 原因 发生时间 来源 消息",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
       }
     },
     {
       "label": "30883",
       "base": "http://192.168.2.131:30883",
       "resourceStatus": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
-        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
-        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
-        "ok": true,
-        "isDashboard": false
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
       },
       "revision": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/revision",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/revision",
         "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
-        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:20:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:20:23最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:23:42平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:23:52最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
         "ok": false,
-        "isDashboard": true
+        "isDashboard": true,
+        "notFound": false
       },
       "monitor": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
-        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
-        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/monitors",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/monitors",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 监控 最近 8 小时 未发现监控数据",
         "ok": true,
-        "isDashboard": false
+        "isDashboard": false,
+        "notFound": false
       },
       "env": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
-        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
-        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/env",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/env",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 容器：wms-scheduling-server REDIS_PASSWORD ****** DB_PASSWORD ****** RABBITMQ_PASSWOR",
         "ok": true,
-        "isDashboard": false
+        "isDashboard": false,
+        "notFound": false
       },
       "events": {
-        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
-        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
-        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/events",
+        "text": "部署 wms-scheduling-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-scheduling-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-10-27 17:22:00 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 事件 类型 原因 发生时间 来源 消息",
         "ok": true,
-        "isDashboard": false
+        "isDashboard": false,
+        "notFound": false
       }
     }
   ]
