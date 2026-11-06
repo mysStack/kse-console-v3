@@ -1,0 +1,81 @@
+{
+  "tool": "s2i-network-probe",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:20:20.802Z",
+  "sealed": {
+    "base": "http://192.168.2.131:30881",
+    "frameUrl": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字典 服务帐户 项目设置 基本信息 项目角色 项目成员 网关设置 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。 Not Found resource is not supported",
+    "hits": [
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace"
+      },
+      {
+        "status": 404,
+        "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10"
+      }
+    ],
+    "leakPhrase": true
+  },
+  "rebuild": {
+    "base": "http://192.168.2.131:30883",
+    "frameUrl": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字典 服务帐户 项目设置 基本信息 项目角色 项目成员 网关设置 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+    "hits": [
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+      },
+      {
+        "status": 404,
+        "url": "http://192.168.2.131:30883/kapis/monitoring.kubesphere.io/v1beta1/kubesphere?start=1793930416&end=1793942416&step=600s&times=20&metrics_filter=kubesphere_cluser_count%7Ckubesphere_workspace_count%7Ckubesphere_user_count%7Ckubesphere_app_template_count%24"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host"
+      },
+      {
+        "status": 404,
+        "url": "http://192.168.2.131:30883/kapis/monitoring.kubesphere.io/v1beta1/kubesphere?start=1793930416&end=1793942416&step=600s&times=20&metrics_filter=kubesphere_cluser_count%7Ckubesphere_workspace_count%7Ckubesphere_user_count%7Ckubesphere_app_template_count%24"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace"
+      },
+      {
+        "status": 200,
+        "url": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host"
+      },
+      {
+        "status": 404,
+        "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10"
+      }
+    ],
+    "leakPhrase": false
+  }
+}

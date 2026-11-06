@@ -322,3 +322,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - StorageClass YAML + 项目概览/告警 95cc975。`sc-yaml-alerts-overview-95cc975.json`
 - 项目概览/告警 + 企业空间概览/仓库/项目列表 95cc975（加长等待）。`overview-ws-repos-95cc975.json`
 - 日志接收器/灰度/镜像构建/告警策略 分类抽检 95cc975。`logging-gray-image-95cc975.json`
+- S2I 镜像构建器 rebuild API leak 探针。`s2i-network-probe-95cc975.json`
