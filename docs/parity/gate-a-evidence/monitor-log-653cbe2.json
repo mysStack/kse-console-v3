@@ -1,0 +1,123 @@
+{
+  "tool": "monitor-log",
+  "generatedAt": "2026-11-06T03:29:40.432Z",
+  "pass": true,
+  "compare": {
+    "monitor": {
+      "bothOk": false,
+      "bothDash": true,
+      "delta": false
+    },
+    "monitor2": {
+      "bothOk": false,
+      "bothDash": true,
+      "delta": false
+    },
+    "logging": {
+      "bothOk": false,
+      "bothDash": true,
+      "delta": false
+    },
+    "events": {
+      "bothOk": false,
+      "bothDash": true,
+      "delta": false
+    },
+    "customMon": {
+      "bothOk": true,
+      "bothDash": false,
+      "delta": false
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "monitor": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "monitor2": {
+        "path": "/clusters/host/monitor-cluster",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "logging": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/log-query",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "customMon": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "text": "自定义监控面板 自定义监控提供应用监控模板，您可以根据需求自定义监控面板。 未发现自定义监控面板 请创建一个自定义监控面板。 创建",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "monitor": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:28:33平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:28:39最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "monitor2": {
+        "path": "/clusters/host/monitor-cluster",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:28:33平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:28:54最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "logging": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/log-query",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:28:33平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:29:07最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:28:33平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:29:22最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "customMon": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "text": "自定义监控面板 自定义监控提供应用监控模板，您可以根据需求自定义监控面板。 创建 名称 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found resource is not supported",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    }
+  ],
+  "note": "delta=false means both sides behave the same (embed or both dashboard)"
+}
