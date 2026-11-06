@@ -22,6 +22,16 @@ describe('V4 Wujie composing aliases', () => {
     expect(detailSrc).toContain('`${PATH}/composing/:name`')
   })
 
+  it('renders the Wujie /composing page as the composed-app empty state', () => {
+    const page = fs.readFileSync(
+      path.join(__dirname, '../containers/Applications/CRDApps.jsx'),
+      'utf8'
+    )
+    expect(page).toContain('embedEmpty')
+    expect(page).toContain("t('COMPOSED_APP_PL')")
+    expect(page).toContain("!routePath.includes('/applications/')")
+  })
+
   it('registers composed-app detail tabs under both prefixes', () => {
     expect(tabSrc).toContain(
       '/:workspace/clusters/:cluster/projects/:namespace/applications/composing/:name'

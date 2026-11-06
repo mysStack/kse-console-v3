@@ -90,31 +90,40 @@ export default class AppBanner extends Component {
     })
   }
 
+  get governTip() {
+    return {
+      title: t('HOW_TO_USE_APP_GOVERN_Q'),
+      description: t('HOW_TO_USE_APP_GOVERN_A'),
+      operation: this.canDeployComposingApp ? (
+        <Button onClick={this.showDeploySampleApp}>
+          {t('DEPLOY_SAMPLE_APP')}
+        </Button>
+      ) : null,
+      closable: false,
+    }
+  }
+
   get tips() {
+    if (this.props.embedEmpty) {
+      return [this.governTip]
+    }
     return [
       {
         title: t('APP_TYPES_Q'),
         description: t('APP_TYPES_A'),
       },
-      {
-        title: t('HOW_TO_USE_APP_GOVERN_Q'),
-        description: t('HOW_TO_USE_APP_GOVERN_A'),
-        operation: this.canDeployComposingApp ? (
-          <Button onClick={this.showDeploySampleApp}>
-            {t('DEPLOY_SAMPLE_APP')}
-          </Button>
-        ) : null,
-        closable: false,
-      },
+      this.governTip,
     ]
   }
 
   render() {
+    const showTabs =
+      !this.props.embedEmpty && globals.app.hasKSModule('openpitrix')
     return (
       <Banner
         {...this.props}
         description={t('APPLICATIONS_DESC')}
-        tabs={!globals.app.hasKSModule('openpitrix') ? undefined : this.tabs}
+        tabs={showTabs ? this.tabs : undefined}
         tips={this.tips}
       />
     )

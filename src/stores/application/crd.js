@@ -24,6 +24,7 @@ import { TIME_MICROSECOND_MAP, MODULE_KIND_MAP } from 'utils/constants'
 import { transformTraces } from 'utils/tracing'
 
 import Base from 'stores/base'
+import { unsupportedListResult } from './unsupported'
 
 const healthProcess = health => {
   if (has(health, 'requests.errorRatio')) {
@@ -49,6 +50,24 @@ const healthProcess = health => {
 export default class ApplicationStore extends Base {
   constructor(module = 'applications') {
     super(module)
+  }
+
+  @action
+  fetchList(params = {}) {
+    return super.fetchList({
+      ...params,
+      reject: (first, second) => {
+        const empty = unsupportedListResult(first, second)
+        if (empty) {
+          return empty
+        }
+        const error = second && second.message ? second : first
+        if (window.onunhandledrejection) {
+          window.onunhandledrejection(error)
+        }
+        return Promise.reject(error)
+      },
+    })
   }
 
   @observable

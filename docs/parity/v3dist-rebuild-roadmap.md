@@ -40,7 +40,7 @@
 | 工作分支 | `feature/v3-parity`（自 `feature/v3-artifact-decouple`） |
 | 理想 | 血统 = 编出 4.1.5 密封 `v3dist` 的源树 |
 | 现实（2026-11-05） | 密封 commit **未知**；仓内 `origin/release-4.1.5`（`0be9122`）是 `8843ead` **祖先**，更空，不能当还原基线；见 `lineage-restore-verdict.md` |
-| 当前兜底 | `8843ead` + 工作区未提交契约修复（如 composing 别名）做**行为**逼近 |
+| 当前兜底 | `b96fdc2`（tag `v3dist-parity-20261106`）做**行为**逼近；密封 embed commit 仍未知 |
 | 范围 | 仍被 V4 嵌入的核心页；SpringCloud **功能**延后；probe 不恶化 |
 | 禁止 | 整包反编译当最终源；为文件数追平恢复全部 ACE mode |
 
@@ -114,17 +114,20 @@
 
 - [x] 阶段 0 对照口纠正（30881 干净 / 30883 实验）
 - [x] `8843ead` 可重建 + 多轮核心 embed A/B 取证（r1–r10）
-- [x] composing 宿主别名缺口定位与修复（未正式提交前以工作区/制品 note 为准）
+- [x] composing 宿主别名缺口定位与修复（已进入 `b96fdc2`）
 - [x] 30883 Node14 git 工作区
 - [x] Gate A：已启用扩展只读 A/B（r11 management/marketplace + 详情入口）
 - [x] 提效工具落地并跑通首轮基线（`docs/parity/tools`：ab-screenshot 7/7、asset-manifest-diff）
 - [x] 可维护旧源码已给定：`kse-console-v3` `feature/v3-parity`（不是另找一棵树）
 - [ ] 密封 `main.558f4520` 的 embed 构建 commit 仍未知；当前以这份源码做行为等价，不宣称字节级还原
 - [x] Gate A：性能对照（perf-ab 首轮）
-- [ ] Gate A：钉 tag/digest + 批准替换
+- [x] 本地 tag `v3dist-parity-20261106` → `b96fdc2`；30883 产物 `main.a0f7286afd2bc5b69a7c.js`，sha256 `73e98e386e599c39f7f4175eea780f5aca3750a7ae7cc3aefe7286a18511f7a2`（2026-11-05T17:18:04Z）。未 push，未批准进正式镜像
+- [ ] 批准用该 digest 替换正式镜像中的密封 v3dist
 - [ ] 阶段 3 在「可替换」成立后按模块推进（Workload 等历史证据不可直接继承为当前通过）
 
-**今日计划结论：** 工具基线通过且无截图失败项，无需本轮改码重建；Gate A 仍未关闭（缺性能专项与正式制品钉版）。
+**钉版记录（2026-11-06）：** 计划见本机 `pin_b96fdc2_artifact`。Node14 工作区按干净提交重编，只滚动 `ks-console-v3dist-parity`。部署后冒烟 deployments 像素差 0、composing 0.0149，阈值 0.02 内。30881 仍是密封 `main.558f4520…`。两侧宿主镜像并不相同：30883 为 `release-4.1.5-defer-actions-20261102-d475030`，30881 为 `release-4.1.5-merged-20261102-ad724a3`。
+
+**composing 空态（2026-11-06，工作区未提交）：** `/composing` 改为自制应用空卡片。applications 接口返回纯文本 `resource is not supported` 时不再弹出 Not Found，并显示「未发现自制应用 / 创建」。30883 当前 main `main.9a287bcc468b4db7c212.js`，sha256 `877da0659805a25389b14c246a0d2b3bc66b425c7f7c6d31a26615ff67722c9d`，`.v3dist-source.json` dirty=true，基线 commit 仍是 `b96fdc2`。复测 deployments 像素差 0，composing 0.0098。单测 7 通过。Gate A 仍未关闭，没有批准替换。
 
 ## 相关文档
 

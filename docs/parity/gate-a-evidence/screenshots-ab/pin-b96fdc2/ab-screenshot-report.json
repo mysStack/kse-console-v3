@@ -1,0 +1,34 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.02,
+  "pass": true,
+  "compare": [
+    {
+      "path": "/clusters/host/projects/dev-wms/deployments",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/30881__clusters_host_projects_dev-wms_deployments.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/30883__clusters_host_projects_dev-wms_deployments.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/diff__clusters_host_projects_dev-wms_deployments.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "mismatched": 19267,
+      "total": 1296000,
+      "ratio": 0.014866512345679012,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/30881__dev-workspace_clusters_host_projects_dev-wms_composing.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/30883__dev-workspace_clusters_host_projects_dev-wms_composing.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/diff__dev-workspace_clusters_host_projects_dev-wms_composing.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-05T17:19:36.356Z"
+}

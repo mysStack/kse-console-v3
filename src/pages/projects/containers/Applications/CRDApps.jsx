@@ -37,6 +37,13 @@ import Banner from './Banner'
 export default class CRDApps extends React.Component {
   type = 'composing'
 
+  get embedEmpty() {
+    const routePath = get(this.props, 'match.path', '')
+    return (
+      routePath.endsWith('/composing') && !routePath.includes('/applications/')
+    )
+  }
+
   get canCreate() {
     const { workspace, cluster, namespace: project } = this.props.match.params
     const canCreateDeployment = globals.app
@@ -127,6 +134,12 @@ export default class CRDApps extends React.Component {
           },
         ]
       : []
+    const { isLoading, keyword, pagination = {} } = tableProps
+    const forceEmpty =
+      this.embedEmpty &&
+      !isLoading &&
+      !keyword &&
+      Number(pagination.total) === 0
     return {
       tableActions: {
         ...tableProps.tableActions,
@@ -138,6 +151,7 @@ export default class CRDApps extends React.Component {
         desc: t('COMPOSED_APP_EMPTY_DESC'),
       },
       searchType: 'name',
+      ...(forceEmpty ? { showEmpty: true } : {}),
     }
   }
 
@@ -145,7 +159,15 @@ export default class CRDApps extends React.Component {
     const { bannerProps, tableProps, match } = this.props
     return (
       <ListPage {...this.props}>
-        <Banner {...bannerProps} match={match} type={this.type} />
+        <Banner
+          {...bannerProps}
+          match={match}
+          type={this.type}
+          embedEmpty={this.embedEmpty}
+          title={
+            this.embedEmpty ? t('COMPOSED_APP_PL') : bannerProps.title
+          }
+        />
         <Table
           {...tableProps}
           {...this.getTableProps()}

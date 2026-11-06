@@ -174,7 +174,7 @@ Evidence: `docs/parity/gate-a-evidence/round9-composing.md`. Jest 3 passed. 3088
 | Probe / v3 4xx | 1 / 0 | 1 / 0 |
 
 Evidence: `docs/parity/gate-a-evidence/round10-post-remount.md`.
-Still open: extension install/enable; composing 空态样式与 stock 不完全一致; 正式 tag/digest 未钉。
+Still open: extension install/enable。composing 空态已改成自制应用空卡片，源码还在工作区。正式镜像未批准替换。本地 tag 见文末 pin 记录。
 
 
 ## Snapshot round11 (2026-11-06)
@@ -187,10 +187,24 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - asset-manifest-diff sealed vs rebuild recorded (782 vs 250 files; expected chunk graph gap).
 - Evidence: `docs/parity/gate-a-evidence/tools-baseline.md`, `screenshots-ab/tooling/`, `asset-manifest-diff.json`.
 - Fix-loop: no fail paths → no rebuild today.
-- Still open for Gate A close-out: performance对照、钉 tag/digest、批准替换；composing 空态样式非阻塞。
+- Still open for Gate A close-out: 批准替换；composing 空态样式非阻塞。性能对照与本地 tag 已有记录。
 
 ## Snapshot perf-ab (2026-11-06)
 
 - pass=True
 - Evidence: `docs/parity/gate-a-evidence/perf-ab.md`, `screenshots-ab/perf/perf-ab-report.json`
 - Rule: wall Δ<=+3s or <=+50%; v3dist transfer not >2x baseline
+
+## Snapshot pin b96fdc2 (2026-11-06)
+
+| 项 | 值 |
+| --- | --- |
+| commit | `b96fdc29328e84f2aeefc5daa712e8832cbfafde` |
+| tag | `v3dist-parity-20261106`（仅本地） |
+| 30883 main | `main.a0f7286afd2bc5b69a7c.js` |
+| sha256 | `73e98e386e599c39f7f4175eea780f5aca3750a7ae7cc3aefe7286a18511f7a2` |
+| builtAt | `2026-11-05T17:18:04Z` |
+| 冒烟 | deployments ratio 0；composing ratio 0.0149；pass |
+| 30881 | 密封 `main.558f452048e49db23323.js` 仍 HTTP 200；重建 main 不在该端口 |
+
+证据：`docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/ab-screenshot-report.json`。未批准进正式镜像。

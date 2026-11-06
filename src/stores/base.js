@@ -117,6 +117,7 @@ export default class BaseStore {
     namespace,
     more,
     devops,
+    reject,
     ...params
   } = {}) {
     this.list.isLoading = true
@@ -134,7 +135,9 @@ export default class BaseStore {
 
     const result = await request.get(
       this.getResourceUrl({ cluster, workspace, namespace, devops }),
-      this.getFilterParams(params)
+      this.getFilterParams(params),
+      {},
+      reject
     )
     const data = (get(result, 'items') || []).map(item => ({
       cluster,
