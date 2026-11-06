@@ -235,3 +235,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Workloads2 open A/B (ingresses/volumes/sts/daemonsets): pass。`screenshots-ab/c0aa6a9-workloads2`
 - Jobs/CronJobs/CM/Secrets open A/B: pass。`screenshots-ab/c0aa6a9-jobs-cm`
 - NetworkPolicies/Alerts/AlertRules/SA open A/B: pass。`screenshots-ab/c0aa6a9-net-alert`
+- Gateways/GrayRelease/S2I/LogCollections open A/B: pass。`screenshots-ab/c0aa6a9-gateway-s2i`
