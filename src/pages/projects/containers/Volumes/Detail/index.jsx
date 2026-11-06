@@ -157,19 +157,24 @@ export default class VolumeDetail extends React.Component {
         this.trigger('volume.clone', {})
       },
     },
-    {
-      key: 'snapshot',
-      type: 'control',
-      text: t('CREATE_SNAPSHOT'),
-      icon: 'copy',
-      action: 'create',
-      disabled: this.disableSnapshot,
-      onClick: () => {
-        this.trigger('volume.create.snapshot', {
-          detail: this.store.detail,
-        })
-      },
-    },
+    // Match sealed 4.1.5: omit CREATE_SNAPSHOT when disallowed (sealed hid the
+    // item entirely instead of showing menu-item-disabled).
+    ...(!this.disableSnapshot
+      ? [
+          {
+            key: 'snapshot',
+            type: 'control',
+            text: t('CREATE_SNAPSHOT'),
+            icon: 'copy',
+            action: 'create',
+            onClick: () => {
+              this.trigger('volume.create.snapshot', {
+                detail: this.store.detail,
+              })
+            },
+          },
+        ]
+      : []),
     {
       key: 'expand',
       text: t('EXPAND'),

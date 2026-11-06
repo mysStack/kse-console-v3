@@ -1,0 +1,95 @@
+{
+  "a": {
+    "base": "http://192.168.2.131:30881",
+    "globals": {
+      "hasGlobals": true,
+      "ksVersion": null,
+      "clusterConfig": null,
+      "clusterKeys": [],
+      "hostKs": null
+    },
+    "menu": [
+      {
+        "text": "编辑 YAML",
+        "className": "menu-item",
+        "ariaDisabled": null,
+        "disabled": false,
+        "html": "<li class=\"menu-item\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-pen kubed-icon-light\"><use xlink:href=\"#icon-pen\"></use></svg></span> <span data-test=\"detail-editYaml\">编辑 YAML</spa"
+      },
+      {
+        "text": "克隆",
+        "className": "menu-item menu-item-disabled",
+        "ariaDisabled": null,
+        "disabled": true,
+        "html": "<li class=\"menu-item menu-item-disabled\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-copy kubed-icon-light\"><use xlink:href=\"#icon-copy\"></use></svg></span> <span data-test=\"detail-c"
+      },
+      {
+        "text": "扩展",
+        "className": "menu-item menu-item-disabled",
+        "ariaDisabled": null,
+        "disabled": true,
+        "html": "<li class=\"menu-item menu-item-disabled\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-scaling kubed-icon-light\"><use xlink:href=\"#icon-scaling\"></use></svg></span> <span data-test=\"de"
+      },
+      {
+        "text": "删除",
+        "className": "menu-item",
+        "ariaDisabled": null,
+        "disabled": false,
+        "html": "<li class=\"menu-item\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-trash kubed-icon-light\"><use xlink:href=\"#icon-trash\"></use></svg></span> <span data-test=\"detail-delete\">删除</span><"
+      }
+    ]
+  },
+  "b": {
+    "base": "http://192.168.2.131:30883",
+    "globals": {
+      "hasGlobals": true,
+      "ksVersion": null,
+      "clusterConfig": {
+        "host": {
+          "ksVersion": "v4.1.4-12+7bf4ea82300ec1"
+        }
+      },
+      "clusterKeys": [
+        "host"
+      ],
+      "hostKs": "v4.1.4-12+7bf4ea82300ec1"
+    },
+    "menu": [
+      {
+        "text": "编辑 YAML",
+        "className": "menu-item",
+        "ariaDisabled": null,
+        "disabled": false,
+        "html": "<li class=\"menu-item\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-pen kubed-icon-light\"><use xlink:href=\"#icon-pen\"></use></svg></span> <span data-test=\"detail-editYaml\">编辑 YAML</spa"
+      },
+      {
+        "text": "克隆",
+        "className": "menu-item menu-item-disabled",
+        "ariaDisabled": null,
+        "disabled": true,
+        "html": "<li class=\"menu-item menu-item-disabled\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-copy kubed-icon-light\"><use xlink:href=\"#icon-copy\"></use></svg></span> <span data-test=\"detail-c"
+      },
+      {
+        "text": "创建快照",
+        "className": "menu-item menu-item-disabled",
+        "ariaDisabled": null,
+        "disabled": true,
+        "html": "<li class=\"menu-item menu-item-disabled\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-copy kubed-icon-light\"><use xlink:href=\"#icon-copy\"></use></svg></span> <span data-test=\"detail-s"
+      },
+      {
+        "text": "扩展",
+        "className": "menu-item menu-item-disabled",
+        "ariaDisabled": null,
+        "disabled": true,
+        "html": "<li class=\"menu-item menu-item-disabled\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-scaling kubed-icon-light\"><use xlink:href=\"#icon-scaling\"></use></svg></span> <span data-test=\"de"
+      },
+      {
+        "text": "删除",
+        "className": "menu-item",
+        "ariaDisabled": null,
+        "disabled": false,
+        "html": "<li class=\"menu-item\"><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-trash kubed-icon-light\"><use xlink:href=\"#icon-trash\"></use></svg></span> <span data-test=\"detail-delete\">删除</span><"
+      }
+    ]
+  }
+}

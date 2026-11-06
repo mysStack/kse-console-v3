@@ -22,3 +22,9 @@ Rebuild exposes Volume Snapshot create action that sealed build does not. Treat 
 ## Next
 
 Locate enablement condition (`hasVolumeSnapshot` / globals / cluster config) and align with sealed hide rules if intentional.
+
+## Fix (source)
+
+- `Volumes/Detail/index.jsx`: when `disableSnapshot`，从 `getOperations` 省略「创建快照」（对齐密封包隐藏，而非 `menu-item-disabled`）。
+- 单测：`snapshotOperation.test.js`
+- 菜单 DOM 对照：`pvc-snapshot-menu-debug.json`
