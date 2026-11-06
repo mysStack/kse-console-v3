@@ -355,3 +355,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目角色/SA 列表与 YAML 抽检 7ca8432。`roles-sa-yaml-7ca8432.json`
 - StorageClass YAML 再试 7ca8432。`sc-yaml2-7ca8432.json`
 - Snapshot/PVC 空态与创建入口 7ca8432。`snap-pvc-create-7ca8432.json`
+- 告警规则组列表/创建入口 7ca8432。`alert-rules-ops-7ca8432.json`
