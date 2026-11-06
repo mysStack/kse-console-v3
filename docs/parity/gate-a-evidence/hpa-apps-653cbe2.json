@@ -1,0 +1,80 @@
+{
+  "tool": "hpa-apps-653cbe2",
+  "generatedAt": "2026-11-06T03:22:59.398Z",
+  "pass": false,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "hpa": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "hpaAlt": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/horizontalpodautoscalers",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true
+      },
+      "apps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "composing": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/composing",
+        "text": "自制应用 应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。 如何使用应用治理功能? 部署示例应用 未发现自制应用 请创建一个自制应用。 创建",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "hpa": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:22:01平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:22:08最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "hpaAlt": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/horizontalpodautoscalers",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:22:01平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:22:21最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true
+      },
+      "apps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:22:01平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:22:37最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "composing": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/composing",
+        "text": "自制应用 应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。 了解更多 如何使用应用治理功能? 部署示例应用 未发现自制应用 请创建一个自制应用。 创建",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    }
+  ],
+  "note": "HPA path may 404 historically; apps/composing/deploy yaml are core",
+  "passComposing": true,
+  "scopeNote": "apps/hpa dashboard on both 30881&30883; composing real v3 embed pass"
+}

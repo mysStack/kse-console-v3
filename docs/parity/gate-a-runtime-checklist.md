@@ -258,3 +258,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - API 抽检：workspaceroles/clusterroles 的 v1alpha2 404、v1beta1 200（RoleStore 已切 v1beta1）。
 - `653cbe2` 已挂 30883：UserStore/常量 IAM 切 v1beta1 + namespacemembers。`iam-v1beta1-alignment.md`
 - VolumeSnapshot（项目/集群）与 StorageClass 列表 v3 embed 两侧通过。`snapshots-storage-ffbdbae.json`
+- composing 自制应用列表 v3 embed 两侧通过；applications/hpa 路由两侧均落到 dashboard（非重建独有）。`hpa-apps-653cbe2.json`
