@@ -1,0 +1,15 @@
+{
+  "existing_locale_keys": 3818,
+  "missing_vs_sealed_en": 1810,
+  "core_written": 1463,
+  "defer_written": 345,
+  "core_zh_written": 1461,
+  "defer_zh_written": 345,
+  "index_wired": [],
+  "files": [
+    "locales/en/l10n-parity-gap-c-core.js",
+    "locales/zh/l10n-parity-gap-c-core.js",
+    "locales/en/l10n-parity-gap-c-defer.js",
+    "locales/zh/l10n-parity-gap-c-defer.js"
+  ]
+}

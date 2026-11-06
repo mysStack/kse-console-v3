@@ -1,0 +1,158 @@
+{
+  "tool": "recovery-core-ab",
+  "purpose": "post locale-recovery core A/B",
+  "gateAClosed": false,
+  "generatedAt": "2026-11-06T08:39:18.227Z",
+  "totals": {
+    "resources": 9,
+    "mismatch": 0,
+    "leaks": 0,
+    "symmetric": true
+  },
+  "results": {
+    "deployments": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-ser",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "pods": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduli",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-2989923",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilo",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jo",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "services": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-se",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "ingresses": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空间或项目中配置网关。 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "volumes": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "grayrelease": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同时保证业务连续性。 流量镜像 将业务流量的副本发送给新版本进",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 了解更多 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 了解更多 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同时保证业务连续性。 流量镜像 将业务流量",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "s2ibuilders": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 未发现镜像构建器 请创建一个镜像构建器。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}

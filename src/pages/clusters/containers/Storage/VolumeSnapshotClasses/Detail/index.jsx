@@ -109,7 +109,7 @@ export default class VolumeDetail extends React.Component {
         action: 'delete',
         onClick: () =>
           this.trigger('resource.delete', {
-            title: t('DETELE_VOLUME_SNAPSHOT_CLASS'),
+            title: t('DELETE_VOLUME_SNAPSHOT_CLASS'),
             type: this.name,
             detail,
             success: this.returnTolist,

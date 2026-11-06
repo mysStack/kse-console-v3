@@ -1,0 +1,153 @@
+{
+  "purpose": "REA-lite core gaps after locale recovery",
+  "not_claim": "not Gate A closed; source recovery in progress",
+  "sealed_en_keys": 5604,
+  "source_locale_keys_approx": 5548,
+  "core_t_key_refs": 1133,
+  "refs_missing_in_locales": 6,
+  "refs_missing_but_in_sealed": [],
+  "refs_missing_not_in_sealed": [
+    "CORE",
+    "CPU",
+    "DETELE_VOLUME_SNAPSHOT_CLASS",
+    "DNS",
+    "POD_CPU_REQUEST",
+    "POD_MEMORY_REQUEST"
+  ],
+  "route_presence": {
+    "deployments": {
+      "path_hits": [
+        "src/configs/steps/deployments.js"
+      ],
+      "found": true
+    },
+    "pods": {
+      "path_hits": [
+        "src/utils/podsStatus.test.js"
+      ],
+      "found": true
+    },
+    "configmaps": {
+      "path_hits": [
+        "src/configs/steps/configmaps.js"
+      ],
+      "found": true
+    },
+    "secrets": {
+      "path_hits": [
+        "src/configs/steps/secrets.js"
+      ],
+      "found": true
+    },
+    "services": {
+      "path_hits": [
+        "src/configs/steps/services.js"
+      ],
+      "found": true
+    },
+    "ingresses": {
+      "path_hits": [
+        "src/configs/steps/ingresses.js"
+      ],
+      "found": true
+    },
+    "statefulsets": {
+      "path_hits": [
+        "src/configs/steps/statefulsets.js"
+      ],
+      "found": true
+    },
+    "daemonsets": {
+      "path_hits": [
+        "src/configs/steps/daemonsets.js"
+      ],
+      "found": true
+    },
+    "jobs": {
+      "path_hits": [
+        "src/configs/steps/jobs.js",
+        "src/configs/steps/cronjobs.js"
+      ],
+      "found": true
+    },
+    "cronjobs": {
+      "path_hits": [
+        "src/configs/steps/cronjobs.js"
+      ],
+      "found": true
+    },
+    "volumes": {
+      "path_hits": [
+        "src/configs/steps/volumes.js"
+      ],
+      "found": true
+    },
+    "volume-snapshots": {
+      "path_hits": [],
+      "found": false
+    },
+    "roles": {
+      "path_hits": [],
+      "found": false
+    },
+    "serviceaccounts": {
+      "path_hits": [
+        "src/configs/steps/serviceaccounts.js"
+      ],
+      "found": true
+    },
+    "gateways": {
+      "path_hits": [
+        "src/actions/gateways.js"
+      ],
+      "found": true
+    },
+    "grayrelease": {
+      "path_hits": [
+        "src/stores/grayrelease.js",
+        "src/configs/steps/grayreleases.js",
+        "src/pages/projects/routes/grayrelease.js"
+      ],
+      "found": true
+    },
+    "s2ibuilders": {
+      "path_hits": [],
+      "found": false
+    },
+    "composing": {
+      "path_hits": [
+        "src/pages/projects/routes/composing.alias.test.js"
+      ],
+      "found": true
+    },
+    "alerts": {
+      "path_hits": [],
+      "found": false
+    },
+    "alert-rules": {
+      "path_hits": [],
+      "found": false
+    },
+    "network-policies": {
+      "path_hits": [],
+      "found": false
+    },
+    "log-collections": {
+      "path_hits": [],
+      "found": false
+    }
+  },
+  "existing_api_silence_patches": {
+    "src/stores/silenceUnsupported.js": true,
+    "src/stores/network/ippool.js": true,
+    "src/stores/grayrelease.js": true,
+    "src/stores/network/policy.js": true,
+    "src/stores/s2i/listReject.js": true,
+    "src/stores/storageClass.js": true
+  },
+  "followups": [
+    "If refs_missing_but_in_sealed non-empty, append to parity gap locale files",
+    "If route_presence.found false for a checklist resource, locate host alias / missing container",
+    "API/unsupported gaps already patched remain valid engineering on this tree; still not sealed lineage commit"
+  ]
+}

@@ -1,0 +1,24 @@
+/*
+ * Parity gap C-remainder: sealed non-identifier keys
+ * Values recovered from release-4.1.5 sealed v3dist locale pack.
+ * Not a claim that embed build commit is known.
+ */
+
+module.exports = {
+  "PODS.PHASE": '状态',
+  "PODS.CURRENT_PHASE": '当前状态',
+  "WHIZARD_MONITORING.BUILT_IN_ALERTING_PL": '内置告警',
+  "WHIZARD_MONITORING.CUSTOM_ALERTING_PL": '自定义告警',
+  "WHIZARD_MONITORING.RESOURCE_RANKING_PL": '资源统计排行',
+  "WHIZARD_MONITORING.RESOURCE_RANKING_DESC": '资源统计排行提供集群资源用量排行情况。',
+  "WHIZARD_MONITORING.RESOURCE_MONITORING": '资源监控',
+  "WHIZARD_MONITORING.MULTI_CLUSTER_MONITOR": '多集群监控',
+  "WHIZARD_MONITORING.PACK_UP": '收起',
+  "WHIZARD_MONITORING.UNFOLD": '展开',
+  "WHIZARD_MONITORING.COLLAPSE_CLUSTER_LIST": '收起集群列表',
+  "WHIZARD_MONITORING.UNFOLD_CLUSTER_LIST": '展开集群列表',
+  "WHIZARD_MONITORING.RESOURCE_FILTER": '资源查询',
+  "WHIZARD_MONITORING.OBSERVABILITY_ALL_CLUSTERS": '全部集群',
+  "WHIZARD_MONITORING.SUCCEEDED": '成功完成',
+  "WHIZARD_NOTIFICATION.PHONE_NUMBER": '手机号',
+}

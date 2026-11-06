@@ -378,3 +378,8 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 重建前更多列表对称抽检。`more-lists-pre-6f11da0.json`
 - 6f11da0 挂载后 IPPool/灰度/S2I/NP 无 toast 泄漏验收。`verify-6f11da0.json`
 - PVC/ConfigMap/HPA/Ingress/成员/基本信息对称抽检。`pvc-cm-hpa-wave.json`
+- 密封 oracle locale 回收（gap-c core/defer/remainder）与安全 regener。`locale-recover-c-safe.json`
+- 回收后 dirty 重建 locale 覆盖。`locale-coverage-rebuild.json`
+- 回收后核心 A/B（不宣称关闭）。`recovery-core-ab.json`
+- Gate A 回收后状态声明（未关闭）。`gate-a-after-recovery.md`
+- REA 核心缺口与 VolumeSnapshotClass 文案补丁。`rea-core-gaps.md`

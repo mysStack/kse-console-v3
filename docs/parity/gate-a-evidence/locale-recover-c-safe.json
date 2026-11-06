@@ -1,0 +1,19 @@
+{
+  "baseline_keys": 4035,
+  "missing_before_regen": 1596,
+  "core_ident": 1247,
+  "defer_ident": 331,
+  "remainder": 16,
+  "after_keys": 5629,
+  "still_missing_nonempty": [],
+  "coverage_nonempty": 1.0,
+  "files": [
+    "locales/en/l10n-parity-gap-c-core.js",
+    "locales/en/l10n-parity-gap-c-defer.js",
+    "locales/en/l10n-parity-gap-c-remainder.js",
+    "locales/zh/l10n-parity-gap-c-core.js",
+    "locales/zh/l10n-parity-gap-c-defer.js",
+    "locales/zh/l10n-parity-gap-c-remainder.js"
+  ],
+  "syntax_ok": true
+}

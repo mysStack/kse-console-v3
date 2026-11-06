@@ -1,0 +1,27 @@
+{
+  "purpose": "post-rebuild locale coverage vs sealed oracle",
+  "not_claim": "not Gate A closed; not sealed embed commit found",
+  "sealed_en_file": "locale-en.60d9ddf6aff8fa136646.json",
+  "sealed_en_keys": 5604,
+  "rebuilt_en_keys": 5626,
+  "intersection": 5602,
+  "missing_in_rebuild": 2,
+  "extra_in_rebuild": 24,
+  "coverage_ratio": 0.9996,
+  "missing_sample": [
+    "EDGE_CLUSTER_DESC",
+    "HOSTED_IN_EMPTY"
+  ],
+  "source_meta": {
+    "schemaVersion": 1,
+    "repository": "mysStack/kse-console-v3",
+    "ref": "feature/v3-parity",
+    "commit": "1bef3d47b212f3350e2d2860244a273838fa04c3",
+    "tag": "",
+    "builtAt": "2026-11-06T08:33:52Z",
+    "builder": "k8s:node:14-bullseye@ks-console-v3-node-workspace",
+    "publicPath": "/dist/v3dist/",
+    "dirty": true,
+    "note": "working tree differs from commit; hostPath experiment only"
+  }
+}
