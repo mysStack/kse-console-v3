@@ -249,3 +249,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - `6948b34` 已挂 30883；PVC 创建快照菜单差异已对齐密封包（两侧均无该入口）。
 - `fd49fe6` 已挂 30883；CronJob 状态不再露 `Running`，列表为运行中。`sts-cron-fd49fe6.json`
 - StatefulSet `dev-db/postgresql-dev` 与 CronJob `dev-wms/wms-scheduling` YAML 只读打开两侧通过。
+- DaemonSet `kubesphere-monitoring-system/node-exporter` YAML 只读两侧通过；HPA 本波仅 deployments 列表 smoke。`daemonset-hpa-fd49fe6.json`

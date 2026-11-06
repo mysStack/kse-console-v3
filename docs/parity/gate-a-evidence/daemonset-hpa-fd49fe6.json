@@ -1,0 +1,65 @@
+{
+  "tool": "daemonset-hpa-workspace",
+  "generatedAt": "2026-11-06T02:57:01.723Z",
+  "workspace": "system-workspace",
+  "project": "kubesphere-monitoring-system",
+  "daemonSet": "node-exporter",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "list": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets",
+        "listOk": true,
+        "name": "node-exporter",
+        "snip": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 创建时间 排序 升序"
+      },
+      "ds": {
+        "name": "node-exporter",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 "
+      },
+      "hpaProbe": {
+        "path": "/system-workspace/clusters/host/projects/dev-wms/deployments",
+        "listOk": true,
+        "snip": " Not Found🙇 对不起未发现相关资源，系统将在 8s 后返回 工作台 "
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "list": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets",
+        "listOk": true,
+        "name": "node-exporter",
+        "snip": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 创建时间 "
+      },
+      "ds": {
+        "name": "node-exporter",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 更新时间: 2026-10-0"
+      },
+      "hpaProbe": {
+        "path": "/system-workspace/clusters/host/projects/dev-wms/deployments",
+        "listOk": true,
+        "snip": " Not Found🙇 对不起未发现相关资源，系统将在 8s 后返回 工作台 "
+      }
+    }
+  ],
+  "note": "read-only; HPA only list smoke this wave"
+}
