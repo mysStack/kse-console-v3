@@ -309,3 +309,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - **重建独有（已修）**：VolumeSnapshot 列表改 snapshot.storage.k8s.io/v1；`4aa18ae` 挂载后无 resource is not supported。`snap-verify-4aa18ae.json` / `volume-snapshot-api-gap.md`
 - CRD 集群/项目路径对称抽检（4aa18ae）。`crd-wave-4aa18ae.json`
 - Pods 列表中文状态 4aa18ae 复扫。`pods-list-4aa18ae.json`
+- StatefulSet 列表 4aa18ae 抽检。`sts-list-4aa18ae.json`
