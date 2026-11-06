@@ -1,0 +1,64 @@
+{
+  "tool": "storage-hb",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:43:56.816Z",
+  "pass": true,
+  "results": {
+    "storageclasses": {
+      "sealed": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 1 - 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 48 是 否 否 否 openebs.io/local 编辑信息 删除 每页显示：",
+        "pass": true
+      }
+    },
+    "snapshots": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "pass": true
+      }
+    },
+    "volumes": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "pass": true
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认 1 20",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认",
+        "pass": true
+      }
+    }
+  }
+}

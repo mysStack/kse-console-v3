@@ -361,3 +361,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 稳定列表心跳 Deploy/Service/Pod/CM 7ca8432。`heartbeat-7ca8432.json`
 - S2I/SA 心跳 7ca8432。`s2i-sa-hb-7ca8432.json`
 - Ingress/网关/网络隔离心跳 7ca8432。`net-hb-7ca8432.json`
+- SC/Snapshot/PVC/Secret 心跳 7ca8432。`storage-hb-7ca8432.json`
