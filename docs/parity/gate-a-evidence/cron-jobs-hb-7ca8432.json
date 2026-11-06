@@ -1,0 +1,37 @@
+{
+  "tool": "cron-jobs-hb",
+  "liveCommit": "7ca8432",
+  "note": "pre-ff6f6fb rebuild still live",
+  "generatedAt": "2026-11-06T06:46:30.811Z",
+  "pass": true,
+  "results": {
+    "cronjobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50 100 ",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50",
+        "pass": true
+      }
+    },
+    "jobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899124 - 已完成 2026-11-06 14:45:14 编辑信息 重新运行 删除 wms-scheduling-29899124 - 已完成 2026-11-06 14:44:30 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899126 - 已完成 2026-11-06 14:46:30 编辑信息 重新运行 删除 wms-admin-29899126 - 运行中 2026-11-06 14:46:00 编辑信息 重新运行 删除 wms-admin-29899124 - 已完成 2026-11-06 14:45:14 编辑信息 重新运行 删除 wms-scheduling-29899124 - 已完成 2026-11-06 14:44:30",
+        "pass": true
+      }
+    }
+  }
+}
