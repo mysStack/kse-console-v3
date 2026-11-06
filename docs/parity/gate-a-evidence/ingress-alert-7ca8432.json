@@ -1,0 +1,80 @@
+{
+  "tool": "ingress-alert",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:13:48.788Z",
+  "pass": true,
+  "results": {
+    "ingresses": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空间或项目中配置网关。 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "gateways": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 启用网关",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 请启用项目网关。 启用网关",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "alert-rules": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 已禁用 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "alerts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 关键词 状态 告警级别 规则名称 定制内容 状态 告警级别 规则名称 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 紧急 重要 警告 提醒 规则名称 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 状态 告警级别 定制内容 状态 告警级别 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 危险告警 重要告警 一般告警 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}
