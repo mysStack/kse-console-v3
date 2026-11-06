@@ -1,0 +1,36 @@
+{
+  "tool": "composing-create-open",
+  "generatedAt": "2026-11-06T01:46:06.259Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "createVisible": true,
+      "dialogOpened": true,
+      "dialogClosed": true,
+      "buttons": [
+        "部署示例应用",
+        "创建"
+      ],
+      "bodySample": "自制应用\n\n应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。\n\n如何使用应用治理功能?\n部署示例应用\n未发现自制应用\n\n请创建一个自制应用。\n\n创建",
+      "afterOpenSample": "自制应用\n\n应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。\n\n如何使用应用治理功能?\n部署示例应用\n未发现自制应用\n\n请创建一个自制应用。\n\n创建\n创建自制应用\n基本信息\n服务设置\n路由设置\n编辑 YAML\n基本信息\n\n设置应用的基本信息。\n\n名称*\n名称只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 63 个字符。\n版本\n版本只能包含小写字母和数字，最长 16 个字符。\n应用治理\n禁用\n\t\n启用应用治理后可以对应用使用流量监控、灰度发布和链路追踪功能。\n描述\n描述可包含任意字符，最长 256 个字符。\n取消\n"
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "createVisible": true,
+      "dialogOpened": true,
+      "dialogClosed": true,
+      "buttons": [
+        "部署示例应用",
+        "创建"
+      ],
+      "bodySample": "自制应用\n\n应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。\n了解更多\n\n如何使用应用治理功能?\n部署示例应用\n未发现自制应用\n\n请创建一个自制应用。\n\n创建",
+      "afterOpenSample": "自制应用\n\n应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。\n了解更多\n\n如何使用应用治理功能?\n部署示例应用\n未发现自制应用\n\n请创建一个自制应用。\n\n创建\n创建自制应用\n基本信息\n服务设置\n路由设置\n编辑 YAML\n基本信息\n\n设置应用的基本信息。\n\n名称*\n名称只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 63 个字符。\n版本\n版本只能包含小写字母和数字，最长 16 个字符。\n应用治理\n禁用\n\t\n启用应用治理后可以对应用使用流量监控、灰度发布和链路追踪功能。\n描述\n描述可包含任意字符，最长 256 个字符"
+    }
+  ],
+  "note": "read-only open/close; no submit"
+}

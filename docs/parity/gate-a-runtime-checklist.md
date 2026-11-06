@@ -224,3 +224,9 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 | 宿主 | 30881 `…merged…ad724a3`；30883 `…defer-actions…d475030`（有意未对齐） |
 
 证据：`screenshots-ab/c0aa6a9-smoke/`、`screenshots-ab/c0aa6a9-ab7/ab-screenshot-report.json`。未批准进正式镜像。
+
+## Snapshot continuous wave5 (2026-11-06)
+
+- Locale blank probe: no real missing keys (`NVIDIA` false positive). `locale-blank-c0aa6a9.md`
+- Roles / SA open A/B: `screenshots-ab/c0aa6a9-rbac-open` pass
+- Composing create dialog open→cancel on 30881+30883: pass（只读，不提交）。`composing-create-open-c0aa6a9.json`

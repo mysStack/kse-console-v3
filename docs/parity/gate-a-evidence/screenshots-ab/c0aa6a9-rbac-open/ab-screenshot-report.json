@@ -1,0 +1,46 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.02,
+  "pass": true,
+  "compare": [
+    {
+      "path": "/clusters/host/projects/dev-wms/roles",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30881__clusters_host_projects_dev-wms_roles.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30883__clusters_host_projects_dev-wms_roles.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/diff__clusters_host_projects_dev-wms_roles.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/serviceaccounts",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30881__clusters_host_projects_dev-wms_serviceaccounts.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30883__clusters_host_projects_dev-wms_serviceaccounts.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/diff__clusters_host_projects_dev-wms_serviceaccounts.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/deployments",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30881__clusters_host_projects_dev-wms_deployments.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/30883__clusters_host_projects_dev-wms_deployments.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-rbac-open/diff__clusters_host_projects_dev-wms_deployments.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-06T01:43:17.130Z"
+}
