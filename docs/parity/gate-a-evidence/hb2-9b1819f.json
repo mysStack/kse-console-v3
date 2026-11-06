@@ -1,0 +1,120 @@
+{
+  "tool": "hb2-9b1819f",
+  "liveCommit": "9b1819f",
+  "generatedAt": "2026-11-06T07:23:25.686Z",
+  "pass": true,
+  "results": {
+    "pods": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899158-8drvh 已完成 成功完成 dev01（192.168.2.131） 10.42.0.246 2026-11-06 15:18:00 查看 YAML 删除 wms-admin-29899158-q5bjx 已完成 成功完成 dev01（192.168.2.131） 10.42.0.244 20",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899158-8drvh 已完成 成功完成 dev01（192.168.2.131） 10.42.0.246 2026-11-06 15:18:00 查看 YAML 删除 wms-admin-29899158-q5bjx 已完成 成功完成 dev01（192.168.2.131） 10.42.0.244 2026-11-06 1",
+        "pass": true
+      }
+    },
+    "statefulsets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "pass": true
+      }
+    },
+    "daemonsets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "pass": true
+      }
+    },
+    "volume-snapshots": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "pass": true
+      }
+    },
+    "serviceaccounts": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "pass": true
+      }
+    },
+    "roles": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "pass": true
+      }
+    },
+    "ingresses": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空间或项目中配置网关。 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "pass": true
+      }
+    },
+    "gateways": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 启用网关",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 请启用项目网关。 启用网关",
+        "pass": true
+      }
+    }
+  }
+}
