@@ -1,0 +1,95 @@
+{
+  "tool": "sts-tabs",
+  "commit": "08ad382",
+  "sts": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev",
+  "generatedAt": "2026-11-06T04:25:09.892Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "resourceStatus": "embed",
+      "revision": "dashboard",
+      "env": "embed",
+      "events": "embed"
+    },
+    "30883": {
+      "resourceStatus": "embed",
+      "revision": "dashboard",
+      "env": "embed",
+      "events": "embed"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑自动扩缩 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 未发现资源 总数：0 1 / 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "revision": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/revision",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/env",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑自动扩缩 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 未发现资源 总数：0 1 / 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑自动扩缩 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 未发现资源 总数：0 1 / 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 更新时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 postgresql-dev",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "revision": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/revision",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:24:49平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:25:00最后更新时间0企业空间0用户最近访问dev-dbhost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/env",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 更新时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 未发现资源 总数：0 1 /",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+        "text": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 更新时间: 2026-04-14 22:57:16 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 0/0 副本 期望副本数: 0 当前副本数: 0 端口 名称 协议 端口 tcp-postgresql TCP 5432 容器组 未发现资源 总数：0 1 /",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}
