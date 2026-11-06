@@ -1,0 +1,309 @@
+{
+  "tool": "quota-limit",
+  "generatedAt": "2026-11-06T03:31:38.351Z",
+  "pass": true,
+  "compare": {
+    "baseInfo": {
+      "bothOk": true,
+      "delta": false
+    },
+    "quota": {
+      "bothOk": false,
+      "delta": false
+    },
+    "limit": {
+      "bothOk": false,
+      "delta": false
+    },
+    "overview": {
+      "bothOk": true,
+      "delta": false
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "baseInfo": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑注解 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留",
+        "notFound": false,
+        "isDashboard": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha2/namespaces/dev-wms/quotas",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/storage.k8s.io/v1/storageclasses?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?sortBy=createTime&limit=10&annotation=kubesphere.io%2Fcreator",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          }
+        ],
+        "ok": true
+      },
+      "quota": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "ok": false
+      },
+      "limit": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/limitranges",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "ok": false
+      },
+      "overview": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 10 容器组 6 部署 0 有状态副本集 0 守护进程集 4 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 无上限 内存上限 资源类型 0 已使用 无上限 配额 无上限 查看更多 dev-wms wms服务 基本信息 host 集群 dev-workspace 企业空间 admin 创建者 2026-03-30 00:",
+        "notFound": false,
+        "isDashboard": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha2/namespaces/dev-wms/quotas",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?limit=-1&sortBy=createTime&page=1&annotation=kubesphere.io%2Fcreator",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/metrics",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?limit=-1&sortBy=createTime&page=1",
+            "status": 200
+          }
+        ],
+        "ok": true
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "baseInfo": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 了解更多 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留",
+        "notFound": false,
+        "isDashboard": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha2/namespaces/dev-wms/quotas",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?sortBy=createTime&limit=10&annotation=kubesphere.io%2Fcreator",
+            "status": 200
+          }
+        ],
+        "ok": true
+      },
+      "quota": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:30:52平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:31:04最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "ok": false
+      },
+      "limit": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/limitranges",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:30:52平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:31:20最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "ok": false
+      },
+      "overview": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 dev-wms wms服务 host 集群 dev-workspace 企业空间 admin 创建者 默认容器配额未设置 默认容器配额用于指定项目中创建的容器的默认 CPU 预留、CPU 上限、内存预留和内存上限。 编辑配额 资源状态 应用资源 物理资源 最近 12 小时 8 容器组 6 部署 0 有状态副本集 0 守护进程集 2 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 ",
+        "notFound": false,
+        "isDashboard": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/workspaces/dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha2/namespaces/dev-wms/abnormalworkloads",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha2/namespaces/dev-wms/quotas",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/openpitrix.io/v1/workspaces/dev-workspace/clusters/host/namespaces/dev-wms/applications?conditions=status%3Dcreating%7Cactive%7Cfailed%7Cdeleting%7Cupgrading%7Ccreated%7Cupgraded&paging=limit%3D3%2Cpage%3D1&orderBy=status_time",
+            "status": 404
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/resources.kubesphere.io/v1alpha3/clusters/host",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/monitoring.kubesphere.io/v1beta1/workload_metrics?type=rank&metrics_filter=workload_cpu_usage%7Cworkload_memory_usage_wo_cache%7Cworkload_net_bytes_transmitted%7Cworkload_net_bytes_received%7Creplica&page=1&limit=10&sort_type=desc&sort_metric=workload_cpu_usage",
+            "status": 200
+          }
+        ],
+        "ok": true
+      }
+    }
+  ]
+}
