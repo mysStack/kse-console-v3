@@ -307,3 +307,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 灰度发布路径 08ad382 复扫（多为 dashboard 对称）。`gray-recheck-08ad382.json`
 - 卷快照 + SC 列表 08ad382 复扫（含 SC 修复后数据）。`snap-recheck-08ad382.json`
 - **重建独有（已修）**：VolumeSnapshot 列表改 snapshot.storage.k8s.io/v1；`4aa18ae` 挂载后无 resource is not supported。`snap-verify-4aa18ae.json` / `volume-snapshot-api-gap.md`
+- CRD 集群/项目路径对称抽检（4aa18ae）。`crd-wave-4aa18ae.json`
