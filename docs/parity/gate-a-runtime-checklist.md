@@ -286,3 +286,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - CronJob 列表 API 两侧均 200；30883 默认可能停在「任务」子 tab 致空表，点「定时任务」后应有数据（见 `cron-list-net-08ad382.json` / `cron-tab-click-08ad382.json`）。
 - Ingress（dev-web）列表/YAML 与 IngressClass 路径对称抽检。`ingress-wave-08ad382.json`
 - Jobs 列表（任务子 tab）对称抽检。`jobs-wave-08ad382.json`
+- 企业空间 overview/projects/members/roles/repos 对称归类。`workspace-wave-08ad382.json`

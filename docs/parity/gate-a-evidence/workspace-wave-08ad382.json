@@ -1,0 +1,113 @@
+{
+  "tool": "workspace-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:31:46.588Z",
+  "pass": true,
+  "note": "Symmetric dashboard = host/workspace V4-native, not rebuild-only",
+  "classify": {
+    "30881": {
+      "overview": "dashboard",
+      "projects": "dashboard",
+      "members": "dashboard",
+      "roles": "dashboard",
+      "repos": "dashboard"
+    },
+    "30883": {
+      "overview": "dashboard",
+      "projects": "dashboard",
+      "members": "dashboard",
+      "roles": "dashboard",
+      "repos": "dashboard"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "overview": {
+        "path": "/dev-workspace/overview",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "projects": {
+        "path": "/dev-workspace/projects",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "members": {
+        "path": "/dev-workspace/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "roles": {
+        "path": "/dev-workspace/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "repos": {
+        "path": "/dev-workspace/repos",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "overview": {
+        "path": "/dev-workspace/overview",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:31:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:31:19最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "projects": {
+        "path": "/dev-workspace/projects",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:31:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:31:23最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "members": {
+        "path": "/dev-workspace/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:31:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:31:29最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "roles": {
+        "path": "/dev-workspace/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:31:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:31:35最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "repos": {
+        "path": "/dev-workspace/repos",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:31:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:31:42最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}
