@@ -266,3 +266,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目 base-info/overview 两侧 embed 通过；quota/limitranges 两侧同为非 embed 或空（无独有缺口）。`quota-limit-653cbe2.json`
 - `653cbe2` 回归：项目角色列表仍含 viewer/operator。`sa-role-653cbe2.json`
 - 服务网格/Spring 相关路径两侧对称（多为非 embed）。`mesh-spring-653cbe2.json`
+- `1d2f57c` 已挂 30883；Pod 详情/列表状态中文对齐（无 raw Completed）。`pod-status-locale-verify.json`

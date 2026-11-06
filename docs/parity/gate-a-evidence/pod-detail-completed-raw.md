@@ -8,3 +8,4 @@
 
 - `utils/podStatusLocale.js` maps Completed/completed → `PODS.PHASES.SUCCEEDED`
 - Pods list column + Detail attrs use the helper
+- 验收：两侧详情均为「状态: 运行中」。`pod-status-locale-verify.json`

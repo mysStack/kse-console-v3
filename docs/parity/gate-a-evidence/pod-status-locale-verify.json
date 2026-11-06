@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "a": {
+    "base": "http://192.168.2.131:30881",
+    "name": "wms-admin-29898944-fqtj4",
+    "listHasCompletedRaw": false,
+    "detailHasCompletedRaw": false,
+    "listHasSucceededZh": true,
+    "detailStatusZh": true,
+    "listSnip": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-admin-29",
+    "detailSnip": "容器组 wms-admin-29898944-fqtj4 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.242 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: Burstable 创建时间: 2026-11-06 11:44:19 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 j"
+  },
+  "b": {
+    "base": "http://192.168.2.131:30883",
+    "name": "wms-admin-29898944-fqtj4",
+    "listHasCompletedRaw": false,
+    "detailHasCompletedRaw": false,
+    "listHasSucceededZh": true,
+    "detailStatusZh": true,
+    "listSnip": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-admin-29898944-fqt",
+    "detailSnip": "容器组 wms-admin-29898944-fqtj4 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.242 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: Burstable 创建时间: 2026-11-06 11:44:19 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容"
+  }
+}
