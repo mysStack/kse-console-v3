@@ -1,0 +1,60 @@
+{
+  "tool": "sc-yaml-alerts-overview",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:15:19.763Z",
+  "scYaml": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/clusters/host/storageclasses",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "扩展市场 应用商店 工作台 admin platform-admin host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务帐户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 网关设置 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。了解更多 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+      "pass": false
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/clusters/host/storageclasses",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "扩展市场 应用商店 工作台 admin platform-admin host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务帐户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 网关设置 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。了解更多 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+      "pass": false
+    }
+  },
+  "overview": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/overview",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+      "text": "概览 10 容器组 6 部署 0 有状态副本集 0 守护进程集 4 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 无上限 内存上限 资源类型 0 已使用 无上限 配额 无上限 查看更多 dev-wms wms服务 基本信息 host 集群 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 项目成员和角色 1 项目成员 3 项目角色 最近登录用户 查看更多",
+      "leak": false,
+      "pass": true
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/overview",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+      "text": " ",
+      "leak": false,
+      "pass": false
+    }
+  },
+  "alerts": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+      "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 关键词 状态 告警级别 规则名称 定制内容 状态 告警级别 规则名称 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 紧急 重要 警告 提醒 规则名称 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+      "leak": false,
+      "pass": true
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+      "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 状态 告警级别 定制内容 状态 告警级别 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 危险告警 重要告警 一般告警 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found 404: Page Not Found",
+      "leak": true,
+      "pass": false
+    }
+  },
+  "pass": false
+}

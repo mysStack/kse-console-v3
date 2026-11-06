@@ -319,3 +319,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - ConfigMap/Secret 行内编辑 YAML + 项目配额 95cc975。`yaml-quota-95cc975.json`
 - Soft：宿主 PV / VolumeSnapshotClass 深链易落 dashboard。`host-pv-snapshotclass-soft.md`
 - ConfigMap/Secret data-test YAML + HPA/成员 95cc975。`yaml-dt-hpa-members-95cc975.json`
+- StorageClass YAML + 项目概览/告警 95cc975。`sc-yaml-alerts-overview-95cc975.json`
