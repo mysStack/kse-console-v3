@@ -28,3 +28,4 @@ Locate enablement condition (`hasVolumeSnapshot` / globals / cluster config) and
 - `Volumes/Detail/index.jsx`: when `disableSnapshot`，从 `getOperations` 省略「创建快照」（对齐密封包隐藏，而非 `menu-item-disabled`）。
 - 单测：`snapshotOperation.test.js`
 - 菜单 DOM 对照：`pvc-snapshot-menu-debug.json`
+- 验收 `6948b34` 挂载后两侧更多操作均为：编辑 YAML / 克隆(disabled) / 扩展(disabled) / 删除。`pvc-snapshot-menu-debug.json`
