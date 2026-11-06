@@ -1,0 +1,106 @@
+{
+  "tool": "host-soft-9b1819f",
+  "liveCommit": "9b1819f",
+  "generatedAt": "2026-11-06T07:37:35.509Z",
+  "rebuildOnlyLeaks": [],
+  "classMismatch": [],
+  "pass": true,
+  "results": {
+    "nodes": {
+      "sealed": {
+        "path": "/clusters/host/nodes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/clusters/host/nodes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:34:37平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:34:44最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "members": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:35:09平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:35:16最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "quota": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:35:42平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:35:49最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "crds": {
+      "sealed": {
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:36:14平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:36:22最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "monitoring": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/monitoring",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:36:46平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:36:54最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "applications": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:37:19平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:37:26最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    }
+  }
+}
