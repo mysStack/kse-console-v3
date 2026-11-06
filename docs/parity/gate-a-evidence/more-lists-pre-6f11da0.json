@@ -1,0 +1,105 @@
+{
+  "tool": "more-lists-pre-rebuild",
+  "liveCommit": "9b1819f",
+  "note": "6f11da0 rebuild in flight",
+  "generatedAt": "2026-11-06T07:48:12.049Z",
+  "pass": true,
+  "results": {
+    "jobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899184 - 已完成 2026-11-06 15:45:17 编辑信息 重新运行 删除 wms-scheduling-29899184 - 已完成 2026-11-06 15:44:31 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899184 - 已完成 2026-11-06 15:45:17 编辑信息 重新运行 删除 wms-scheduling-29899184 - 已完成 2026-11-06 15:44:31 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "cronjobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50 100 ",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "pods": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899186-f5pk6 运行中 运行中 dev01（192.168.2.131） 10.42.0.163 2026-11-06 15:46:00 查看 YAML 删除 wms-admin-29899186-ftcp4 运行中 运行中 dev01（192.168.2.131） 10.42.0.170 2026",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899186-f5pk6 已完成 成功完成 dev01（192.168.2.131） 10.42.0.163 2026-11-06 15:46:00 查看 YAML 删除 wms-admin-29899186-ftcp4 运行中 运行中 dev01（192.168.2.131） 10.42.0.170 2026-11-06 15",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认 1 20",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "roles": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "gateways": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 启用网关",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 请启用项目网关。 启用网关",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}

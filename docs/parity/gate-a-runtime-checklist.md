@@ -375,3 +375,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 企业空间/应用/S2I/网络隔离分类 9b1819f。`ws-apps-9b1819f.json`
 - IPPool unsupported 静默。`ippool-unsupported-gap.md`
 - unsupported API 第三轮扫描纪要。`unsupported-api-scan3.md`
+- 重建前更多列表对称抽检。`more-lists-pre-6f11da0.json`
