@@ -1,0 +1,80 @@
+{
+  "tool": "np-sa-role",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:20:02.130Z",
+  "pass": true,
+  "results": {
+    "networkpolicies": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "serviceaccounts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "roles": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "base-info": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑注解 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 9 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用 无上限 配额 用量 无上限 任务 资源类型 3 已使用 无上限 配额 用量 无上限 定时任务 资源类型 3 已使用 无上",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 了解更多 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 9 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用 无上限 配额 用量 无上限 任务 资源类型 3 已使用 无上限 配额 用量 无上限 定时任务 资源类型 3 已使用 无上",
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}
