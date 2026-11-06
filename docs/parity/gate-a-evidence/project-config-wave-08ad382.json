@@ -1,0 +1,99 @@
+{
+  "tool": "project-config-wave",
+  "generatedAt": "2026-11-06T04:07:48.134Z",
+  "pass": false,
+  "summary": {
+    "30881_ok": 2,
+    "30883_ok": 3
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "secrets": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": false
+      },
+      "configmaps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": false
+      },
+      "services": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": false
+      },
+      "routes": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字典 服务帐户 项目设置 基本信息 项目角色 项目成员 网关设置 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "imageBuilder": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "secrets": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": false
+      },
+      "configmaps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": false
+      },
+      "services": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 Virtua",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "routes": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "imageBuilder": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found resource is not supported",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    }
+  ]
+}

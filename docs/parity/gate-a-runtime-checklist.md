@@ -271,4 +271,6 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - StorageClass/PV 详情 YAML 初探未打开（菜单探测）。`sc-pv-yaml-1d2f57c.json`
 - Host `nodes` 两侧均落到 dashboard（非重建独有）。`nodes-1d2f57c.json` / `nodes-host-v4-native.md`
 - Host projects/components/CRD/monitor-cluster 两侧均 dashboard（对称）。`cluster-ns-components-1d2f57c.json`
-- **重建独有**：SC 列表打 `resources.kubesphere.io/v1alpha3/storageclasses` 404 致空表；详情+YAML 硬编码名两侧可通过。`sc-list-api-gap.md` / `sc-yaml-net-1d2f57c.json`
+- **重建独有（已修）**：SC 列表曾打 `resources.kubesphere.io/v1alpha3/storageclasses` 404；`08ad382` 改 `kapis/storage.k8s.io/v1` 后 30883 列表+YAML 与 30881 对齐。`sc-list-api-gap.md` / `sc-list-yaml-08ad382.json`（live `main.1e374d4cf69f85406801.js`）
+- Soft：SC 列表列集合仍有差异（sealed 有「存储类型」过滤；重建为「默认存储类」列），不挡列表数据。
+- 项目 secrets/cm/services 抽检帧 URL 正确，部分侧文案空为等待抖动。`project-config-wave-08ad382.json`

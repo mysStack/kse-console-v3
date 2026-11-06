@@ -1,0 +1,56 @@
+{
+  "tool": "sc-list-yaml-verify",
+  "commit": "08ad382",
+  "liveMain": "main.1e374d4cf69f85406801.js",
+  "generatedAt": "2026-11-06T04:08:50.935Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+      "listOk": true,
+      "yaml": {
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes"
+      },
+      "apiHits": [
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/storage.k8s.io/v1/storageclasses?sortBy=createTime&limit=10",
+          "hint": "items=2:nfs-csi,openebs-hostpath"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/storage.k8s.io/v1/storageclasses?limit=-1&sortBy=createTime&page=1",
+          "hint": "items=2:nfs-csi,openebs-hostpath"
+        }
+      ]
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 1 - 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 48 是 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+      "listOk": true,
+      "yaml": {
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes"
+      },
+      "apiHits": [
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/storage.k8s.io/v1/storageclasses?sortBy=createTime&limit=10",
+          "hint": "items=2:nfs-csi,openebs-hostpath"
+        },
+        {
+          "status": 200,
+          "url": "/kapis/storage.k8s.io/v1/storageclasses?limit=-1&sortBy=createTime&page=1",
+          "hint": "items=2:nfs-csi,openebs-hostpath"
+        }
+      ]
+    }
+  ],
+  "note": "SC list populated both sides; detail YAML open/cancel both sides"
+}
