@@ -281,3 +281,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Deployment 详情 tab（resource-status/revision/monitors/env/events）对称抽检。`deploy-tabs-08ad382.json`
 - Deployment `wms-scheduling-server` 详情 tab 抽检（见最新 `deploy-tabs-08ad382.json`）；revision 两侧常落 dashboard。
 - StatefulSet `postgresql-dev` 详情 tab 对称抽检。`sts-tabs-08ad382.json`
+- Pod 详情 tab + 日志/终端入口只读对称抽检。`pod-logs-08ad382.json`

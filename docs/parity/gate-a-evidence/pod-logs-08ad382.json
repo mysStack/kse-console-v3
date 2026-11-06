@@ -1,0 +1,116 @@
+{
+  "tool": "pod-logs",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:26:00.426Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "resourceStatus": "embed",
+      "env": "embed",
+      "events": "embed"
+    },
+    "30883": {
+      "resourceStatus": "embed",
+      "env": "embed",
+      "events": "embed"
+    }
+  },
+  "actions": {
+    "30881": {
+      "hasLog": true,
+      "hasTerminal": true,
+      "dts": []
+    },
+    "30883": {
+      "hasLog": true,
+      "hasTerminal": true,
+      "dts": []
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "pod": "wms-scheduling-server-5b9ddc4cb7-hwzkj",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97knjji",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/env",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97knjji",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97knjji",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "logs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97knjji",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "actions": {
+        "hasLog": true,
+        "hasTerminal": true,
+        "dts": []
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "pod": "wms-scheduling-server-5b9ddc4cb7-hwzkj",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97kn",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/env",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97kn",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97kn",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "logs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods/wms-scheduling-server-5b9ddc4cb7-hwzkj/resource-status",
+        "text": "容器组 wms-scheduling-server-5b9ddc4cb7-hwzkj 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.214 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-10-27 17:20:21 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容器 wms-scheduling-server 容器日志 终端 镜像：crpi-p97kn",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "actions": {
+        "hasLog": true,
+        "hasTerminal": true,
+        "dts": []
+      }
+    }
+  ]
+}
