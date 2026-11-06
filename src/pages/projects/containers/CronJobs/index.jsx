@@ -168,7 +168,14 @@ export default class CronJobs extends React.Component {
         width: '15%',
         render: (_, record) => {
           const { status } = getWorkloadStatus(record, module)
-          return <Status type={status} name={t(status)} />
+          // getCronJobStatus returns Running/Paused; filters use CRONJOB_*.
+          const nameKey =
+            status === 'Running'
+              ? 'CRONJOB_RUNNING'
+              : status === 'Paused'
+                ? 'CRONJOB_PAUSED'
+                : status
+          return <Status type={status} name={t(nameKey)} />
         },
       },
       {

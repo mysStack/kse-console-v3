@@ -148,7 +148,13 @@ export default class JobDetail extends React.Component {
       },
       {
         name: t('STATUS'),
-        value: t(status),
+        value: t(
+          status === 'Running'
+            ? 'CRONJOB_RUNNING'
+            : status === 'Paused'
+              ? 'CRONJOB_PAUSED'
+              : status
+        ),
       },
       {
         name: t('SCHEDULE'),
