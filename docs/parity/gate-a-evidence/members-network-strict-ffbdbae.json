@@ -1,0 +1,277 @@
+{
+  "tool": "members-network-strict",
+  "generatedAt": "2026-11-06T03:12:57.830Z",
+  "pass": false,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "members": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "rawLen": 935,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?limit=-1&annotation=kubesphere.io%2Fcreator&sortBy=createTime&page=1",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10&page=1",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?limit=-1",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      },
+      "network": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "rawLen": 162,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      },
+      "wsRoles": {
+        "path": "/dev-workspace/workspaces/dev-workspace/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "rawLen": 935,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": false
+      },
+      "wsMembers": {
+        "path": "/dev-workspace/workspaces/dev-workspace/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "rawLen": 935,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "members": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:12:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:12:18最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "rawLen": 1081,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10&page=1",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?limit=-1&annotation=kubesphere.io%2Fcreator&sortBy=createTime&page=1",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?limit=-1",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      },
+      "network": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "rawLen": 162,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      },
+      "wsRoles": {
+        "path": "/dev-workspace/workspaces/dev-workspace/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:12:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:12:33最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "rawLen": 1071,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      },
+      "wsMembers": {
+        "path": "/dev-workspace/workspaces/dev-workspace/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:12:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:12:46最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "rawLen": 1071,
+        "notFound": false,
+        "apis": [
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users",
+            "status": 200
+          },
+          {
+            "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+            "status": 200
+          }
+        ],
+        "alpha2_404": [],
+        "ok": true
+      }
+    }
+  ],
+  "note": "strict embed wait; hostPath A/B",
+  "summary": {
+    "networkpolicies_v3_embed": "pass both (real consolev3 frame)",
+    "project_members": "host often V4-native / wujie falls to dashboard; 30883 namespacemembers v1beta1 200",
+    "workspace_roles_members": "route does not embed v3dist (dashboard frame); treat as out of Gate A v3dist scope for now"
+  }
+}

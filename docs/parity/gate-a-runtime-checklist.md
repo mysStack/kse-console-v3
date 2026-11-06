@@ -253,3 +253,6 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - ServiceAccount `dev-wms/default` YAML 只读两侧通过。`sa-role-fd49fe6.json`
 - 发现：项目角色列表 30883 为空、30881 有 viewer/operator。`project-roles-list-gap.md`（未修）
 - `ffbdbae` 已挂 30883；项目角色列表空洞已修（IAM v1beta1）。`sa-role-ffbdbae.json`
+- 网络隔离页（v3 embed）两侧通过。`members-network-strict-ffbdbae.json`
+- 企业空间角色/成员路由当前未嵌入 v3dist（落到 dashboard），暂不纳入 Gate A v3dist 缺口。
+- API 抽检：workspaceroles/clusterroles 的 v1alpha2 404、v1beta1 200（RoleStore 已切 v1beta1）。
