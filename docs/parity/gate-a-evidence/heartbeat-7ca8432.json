@@ -1,0 +1,64 @@
+{
+  "tool": "heartbeat",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:38:52.029Z",
+  "pass": true,
+  "results": {
+    "deployments": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除 wms-report-server ",
+        "pass": true
+      }
+    },
+    "services": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wms-sim",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wm",
+        "pass": true
+      }
+    },
+    "pods": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899118-9rkdq 运行中 运行中 dev01（192.168.2.131） 10.42.0.103 2026-11-06 14:38:00 查看 YAML 删除 wms-admin-29899118-kfvht 运行中 运行中 dev01（192.168.2.131） 10.42.0.93 2026-",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899118-9rkdq 运行中 运行中 dev01（192.168.2.131） 10.42.0.103 2026-11-06 14:38:00 查看 YAML 删除 wms-admin-29899118-kfvht 运行中 运行中 dev01（192.168.2.131） 10.42.0.93 2026-11-06 14:3",
+        "pass": true
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL_DISA",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL",
+        "pass": true
+      }
+    }
+  }
+}
