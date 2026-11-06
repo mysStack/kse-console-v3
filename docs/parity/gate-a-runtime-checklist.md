@@ -346,3 +346,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Soft：宿主集群列表 rebuild 易采到壳层文案。`host-lists-soft.md`
 - 宿主 services 加严判定重试 7ca8432。`host-services-retry-7ca8432.json`
 - Ingress/网关/告警规则 7ca8432 再抽检。`ingress-alert-7ca8432.json`
+- toolbox/kubeconfig/components + S2I/applications 三次扫描 7ca8432。`toolbox-scan3-7ca8432.json`
