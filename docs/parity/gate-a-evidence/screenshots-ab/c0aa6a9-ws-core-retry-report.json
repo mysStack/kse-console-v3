@@ -1,0 +1,34 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.02,
+  "pass": false,
+  "compare": [
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+      "mismatched": 35964,
+      "total": 1296000,
+      "ratio": 0.02775,
+      "pass": false,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/30881__dev-workspace_clusters_host_projects_dev-wms_pods.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/30883__dev-workspace_clusters_host_projects_dev-wms_pods.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/diff__dev-workspace_clusters_host_projects_dev-wms_pods.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+      "mismatched": 26678,
+      "total": 1296000,
+      "ratio": 0.020584876543209875,
+      "pass": false,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/30881__dev-workspace_clusters_host_projects_dev-wms_services.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/30883__dev-workspace_clusters_host_projects_dev-wms_services.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-ws-core-retry/diff__dev-workspace_clusters_host_projects_dev-wms_services.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-06T02:13:04.546Z"
+}
