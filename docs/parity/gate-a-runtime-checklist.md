@@ -247,3 +247,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - PVC YAML（dev-db/data-postgresql-dev-0）两侧打开通过；Jobs 过滤 失败/已完成/运行中 对齐。`volumes-jobs-48f97d7.json`
 - 发现：30883 PVC 更多操作多出「创建快照」，密封包无。`pvc-snapshot-action-gap.md`（未修）
 - `6948b34` 已挂 30883；PVC 创建快照菜单差异已对齐密封包（两侧均无该入口）。
+- `fd49fe6` 已挂 30883；CronJob 状态不再露 `Running`，列表为运行中。`sts-cron-fd49fe6.json`
+- StatefulSet `dev-db/postgresql-dev` 与 CronJob `dev-wms/wms-scheduling` YAML 只读打开两侧通过。

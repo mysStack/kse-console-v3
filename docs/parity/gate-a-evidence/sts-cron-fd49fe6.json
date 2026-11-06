@@ -1,0 +1,109 @@
+{
+  "tool": "sts-cron-workspace",
+  "generatedAt": "2026-11-06T02:55:31.127Z",
+  "workspace": "dev-workspace",
+  "stsProject": "dev-db",
+  "stsName": "postgresql-dev",
+  "cronProject": "dev-wms",
+  "cronName": "wms-scheduling",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "statefulsetsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets",
+        "listOk": true,
+        "hasRunningZh": true,
+        "hasRawRunning": false,
+        "snip": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 创建时间 排序 升序 降序 mg-rs-mongodb-restore - 运行中"
+      },
+      "sts": {
+        "name": "postgresql-dev",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑自动扩缩 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 创建者: 资源状"
+      },
+      "cronjobsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "listOk": true,
+        "statusZh": true,
+        "rawRunning": false,
+        "filters": [
+          "已暂停",
+          "运行中"
+        ],
+        "snip": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 "
+      },
+      "cron": {
+        "name": "wms-scheduling",
+        "detailOk": true,
+        "statusZh": false,
+        "rawRunning": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/records",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "定时任务 wms-scheduling 编辑信息 更多操作 暂停 编辑 YAML 删除 属性 集群: host 项目: dev-wms 状态: Running 定时计划: */2 * * * * 最大启动延后时间（s）: - 成功任务保留数量: 1 失败任务保留数量: 2 并发策略: 跳过新任务 创建时间: 2026-"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "statefulsetsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/statefulsets",
+        "listOk": true,
+        "hasRunningZh": true,
+        "hasRawRunning": false,
+        "snip": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 创建时间 排序 升序 降序 mg-rs-mongodb-restore "
+      },
+      "sts": {
+        "name": "postgresql-dev",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/statefulsets/postgresql-dev/resource-status",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "有状态副本集 postgresql-dev 编辑信息 更多操作 回退 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-db 应用: postgresql 创建时间: 2026-04-14 22:57:16 更新时间: 2026-04-1"
+      },
+      "cronjobsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "listOk": true,
+        "statusZh": true,
+        "rawRunning": false,
+        "filters": [
+          "已暂停",
+          "运行中"
+        ],
+        "snip": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAM"
+      },
+      "cron": {
+        "name": "wms-scheduling",
+        "detailOk": true,
+        "statusZh": true,
+        "rawRunning": false,
+        "yaml": {
+          "opened": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/records",
+          "editors": 1,
+          "modals": 1,
+          "ok": true
+        },
+        "snip": "定时任务 wms-scheduling 编辑信息 更多操作 暂停 编辑 YAML 删除 属性 集群: host 项目: dev-wms 状态: 运行中 定时计划: */2 * * * * 最大启动延后时间（s）: - 成功任务保留数量: 1 失败任务保留数量: 2 并发策略: 跳过新任务 创建时间: 2026-10-2"
+      }
+    }
+  ],
+  "note": "read-only; expect CronJob status 运行中 not raw Running after fd49fe6"
+}

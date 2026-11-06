@@ -12,3 +12,4 @@
 ## Fix
 
 Map status → `CRONJOB_*` before `t()` in list column and detail attrs.
+- 验收：`fd49fe6` 挂载后 30883 CronJob 列表/详情为中文运行中。`sts-cron-fd49fe6.json`
