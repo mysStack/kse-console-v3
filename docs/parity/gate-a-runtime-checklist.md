@@ -299,3 +299,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Deployments 状态过滤 UI 对称抽检。`deploy-filter-08ad382.json`
 - 平台 access/users|roles 与 /workspaces 对称归类。`users-wave-08ad382.json`
 - 告警/自定义监控路径 08ad382 复扫。`alerts-recheck-08ad382.json`
+- 项目成员/角色 08ad382 复扫。`members-recheck-08ad382.json`

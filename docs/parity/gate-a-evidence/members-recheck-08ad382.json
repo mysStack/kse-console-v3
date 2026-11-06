@@ -1,0 +1,164 @@
+{
+  "tool": "members-recheck",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:43:14.319Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "members": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false,
+        "hits": [
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10&page=1"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?limit=-1&annotation=kubesphere.io%2Fcreator&sortBy=createTime&page=1"
+          }
+        ]
+      },
+      "roles": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false,
+        "hits": [
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/roles?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/roletemplates?labelSelector=iam.kubesphere.io%2Fscope%3Dnamespace%2Ciam.kubesphere.io%2Fbasic-role-template%3Dtrue%2Ckubesphere.io%2Fmanaged%3Dtrue"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?sortBy=createTime&limit=10&annotation=kubesphere.io%2Fcreator"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/roletemplates?labelSelector=iam.kubesphere.io%2Fscope%3Dnamespace%2Ciam.kubesphere.io%2Fhidden-role-template%21%3Dtrue%2Ckubesphere.io%2Fmanaged%3Dtrue"
+          }
+        ]
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "members": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:43:02平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:43:08最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false,
+        "hits": [
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/namespacemembers?sortBy=createTime&limit=10&page=1"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?limit=-1&annotation=kubesphere.io%2Fcreator&sortBy=createTime&page=1"
+          }
+        ]
+      },
+      "roles": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false,
+        "hits": [
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/roles?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+          },
+          {
+            "status": 200,
+            "url": "/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/clusters/host/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?label=iam.kubesphere.io/role-template=true"
+          },
+          {
+            "status": 200,
+            "url": "/kapis/clusters/host/iam.kubesphere.io/v1beta1/namespaces/dev-wms/roles?sortBy=createTime&limit=10&annotation=kubesphere.io%2Fcreator"
+          }
+        ]
+      }
+    }
+  ]
+}
