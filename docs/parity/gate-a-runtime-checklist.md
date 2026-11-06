@@ -302,3 +302,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目成员/角色 08ad382 复扫。`members-recheck-08ad382.json`
 - 网络隔离/网关 08ad382 复扫。`network-recheck-08ad382.json`
 - 项目 base-info/overview/quota 08ad382 对称抽检。`project-base-08ad382.json`
+- 应用 composing/template 08ad382 复扫。`apps-recheck-08ad382.json`

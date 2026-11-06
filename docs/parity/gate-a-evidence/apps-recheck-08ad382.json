@@ -1,0 +1,76 @@
+{
+  "tool": "apps-recheck",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:45:44.433Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "composing": "dashboard",
+      "template": "dashboard",
+      "apps": "dashboard"
+    },
+    "30883": {
+      "composing": "dashboard",
+      "template": "dashboard",
+      "apps": "dashboard"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "composing": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications/composing",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "template": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications/template",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "apps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "composing": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications/composing",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:45:23平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:45:30最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "template": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications/template",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:45:23平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:45:33最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "apps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:45:23平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:45:40最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}
