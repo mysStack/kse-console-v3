@@ -21,6 +21,11 @@ module.exports = {
   // List
   NODE_IP: '{node}（{ip}）',
   WAITING: '等待中',
+  'PODS.PHASES.PENDING': '等待中',
+  'PODS.PHASES.RUNNING': '运行中',
+  'PODS.PHASES.SUCCEEDED': '成功完成',
+  'PODS.PHASES.FAILED': '失败',
+  'PODS.PHASES.UNKNOWN': '未知',
   // List > View YAML
   // List > Delete
   POD_LOW: '容器组',

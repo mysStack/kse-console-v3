@@ -90,7 +90,7 @@ export default class Pods extends React.Component {
           type="pod"
         />
       ) : (
-        t(type)
+        t(type.toUpperCase())
       )
 
     return desc

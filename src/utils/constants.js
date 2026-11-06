@@ -28,11 +28,13 @@ export const POD_STATUS = [
   { text: 'TERMINATED', value: 'terminated' },
 ]
 
+// Align filter options with sealed release-4.1.5 v3dist.
 export const PODS_STATUS = [
-  { text: 'WAITING', value: 'Waiting' },
-  { text: 'RUNNING', value: 'Running' },
-  { text: 'COMPLETED', value: 'Completed' },
-  { text: 'ERROR', value: 'Error' },
+  { text: 'PODS.PHASES.PENDING', value: 'Pending' },
+  { text: 'PODS.PHASES.RUNNING', value: 'Running' },
+  { text: 'PODS.PHASES.SUCCEEDED', value: 'Succeeded' },
+  { text: 'PODS.PHASES.FAILED', value: 'Failed' },
+  { text: 'PODS.PHASES.UNKNOWN', value: 'Unknown' },
 ]
 
 export const JOB_STATUS = [

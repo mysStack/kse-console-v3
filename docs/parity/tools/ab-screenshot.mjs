@@ -26,12 +26,15 @@ const maxDiffRatio = Number(process.env.AB_MAX_DIFF_RATIO || '0.02')
 const user = process.env.KS_TEST_USERNAME
 const pass = process.env.KS_TEST_PASSWORD
 
+// Prefer workspace-prefixed project routes. Bare /clusters/host/projects/...
+// list URLs currently 404 on both 30881 and 30883 (identical empty shells),
+// which falsely passes pixel A/B.
 const DEFAULT_PATHS = [
-  '/clusters/host/projects/dev-wms/deployments',
-  '/clusters/host/projects/dev-wms/pods',
-  '/clusters/host/projects/dev-wms/configmaps',
-  '/clusters/host/projects/dev-wms/secrets',
-  '/clusters/host/projects/dev-wms/services',
+  '/dev-workspace/clusters/host/projects/dev-wms/deployments',
+  '/dev-workspace/clusters/host/projects/dev-wms/pods',
+  '/dev-workspace/clusters/host/projects/dev-wms/configmaps',
+  '/dev-workspace/clusters/host/projects/dev-wms/secrets',
+  '/dev-workspace/clusters/host/projects/dev-wms/services',
   '/dev-workspace/clusters/host/projects/dev-wms/composing',
   '/extensions/management',
   '/extensions/marketplace',
@@ -141,7 +144,8 @@ async function shotSide(browser, base, cookies, label, routePaths) {
     const safe = p.replace(/\//g, '_').replace(/^_/, '') || 'root'
     const file = path.join(outRoot, `${label}__${safe}.png`)
     await page.goto(base + p, { waitUntil: 'domcontentloaded', timeout: 60000 })
-    await page.waitForTimeout(3500)
+    const settleMs = Number(process.env.AB_SETTLE_MS || '3500')
+    await page.waitForTimeout(settleMs)
     await page.screenshot({ path: file, fullPage: false })
     files[p] = file
   }

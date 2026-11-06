@@ -22,6 +22,11 @@ module.exports = {
   // List
   NODE_IP: '{node} ({ip})',
   WAITING: 'Waiting',
+  'PODS.PHASES.PENDING': 'Waiting',
+  'PODS.PHASES.RUNNING': 'Running',
+  'PODS.PHASES.SUCCEEDED': 'Completed successfully',
+  'PODS.PHASES.FAILED': 'Failed',
+  'PODS.PHASES.UNKNOWN': 'Unknown',
   // List > View YAML
   // List > Delete
   POD_LOW: 'pod',

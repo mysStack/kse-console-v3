@@ -1,0 +1,134 @@
+{
+  "tool": "detail-actions-workspace",
+  "generatedAt": "2026-11-06T02:10:52.214Z",
+  "resources": {
+    "secretName": "ewms-redis-secret",
+    "cmName": "ewms-mqtt-config",
+    "svcName": "wms-report-service"
+  },
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "secret": {
+        "url": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/secrets/ewms-redis-secret/detail",
+        "detailOk": true,
+        "hasData": true,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/secrets/ewms-redis-secret/detail"
+        },
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin 保密字典 ewms-redis-secret 编辑信息 更多操作 属性 集群host 项目dev-wms 类型默认 创建时间2026-10-21 14:30:47 创建者 数据 数据 REDIS_PASSWORD eHpSRHZINGtx 工具箱 提"
+      },
+      "configmap": {
+        "url": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/configmaps/ewms-mqtt-config/detail",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30881/clusters/host/projects/dev-wms/configmaps/ewms-mqtt-config/detail"
+        },
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin 配置字典 ewms-mqtt-config 编辑信息 更多操作 属性 集群host 项目dev-wms 创建时间2026-10-21 14:31:10 创建者 数据 数据 MQTT_PORT 1883 MQTT_URL rabbitmq-ha-quo"
+      },
+      "service": {
+        "url": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/services/wms-report-service/resource-status",
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services/wms-report-service/resource-status"
+        }
+      },
+      "list_secrets": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      },
+      "list_configmaps": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      },
+      "list_deployments": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "secret": {
+        "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/secrets/ewms-redis-secret/detail",
+        "detailOk": true,
+        "hasData": true,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/secrets/ewms-redis-secret/detail"
+        },
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin 保密字典 ewms-redis-secret 编辑信息 更多操作 属性 集群host 项目dev-wms 类型默认 创建时间2026-10-21 14:30:47 创建者 数据 数据 REDIS_PASSWORD eHpSRHZINGtx 工具箱 提"
+      },
+      "configmap": {
+        "url": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/configmaps/ewms-mqtt-config/detail",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30883/clusters/host/projects/dev-wms/configmaps/ewms-mqtt-config/detail"
+        },
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin 配置字典 ewms-mqtt-config 编辑信息 更多操作 属性 集群host 项目dev-wms 创建时间2026-10-21 14:31:10 创建者 数据 数据 MQTT_PORT 1883 MQTT_URL rabbitmq-ha-quo"
+      },
+      "service": {
+        "url": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/services/wms-report-service",
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services/wms-report-service/resource-status"
+        }
+      },
+      "list_secrets": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      },
+      "list_configmaps": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      },
+      "list_deployments": {
+        "route": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "notFound": false,
+        "ok": true,
+        "snip": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字"
+      }
+    }
+  ],
+  "finding": "/clusters/host/projects/.../{secrets,configmaps,deployments} list is 404 on both hosts; use /dev-workspace/... for list embeds. Secret/CM detail on /clusters/.../detail is V4-native.",
+  "note": "read-only"
+}
