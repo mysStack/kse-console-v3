@@ -316,3 +316,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Service/Ingress/ConfigMap/Secret/Snapshot 列表 95cc975 对称抽检。`svc-ing-cm-secret-snap-95cc975.json`
 - PVC/ServiceAccount/Jobs 列表 95cc975 对称抽检。`pvc-sa-jobs-95cc975.json`
 - Pods/Events/PV/VolumeSnapshotClass 95cc975 对称抽检。`pods-events-pv-95cc975.json`
+- ConfigMap/Secret 行内编辑 YAML + 项目配额 95cc975。`yaml-quota-95cc975.json`
+- Soft：宿主 PV / VolumeSnapshotClass 深链易落 dashboard。`host-pv-snapshotclass-soft.md`
