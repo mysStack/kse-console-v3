@@ -1,0 +1,73 @@
+{
+  "tool": "ds-system-ws",
+  "commit": "08ad382",
+  "prefix": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter",
+  "generatedAt": "2026-11-06T04:34:09.886Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "resourceStatus": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 node-exporter-2mccg 就绪：2/2 状态：R",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "yaml": {
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status"
+      },
+      "env": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/env",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 node-exporter-2mccg 就绪：2/2 状态：R",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 node-exporter-2mccg 就绪：2/2 状态：R",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "resourceStatus": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 更新时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 no",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "yaml": {
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status"
+      },
+      "env": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/env",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 更新时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 未发",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "events": {
+        "path": "/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets/node-exporter/resource-status",
+        "text": "守护进程集 node-exporter 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: kubesphere-monitoring-system 创建时间: 2026-10-03 09:57:26 更新时间: 2026-10-03 09:57:26 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 9100 http-healthz TCP 8888 容器组 no",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}
