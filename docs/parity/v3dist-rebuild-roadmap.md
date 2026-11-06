@@ -124,6 +124,7 @@
 - [x] 本地 tag `v3dist-parity-20261106` → `b96fdc2`；后续 composing 空态已进 `c0aa6a9`
 - [x] 本地 tag `v3dist-parity-20261106-composing` → `c0aa6a9`；30883 产物 `main.9a287bcc468b4db7c212.js`，sha256 `877da0659805a25389b14c246a0d2b3bc66b425c7f7c6d31a26615ff67722c9d`（2026-11-06T01:36:43Z）。未 push，未批准进正式镜像
 - [x] c0aa6a9 七路径截图 A/B 全过（见 `screenshots-ab/c0aa6a9-ab7`）
+- [x] c0aa6a9 连续扩面：7路径 + workloads2 + jobs/cm + YAML + perf + locale/create（见 checklist wave5–9）
 - [ ] 批准用该 digest 替换正式镜像中的密封 v3dist
 - [ ] 阶段 3 在「可替换」成立后按模块推进（Workload 等历史证据不可直接继承为当前通过）
 

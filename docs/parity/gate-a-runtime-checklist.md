@@ -233,3 +233,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Deployment Edit YAML open→cancel：两侧 editors/modals 1→0。`deploy-yaml-open-c0aa6a9.json`
 - Perf lite 3 路径再测：pass。`perf-ab-c0aa6a9.json`（30883 wall/transfer 均不劣）
 - Workloads2 open A/B (ingresses/volumes/sts/daemonsets): pass。`screenshots-ab/c0aa6a9-workloads2`
+- Jobs/CronJobs/CM/Secrets open A/B: pass。`screenshots-ab/c0aa6a9-jobs-cm`
