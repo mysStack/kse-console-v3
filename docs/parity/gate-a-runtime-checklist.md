@@ -290,3 +290,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - DaemonSet node-exporter 详情 tab 对称抽检。`ds-tabs-08ad382.json`
 - 工具箱入口对称（宿主 chrome，非 v3dist 独有面）。`toolbox-wave-08ad382.json`
 - DaemonSet node-exporter（system-workspace 前缀）详情+YAML 抽检。`ds-system-ws-08ad382.json`
+- Pod 容器日志入口点击打开/关闭只读抽检。`pod-log-open-08ad382.json`

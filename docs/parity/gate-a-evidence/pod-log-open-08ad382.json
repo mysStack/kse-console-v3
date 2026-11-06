@@ -1,0 +1,31 @@
+{
+  "tool": "pod-log-open",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:34:51.038Z",
+  "pass": false,
+  "note": "Click 容器日志 only; close if modal; no terminal session",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "pod": "wms-admin-29898994-qg8z8",
+      "detailOk": false,
+      "clicked": "",
+      "logUi": {
+        "opened": true,
+        "text": "容器组 wms-admin-29898994-qg8z8 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.235 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: Burstable 创建时间: 2026-11-06 12:34:00 创建者: 资源状态 调度信息 元数据 环境变量 事件 容器 job-runner 容器日志 终端 镜像"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "pod": "wms-admin-29898994-qg8z8",
+      "detailOk": true,
+      "clicked": "",
+      "logUi": {
+        "opened": true,
+        "text": "容器组 wms-admin-29898994-qg8z8 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.235 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: Burstable 创建时间: 2026-11-06 12:34:00 创建者: 资源状态 调度信息 元数据 监控 环境变量 事件 容器 job-runner 容器日志 终端"
+      }
+    }
+  ]
+}
