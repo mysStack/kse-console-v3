@@ -1,0 +1,98 @@
+{
+  "tool": "cluster-host-wave",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:07:50.057Z",
+  "pass": true,
+  "results": {
+    "overview": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 14:05:31平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 14:05:36最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "nodes": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/nodes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/nodes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 14:06:02平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 14:06:07最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "projects": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/projects",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/projects",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 14:06:32平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 14:06:38最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "deployments-host": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/deployments",
+        "text": " 名称 状态 定制内容 状态 项目 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 项目 更新时间 排序 升序 降序 oms-server MinimumReplicasUnavailable 状态信息 进行中 状态：True 原因：NewReplicaSetAvailable 消息：ReplicaSet \"oms-server-794c6b5669\" has successfully progressed. 可用 状态：False 原因：MinimumReplicasUnavailable 消息：Deployment does not have minimum availability. 更新中 (0/1) dev-biz 2026-11-06 14:06:39 编辑信息 编辑 YAML 重新创建 删除 pms-server MinimumReplicasUn",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/deployments",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 项目 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 项目 更新时间 排序 升序 降序 oms-server 状态信息 进行中 状态：True 原因：NewReplicaSetAvailable 消息：ReplicaSet \"oms-server-794c6b5669\" has successfully progressed. 可用 状态：F",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "pods-host": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 定制内容 状态 节点 容器组 IP 地址 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 更新时间 排序 升序 降序 wms-scheduling-29899086-nw7rb 已完成 成功完成 dev01（192.168.2.131） 10.42.0.187 2026-11-06 14:06:00 查看 YAML 删除 wms-admin-29899086-trl2m 已完成 成功完成 dev01（192.168.2.131） 10.42.0.186 2026-11-06 14:06:00 查看 YAML 删除 ams-29899086-8djdx 已",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/pods",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 定制内容 状态 节点 容器组 IP 地址 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 更新时间 排序 升序 降序 wms-scheduling-29899086-nw7rb 已完成 已完成 dev01（192.168.2.131） 10.42.0.187 2026-11-06 14:06:00 查看 YAML 删除 wms-admin-29",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}

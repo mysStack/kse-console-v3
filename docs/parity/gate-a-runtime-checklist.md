@@ -341,3 +341,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Service/Ingress/CronJob 7ca8432 回归。`svc-ing-cron-7ca8432.json`
 - ConfigMap/Secret/PVC/Snapshot/SC 7ca8432 回归。`config-storage-7ca8432.json`
 - ServiceAccount/Jobs/Deployments(+YAML) 7ca8432 回归。`sa-jobs-deploy-7ca8432.json`
+- 宿主集群概览/节点/项目/工作负载 分类抽检 7ca8432。`cluster-host-wave-7ca8432.json`
