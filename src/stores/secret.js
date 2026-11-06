@@ -36,7 +36,7 @@ export default class SecretStore extends Base {
     }
 
     await request.post(
-      ` kapis/resources.kubesphere.io/v1alpha3${this.getPath({
+      `kapis/resources.kubesphere.io/v1alpha3${this.getPath({
         namespace,
         cluster,
       })}/registrysecrets/${name}/verify`,
