@@ -1,0 +1,119 @@
+{
+  "tool": "logging-gray-image",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:19:28.874Z",
+  "note": "classify host-dashboard vs v3dist-list; not claiming Gate A closed",
+  "results": {
+    "clusters_host_log-receivers": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/log-receivers",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/log-receivers",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:18:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:18:19最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "clusters_host_grayreleases": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/grayreleases",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/grayreleases",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:18:32平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:18:37最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "dev-workspace_clusters_host_projects_dev-wms_s2ibuilders": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "toDashboard": false,
+        "v3List": true,
+        "leak": false,
+        "classification": "v3dist-list"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found resource is not supported",
+        "toDashboard": false,
+        "v3List": true,
+        "leak": true,
+        "classification": "api-leak"
+      }
+    },
+    "dev-workspace_clusters_host_projects_dev-wms_imagebuilders": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/imagebuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/imagebuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:19:05平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:19:09最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "clusters_host_alert-policies": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/alert-policies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/alert-policies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:19:23平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:19:28最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "toDashboard": true,
+        "v3List": false,
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    }
+  },
+  "pass": false
+}
