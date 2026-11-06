@@ -376,3 +376,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - IPPool unsupported 静默。`ippool-unsupported-gap.md`
 - unsupported API 第三轮扫描纪要。`unsupported-api-scan3.md`
 - 重建前更多列表对称抽检。`more-lists-pre-6f11da0.json`
+- 6f11da0 挂载后 IPPool/灰度/S2I/NP 无 toast 泄漏验收。`verify-6f11da0.json`
+- PVC/ConfigMap/HPA/Ingress/成员/基本信息对称抽检。`pvc-cm-hpa-wave.json`

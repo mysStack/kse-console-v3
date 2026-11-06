@@ -1,0 +1,103 @@
+{
+  "tool": "pvc-cm-hpa-wave",
+  "generatedAt": "2026-11-06T07:59:44.687Z",
+  "pass": true,
+  "results": {
+    "volumes": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "leak": false,
+        "classification": "other"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "leak": false,
+        "classification": "other"
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL_DISA",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "hpa": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:57:52平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:58:00最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "ingresses": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空间或项目中配置网关。 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 未发现应用路由 请创建应用路由。 创建",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "members": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:59:02平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:59:10最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "base-info": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑注解 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 10 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 了解更多 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 10 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}

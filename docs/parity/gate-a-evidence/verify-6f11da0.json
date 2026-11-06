@@ -1,0 +1,146 @@
+{
+  "tool": "verify-6f11da0",
+  "expectedCommit": "6f11da0",
+  "liveHint": "4348735e",
+  "generatedAt": "2026-11-06T07:56:00.671Z",
+  "pass": true,
+  "results": {
+    "network-policies": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/network-policies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/network-policies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 15:53:18平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 15:53:25最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "host-dashboard"
+      }
+    },
+    "s2ibuilders": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "toastLeak": false,
+        "networkLeaks": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10",
+            "body": "resource is not supported\n"
+          }
+        ],
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 未发现镜像构建器 请创建一个镜像构建器。 创建",
+        "toastLeak": false,
+        "networkLeaks": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10",
+            "body": "resource is not supported\n"
+          }
+        ],
+        "classification": "v3dist-ok"
+      }
+    },
+    "grayrelease": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同时保证业务连续性。 流量镜像 将业务流量的副本发送给新版本进行测试，而不实际暴露新版本。",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 了解更多 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 了解更多 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同时保证业务连续性。 流量镜像 将业务流量的副本发送给新版本进行测试，而不实际暴露新版本。",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      }
+    },
+    "ippools": {
+      "sealed": {
+        "path": "/clusters/host/ippools",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/ippools",
+        "text": "容器组 IP 池 容器组 IP 池用于规划集群内容器组的网络地址空间，您可以按需创建容器组 IP 池。 如何利用 IP 池规划容器组网络？ 名称 状态 定制内容 状态 网段 已用 IP 地址 IP 池块大小 Overlay 模式 NAT outgoing 创建 名称 排序 升序 降序 状态 过滤 已启用 已禁用 网段 已用 IP 地址 IP 池块大小 Overlay 模式 NAT outgoing 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "toastLeak": false,
+        "networkLeaks": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/network.kubesphere.io/v1alpha2/ippools?hasStatus=false&limit=-1&page=1&sortBy=createTime",
+            "body": "404: Page Not Found"
+          },
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/network.kubesphere.io/v1alpha2/ippools?sortBy=createTime&limit=10",
+            "body": "404: Page Not Found"
+          }
+        ],
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/clusters/host/ippools",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/ippools",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 容器组 IP 池 容器组 IP 池用于规划集群内容器组的网络地址空间，您可以按需创建容器组 IP 池。 如何利用 IP 池规划容器组网络？ 未发现容器组 IP 池 请创建一个容器组 IP 池。 创建",
+        "toastLeak": false,
+        "networkLeaks": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/ippools?sortBy=createTime&limit=10",
+            "body": "resource is not supported\n"
+          }
+        ],
+        "classification": "v3dist-ok"
+      }
+    },
+    "deployments": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59:02 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-11-06 14:59:01 编辑信息 编辑 YAML 重新创建 删除 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-11-06 14:5",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59:02 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-11-06 14:59:01 编辑信息 编辑 YAML 重新创建 删除 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-11-06",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      }
+    },
+    "services": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wms-simulation-server 10.96.113.16 VirtualIP - ",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wms-simulation-server 10.96.113.16 Virtual",
+        "toastLeak": false,
+        "networkLeaks": [],
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}
