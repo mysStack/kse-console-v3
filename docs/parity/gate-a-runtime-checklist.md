@@ -293,3 +293,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Pod 容器日志入口点击打开/关闭只读抽检。`pod-log-open-08ad382.json`
 - 项目 PVC `data-postgresql-dev-0` 详情 YAML 只读抽检。`pvc-yaml-08ad382.json`
 - ConfigMap 经列表进入详情 YAML 抽检。`cm-via-list-08ad382.json`
+- Secret 详情 YAML 两侧抽检。`secret-via-list-08ad382.json`
