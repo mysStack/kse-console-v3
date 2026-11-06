@@ -1,0 +1,48 @@
+{
+  "tool": "s2i-recheck",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:46:37.959Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "builders": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "runs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2iruns",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "builders": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "runs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2iruns",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:46:17平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:46:33最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}
