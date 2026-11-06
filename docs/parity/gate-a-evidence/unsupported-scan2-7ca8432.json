@@ -1,0 +1,132 @@
+{
+  "tool": "unsupported-scan2",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:48:32.138Z",
+  "rebuildOnlyLeaks": [],
+  "results": {
+    "/dev-workspace/clusters/host/projects/dev-wms/applications": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "leak": false,
+        "text": " ",
+        "badHits": [],
+        "toDashboard": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/applications",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "leak": false,
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:45:20平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:45:26最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "badHits": [],
+        "toDashboard": true
+      }
+    },
+    "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "leak": false,
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总",
+        "badHits": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10"
+          }
+        ],
+        "toDashboard": false
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "leak": false,
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 未发现镜像构建器 请创建一个镜像构建器。 创建",
+        "badHits": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/s2ibuilders?sortBy=createTime&limit=10"
+          }
+        ],
+        "toDashboard": false
+      }
+    },
+    "/dev-workspace/clusters/host/projects/dev-wms/grayscale-releases": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayscale-releases",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "leak": false,
+        "text": " ",
+        "badHits": [],
+        "toDashboard": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayscale-releases",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "leak": false,
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:46:30平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:46:36最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "badHits": [],
+        "toDashboard": true
+      }
+    },
+    "/dev-workspace/clusters/host/projects/dev-wms/alert-rules": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "leak": false,
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 已禁用 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 ",
+        "badHits": [],
+        "toDashboard": false
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "leak": false,
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示",
+        "badHits": [],
+        "toDashboard": false
+      }
+    },
+    "/clusters/host/ippools": {
+      "sealed": {
+        "path": "/clusters/host/ippools",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/ippools",
+        "leak": false,
+        "text": "容器组 IP 池 容器组 IP 池用于规划集群内容器组的网络地址空间，您可以按需创建容器组 IP 池。 如何利用 IP 池规划容器组网络？ 名称 状态 定制内容 状态 网段 已用 IP 地址 IP 池块大小 Overlay 模式 NAT outgoing 创建 名称 排序 升序 降序 状态 过滤 已启用 已禁用 网段 ",
+        "badHits": [],
+        "toDashboard": false
+      },
+      "rebuild": {
+        "path": "/clusters/host/ippools",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/ippools",
+        "leak": false,
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 容器组 IP 池 容器组 IP 池用于规划集群内容器组的网络地址空间，您可以按需创建容",
+        "badHits": [
+          {
+            "status": 404,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/ippools?sortBy=createTime&limit=10"
+          }
+        ],
+        "toDashboard": false
+      }
+    },
+    "/clusters/host/components": {
+      "sealed": {
+        "path": "/clusters/host/components",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "leak": false,
+        "text": " ",
+        "badHits": [],
+        "toDashboard": true
+      },
+      "rebuild": {
+        "path": "/clusters/host/components",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "leak": false,
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:48:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:48:20最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "badHits": [],
+        "toDashboard": true
+      }
+    }
+  },
+  "pass": true
+}
