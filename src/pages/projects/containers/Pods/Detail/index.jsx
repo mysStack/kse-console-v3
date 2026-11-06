@@ -22,6 +22,7 @@ import { observer, inject } from 'mobx-react'
 import { Loading } from '@kube-design/components'
 
 import { getDisplayName, getLocalTime, showNameAndAlias } from 'utils'
+import { getPodStatusLocaleKey } from 'utils/podStatusLocale'
 import { trigger } from 'utils/action'
 import PodStore from 'stores/pod'
 
@@ -126,7 +127,7 @@ export default class PodDetail extends React.Component {
       },
       {
         name: t('STATUS'),
-        value: t(status),
+        value: t(getPodStatusLocaleKey(status)),
       },
       {
         name: t('POD_IP_ADDRESS'),

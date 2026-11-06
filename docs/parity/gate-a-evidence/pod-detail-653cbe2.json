@@ -1,0 +1,49 @@
+{
+  "tool": "pod-detail",
+  "generatedAt": "2026-11-06T03:35:17.929Z",
+  "pass": false,
+  "terminalDelta": false,
+  "logsDelta": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "name": "",
+      "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29898934-qdldz 已完",
+      "tabs": [
+        "名称",
+        "状态",
+        "更新时间"
+      ],
+      "hasTerminal": false,
+      "hasLogs": false,
+      "hasYaml": true,
+      "notFound": false,
+      "ok": false
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "name": "wms-scheduling-29898934-qdldz",
+      "text": "容器组 wms-scheduling-29898934-qdldz 查看 YAML 删除 属性 集群: host 项目: dev-wms 应用: - 状态: Completed 容器组 IP 地址: 10.42.0.215 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: Burstable 创建时间: 2026-11-06 11:34:00 创建者: 资源状态 调度信息 元数据 监",
+      "tabs": [
+        "容器组",
+        "查看 YAML",
+        "删除",
+        "资源状态",
+        "调度信息",
+        "元数据",
+        "监控",
+        "环境变量",
+        "事件",
+        "-"
+      ],
+      "hasTerminal": false,
+      "hasLogs": true,
+      "hasYaml": true,
+      "notFound": false,
+      "ok": true
+    }
+  ],
+  "note": "read-only; do not open terminal session"
+}

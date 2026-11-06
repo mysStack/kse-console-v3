@@ -27,6 +27,7 @@ import { withProjectList, ListPage } from 'components/HOCs/withList'
 import StatusReason from 'projects/components/StatusReason'
 
 import { getLocalTime } from 'utils'
+import { getPodStatusLocaleKey } from 'utils/podStatusLocale'
 import { POD_STATUS, ICON_TYPES, PODS_STATUS } from 'utils/constants'
 
 import PodStore from 'stores/pod'
@@ -121,7 +122,7 @@ export default class Pods extends React.Component {
         isHideable: true,
         search: true,
         render: (_, { podStatus }) => (
-          <span>{t(podStatus.type.toUpperCase())}</span>
+          <span>{t(getPodStatusLocaleKey(podStatus.type))}</span>
         ),
       },
       {
