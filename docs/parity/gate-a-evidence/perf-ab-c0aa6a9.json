@@ -1,0 +1,50 @@
+{
+  "tool": "perf-ab-lite",
+  "rule": "wall Δ<=+3s or <=+50%; v3dist transfer <=2x baseline +500KB",
+  "generatedAt": "2026-11-06T01:50:31.590Z",
+  "pass": true,
+  "rows": [
+    {
+      "route": "/clusters/host/projects/dev-wms/deployments",
+      "base81": {
+        "wall": 6724,
+        "transfer": 10841711
+      },
+      "base83": {
+        "wall": 6621,
+        "transfer": 8043603
+      },
+      "wallOk": true,
+      "xferOk": true,
+      "pass": true
+    },
+    {
+      "route": "/clusters/host/projects/dev-wms/pods",
+      "base81": {
+        "wall": 6786,
+        "transfer": 10841711
+      },
+      "base83": {
+        "wall": 6518,
+        "transfer": 8043603
+      },
+      "wallOk": true,
+      "xferOk": true,
+      "pass": true
+    },
+    {
+      "route": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "base81": {
+        "wall": 7395,
+        "transfer": 12058720
+      },
+      "base83": {
+        "wall": 6702,
+        "transfer": 8220789
+      },
+      "wallOk": true,
+      "xferOk": true,
+      "pass": true
+    }
+  ]
+}

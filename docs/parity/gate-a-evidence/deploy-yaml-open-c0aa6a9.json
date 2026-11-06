@@ -1,0 +1,45 @@
+{
+  "tool": "deploy-yaml-open",
+  "deploy": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+  "generatedAt": "2026-11-06T01:52:41.158Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+      "menus": [],
+      "yamlOpened": true,
+      "closed": true,
+      "bodyBefore": "",
+      "afterOpen": {
+        "text": "部署\nwms-admin-server\n编辑信息\n更多操作 \n回退\n编辑自动扩缩\n编辑设置\n编辑 YAML\n重新创建\n删除\n属性\n集群:\nhost\n项目:\ndev-wms\n应用:\nwms-admin-server\n创建时间:\n2026-05-25 14:23:54\n更新时间:\n2026-10-27 16:58:05\n创建者:\n资源状态\n修改记录\n元数据\n环境变量\n事件\n\n1/1\n\n副本\n\n期望副本数: 1\n\n当前副本数: 1\n\n端口\n名称\t协议\t端口\nhttp\tTCP\t808",
+        "editors": 1,
+        "modals": 1
+      },
+      "afterClose": {
+        "editors": 0,
+        "modals": 0
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+      "menus": [],
+      "yamlOpened": true,
+      "closed": true,
+      "bodyBefore": "",
+      "afterOpen": {
+        "text": "部署\nwms-admin-server\n编辑信息\n更多操作 \n回退\n编辑自动扩缩\n编辑设置\n编辑 YAML\n重新创建\n删除\n属性\n集群:\nhost\n项目:\ndev-wms\n应用:\nwms-admin-server\n创建时间:\n2026-05-25 14:23:54\n更新时间:\n2026-10-27 16:58:05\n创建者:\n资源状态\n修改记录\n元数据\n监控\n环境变量\n事件\n\n1/1\n\n副本\n\n期望副本数: 1\n\n当前副本数: 1\n\n端口\n名称\t协议\t端口\nhttp\tTCP\t",
+        "editors": 1,
+        "modals": 1
+      },
+      "afterClose": {
+        "editors": 0,
+        "modals": 0
+      }
+    }
+  ],
+  "note": "read-only open/cancel; no save"
+}

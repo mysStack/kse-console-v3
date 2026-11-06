@@ -230,3 +230,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Locale blank probe: no real missing keys (`NVIDIA` false positive). `locale-blank-c0aa6a9.md`
 - Roles / SA open A/B: `screenshots-ab/c0aa6a9-rbac-open` pass
 - Composing create dialog open→cancel on 30881+30883: pass（只读，不提交）。`composing-create-open-c0aa6a9.json`
+- Deployment Edit YAML open→cancel：两侧 editors/modals 1→0。`deploy-yaml-open-c0aa6a9.json`
+- Perf lite 3 路径再测：pass。`perf-ab-c0aa6a9.json`（30883 wall/transfer 均不劣）
