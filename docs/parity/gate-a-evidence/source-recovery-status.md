@@ -23,3 +23,9 @@
 - 干净提交 + 非 dirty 钉版重建
 - Gate A 全清单（详情/YAML/RBAC）与批准替换
 - 企业/插件 defer 大包的功能源码（locale 已分桶，功能不阻塞核心回收）
+
+## 续：b511b4f 干净重建
+- dirty=false 已挂 30883
+- locale 覆盖 0.9996
+- `recovery-real-detail-yaml-ab.json`
+- Gate A 仍未关闭

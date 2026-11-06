@@ -1,0 +1,185 @@
+{
+  "tool": "recovery-real-detail-yaml-ab",
+  "liveCommit": "b511b4f",
+  "resources": {
+    "deploy": "wms-admin-server",
+    "svc": "wms-admin-service",
+    "cm": "ewms-druid-config",
+    "secret": "aliyun-registry-secret"
+  },
+  "gateAClosed": false,
+  "generatedAt": "2026-11-06T09:07:31.281Z",
+  "pass": true,
+  "comparisons": {
+    "deploy-detail": {
+      "classMatch": true,
+      "detailMatch": true,
+      "yamlMatch": true,
+      "s": "v3dist-ok",
+      "r": "v3dist-ok",
+      "sDetail": true,
+      "rDetail": true,
+      "sYaml": false,
+      "rYaml": false
+    },
+    "svc-detail": {
+      "classMatch": true,
+      "detailMatch": true,
+      "yamlMatch": true,
+      "s": "v3dist-ok",
+      "r": "v3dist-ok",
+      "sDetail": true,
+      "rDetail": true,
+      "sYaml": false,
+      "rYaml": false
+    },
+    "cm-detail": {
+      "classMatch": true,
+      "detailMatch": true,
+      "yamlMatch": true,
+      "s": "host-dashboard",
+      "r": "host-dashboard",
+      "sDetail": false,
+      "rDetail": false,
+      "sYaml": false,
+      "rYaml": false
+    },
+    "secret-detail": {
+      "classMatch": true,
+      "detailMatch": true,
+      "yamlMatch": true,
+      "s": "host-dashboard",
+      "r": "host-dashboard",
+      "sDetail": false,
+      "rDetail": false,
+      "sYaml": false,
+      "rYaml": false
+    }
+  },
+  "results": {
+    "deploy-detail": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+        "text": "部署 wms-admin-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-admin-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-11-06 14:59:02 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 8081 容器组 ",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": false,
+        "detailOk": true,
+        "classification": "v3dist-ok",
+        "yaml": {
+          "opened": false,
+          "hasEditor": false,
+          "text": "部署 wms-admin-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-admin-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-11-06 14:59:02 创建者: 资源状态 修改记录 元数据 环境变"
+        }
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-admin-server/resource-status",
+        "text": "部署 wms-admin-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-admin-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-11-06 14:59:02 创建者: 资源状态 修改记录 元数据 监控 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP 8081 容",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": false,
+        "detailOk": true,
+        "classification": "v3dist-ok",
+        "yaml": {
+          "opened": false,
+          "hasEditor": false,
+          "text": "部署 wms-admin-server 编辑信息 更多操作 回退 编辑自动扩缩 编辑设置 编辑 YAML 重新创建 删除 属性 集群: host 项目: dev-wms 应用: wms-admin-server 创建时间: 2026-05-25 14:23:54 更新时间: 2026-11-06 14:59:02 创建者: 资源状态 修改记录 元数据 监控 "
+        }
+      }
+    },
+    "svc-detail": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services/wms-admin-service",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services/wms-admin-service/resource-status",
+        "text": "服务 wms-admin-service 编辑信息 更多操作 编辑服务 编辑外部访问 编辑 YAML 删除 属性 集群: host 项目: dev-wms 类型: 自定义服务 (VirtualIP) 应用: wms-admin-server 虚拟 IP 地址: 10.96.54.62 外部 IP 地址: 会话亲和性: 已禁用 选择器: app=wms-admin-server DNS: wms-admin-service.dev-wms 端点: 10.42.0.166:808",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": false,
+        "detailOk": true,
+        "classification": "v3dist-ok",
+        "yaml": {
+          "opened": false,
+          "hasEditor": false,
+          "text": "服务 wms-admin-service 编辑信息 更多操作 编辑服务 编辑外部访问 编辑 YAML 删除 属性 集群: host 项目: dev-wms 类型: 自定义服务 (VirtualIP) 应用: wms-admin-server 虚拟 IP 地址: 10.96.54.62 外部 IP 地址: 会话亲和性: 已禁用 选择器: app=wms-adm"
+        }
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services/wms-admin-service",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services/wms-admin-service/resource-status",
+        "text": "服务 wms-admin-service 编辑信息 更多操作 编辑服务 编辑外部访问 编辑监控导出器 编辑 YAML 删除 属性 集群: host 项目: dev-wms 类型: 自定义服务 (VirtualIP) 应用: wms-admin-server 虚拟 IP 地址: 10.96.54.62 外部 IP 地址: 会话亲和性: 已禁用 选择器: app=wms-admin-server DNS: wms-admin-service.dev-wms 端点: 10.42.0",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": false,
+        "detailOk": true,
+        "classification": "v3dist-ok",
+        "yaml": {
+          "opened": false,
+          "hasEditor": false,
+          "text": "服务 wms-admin-service 编辑信息 更多操作 编辑服务 编辑外部访问 编辑监控导出器 编辑 YAML 删除 属性 集群: host 项目: dev-wms 类型: 自定义服务 (VirtualIP) 应用: wms-admin-server 虚拟 IP 地址: 10.96.54.62 外部 IP 地址: 会话亲和性: 已禁用 选择器: app"
+        }
+      }
+    },
+    "cm-detail": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps/ewms-druid-config",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": true,
+        "detailOk": false,
+        "classification": "host-dashboard",
+        "yaml": {
+          "opened": false,
+          "skipped": false
+        }
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps/ewms-druid-config",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 17:06:26平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 17:06:34最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": true,
+        "detailOk": false,
+        "classification": "host-dashboard",
+        "yaml": {
+          "opened": false,
+          "skipped": false
+        }
+      }
+    },
+    "secret-detail": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets/aliyun-registry-secret",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": true,
+        "detailOk": false,
+        "classification": "host-dashboard",
+        "yaml": {
+          "opened": false,
+          "skipped": true
+        }
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets/aliyun-registry-secret",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 17:07:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 17:07:24最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "notFound": false,
+        "toDashboard": true,
+        "detailOk": false,
+        "classification": "host-dashboard",
+        "yaml": {
+          "opened": false,
+          "skipped": true
+        }
+      }
+    }
+  }
+}
