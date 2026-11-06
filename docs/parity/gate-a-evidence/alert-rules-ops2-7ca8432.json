@@ -1,0 +1,20 @@
+{
+  "tool": "alert-rules-ops2",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:36:42.189Z",
+  "sealed": {
+    "base": "http://192.168.2.131:30881",
+    "frameUrl": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字典 服务帐户 项目设置 基本信息 项目角色 项目成员 网关设置 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+    "leak": false,
+    "pass": false
+  },
+  "rebuild": {
+    "base": "http://192.168.2.131:30883",
+    "frameUrl": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+    "text": "扩展市场 应用商店 工作台 admin platform-admin dev-wms wms服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 配置 保密字典 配置字典 服务帐户 项目设置 基本信息 项目角色 项目成员 网关设置 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+    "leak": false,
+    "pass": false
+  },
+  "pass": false
+}
