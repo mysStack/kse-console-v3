@@ -1,0 +1,64 @@
+{
+  "tool": "alerts-s2i",
+  "generatedAt": "2026-11-06T03:25:18.614Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "alerts": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 已禁用 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+          "/dev-workspace/clusters/host/projects/dev-wms/alerts"
+        ]
+      },
+      "s2i": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+          "/dev-workspace/clusters/host/projects/dev-wms/imagebuilder"
+        ]
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "alerts": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+          "/dev-workspace/clusters/host/projects/dev-wms/alerts"
+        ]
+      },
+      "s2i": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found resource is not su",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+          "/dev-workspace/clusters/host/projects/dev-wms/imagebuilder"
+        ]
+      }
+    }
+  ],
+  "note": "embed-only; dashboard fallback = out of v3dist scope"
+}

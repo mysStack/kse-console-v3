@@ -1,0 +1,25 @@
+{
+  "tool": "deploy-yaml",
+  "generatedAt": "2026-11-06T03:24:11.378Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "name": "wms-scheduling-server",
+      "yaml": {
+        "opened": true,
+        "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/resource-status"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "name": "wms-scheduling-server",
+      "yaml": {
+        "opened": true,
+        "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-scheduling-server/resource-status"
+      }
+    }
+  ]
+}
