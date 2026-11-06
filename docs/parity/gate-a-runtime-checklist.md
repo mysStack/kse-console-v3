@@ -366,3 +366,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - CronJob/Jobs 心跳（rebuild 前）7ca8432。`cron-jobs-hb-7ca8432.json`
 - 角色/基本信息心跳 7ca8432。`roles-baseinfo-hb-7ca8432.json`
 - 重建 9b1819f 后网络隔离/S2I/Deploy 验收。`np-s2i-verify-9b1819f.json`
+- Cron/Service/CM/Secret/SC 心跳 9b1819f。`hb-9b1819f.json`

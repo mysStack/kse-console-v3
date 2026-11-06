@@ -1,0 +1,78 @@
+{
+  "tool": "hb-9b1819f",
+  "liveCommit": "9b1819f",
+  "generatedAt": "2026-11-06T07:19:09.554Z",
+  "pass": true,
+  "results": {
+    "cronjobs": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50 100 ",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50",
+        "pass": true
+      }
+    },
+    "services": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wms-sim",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP wms-pod-collating 10.96.155.58 VirtualIP - - 2026-10-19 16:52:01 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 wms-simulation-service - 自定义服务 VirtualIP wm",
+        "pass": true
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL_DISA",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL",
+        "pass": true
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认 1 20",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+        "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认",
+        "pass": true
+      }
+    },
+    "storageclasses": {
+      "sealed": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "pass": true
+      },
+      "rebuild": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 1 - 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 48 是 否 否 否 openebs.io/local 编辑信息 删除 每页显示：",
+        "pass": true
+      }
+    }
+  }
+}
