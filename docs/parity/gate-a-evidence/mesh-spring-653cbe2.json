@@ -1,0 +1,97 @@
+{
+  "tool": "mesh-spring",
+  "generatedAt": "2026-11-06T03:34:22.947Z",
+  "pass": true,
+  "compare": {
+    "mesh": {
+      "bothOk": true,
+      "delta": false
+    },
+    "spring": {
+      "bothOk": false,
+      "delta": false
+    },
+    "servicePolicies": {
+      "bothOk": false,
+      "delta": false
+    },
+    "strategies": {
+      "bothOk": false,
+      "delta": false
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "mesh": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同时保证业务连续性。 ",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "spring": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/springcloud",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "servicePolicies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/servicepolicies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "strategies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/strategies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "mesh": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayrelease",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/grayrelease/cates",
+        "text": "灰度发布 灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。 了解更多 发布模式 发布任务 使用灰度发布功能有哪些前提条件？ 了解更多 蓝绿部署 将业务流量发送给新版本进行测试。如果新版本运行不正常，可立即将业务流量切换给旧版本。 金丝雀发布 将业务流量同时分配给新版本和旧版本，在测试新版本的同",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "spring": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/springcloud",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:33:34平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:33:45最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "servicePolicies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/servicepolicies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:33:34平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:33:58最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "strategies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/strategies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:33:34平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:34:12最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      }
+    }
+  ]
+}
