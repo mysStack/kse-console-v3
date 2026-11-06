@@ -1,0 +1,80 @@
+{
+  "tool": "host-lists",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:09:53.407Z",
+  "pass": true,
+  "results": {
+    "services": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/services",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/services",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 名称 定制内容 项目 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 项目 内部访问 外部访问 创建时间 排序 升序 降序 grafana - kubesphere-monitoring-system 10.96.199.181 VirtualIP 32000/TCP 端口 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller-web - jobpilot 10.96.102.218 VirtualIP 30882/TCP 端口 2026-11-03 15:14:06 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller - jobpilot 10.96.",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/services",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/services",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 名称 定制内容 项目 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 项目 内部访问 外部访问 创建时间 排序 升序 降序 grafana - kubesphere-monitoring-system 10.96.199.181 VirtualIP 32000/TCP 端口 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller-web - jobpilot ",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "jobs": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 项目 上次运行时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 项目 上次运行时间 排序 升序 降序 ams-29899088 - 已完成 dev-wes 2026-11-06 14:08:38 编辑信息 重新运行 删除 wms-scheduling-29899088 - 已完成 dev-wms 2026-11-06 14:08:30 编辑信息 重新运行 删除 wms-admin-29899088 - 运行中 dev-wms 2026-11-06 14:08:00 编辑信息 重新运行 删除 wms-admin-29899086 - 已完成 dev-wms 2026-11-06 14:07:14 编辑信息 重新运行 删除 ",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/jobs",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 项目 上次运行时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 项目 上次运行时间 排序 升序 降序 ams-29899088 - 已完成 dev-wes 2026-11-06 14:08:38 编辑信息 重新运行 删除 wms-scheduling-29899088 - 已完成 dev-wms 2026-11-06 14:08:30 编辑信息 重新运行 删除 wms-admin-",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/configmaps",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/configmaps",
+        "text": " 定制内容 项目 字段 创建时间 创建 名称 排序 升序 降序 项目 字段 创建时间 排序 升序 降序 prometheus-k8s-rulefiles-0 - kubesphere-monitoring-system extension-gateway-prometheus-ingress-rules-d58dbe89-ac92-46a2-8618-8011522fcb2c.yaml,jobpilot-jobpilot-controller-e48b9574-9ecc-4b24-847e-60700e6a6a17.yaml,kubesphere-monitoring-system-prometheus-blackbox-exporter-6738ea42-4aa1-44aa-9804-8d38d87871d3.yaml,kubesphere-monitoring-system-whiza",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/configmaps",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/configmaps",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 项目 字段 创建时间 创建 名称 排序 升序 降序 项目 字段 创建时间 排序 升序 降序 prometheus-k8s-rulefiles-0 - kubesphere-monitoring-system extension-gateway-prometheus-ingress-rules-d58dbe89-ac92-46a2-8618-8011522fcb2c.yaml,jobpilot-jobpil",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "secrets": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/secrets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/secrets",
+        "text": " 定制内容 项目 类型 字段数量 创建时间 创建 名称 排序 升序 降序 项目 类型 字段数量 创建时间 排序 升序 降序 sh.helm.release.v1.grafana.v1 - kubesphere-monitoring-system helm.sh/release.v1 1 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑设置 删除 grafana - kubesphere-monitoring-system 默认 3 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑设置 删除 sh.helm.release.v1.jobpilot-controller.v41 - jobpilot helm.sh/release.v1 1 2026-11-03 17:41:09 编辑信息 编辑 YAML 编辑设置 删除 sh.helm.releas",
+        "leak": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/secrets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/secrets",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 项目 类型 字段数量 创建时间 创建 名称 排序 升序 降序 项目 类型 字段数量 创建时间 排序 升序 降序 sh.helm.release.v1.grafana.v1 - kubesphere-monitoring-system helm.sh/release.v1 1 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑设置 删除 grafana - kubesphere-moni",
+        "leak": false,
+        "classification": "v3dist-ok"
+      }
+    }
+  }
+}
