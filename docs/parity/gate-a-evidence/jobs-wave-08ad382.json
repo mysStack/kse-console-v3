@@ -1,0 +1,36 @@
+{
+  "tool": "jobs-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:30:23.674Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "jobsTab": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29898988 - 已完成 2026-11-06 12:29:15 编辑信息 重新运行 删除 wms-scheduling-29898988 - 已完成 2026-11-06 12:28:29 编辑信息 重新运行 删除 wms-report-29898960 - 已完成 2026-1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "afterClick": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29898988 - 已完成 2026-11-06 12:29:15 编辑信息 重新运行 删除 wms-scheduling-29898988 - 已完成 2026-11-06 12:28:29 编辑信息 重新运行 删除 wms-report-2",
+      "hasJob": true
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "jobsTab": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": " 任务任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。了解更多任务定时任务名称状态定制内容状态更新时间创建名称排序升序降序状态过滤失败已完成运行中更新时间排序升序降序wms-admin-29898990-运行中2026-11-06 12:30:00 编辑信息 重新运行 删除wms-scheduling-29898990-运行中2026-11-06 12:30:00 编辑信息 重新运行 删除wms-admin-29898988-已完成2026-11-06 12:29:15 编辑信息 重新运行 删除wms-",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "afterClick": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29898990 - 运行中 2026-11-06 12:30:00 编辑信息 重新运行 删除 wms-scheduling-29898990 - 运行中 2026-11-06 12:30:00 编辑信息 重新运行 删除 wms-adm",
+      "hasJob": true
+    }
+  ]
+}
