@@ -1,0 +1,50 @@
+{
+  "tool": "cron-job-yaml",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:29:29.620Z",
+  "cronjobs": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+      "clicked": true,
+      "hasYaml": true,
+      "listOk": true,
+      "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50 100 总数：3 1 / 1 1 编辑 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 ",
+      "pass": true
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+      "clicked": true,
+      "hasYaml": true,
+      "listOk": true,
+      "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 wms-scheduling - 运行中 */2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-report - 运行中 0 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 wms-admin - 运行中 0-58/2 * * * * 2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除 每页显示：10 10 20 50 100 总数：3 1 / 1 1 编辑 YAML 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 3",
+      "pass": true
+    }
+  },
+  "jobs": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+      "clicked": false,
+      "hasYaml": false,
+      "listOk": true,
+      "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899108 - 已完成 2026-11-06 14:28:29 编辑信息 重新运行 删除 wms-admin-29899108 - 运行中 2026-11-06 14:28:00 编辑信息 重新运行 删除 wms-admin-29899106 - 已完成 2026-11-06 14:27:14 编辑信息 重新运行 删除 wms-report-29899080 - 已完成 2026-11-06 14:01:14 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：4 1 / 1 1",
+      "pass": true
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+      "clicked": false,
+      "hasYaml": false,
+      "listOk": true,
+      "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899108 - 已完成 2026-11-06 14:29:15 编辑信息 重新运行 删除 wms-scheduling-29899108 - 已完成 2026-11-06 14:28:29 编辑信息 重新运行 删除 wms-report-29899080 - 已完成 2026-11-06 14:01:14 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+      "pass": true
+    }
+  },
+  "pass": true
+}
