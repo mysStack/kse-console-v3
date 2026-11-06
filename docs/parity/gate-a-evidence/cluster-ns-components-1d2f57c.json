@@ -1,0 +1,84 @@
+{
+  "tool": "cluster-ns-components",
+  "generatedAt": "2026-11-06T03:54:18.050Z",
+  "pass": true,
+  "note": "Cluster host projects/components/CRD/monitor embed A/B; dashboard both sides = host V4-native, not rebuild-only",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "projects": {
+        "path": "/clusters/host/projects",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "components": {
+        "path": "/clusters/host/components",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "crds": {
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "monitors": {
+        "path": "/clusters/host/monitor-cluster",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "projects": {
+        "path": "/clusters/host/projects",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:53:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:53:22最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "components": {
+        "path": "/clusters/host/components",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:53:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:53:34最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "crds": {
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:53:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:53:49最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      },
+      "monitors": {
+        "path": "/clusters/host/monitor-cluster",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:53:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:54:05最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false
+      }
+    }
+  ],
+  "summary": {
+    "30881_ok": 0,
+    "30883_ok": 0
+  }
+}

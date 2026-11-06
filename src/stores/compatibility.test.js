@@ -3,6 +3,7 @@ import { getProjectResourceUrl } from './project'
 import { getWorkspaceClustersUrl } from './workspace'
 import ProjectMonitoring from './monitoring/project'
 import WorkloadRankStore from './rank/workload'
+import StorageClassStore from './storageClass'
 
 describe('KubeSphere v4 API compatibility', () => {
   it('uses the v1beta1 role template API for project rules', () => {
@@ -50,6 +51,13 @@ describe('KubeSphere v4 API compatibility', () => {
 
     expect(store.fetchUrl).toBe(
       'kapis/monitoring.kubesphere.io/v1beta1/workload_metrics'
+    )
+  })
+
+  it('lists storageclasses via storage.k8s.io kapis (not removed resources API)', () => {
+    const store = new StorageClassStore()
+    expect(store.getResourceUrl({ cluster: 'host' })).toBe(
+      'kapis/storage.k8s.io/v1/klusters/host/storageclasses'
     )
   })
 })

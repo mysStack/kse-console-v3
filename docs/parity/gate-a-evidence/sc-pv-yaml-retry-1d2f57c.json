@@ -1,0 +1,153 @@
+{
+  "tool": "sc-pv-yaml-retry",
+  "generatedAt": "2026-11-06T03:52:11.336Z",
+  "pass": false,
+  "note": "SC/PV YAML still not opened or host route non-v3dist; diagnose via frameUrl/buttons/dataTests",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "scName": "openebs-hostpath",
+      "scList": {
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "isDashboard": false,
+        "notFound": false,
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "dataTests": [
+          "table-refresh",
+          "table-columns",
+          "table-create",
+          "table-item-edit",
+          "table-item-delete",
+          "table-item-edit",
+          "table-item-delete"
+        ]
+      },
+      "scDetail": {
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes",
+        "isDashboard": false,
+        "notFound": false,
+        "text": "存储类 openebs-hostpath 编辑 YAML 更多操作 设为默认存储类 设置卷操作 删除 属性 存储类型: 块存储 供应者: openebs.io/local 默认存储类: 是 允许卷扩展: 否 回收机制: Delete 允许卷快照: 否 持久卷声明 持久卷声明 名称 状态 容量 挂载状态 项目 创建时间 grafana 已绑定 10Gi 已挂载 kubesphere-monitoring-system 2026-11-03",
+        "buttons": [
+          "编辑 YAML",
+          "更多操作"
+        ],
+        "dataTests": [
+          "detail-title",
+          "detail-desc",
+          "detail-editYaml",
+          "detail-more",
+          "detail-setDefault",
+          "detail-funcManage",
+          "detail-delete",
+          "detail-attrs"
+        ]
+      },
+      "scYaml": {
+        "opened": true,
+        "via": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes",
+        "clicked": "data-test-more",
+        "menuClicked": "detail-editYaml",
+        "attempts": [
+          {
+            "via": "http://192.168.2.131:30881/clusters/host/storageclasses/openebs-hostpath/volumes",
+            "before": {
+              "more": []
+            }
+          },
+          {
+            "via": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes",
+            "before": {
+              "more": [
+                {
+                  "t": "编辑 YAML",
+                  "dt": "detail-editYaml"
+                },
+                {
+                  "t": "更多操作",
+                  "dt": "detail-more"
+                }
+              ]
+            },
+            "clicked": "data-test-more",
+            "menuClicked": "detail-editYaml",
+            "opened": true
+          }
+        ]
+      },
+      "pvName": "pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+      "pvList": {
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/Volumes/Volumes",
+        "isDashboard": false,
+        "text": " 名称 状态 定制内容 状态 持久卷 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升序 降序 grafana openebs-hostpath 已绑定 pvc-6b64898a-a0ef-4e9c-8257-5194"
+      },
+      "pvDetail": {
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "isDashboard": true,
+        "text": " "
+      },
+      "pvYaml": {
+        "opened": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "scName": "host",
+      "scList": {
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "isDashboard": false,
+        "notFound": false,
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 未发现匹配的结果 您可以尝试刷新数据或",
+        "dataTests": [
+          "table-refresh",
+          "table-columns",
+          "table-create",
+          "table-empty-refresh",
+          "table-empty-clear-filter"
+        ]
+      },
+      "scDetail": {
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses/host",
+        "isDashboard": false,
+        "notFound": false,
+        "text": "Not Found resource is not supported NotFound storageclasses.storage.k8s.io \"host\" not found",
+        "buttons": [],
+        "dataTests": []
+      },
+      "scYaml": {
+        "opened": false,
+        "attempts": [
+          {
+            "via": "http://192.168.2.131:30883/clusters/host/storageclasses/host",
+            "before": {
+              "more": []
+            }
+          },
+          {
+            "via": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses/host",
+            "before": {
+              "more": []
+            }
+          },
+          {
+            "via": "http://192.168.2.131:30883/consolev3/dashboard",
+            "before": {
+              "more": []
+            }
+          }
+        ]
+      },
+      "pvName": "",
+      "pvList": {
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/Volumes/Volumes",
+        "isDashboard": false,
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 持久卷声明 持久卷 什么是存储类？ 什么是本地卷? 名称"
+      },
+      "pvDetail": null,
+      "pvYaml": {
+        "opened": false
+      }
+    }
+  ]
+}

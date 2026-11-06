@@ -37,10 +37,10 @@ export default class StorageClassStore extends Base {
 
   module = 'storageclasses'
 
+  // KS 4.1.x no longer serves storageclasses via resources.kubesphere.io;
+  // sealed release-4.1.5 v3dist lists through storage.k8s.io (kapis).
   getResourceUrl = params =>
-    `kapis/resources.kubesphere.io/v1alpha3${this.getPath(params)}/${
-      this.module
-    }`
+    `kapis/storage.k8s.io/v1${this.getPath(params)}/${this.module}`
 
   async delete(params) {
     await super.delete(params)

@@ -1,0 +1,194 @@
+{
+  "tool": "sc-yaml-net",
+  "generatedAt": "2026-11-06T03:56:18.955Z",
+  "pass": false,
+  "note": "Hardcoded openebs-hostpath detail YAML; capture list API hits; PV path exploration",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "list": {
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "hasKnownSc": true,
+        "empty": false,
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1"
+      },
+      "detail": {
+        "scName": "openebs-hostpath",
+        "url": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes",
+        "ok": true,
+        "text": "存储类 openebs-hostpath 编辑 YAML 更多操作 设为默认存储类 设置卷操作 删除 属性 存储类型: 块存储 供应者: openebs.io/local 默认存储类: 是 允许卷扩展: 否 回收机制: Delete 允许卷快照: 否 持久卷声明 持久卷声明 名称 状态 容量 挂载状态 项目 创建时间 grafana 已绑定 10Gi 已挂载 kubesphere-monitoring-system 2026-11-03 18:02:30 prometheus-k8s-db-prometheus-k"
+      },
+      "scYaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes"
+      },
+      "pvTab": false,
+      "pvName": "pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+      "pvYaml": {
+        "opened": false,
+        "pathTried": [
+          {
+            "path": "/clusters/host/volumes/pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+            "url": "http://192.168.2.131:30881/consolev3/dashboard",
+            "ok": false,
+            "text": " "
+          },
+          {
+            "path": "/clusters/host/persistentvolumes/pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+            "url": "http://192.168.2.131:30881/consolev3/dashboard",
+            "ok": false,
+            "text": " "
+          },
+          {
+            "path": "/clusters/host/storage/persistentvolumes/pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+            "url": "http://192.168.2.131:30881/consolev3/dashboard",
+            "ok": false,
+            "text": " "
+          }
+        ]
+      },
+      "apiHits": [
+        {
+          "status": 200,
+          "url": "/clusters/host/storageclasses",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/storage.k8s.io/v1/storageclasses?sortBy=createTime&limit=10",
+          "bodyHint": "items=2:nfs-csi,openebs-hostpath"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/storageclasses/openebs-hostpath",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/apis/storage.k8s.io/v1/storageclasses/openebs-hostpath",
+          "bodyHint": "items=0:"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/storage.k8s.io/v1/storageclasses?limit=-1&sortBy=createTime&page=1",
+          "bodyHint": "items=2:nfs-csi,openebs-hostpath"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?storageClassName=openebs-hostpath&sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,dbgate-data"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/apis/storage.k8s.io/v1/storageclasses/openebs-hostpath",
+          "bodyHint": "items=0:"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,data-v4-pvc-sts-7fa-0"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,data-v4-pvc-sts-7fa-0"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/persistentvolumes/pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/storage/persistentvolumes/pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324",
+          "bodyHint": "non-json"
+        }
+      ]
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "list": {
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "hasKnownSc": false,
+        "empty": false,
+        "text": ""
+      },
+      "detail": {
+        "scName": "openebs-hostpath",
+        "url": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes",
+        "ok": true,
+        "text": "存储类 openebs-hostpath 编辑 YAML 更多操作 设为默认存储类 设置授权规则 设置卷操作 设置自动扩展 删除 属性 供应者: openebs.io/local 默认存储类: 是 允许卷扩展: 否 回收机制: Delete 允许卷快照: 否 持久卷声明 持久卷声明 名称 状态 容量 挂载状态 项目 创建时间 grafana 已绑定 10Gi 已挂载 kubesphere-monitoring-system 2026-11-03 18:02:30 prometheus-k8s-db-promethe"
+      },
+      "scYaml": {
+        "opened": true,
+        "clicked": "detail-editYaml",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses/openebs-hostpath/volumes"
+      },
+      "pvTab": true,
+      "pvName": "",
+      "pvYaml": {
+        "opened": false,
+        "pathTried": []
+      },
+      "apiHits": [
+        {
+          "status": 200,
+          "url": "/clusters/host/storageclasses",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 404,
+          "url": "/kapis/clusters/host/resources.kubesphere.io/v1alpha3/storageclasses?sortBy=createTime&limit=10",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 200,
+          "url": "/clusters/host/storageclasses/openebs-hostpath",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 404,
+          "url": "/kapis/resources.kubesphere.io/v1alpha3/storageclasses?limit=-1&sortBy=createTime&page=1",
+          "bodyHint": "non-json"
+        },
+        {
+          "status": 200,
+          "url": "/apis/clusters/host/storage.k8s.io/v1/storageclasses/openebs-hostpath",
+          "bodyHint": "items=0:"
+        },
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?storageClassName=openebs-hostpath&sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,dbgate-data"
+        },
+        {
+          "status": 200,
+          "url": "/apis/clusters/host/storage.k8s.io/v1/storageclasses/openebs-hostpath",
+          "bodyHint": "items=0:"
+        },
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,data-v4-pvc-sts-7fa-0"
+        },
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/resources.kubesphere.io/v1alpha3/persistentvolumeclaims?sortBy=createTime&limit=10",
+          "bodyHint": "items=10:grafana,prometheus-k8s-db-prometheus-k8s-0,data-v4-pvc-sts-7fa-0"
+        },
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/resources.kubesphere.io/v1alpha3/persistentvolumes?sortBy=createTime&limit=10",
+          "bodyHint": "items=10:pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324,pvc-2a8eb210-ce55-49e9-8b89-10318a7c4576,pvc-22a0de09-cf0c-4b97-a8e8-e6512d320bfd"
+        }
+      ]
+    }
+  ],
+  "gaps": {
+    "listEmpty30883": true,
+    "yamlOnly81": false
+  }
+}

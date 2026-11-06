@@ -268,4 +268,7 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 服务网格/Spring 相关路径两侧对称（多为非 embed）。`mesh-spring-653cbe2.json`
 - `1d2f57c` 已挂 30883；Pod 详情/列表状态中文对齐（无 raw Completed）。`pod-status-locale-verify.json`
 - Jobs 列表/详情状态中文（已完成/运行中）正常；events 路由两侧 dashboard。`events-job-1d2f57c.json`
-- StorageClass/PV 详情 YAML 本波两侧均未打开（待跟）；不记独有缺口。`sc-pv-yaml-1d2f57c.json`
+- StorageClass/PV 详情 YAML 初探未打开（菜单探测）。`sc-pv-yaml-1d2f57c.json`
+- Host `nodes` 两侧均落到 dashboard（非重建独有）。`nodes-1d2f57c.json` / `nodes-host-v4-native.md`
+- Host projects/components/CRD/monitor-cluster 两侧均 dashboard（对称）。`cluster-ns-components-1d2f57c.json`
+- **重建独有**：SC 列表打 `resources.kubesphere.io/v1alpha3/storageclasses` 404 致空表；详情+YAML 硬编码名两侧可通过。`sc-list-api-gap.md` / `sc-yaml-net-1d2f57c.json`
