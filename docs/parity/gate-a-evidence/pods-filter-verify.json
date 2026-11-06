@@ -1,0 +1,376 @@
+{
+  "base": "http://192.168.2.131:30883",
+  "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+  "found": {
+    "成功完成": true,
+    "失败": true,
+    "未知": true,
+    "等待中": true,
+    "运行中": true
+  },
+  "hasRawCompleted": false,
+  "hasWrong": [],
+  "clickInfo": {
+    "ok": true,
+    "candidates": 2,
+    "html": "<a class=\"is-trigger\"><span>状态</span><span class=\"icon is-small\"><svg class=\"kubed-icon kubed-icon-caret-down kubed-icon-dark\"><use xlink:href=\"#icon-caret-down\"></use></svg></span></a><div class=\"popper dropdown dropdown-\"><div class=\"dropdown-content\"><ul class=\"menu\"><div class=\"menu-label\">过滤</div><li class=\"menu-item\">等待中</li><li class=\"menu-item\">运行中</li><li class=\"menu-item\">成功完成</li><li cl"
+  },
+  "menus": {
+    "menus": [
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "名称",
+          "状态",
+          "应用"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "状态",
+          "节点",
+          "容器组 IP 地址",
+          "应用",
+          "更新时间"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "升序",
+          "升序",
+          "降序",
+          "降序"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "等待中",
+          "运行中",
+          "成功完成",
+          "失败",
+          "未知"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "升序",
+          "升序",
+          "降序",
+          "降序"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "10",
+          "10",
+          "20",
+          "20",
+          "50",
+          "50",
+          "100",
+          "100"
+        ]
+      },
+      {
+        "sel": ".dropdown",
+        "texts": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "名称",
+          "状态",
+          "应用"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "升序",
+          "升序",
+          "降序",
+          "降序"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "等待中",
+          "运行中",
+          "成功完成",
+          "失败",
+          "未知"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "升序",
+          "升序",
+          "降序",
+          "降序"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "查看 YAML",
+          "查看 YAML",
+          "删除",
+          "删除"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "10",
+          "10",
+          "20",
+          "20",
+          "50",
+          "50",
+          "100",
+          "100"
+        ]
+      },
+      {
+        "sel": "ul.menu",
+        "texts": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "matchedLi": [
+      "等待中",
+      "运行中",
+      "成功完成",
+      "失败",
+      "未知"
+    ]
+  },
+  "hostMenus": [],
+  "headers": [
+    "",
+    "名称\n排序\n升序\n降序",
+    "状态\n过滤\n等待中\n运行中\n成功完成\n失败\n未知",
+    "节点",
+    "容器组 IP 地址",
+    "应用",
+    "更新时间\n排序\n升序\n降序",
+    ""
+  ],
+  "bodySample": [
+    "容器组",
+    "",
+    "容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。",
+    "",
+    "名称",
+    "状态",
+    "应用",
+    "定制内容",
+    "状态",
+    "节点",
+    "容器组 IP 地址",
+    "应用",
+    "更新时间",
+    "\t名称",
+    "排序",
+    "升序",
+    "降序",
+    "\t状态",
+    "过滤",
+    "等待中",
+    "运行中",
+    "成功完成",
+    "失败",
+    "未知",
+    "\t节点\t容器组 IP 地址\t应用\t更新时间",
+    "排序",
+    "升序",
+    "降序",
+    "\t",
+    "\t"
+  ],
+  "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+  "pass": true
+}

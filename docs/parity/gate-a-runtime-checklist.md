@@ -240,3 +240,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Route finding: bare `/clusters/host/projects/...` lists 404 on both ports; tools default switched to `/dev-workspace/...`. `route-prefix-finding.md`
 - Secret/CM detail YAML + Service YAML read-only: pass。`detail-actions-c0aa6a9.json`
 - Pods filter gap vs sealed（成功完成/失败/未知）已修源码，待重编验收。`pods-status-filter-gap.md`
+- 2026-11-06 `48f97d7` 已挂 30883；Pod 状态过滤文案验收通过：等待中/运行中/成功完成/失败/未知。`pods-filter-verify.json`
+- 未宣称 Gate A 关闭；仍为 hostPath A/B，未替换官方镜像。
