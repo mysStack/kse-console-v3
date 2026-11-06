@@ -1,0 +1,64 @@
+{
+  "tool": "snapshots-storage",
+  "generatedAt": "2026-11-06T03:15:20.354Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "snaps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "storageclasses": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/storageclasses",
+        "text": "名称 存储类型 定制内容 存储类型 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升序 降序 存储类型 过滤 块存储 对象存储 文件存储 未分类 持久卷声明数量 允许卷克隆 允许卷快照 允许卷扩展 供应者 nfs-csi 文件存储 1 是 是 是 nfs.csi.k8s.io 编辑信息 删除 openebs-hostpath 默认 块存储 48 否 否 否 openebs.io/local 编辑信息 删除",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "clusterSnaps": {
+        "path": "/clusters/host/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/volume-snapshots/snapshots",
+        "text": " 名称 状态 定制内容 状态 项目 卷快照内容 容量 创建时间 创建 名称 排序 升序 降序 状态 过滤 就绪 未就绪 项目 卷快照内容 容量 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "snaps": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 名称 状态 定制内容 状态 项目 容量 创建时间 名称 排序 升序 降序 状态 过滤 创建中 创建成功 删除中 项目 容量 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1 Not Found resource is not suppo",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "storageclasses": {
+        "path": "/clusters/host/storageclasses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/storageclasses",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。 了解更多 名称 定制内容 持久卷声明数量 默认存储类 允许卷克隆 允许卷快照 允许卷扩展 供应者 创建 名称 排序 升",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      },
+      "clusterSnaps": {
+        "path": "/clusters/host/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/volume-snapshots/snapshots",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 卷快照 卷快照内容 什么是卷快照类？ 什么是卷快照内容？ 名称 状态 定制内容 状态 项目 容量 创建",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true
+      }
+    }
+  ],
+  "note": "read-only; prefer real consolev3 embed"
+}

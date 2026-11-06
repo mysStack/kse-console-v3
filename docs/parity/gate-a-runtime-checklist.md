@@ -256,3 +256,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 网络隔离页（v3 embed）两侧通过。`members-network-strict-ffbdbae.json`
 - 企业空间角色/成员路由当前未嵌入 v3dist（落到 dashboard），暂不纳入 Gate A v3dist 缺口。
 - API 抽检：workspaceroles/clusterroles 的 v1alpha2 404、v1beta1 200（RoleStore 已切 v1beta1）。
+- `653cbe2` 已挂 30883：UserStore/常量 IAM 切 v1beta1 + namespacemembers。`iam-v1beta1-alignment.md`
+- VolumeSnapshot（项目/集群）与 StorageClass 列表 v3 embed 两侧通过。`snapshots-storage-ffbdbae.json`
