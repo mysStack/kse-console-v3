@@ -1,0 +1,62 @@
+{
+  "tool": "ingress-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:29:32.291Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "list": {
+        "path": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "text": " 应用路由应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。使用应用路由的前提条件？应用路由支持哪些的访问模式？网关未启用若要使用网关，请在集群、企业空间或项目中配置网关。启用网关名称应用定制内容网关地址Ingress Class应用创建时间创建名称排序升序降序网关地址Ingress Class应用创建时间排序升序降序matrix-192.168.2.242--2026-05-27 10:33:36 编辑信息 编辑 YAML 编辑路由规则 编辑注解 删除每页显示：10",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "yaml": {
+        "path": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空间或项目中配置网关。 启用网关 名称 应用 定制内容 网关地址 Ingress Class 应用 创建时间 创建 名称 排序 升序 降序 网关地址 Ingress Class 应用 创建时间 排序 升序 降序 matrix - 19",
+        "clicked": "table-item-editYaml",
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses"
+      },
+      "classes": {
+        "path": "/clusters/host/ingressclasses",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "list": {
+        "path": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 名称 应用 定制内容 网关地址 应用 创建时间 创建 名称 排序 升序 降序 网关地址 应用 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "yaml": {
+        "path": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+        "text": "应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 了解更多 使用应用路由的前提条件？ 了解更多 应用路由支持哪些的访问模式？ 网关未启用 要使用网关，请在集群或项目中配置网关 启用网关 名称 应用 定制内容 网关地址 应用 创建时间 创建 名称 排序 升序 降序 网关地址 应用 创建时间 排序 升序 降序 matrix - 192.168.2.242 2026-05-27 10",
+        "clicked": "table-item-editYaml",
+        "opened": true,
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses"
+      },
+      "classes": {
+        "path": "/clusters/host/ingressclasses",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:29:12平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:29:28最后更新时间0企业空间0用户最近访问dev-webhost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}
