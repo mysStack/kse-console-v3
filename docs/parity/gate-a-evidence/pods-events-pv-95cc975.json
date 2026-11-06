@@ -1,0 +1,80 @@
+{
+  "tool": "pods-events-pv",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:10:51.867Z",
+  "pass": false,
+  "results": {
+    "pods": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899028-rt2mx 已完成 成功完成 dev01（192.168.2.131） 10.42.0.170 2026-11-06 13:08:00 查看 YAML 删除 wms-admin-29899028-qx7cr 已完成 成功完成 dev01（192.168.2.131） 10.42.0.178 2026-11-06 13:08:00 查看 YAML 删除 wms-report-",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899028-rt2mx 已完成 成功完成 dev01（192.168.2.131） 10.42.0.170 2026-11-06 13:08:00 查看 YAML 删除 wms-admin-29899028-qx7cr 已完成 成功完成 dev01（192.168.2.131） 10.42.0.178 2026-11-06 13:08:00 查看 YAML 删除 wms-report-29899020-4",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "events": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 0 容器组 0 部署 0 有状态副本集 0 守护进程集 0 任务 0 定时任务 0 持久卷声明 0 服务 0 应用路由 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 无上限 内存上限 资源类型 0 已使用 无上限 配额 无上限 查看更多 dev-wms wms服务 基本信息 host 集群 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 项目成员和角色 项目成员 0 项目角色 最近登录用户 查看更多",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 dev-wms wms服务 host 集群 dev-workspace 企业空间 admin 创建者 默认容器配额未设置 默认容器配额用于指定项目中创建的容器的默认 CPU 预留、CPU 上限、内存预留和内存上限。 编辑配额 资源状态 应用资源 物理资源 最近 12 小时 11 容器组 6 部署 0 有状态副本集 0 守护进程集 5 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 帮助信息 💁 如何邀请用户到当前项目中？ 💁 如何设置项目网关？ 资源用量 Top 5 资源名称 按 CPU 用量排行 暂无数据 0.75",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "persistentvolumes": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "pass": false
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/Volumes/Volumes",
+        "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 持久卷声明 持久卷 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升序 降序 grafana openebs-hostpath 已绑定 pvc-6b64898a-a0ef-4e9c-8257-51944d6fc324 查看 YAML RWO 已挂载 2026-11-03 18:02 编辑信息 ",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "volume-snapshot-classes": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/volume-snapshot-classes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "pass": false
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/volume-snapshot-classes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:10:42平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:10:50最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}
