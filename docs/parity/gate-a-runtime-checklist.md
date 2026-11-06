@@ -326,3 +326,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - S2I 列表 unsupported 静默空态（对齐 applications）。`s2i-unsupported-gap.md`
 - unsupported 泄漏面扫描（applications/s2i/hpa/roles/gateway）。`unsupported-scan-95cc975.json`
 - S2I unsupported 静默修复 7ca8432 验收。`s2i-verify-7ca8432.json`
+- S2I 7ca8432 加长等待 iframe 验收。`s2i-verify-7ca8432b.json`
