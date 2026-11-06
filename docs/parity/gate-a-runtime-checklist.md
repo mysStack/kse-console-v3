@@ -311,3 +311,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Pods 列表中文状态 4aa18ae 复扫。`pods-list-4aa18ae.json`
 - StatefulSet 列表 4aa18ae 抽检。`sts-list-4aa18ae.json`
 - CronJob 列表（点定时任务 tab）4aa18ae 抽检。`cron-list-4aa18ae.json`
+- 重建挂载到 95cc975（含 secret URL 空格修复）；SC+Snapshot 回归。`post-rebuild-sc-snap-95cc975.json`
+- Deployments 列表 95cc975 对称抽检。`deploy-list-95cc975.json`

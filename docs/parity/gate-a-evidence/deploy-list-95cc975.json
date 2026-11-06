@@ -1,0 +1,26 @@
+{
+  "tool": "deploy-list",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:06:34.850Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "text": " 工作负载工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。部署有状态副本集守护进程集名称状态应用定制内容状态应用更新时间创建名称排序升序降序状态过滤运行中更新中已停止应用更新时间排序升序降序wms-scheduling-server-运行中 (1/1)wms-scheduling-server2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除wms-admin-server-运行中 (1/1)wms-admin-server2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除wms-report-server-运行中 (1/1)wms-report-server2026-10-27 16:5",
+      "hasRows": true,
+      "zhRunning": true,
+      "leak404": false
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除 wms-report-server ",
+      "hasRows": true,
+      "zhRunning": true,
+      "leak404": false
+    }
+  ]
+}
