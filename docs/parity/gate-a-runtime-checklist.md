@@ -364,3 +364,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - SC/Snapshot/PVC/Secret 心跳 7ca8432。`storage-hb-7ca8432.json`
 - namespacenetworkpolicies unsupported 静默（共享 silenceUnsupported）。`namespacenetworkpolicies-unsupported-gap.md`
 - CronJob/Jobs 心跳（rebuild 前）7ca8432。`cron-jobs-hb-7ca8432.json`
+- 角色/基本信息心跳 7ca8432。`roles-baseinfo-hb-7ca8432.json`
