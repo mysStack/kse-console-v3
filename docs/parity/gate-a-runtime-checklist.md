@@ -338,3 +338,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 项目基本信息/成员/角色/配额 分类抽检 7ca8432。`project-settings-7ca8432.json`
 - Soft：项目成员/配额深链两侧 host-dashboard。`members-quota-host-soft.md`
 - SC 列表/YAML 重试 + 企业空间应用分类 7ca8432。`sc-yaml-ws-apps-7ca8432.json`
+- Service/Ingress/CronJob 7ca8432 回归。`svc-ing-cron-7ca8432.json`
