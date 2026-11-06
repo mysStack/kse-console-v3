@@ -1,14 +1,12 @@
 {
   "tool": "cm-via-list",
   "commit": "08ad382",
-  "generatedAt": "2026-11-06T04:37:01.278Z",
-  "pass": false,
+  "generatedAt": "2026-11-06T04:37:47.445Z",
+  "pass": true,
   "sides": [
     {
       "label": "30881",
       "base": "http://192.168.2.131:30881",
-      "listOk": true,
-      "listText": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IM",
       "clickedName": "ewms-rabbitmq-config",
       "detail": {
         "ok": true,
@@ -22,16 +20,14 @@
     {
       "label": "30883",
       "base": "http://192.168.2.131:30883",
-      "listOk": true,
-      "listText": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATI",
-      "clickedName": "了解更多",
+      "clickedName": "ewms-rabbitmq-config",
       "detail": {
         "ok": true,
-        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulati",
-        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps"
+        "text": "配置字典 ewms-rabbitmq-config 编辑信息 更多操作 编辑 YAML 编辑设置 删除 属性 集群: host 项目: dev-wms 创建时间: 2026-10-21 14:31:14 创建者: 数据 数据 RABBITMQ_PORT 15672 RABBITMQ_URL rabbitmq-ha-quorum.dev-middleware RABBITMQ_USERNAME admin",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps/ewms-rabbitmq-config/detail"
       },
       "yaml": {
-        "opened": false
+        "opened": true
       }
     }
   ]
