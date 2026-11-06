@@ -278,3 +278,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 集群设置 base-info/visibility/members/roles/log-receivers 两侧均 dashboard（对称非独有）；项目 CM 列表 embed 通过。`cluster-settings-08ad382.json`
 - Secret/CM/Service 详情 YAML（`/detail`）抽检见 `secret-cm-yaml-08ad382.json`。
 - Secret/CM/Service **列表行** 编辑 YAML 抽检见 `list-yaml-actions-08ad382.json`（详情深链两侧易落 dashboard，对称）。
+- Deployment 详情 tab（resource-status/revision/monitors/env/events）对称抽检。`deploy-tabs-08ad382.json`

@@ -1,0 +1,91 @@
+{
+  "tool": "deploy-tabs",
+  "commit": "08ad382",
+  "deploy": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service",
+  "generatedAt": "2026-11-06T04:20:41.638Z",
+  "pass": false,
+  "summary": {
+    "30881": 0,
+    "30883": 4
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
+        "text": "",
+        "ok": false,
+        "isDashboard": false
+      },
+      "revision": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/revision",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true
+      },
+      "monitor": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
+        "text": "",
+        "ok": false,
+        "isDashboard": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
+        "text": "",
+        "ok": false,
+        "isDashboard": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
+        "text": "",
+        "ok": false,
+        "isDashboard": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/resource-status",
+        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "ok": true,
+        "isDashboard": false
+      },
+      "revision": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/revision",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:20:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:20:23最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "ok": false,
+        "isDashboard": true
+      },
+      "monitor": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/monitors",
+        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "ok": true,
+        "isDashboard": false
+      },
+      "env": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/env",
+        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "ok": true,
+        "isDashboard": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments/wms-pod-collating-service/events",
+        "text": "NotFound deployments.apps \"wms-pod-collating-service\" not found",
+        "ok": true,
+        "isDashboard": false
+      }
+    }
+  ]
+}
