@@ -1,0 +1,36 @@
+{
+  "tool": "snap-verify",
+  "commit": "4aa18ae",
+  "generatedAt": "2026-11-06T04:56:12.884Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+      "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+      "noUnsupported": true,
+      "friendlyEmpty": true,
+      "hits": [
+        {
+          "status": 200,
+          "url": "/clusters/host/kapis/snapshot.storage.k8s.io/v1/namespaces/dev-db/volumesnapshots?sortBy=createTime&limit=10"
+        }
+      ]
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volume-snapshots",
+      "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+      "noUnsupported": true,
+      "friendlyEmpty": true,
+      "hits": [
+        {
+          "status": 200,
+          "url": "/kapis/clusters/host/snapshot.storage.k8s.io/v1/namespaces/dev-db/volumesnapshots?sortBy=createTime&limit=10"
+        }
+      ]
+    }
+  ]
+}
