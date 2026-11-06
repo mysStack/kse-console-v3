@@ -383,3 +383,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 回收后核心 A/B（不宣称关闭）。`recovery-core-ab.json`
 - Gate A 回收后状态声明（未关闭）。`gate-a-after-recovery.md`
 - REA 核心缺口与 VolumeSnapshotClass 文案补丁。`rea-core-gaps.md`
+- 干净重建 b511b4f 后 locale 覆盖。`locale-coverage-rebuild.json`
+- 回收后核心详情/YAML A/B（不宣称关闭）。`recovery-detail-yaml-ab.json`
