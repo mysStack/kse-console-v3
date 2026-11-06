@@ -1,0 +1,181 @@
+{
+  "tool": "volumes-jobs-workspace",
+  "generatedAt": "2026-11-06T02:35:40.707Z",
+  "workspace": "dev-workspace",
+  "pvcProject": "dev-db",
+  "pvcName": "data-postgresql-dev-0",
+  "jobsProject": "dev-wms",
+  "pass": true,
+  "yamlOk": false,
+  "snapshotActionGap": true,
+  "moreActions81": [
+    "编辑 YAML",
+    "克隆",
+    "扩展",
+    "删除",
+    "项目:\ndev-db",
+    "状态:\n已绑定",
+    "容量:\n8Gi",
+    "访问模式:\nReadWriteOnce",
+    "存储类:\nopenebs-hostpath",
+    "供应者:\nopenebs.io/local",
+    "持久卷:\npvc-77ad3407-2e9c-4226-a34f-c05ce36573f9",
+    "创建时间:\n2026-05-24 14:04:15",
+    "创建者:"
+  ],
+  "moreActions83": [
+    "编辑 YAML",
+    "克隆",
+    "创建快照",
+    "扩展",
+    "删除",
+    "项目:\ndev-db",
+    "状态:\n已绑定",
+    "容量:\n8Gi",
+    "访问模式:\nReadWriteOnce",
+    "存储类:\nopenebs-hostpath",
+    "供应者:\nopenebs.io/local",
+    "持久卷:\npvc-77ad3407-2e9c-4226-a34f-c05ce36573f9",
+    "创建时间:\n2026-05-24 14:04:15",
+    "创建者:"
+  ],
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "volumesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "listOk": true,
+        "hasPvcName": true,
+        "snip": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 持久卷 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 "
+      },
+      "pvc": {
+        "name": "data-postgresql-dev-0",
+        "project": "dev-db",
+        "detailOk": true,
+        "moreActions": [
+          "编辑 YAML",
+          "克隆",
+          "扩展",
+          "删除",
+          "项目:\ndev-db",
+          "状态:\n已绑定",
+          "容量:\n8Gi",
+          "访问模式:\nReadWriteOnce",
+          "存储类:\nopenebs-hostpath",
+          "供应者:\nopenebs.io/local",
+          "持久卷:\npvc-77ad3407-2e9c-4226-a34f-c05ce36573f9",
+          "创建时间:\n2026-05-24 14:04:15",
+          "创建者:"
+        ],
+        "hasCreateSnapshot": false,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+        },
+        "snip": "持久卷声明 data-postgresql-dev-0 编辑信息 更多操作 编辑 YAML 克隆 扩展 删除 属性 项目: dev-db 状态: 已绑定 容量: 8Gi 访问模式: ReadWriteOnce 存储类: openebs-hostpath 供应者: openebs.io/local 持久卷: pvc-77ad3407-2e9c-4226-a34"
+      },
+      "jobsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "name": "wms-scheduling-29898874",
+        "hasStatusHeader": true,
+        "filters": [
+          "失败",
+          "已完成",
+          "运行中"
+        ],
+        "snip": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29898874 - 已完成 2026-11-06 10:34:30 编辑信"
+      },
+      "job": {
+        "name": "wms-scheduling-29898874",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "closed": false,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs/wms-scheduling-29898874/records"
+        },
+        "snip": "任务 wms-scheduling-29898874 编辑信息 更多操作 重新运行 查看 YAML 删除 属性 集群: host 项目: dev-wms 状态: 已完成 最大重试次数: 0 容器组完成数量: 1 并行容器组数量: 1 最大运行时间（s）: 1800 创建时间: 2026-11-06 10:34:00 创"
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "volumesList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-db/volumes",
+        "listOk": true,
+        "hasPvcName": true,
+        "snip": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 名称 状态 定制内容 状态 挂载状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 已绑定 丢失 等待中 持久卷 访问模式 RWO：单节点读写 ROX：多节点只读 RWX：多节点读写 挂载状态 创建时间 排序 升"
+      },
+      "pvc": {
+        "name": "data-postgresql-dev-0",
+        "project": "dev-db",
+        "detailOk": true,
+        "moreActions": [
+          "编辑 YAML",
+          "克隆",
+          "创建快照",
+          "扩展",
+          "删除",
+          "项目:\ndev-db",
+          "状态:\n已绑定",
+          "容量:\n8Gi",
+          "访问模式:\nReadWriteOnce",
+          "存储类:\nopenebs-hostpath",
+          "供应者:\nopenebs.io/local",
+          "持久卷:\npvc-77ad3407-2e9c-4226-a34f-c05ce36573f9",
+          "创建时间:\n2026-05-24 14:04:15",
+          "创建者:"
+        ],
+        "hasCreateSnapshot": true,
+        "yaml": {
+          "opened": true,
+          "closed": true,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-db/volumes/data-postgresql-dev-0/resource-status"
+        },
+        "snip": "持久卷声明 data-postgresql-dev-0 编辑信息 更多操作 编辑 YAML 克隆 创建快照 扩展 删除 属性 项目: dev-db 状态: 已绑定 容量: 8Gi 访问模式: ReadWriteOnce 存储类: openebs-hostpath 供应者: openebs.io/local 持久卷: pvc-77ad3407-2e9c-422"
+      },
+      "jobsList": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "name": "wms-admin-29898874",
+        "hasStatusHeader": true,
+        "filters": [
+          "失败",
+          "已完成",
+          "运行中"
+        ],
+        "snip": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29898874 - 已完成 2026-11-06 10:35:14 编辑信"
+      },
+      "job": {
+        "name": "wms-admin-29898874",
+        "detailOk": true,
+        "yaml": {
+          "opened": true,
+          "closed": false,
+          "editors": 1,
+          "modals": 1,
+          "ok": true,
+          "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs/wms-admin-29898874/records"
+        },
+        "snip": "任务 wms-admin-29898874 编辑信息 更多操作 重新运行 查看 YAML 删除 属性 集群: host 项目: dev-wms 状态: 已完成 最大重试次数: 0 容器组完成数量: 1 并行容器组数量: 1 最大运行时间（s）: 1800 创建时间: 2026-11-06 10:34:00 创建者: 运"
+      }
+    }
+  ],
+  "note": "read-only; Jobs filters 失败/已完成/运行中 are JOB_STATUS. snapshotActionGap flags PVC 创建快照 menu parity.",
+  "yamlOpenedOk": true,
+  "filtersOk": true,
+  "passCore": true,
+  "openFindings": [
+    "PVC 更多操作：30883 多出「创建快照」，30881 无。见 pvc-snapshot-action-gap.md",
+    "Jobs YAML cancel 两侧 closed 均可能 false（查看 YAML 模态关闭不稳定）"
+  ]
+}

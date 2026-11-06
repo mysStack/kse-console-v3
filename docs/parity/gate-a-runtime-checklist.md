@@ -244,3 +244,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 未宣称 Gate A 关闭；仍为 hostPath A/B，未替换官方镜像。
 - ws-core `/dev-workspace` 截图 A/B（阈值 0.03）pass；pods ratio≈0.027 仍属 live 漂移。`48f97d7-ws-core-report.json`
 - Ingress YAML 只读：`dev-web/matrix`（dev-wms 无路由）两侧打开/取消 pass。`ingress-yaml-48f97d7.json`
+- PVC YAML（dev-db/data-postgresql-dev-0）两侧打开通过；Jobs 过滤 失败/已完成/运行中 对齐。`volumes-jobs-48f97d7.json`
+- 发现：30883 PVC 更多操作多出「创建快照」，密封包无。`pvc-snapshot-action-gap.md`（未修）
