@@ -236,3 +236,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Jobs/CronJobs/CM/Secrets open A/B: pass。`screenshots-ab/c0aa6a9-jobs-cm`
 - NetworkPolicies/Alerts/AlertRules/SA open A/B: pass。`screenshots-ab/c0aa6a9-net-alert`
 - Gateways/GrayRelease/S2I/LogCollections open A/B: pass。`screenshots-ab/c0aa6a9-gateway-s2i`
+- HPA dialog probe: 30883 可开可关；30881 自动化仍 flaky（同 round3）。见 `deploy-hpa-open-c0aa6a9.md`。不改码。
