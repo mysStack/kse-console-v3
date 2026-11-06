@@ -1,0 +1,96 @@
+{
+  "tool": "crd-limits-alerts",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:38:11.081Z",
+  "pass": true,
+  "results": {
+    "alerts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 关键词 状态 告警级别 规则名称 定制内容 状态 告警级别 规则名称 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 紧急 重要 警告 提醒 规则名称 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "matched": true,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 状态 告警级别 定制内容 状态 告警级别 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 危险告警 重要告警 一般告警 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "matched": true,
+        "classification": "v3dist-ok"
+      }
+    },
+    "limitranges": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 10 容器组 6 部署 0 有状态副本集 0 守护进程集 4 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 无上限 内存上限 资源类型 0 已使用 无上限 配额 无上限 查看更多 dev-wms wms服务 基本信息 host 集群 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 项目成员和角色 1 项目成员 3 项目角色 最近登录用户 查看更多",
+        "leak": false,
+        "toDashboard": false,
+        "matched": true,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 dev-wms wms服务 host 集群 dev-workspace 企业空间 admin 创建者 默认容器配额未设置 默认容器配额用于指定项目中创建的容器的默认 CPU 预留、CPU 上限、内存预留和内存上限。 编辑配额 资源状态 应用资源 物理资源 最近 12 小时 9 容器组 6 部署 0 有状态副本集 0 守护进程集 3 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 帮助信息 💁 如何邀请用户到当前项目中？ 💁 如何设置项目网关？ 资源用量 Top 5 资源名称 按 CPU 用量排行 暂无数据 0.75",
+        "leak": false,
+        "toDashboard": false,
+        "matched": true,
+        "classification": "v3dist-ok"
+      }
+    },
+    "crds-host": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "matched": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/customresourcedefinitions",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:37:11平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:37:19最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "matched": false,
+        "classification": "host-dashboard"
+      }
+    },
+    "cluster-roles": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/clusters/host/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "matched": false,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/clusters/host/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:37:56平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:38:03最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "matched": false,
+        "classification": "host-dashboard"
+      }
+    }
+  }
+}
