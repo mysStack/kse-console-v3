@@ -2,7 +2,7 @@
 
 - Time: 2026-11-06
 - Path: `/dev-workspace/clusters/host/projects/dev-wms/roles`
-- Artifact: `fd49fe6` on 30883
+- Artifact: `fd49fe6` on 30883 (pre-fix)
 
 ## Observation
 
@@ -13,6 +13,11 @@
 
 ServiceAccount `default` YAML open：两侧 pass。
 
-## Next
+## Root cause
 
-抓 30883 Wujie 内 roles API 请求与 sealed 对比；查路由/module 名 `roles` vs `projectroles`。
+30883 `RoleStore` called `kapis/iam.kubesphere.io/v1alpha2/.../roles` → **404**.  
+Working paths: `iam.v1beta1` and `resources.v1alpha3` (sealed list uses the latter).
+
+## Fix
+
+`src/stores/role.js`: switch list/template URLs from `v1alpha2` → `v1beta1`.

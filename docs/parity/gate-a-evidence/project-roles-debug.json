@@ -1,0 +1,105 @@
+{
+  "a": {
+    "base": "http://192.168.2.131:30881",
+    "info": {
+      "url": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+      "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "reqs": [
+      {
+        "u": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/roles?sortBy=updateTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30881/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+        "status": 200,
+        "method": "GET"
+      }
+    ]
+  },
+  "b": {
+    "base": "http://192.168.2.131:30883",
+    "info": {
+      "url": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+      "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "reqs": [
+      {
+        "u": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/roles?sortBy=updateTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users?sortBy=createTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/globalroles?annotation=kubesphere.io%2Fcreator&sortBy=createTime&limit=10",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/clusters/host/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-wms",
+        "status": 200,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/clusters/host/iam.kubesphere.io/v1alpha2/namespaces/dev-wms/roles?sortBy=createTime&limit=10&annotation=kubesphere.io%2Fcreator",
+        "status": 404,
+        "method": "GET"
+      },
+      {
+        "u": "http://192.168.2.131:30883/kapis/clusters/host/iam.kubesphere.io/v1alpha2/namespaces/dev-wms/roles?label=iam.kubesphere.io/role-template=true",
+        "status": 404,
+        "method": "GET"
+      }
+    ]
+  }
+}

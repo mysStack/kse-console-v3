@@ -51,8 +51,10 @@ export default class RoleStore extends Base {
     return path
   }
 
+  // KS 4.1 IAM: v1alpha2 roles endpoints 404; sealed console lists via
+  // resources.v1alpha3 / iam.v1beta1. Align list/detail to v1beta1.
   getResourceUrl = params =>
-    `kapis/iam.kubesphere.io/v1alpha2${this.getPath(params)}/${this.module}`
+    `kapis/iam.kubesphere.io/v1beta1${this.getPath(params)}/${this.module}`
 
   getListUrl = this.getResourceUrl
 
@@ -135,7 +137,7 @@ export default class RoleStore extends Base {
     this.roleTemplates.isLoading = true
 
     const result = await request.get(
-      `kapis/iam.kubesphere.io/v1alpha2${this.getPath(params)}/${
+      `kapis/iam.kubesphere.io/v1beta1${this.getPath(params)}/${
         this.module
       }?label=iam.kubesphere.io/role-template=true`
     )
@@ -152,7 +154,7 @@ export default class RoleStore extends Base {
     this.roleTemplatesDetail.isLoading = true
 
     const result = await request.get(
-      `kapis/iam.kubesphere.io/v1alpha2${this.getPath(params)}/${
+      `kapis/iam.kubesphere.io/v1beta1${this.getPath(params)}/${
         this.module
       }?labelSelector=iam.kubesphere.io/role-template`
     )
