@@ -1,0 +1,254 @@
+{
+  "tool": "recovery-yaml-strong-ab",
+  "liveCommit": "b511b4f",
+  "gateAClosed": false,
+  "generatedAt": "2026-11-06T09:49:54.770Z",
+  "pass": true,
+  "comparisons": {
+    "deployments": {
+      "yamlMatch": true,
+      "sYaml": true,
+      "rYaml": true,
+      "sRows": 6,
+      "rRows": 6,
+      "sClick": "table-item-editYaml",
+      "rClick": "table-item-editYaml"
+    },
+    "services": {
+      "yamlMatch": true,
+      "sYaml": true,
+      "rYaml": true,
+      "sRows": 6,
+      "rRows": 6,
+      "sClick": "table-item-editYaml",
+      "rClick": "table-item-editYaml"
+    },
+    "configmaps": {
+      "yamlMatch": true,
+      "sYaml": true,
+      "rYaml": true,
+      "sRows": 10,
+      "rRows": 10,
+      "sClick": "table-item-editYaml",
+      "rClick": "table-item-editYaml"
+    },
+    "host-deployments": {
+      "yamlMatch": true,
+      "sYaml": false,
+      "rYaml": false,
+      "sRows": 0,
+      "rRows": 0,
+      "sClick": null,
+      "rClick": null
+    }
+  },
+  "results": {
+    "deployments": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-redeploy",
+            "table-item-delete"
+          ],
+          "rowCount": 6,
+          "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1"
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59:02 编"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-redeploy",
+            "table-item-delete"
+          ],
+          "rowCount": 6,
+          "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中"
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59"
+      }
+    },
+    "services": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-editService",
+            "table-item-editGateway",
+            "table-item-delete"
+          ],
+          "rowCount": 6,
+          "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-p"
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 VirtualIP w"
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-editService",
+            "table-item-editGateway",
+            "table-item-delete"
+          ],
+          "rowCount": 6,
+          "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 "
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-service - 自定义服务 Virtua"
+      }
+    },
+    "configmaps": {
+      "sealed": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-editConfigMap",
+            "table-item-delete"
+          ],
+          "rowCount": 10,
+          "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAM"
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 "
+      },
+      "rebuild": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+        "inventory": {
+          "uniq": [
+            "table-refresh",
+            "table-columns",
+            "table-create",
+            "table-item-edit",
+            "table-item-editYaml",
+            "table-item-editConfigMap",
+            "table-item-delete"
+          ],
+          "rowCount": 10,
+          "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_US"
+        },
+        "moreClicked": true,
+        "yamlClick": "table-item-editYaml",
+        "sig": {
+          "ace": 1,
+          "dialog": 1,
+          "pre": 0,
+          "textarea": 1
+        },
+        "opened": true,
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML "
+      }
+    },
+    "host-deployments": {
+      "sealed": {
+        "path": "/clusters/host/projects/dev-wms/deployments",
+        "inventory": {
+          "uniq": [],
+          "rowCount": 0,
+          "text": " "
+        },
+        "moreClicked": false,
+        "yamlClick": null,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0,
+          "textarea": 0
+        },
+        "opened": false,
+        "text": " "
+      },
+      "rebuild": {
+        "path": "/clusters/host/projects/dev-wms/deployments",
+        "inventory": {
+          "uniq": [
+            "dashboard-header",
+            "panel-平台信息",
+            "panel-平台资源",
+            "panel-最近访问"
+          ],
+          "rowCount": 0,
+          "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 17:49:27平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 17:49:32最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 "
+        },
+        "moreClicked": false,
+        "yamlClick": null,
+        "sig": {
+          "ace": 0,
+          "dialog": 0,
+          "pre": 0,
+          "textarea": 0
+        },
+        "opened": false,
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 17:49:27平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 17:49:32最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 "
+      }
+    }
+  }
+}
