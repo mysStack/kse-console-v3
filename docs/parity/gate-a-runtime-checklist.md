@@ -350,3 +350,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 网络隔离/SA/角色/基本信息 7ca8432 再抽检。`np-sa-role-7ca8432.json`
 - Deployment 详情（含事件 tab）7ca8432。`deploy-detail-7ca8432.json`
 - Soft：Deployment 详情深链两侧宿主壳。`deploy-detail-host-soft.md`
+- Service/CM/Secret/SC 列表与 YAML 再抽检 7ca8432。`list-yaml-more-7ca8432.json`
