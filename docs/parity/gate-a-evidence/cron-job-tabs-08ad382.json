@@ -1,0 +1,95 @@
+{
+  "tool": "cron-job-tabs",
+  "commit": "08ad382",
+  "cron": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling",
+  "generatedAt": "2026-11-06T04:27:10.290Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "list": "embed",
+      "resourceStatus": "dashboard",
+      "jobs": "dashboard",
+      "events": "embed"
+    },
+    "30883": {
+      "list": "embed",
+      "resourceStatus": "dashboard",
+      "jobs": "dashboard",
+      "events": "embed"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "list": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": " 定时任务定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。任务定时任务名称状态定制内容状态定时计划创建时间创建名称排序升序降序状态过滤已暂停运行中定时计划创建时间排序升序降序wms-scheduling-运行中*/2 * * * *2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除wms-report-运行中0 * * * *2026-10-27 11:08:41 编辑信息 编辑 YAML 暂停 删除wms-admin-运行中0-58/2 * * ",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/resource-status",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "jobs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/events",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/records",
+        "text": "定时任务 wms-scheduling 编辑信息 更多操作 暂停 编辑 YAML 删除 属性 集群: host 项目: dev-wms 状态: Running 定时计划: */2 * * * * 最大启动延后时间（s）: - 成功任务保留数量: 1 失败任务保留数量: 2 并发策略: 跳过新任务 创建时间: 2026-10-27 11:08:41 创建者: 运行记录 元数据 运行记录 任务 状态 开始时间 结束时间 ",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "list": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs",
+        "text": "定时任务 定时任务（CronJob）管理基于时间的任务（Job），可用于运行周期性任务或重复性任务。 了解更多 任务 定时任务 名称 状态 定制内容 状态 定时计划 创建时间 创建 名称 排序 升序 降序 状态 过滤 已暂停 运行中 定时计划 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "resourceStatus": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/resource-status",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:26:42平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:26:57最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "jobs": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:26:42平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:27:03最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      },
+      "events": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/events",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/cronjobs/wms-scheduling/records",
+        "text": "定时任务 wms-scheduling 编辑信息 更多操作 暂停 编辑 YAML 删除 属性 集群: host 项目: dev-wms 状态: 运行中 定时计划: */2 * * * * 最大启动延后时间（s）: - 成功任务保留数量: 1 失败任务保留数量: 2 并发策略: 跳过新任务 创建时间: 2026-10-27 11:08:41 创建者: 运行记录 元数据 事件 运行记录 任务 状态 开始时间 结束时间 wms-scheduling-29898986 已完成 2026-11-06 12:26:01 202",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}
