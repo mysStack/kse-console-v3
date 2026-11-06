@@ -1,0 +1,158 @@
+{
+  "tool": "pvc-sa-jobs",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:09:19.079Z",
+  "pass": true,
+  "results": {
+    "volumes": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/persistentvolumeclaims?sortBy=createTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/persistentvolumeclaims?sortBy=createTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      }
+    },
+    "serviceaccounts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=createTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=createTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/serviceaccounts?sortBy=createTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      }
+    },
+    "jobs": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899028 - 已完成 2026-11-06 13:08:29 编辑信息 重新运行 删除 wms-admin-29899028 - 运行中 2026-11-06 13:08:00 编辑信息 重新运行 删除 wms-admin-29899026 - 已完成 2026-11-06 13:07:21 编辑信息 重新运行 删除 wms-report-29899020 - 已完成 2026-11-06 13:01:13 编辑信息 重新运行 删除 每页显示：10 10 20 5",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/dev-workspace/clusters/host/projects/dev-wms/jobs"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/jobs?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30881/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/jobs?sortBy=updateTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899028 - 已完成 2026-11-06 13:09:15 编辑信息 重新运行 删除 wms-scheduling-29899028 - 已完成 2026-11-06 13:08:29 编辑信息 重新运行 删除 wms-report-29899020 - 已完成 2026-11-06 13:01:13 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "hits": [
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/dev-workspace/clusters/host/projects/dev-wms/jobs"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/clusters/host/kapis/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/jobs?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/jobs?sortBy=updateTime&limit=10"
+          },
+          {
+            "status": 200,
+            "url": "http://192.168.2.131:30883/kapis/clusters/host/resources.kubesphere.io/v1alpha3/namespaces/dev-wms/jobs?sortBy=updateTime&limit=10"
+          }
+        ],
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}

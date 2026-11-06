@@ -314,3 +314,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 重建挂载到 95cc975（含 secret URL 空格修复）；SC+Snapshot 回归。`post-rebuild-sc-snap-95cc975.json`
 - Deployments 列表 95cc975 对称抽检。`deploy-list-95cc975.json`
 - Service/Ingress/ConfigMap/Secret/Snapshot 列表 95cc975 对称抽检。`svc-ing-cm-secret-snap-95cc975.json`
+- PVC/ServiceAccount/Jobs 列表 95cc975 对称抽检。`pvc-sa-jobs-95cc975.json`
