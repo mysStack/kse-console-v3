@@ -343,3 +343,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - ServiceAccount/Jobs/Deployments(+YAML) 7ca8432 回归。`sa-jobs-deploy-7ca8432.json`
 - 宿主集群概览/节点/项目/工作负载 分类抽检 7ca8432。`cluster-host-wave-7ca8432.json`
 - 宿主 services/jobs/configmaps/secrets 分类抽检 7ca8432。`host-lists-7ca8432.json`
+- Soft：宿主集群列表 rebuild 易采到壳层文案。`host-lists-soft.md`
+- 宿主 services 加严判定重试 7ca8432。`host-services-retry-7ca8432.json`

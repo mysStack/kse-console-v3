@@ -1,0 +1,23 @@
+{
+  "tool": "host-services-retry",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:10:58.364Z",
+  "pass": true,
+  "sealed": {
+    "base": "http://192.168.2.131:30881",
+    "frameUrl": "http://192.168.2.131:30881/consolev3/clusters/host/services",
+    "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 名称 定制内容 项目 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 项目 内部访问 外部访问 创建时间 排序 升序 降序 grafana - kubesphere-monitoring-system 10.96.199.181 VirtualIP 32000/TCP 端口 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller-web - jobpilot 10.96.102.218 VirtualIP 30882/TCP 端口 2026-11-03 15:14:06 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller - jobpilot 10.96.134.171 VirtualIP - - 2026-11-03 15:13:38 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 ks-console-v3dist-parity - kub",
+    "realList": true,
+    "shellOnly": false,
+    "pass": true
+  },
+  "rebuild": {
+    "base": "http://192.168.2.131:30883",
+    "frameUrl": "http://192.168.2.131:30883/consolev3/clusters/host/services",
+    "text": "host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务账户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 日志接收器 服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 名称 定制内容 项目 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 项目 内部访问 外部访问 创建时间 排序 升序 降序 grafana - kubesphere-monitoring-system 10.96.199.181 VirtualIP 32000/TCP 端口 2026-11-03 18:02:30 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-controller-web - jobpilot 10.96.102.218 VirtualIP 30882/TCP 端口 2026-11-03 15:14:06 编辑信息 编辑 YAML 编辑服务 编辑外部访问 删除 jobpilot-contro",
+    "realList": true,
+    "shellOnly": false,
+    "pass": true
+  },
+  "note": "stricter real-list signals; soft if rebuild shellOnly"
+}
