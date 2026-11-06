@@ -369,3 +369,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Cron/Service/CM/Secret/SC 心跳 9b1819f。`hb-9b1819f.json`
 - Pods/STS/DS/Snapshot/SA/角色/Ingress/网关 心跳 9b1819f。`hb2-9b1819f.json`
 - Deploy/Service/CM/Secret/SA 行内 YAML 9b1819f。`yaml-9b1819f.json`
+- 告警/基本信息/PVC 心跳 9b1819f。`alerts-base-9b1819f.json`
