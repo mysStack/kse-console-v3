@@ -1,0 +1,68 @@
+{
+  "tool": "sa-jobs-deploy",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:04:50.806Z",
+  "pass": true,
+  "results": {
+    "serviceaccounts": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/serviceaccounts",
+        "text": "服务账户 服务账户（Service Account）为容器组中运行的进程提供了一个标识，用于访问 API Server。 了解更多 定制内容 角色 保密字典 创建时间 创建 名称 排序 升序 降序 角色 保密字典 创建时间 排序 升序 降序 platform-bootstrap - 2026-04-14 23:28:44 编辑 编辑 YAML 修改角色 删除 default - 2026-03-30 00:29:39 编辑 编辑 YAML 修改角色 删除 每页显示：10 10 20 50 100 总数：2 1 / 1 1",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      }
+    },
+    "jobs": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-admin-29899082 - 已完成 2026-11-06 14:03:13 编辑信息 重新运行 删除 wms-scheduling-29899082 - 已完成 2026-11-06 14:02:28 编辑信息 重新运行 删除 wms-report-29899080 - 已完成 2026-11-06 14:01:14 编辑信息 重新运行 删除 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/jobs",
+        "text": "任务 任务（Job）用于运行短暂的一次性任务。任务会创建一个或多个容器组，并保证指定数量的容器组成功结束。 了解更多 任务 定时任务 名称 状态 定制内容 状态 更新时间 创建 名称 排序 升序 降序 状态 过滤 失败 已完成 运行中 更新时间 排序 升序 降序 wms-scheduling-29899084 - 运行中 2026-11-06 14:04:00 编辑信息 重新运行 删除 wms-admin-29899084 - 运行中 2026-11-06 14:04:00 编辑信息 重新运行 删除 wms-admin-29899082 - 已完成 2026-11-06 14:03:13 编辑信息 重新运行 删除 wms-scheduling-29899082 - 已完成 2026-11-06 14:02:28 编辑信息 重新运行 删除 wms-report-29899080 - 已完成 ",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      }
+    },
+    "deployments": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-10-27 16:5",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-10-27 17:22:00 编辑信息 编辑 YAML 重新创建 删除 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-10-27 16:58:05 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-10-27",
+        "leak": false,
+        "yamlOk": false,
+        "pass": true
+      }
+    }
+  }
+}

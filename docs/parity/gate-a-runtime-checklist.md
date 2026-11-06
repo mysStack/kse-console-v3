@@ -340,3 +340,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - SC 列表/YAML 重试 + 企业空间应用分类 7ca8432。`sc-yaml-ws-apps-7ca8432.json`
 - Service/Ingress/CronJob 7ca8432 回归。`svc-ing-cron-7ca8432.json`
 - ConfigMap/Secret/PVC/Snapshot/SC 7ca8432 回归。`config-storage-7ca8432.json`
+- ServiceAccount/Jobs/Deployments(+YAML) 7ca8432 回归。`sa-jobs-deploy-7ca8432.json`
