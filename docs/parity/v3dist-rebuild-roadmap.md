@@ -121,13 +121,15 @@
 - [x] 可维护旧源码已给定：`kse-console-v3` `feature/v3-parity`（不是另找一棵树）
 - [ ] 密封 `main.558f4520` 的 embed 构建 commit 仍未知；当前以这份源码做行为等价，不宣称字节级还原
 - [x] Gate A：性能对照（perf-ab 首轮）
-- [x] 本地 tag `v3dist-parity-20261106` → `b96fdc2`；30883 产物 `main.a0f7286afd2bc5b69a7c.js`，sha256 `73e98e386e599c39f7f4175eea780f5aca3750a7ae7cc3aefe7286a18511f7a2`（2026-11-05T17:18:04Z）。未 push，未批准进正式镜像
+- [x] 本地 tag `v3dist-parity-20261106` → `b96fdc2`；后续 composing 空态已进 `c0aa6a9`
+- [x] 本地 tag `v3dist-parity-20261106-composing` → `c0aa6a9`；30883 产物 `main.9a287bcc468b4db7c212.js`，sha256 `877da0659805a25389b14c246a0d2b3bc66b425c7f7c6d31a26615ff67722c9d`（2026-11-06T01:36:43Z）。未 push，未批准进正式镜像
+- [x] c0aa6a9 七路径截图 A/B 全过（见 `screenshots-ab/c0aa6a9-ab7`）
 - [ ] 批准用该 digest 替换正式镜像中的密封 v3dist
 - [ ] 阶段 3 在「可替换」成立后按模块推进（Workload 等历史证据不可直接继承为当前通过）
 
-**钉版记录（2026-11-06）：** 计划见本机 `pin_b96fdc2_artifact`。Node14 工作区按干净提交重编，只滚动 `ks-console-v3dist-parity`。部署后冒烟 deployments 像素差 0、composing 0.0149，阈值 0.02 内。30881 仍是密封 `main.558f4520…`。两侧宿主镜像并不相同：30883 为 `release-4.1.5-defer-actions-20261102-d475030`，30881 为 `release-4.1.5-merged-20261102-ad724a3`。
+**钉版记录 c0aa6a9（2026-11-06）：** 连续计划见本机 `gate_a_continuous`。干净提交重编挂 30883；冒烟 + 7 路径 pass。composing 空卡片已对齐。30881 仍是密封 `main.558f4520…`。
 
-**composing 空态（2026-11-06，工作区未提交）：** `/composing` 改为自制应用空卡片。applications 接口返回纯文本 `resource is not supported` 时不再弹出 Not Found，并显示「未发现自制应用 / 创建」。30883 当前 main `main.9a287bcc468b4db7c212.js`，sha256 `877da0659805a25389b14c246a0d2b3bc66b425c7f7c6d31a26615ff67722c9d`，`.v3dist-source.json` dirty=true，基线 commit 仍是 `b96fdc2`。复测 deployments 像素差 0，composing 0.0098。单测 7 通过。Gate A 仍未关闭，没有批准替换。
+**宿主镜像差（有意保留）：** 30881=`release-4.1.5-merged-20261102-ad724a3`；30883=`release-4.1.5-defer-actions-20261102-d475030`。本轮不把 30883 宿主改成 merged，避免冲掉 defer-actions 实验口径；对照结论需带着「宿主不完全同镜像」读。Gate A 仍未关闭，没有批准替换。
 
 ## 相关文档
 

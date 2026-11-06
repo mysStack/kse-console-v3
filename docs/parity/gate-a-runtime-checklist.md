@@ -208,3 +208,19 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 | 30881 | 密封 `main.558f452048e49db23323.js` 仍 HTTP 200；重建 main 不在该端口 |
 
 证据：`docs/parity/gate-a-evidence/screenshots-ab/pin-b96fdc2/ab-screenshot-report.json`。未批准进正式镜像。
+
+## Snapshot pin c0aa6a9 composing (2026-11-06)
+
+| 项 | 值 |
+| --- | --- |
+| commit | `c0aa6a963d4c9c4d73e127881bcf88fe84621694` |
+| tag | `v3dist-parity-20261106-composing`（仅本地） |
+| 30883 main | `main.9a287bcc468b4db7c212.js` |
+| sha256 | `877da0659805a25389b14c246a0d2b3bc66b425c7f7c6d31a26615ff67722c9d` |
+| builtAt | `2026-11-06T01:36:43Z` |
+| dirty | false |
+| 冒烟 | deployments 0；composing 0.0098；pass |
+| 7 路径 | 全过：deployments/pods/cm/secrets/services/composing/ext×2 |
+| 宿主 | 30881 `…merged…ad724a3`；30883 `…defer-actions…d475030`（有意未对齐） |
+
+证据：`screenshots-ab/c0aa6a9-smoke/`、`screenshots-ab/c0aa6a9-ab7/ab-screenshot-report.json`。未批准进正式镜像。
