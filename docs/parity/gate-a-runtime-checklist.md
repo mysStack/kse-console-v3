@@ -261,3 +261,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - composing 自制应用列表 v3 embed 两侧通过；applications/hpa 路由两侧均落到 dashboard（非重建独有）。`hpa-apps-653cbe2.json`
 - Deployment YAML 只读两侧通过（653cbe2）。`deploy-yaml-653cbe2.json`
 - Alert / S2I 相关列表路径 v3 embed 两侧通过。`alerts-s2i-653cbe2.json`
+- 项目网关 gateways v3 embed 两侧通过；grayreleases 两侧 dashboard（非重建独有）。`gateway-gray-653cbe2.json`

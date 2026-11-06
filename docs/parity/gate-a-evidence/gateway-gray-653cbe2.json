@@ -1,0 +1,65 @@
+{
+  "tool": "gateway-gray",
+  "generatedAt": "2026-11-06T03:27:21.986Z",
+  "pass": true,
+  "grayBothOk": false,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "gateway": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 启用网关",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+          "/clusters/host/gateways"
+        ]
+      },
+      "gray": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+          "/dev-workspace/clusters/host/projects/dev-wms/canary"
+        ]
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "gateway": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/gateways",
+        "text": "网关设置 对项目中的外网访问网关以及服务治理等配置进行设置和管理。 项目网关 项目网关未启用 请启用项目网关。 启用网关",
+        "notFound": false,
+        "isDashboard": false,
+        "ok": true,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/gateways",
+          "/clusters/host/gateways"
+        ]
+      },
+      "gray": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 11:26:36平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 11:26:53最后更新时间0企业空间0用户最近访问host主集群集群dev-wmshost项目 ",
+        "notFound": false,
+        "isDashboard": true,
+        "ok": false,
+        "tried": [
+          "/dev-workspace/clusters/host/projects/dev-wms/grayreleases",
+          "/dev-workspace/clusters/host/projects/dev-wms/canary"
+        ]
+      }
+    }
+  ],
+  "note": "read-only embed probe"
+}
