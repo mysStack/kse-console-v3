@@ -372,3 +372,6 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 告警/基本信息/PVC 心跳 9b1819f。`alerts-base-9b1819f.json`
 - Jobs/CronJob YAML 再验 9b1819f。`jobs-cron-yaml-9b1819f.json`
 - 宿主 soft 再分类 9b1819f。`host-soft-9b1819f.json`
+- 企业空间/应用/S2I/网络隔离分类 9b1819f。`ws-apps-9b1819f.json`
+- IPPool unsupported 静默。`ippool-unsupported-gap.md`
+- unsupported API 第三轮扫描纪要。`unsupported-api-scan3.md`

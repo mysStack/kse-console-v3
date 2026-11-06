@@ -16,8 +16,20 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { action } from 'mobx'
 import Base from 'stores/base'
+import { silenceUnsupportedListReject } from 'stores/silenceUnsupported'
 
 export default class IPPool extends Base {
   module = 'ippools'
+
+  // KS 4.1.x: resources.kubesphere.io/.../ippools and network.kubesphere.io
+  // CRD both unavailable; silence like S2I / namespacenetworkpolicies.
+  @action
+  fetchList(params = {}) {
+    return super.fetchList({
+      ...params,
+      reject: silenceUnsupportedListReject,
+    })
+  }
 }

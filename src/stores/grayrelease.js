@@ -23,6 +23,7 @@ import { MODULE_KIND_MAP } from 'utils/constants'
 import ObjectMapper from 'utils/object.mapper'
 
 import Base from './base'
+import { silenceUnsupportedListReject } from 'stores/silenceUnsupported'
 
 export default class GrayReleaseStore extends Base {
   @observable
@@ -52,11 +53,14 @@ export default class GrayReleaseStore extends Base {
 
     const result = await request.get(
       this.getListUrl({ cluster, namespace }),
-      params
+      params,
+      {},
+      silenceUnsupportedListReject
     )
+    const items = (result && result.items) || []
     this.list.update({
-      data: result.items.map(item => ({ ...this.mapper(item), cluster })),
-      total: result.items.length,
+      data: items.map(item => ({ ...this.mapper(item), cluster })),
+      total: items.length,
       isLoading: false,
     })
   }
