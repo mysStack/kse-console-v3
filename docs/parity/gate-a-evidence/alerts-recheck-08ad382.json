@@ -1,0 +1,76 @@
+{
+  "tool": "alerts-recheck",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:42:30.304Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "policies": "embed",
+      "messages": "embed",
+      "customMon": "embed"
+    },
+    "30883": {
+      "policies": "embed",
+      "messages": "embed",
+      "customMon": "embed"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "policies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 已禁用 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "messages": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 关键词 状态 告警级别 规则名称 定制内容 状态 告警级别 规则名称 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 紧急 重要 警告 提醒 规则名称 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "customMon": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "text": "自定义监控面板 自定义监控提供应用监控模板，您可以根据需求自定义监控面板。 未发现自定义监控面板 请创建一个自定义监控面板。 创建",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "policies": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alert-rules",
+        "text": "规则组 规则组包含告警规则，用于监测集群资源。 如何在告警策略触发后接收告警？ 名称 规则组状态 规则状态 定制内容 规则组状态 规则状态 耗时 最近检查 创建 名称 规则组状态 过滤 已启用 已禁用 规则状态 过滤 未触发 验证中 已触发 耗时 最近检查 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "messages": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/alerts",
+        "text": "告警 当资源指标满足规则组中配置的条件时，系统将生成告警。 告警是如何产生的？ 状态 告警级别 定制内容 状态 告警级别 规则组 监控目标 触发时间 消息 状态 过滤 验证中 已触发 告警级别 过滤 危险告警 重要告警 一般告警 规则组 监控目标 触发时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "customMon": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/custom-monitoring",
+        "text": "自定义监控面板 自定义监控提供应用监控模板，您可以根据需求自定义监控面板。 创建 名称 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      }
+    }
+  ]
+}
