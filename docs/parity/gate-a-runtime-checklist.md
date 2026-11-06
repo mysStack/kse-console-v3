@@ -283,3 +283,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - StatefulSet `postgresql-dev` 详情 tab 对称抽检。`sts-tabs-08ad382.json`
 - Pod 详情 tab + 日志/终端入口只读对称抽检。`pod-logs-08ad382.json`
 - CronJob `wms-scheduling` 列表/详情 tab 对称抽检。`cron-job-tabs-08ad382.json`
+- CronJob 列表 API 两侧均 200；30883 默认可能停在「任务」子 tab 致空表，点「定时任务」后应有数据（见 `cron-list-net-08ad382.json` / `cron-tab-click-08ad382.json`）。
