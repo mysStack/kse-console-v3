@@ -1,0 +1,48 @@
+{
+  "tool": "snap-pvc-create",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T06:34:03.337Z",
+  "pass": true,
+  "results": {
+    "snapshots": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "createClicked": false,
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volume-snapshots",
+        "text": "卷快照 卷快照是卷在特定时间点的副本，可使用快照中的数据预配新卷，或者将卷恢复至快照捕捉到的先前状态。 未发现卷快照 请创建一个卷快照。",
+        "createClicked": false,
+        "leak": false,
+        "pass": true
+      }
+    },
+    "volumes": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建 创建持久卷声明 编辑 YAML 基本信息 当前 存储设置 未设置 高级设置 未设置 名称* 名称只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 253 个字符。 别名 别名只能包含中文、字母、数字和连字符（-），不得以连字符（-）开头或结尾，最长 63 个字符。 描述 描述可包含任意字符，最长 256 个字符。 取消 下一步",
+        "createClicked": true,
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/volumes",
+        "text": "持久卷声明 持久卷声明定义了存储需求，系统根据持久卷声明创建持久卷。 什么是存储类？ 什么是本地卷? 未发现持久卷声明 请创建一个持久卷声明。 创建 创建持久卷声明 编辑 YAML 基本信息 当前 存储设置 未设置 高级设置 未设置 名称* 名称只能包含小写字母、数字和连字符（-），必须以小写字母或数字开头和结尾，最长 253 个字符。 别名 别名只能包含中文、字母、数字和连字符（-），不得以连字符（-）开头或结尾，最长 63 个字符。 描述 描述可包含任意字符，最长 256 个字符。 取消 下一步",
+        "createClicked": true,
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}
