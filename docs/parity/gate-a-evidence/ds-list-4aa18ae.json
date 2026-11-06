@@ -1,0 +1,22 @@
+{
+  "tool": "ds-list",
+  "commit": "4aa18ae",
+  "generatedAt": "2026-11-06T04:58:57.027Z",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets",
+      "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 创建时间 排序 升序 降序 node-exporter - 运行中 (1/1) 2026-10-03 09:57:26 编辑信息 编辑 YAML 重新创建 删除 每页显示：10 10 20 50 100 总数：1 1 / 1 1",
+      "listOk": true
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/system-workspace/clusters/host/projects/kubesphere-monitoring-system/daemonsets",
+      "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 创建时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 创建时间 排序 升序 降序 node-exporter - 运行中 (1/1) 2026-10-03 09:57:26 编辑信息 编辑 YAML 重新创建 删除 每页显示：10 10 20 50 100 总数：1 1 / 1 1",
+      "listOk": true
+    }
+  ]
+}
