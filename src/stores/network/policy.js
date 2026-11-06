@@ -16,10 +16,22 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { action } from 'mobx'
 import Base from 'stores/base'
+import { silenceUnsupportedListReject } from 'stores/silenceUnsupported'
 
 export default class NetworkPolicy extends Base {
   constructor(module = 'namespacenetworkpolicies') {
     super(module)
+  }
+
+  // KS 4.1.x: resources.kubesphere.io/.../namespacenetworkpolicies
+  // returns "resource is not supported"; keep friendly empty like S2I/apps.
+  @action
+  fetchList(params = {}) {
+    return super.fetchList({
+      ...params,
+      reject: silenceUnsupportedListReject,
+    })
   }
 }
