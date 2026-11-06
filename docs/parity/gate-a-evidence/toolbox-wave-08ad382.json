@@ -1,0 +1,23 @@
+{
+  "tool": "toolbox-wave",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:33:21.334Z",
+  "pass": false,
+  "note": "Host chrome toolbox; not v3dist rebuild surface",
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "hasToolbox": false,
+      "opened": false,
+      "mainText": ""
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "hasToolbox": true,
+      "opened": true,
+      "mainText": "扩展市场 应用商店 工作台 admin platform-admin 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。"
+    }
+  ]
+}
