@@ -1,0 +1,62 @@
+{
+  "tool": "np-s2i-verify",
+  "liveCommit": "9b1819f",
+  "generatedAt": "2026-11-06T07:15:38.011Z",
+  "pass": true,
+  "results": {
+    "networkpolicies": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/networkpolicies",
+        "text": "网络隔离 通过配置网络隔离控制同一企业空间容器组之间的流量以及来自外部的流量，从而实现隔离应用并增强应用的安全性。 如何更好地使用网络隔离? CNI 插件实现网络隔离需满足哪些必要条件？ 网络隔离 未启用网络隔离 启用项目网络隔离后，将禁止其他项目访问当前项目，但您可以按需放行项目、服务以及外部 IP 地址。 启用",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "s2ibuilders": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 定制内容 状态 类型 服务 创建时间 创建 名称 状态 类型 服务 创建时间 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/s2ibuilders",
+        "text": "镜像构建器 镜像构建器（Image Builder）是将代码或者制品制作成容器镜像的工具。您可以通过简单的设置将制品或代码直接制作成容器镜像。 未发现镜像构建器 请创建一个镜像构建器。 创建",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "deployments": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59:02 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-11-06 14:59:01 编辑信息 编辑 YAML 重新创建 删除 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-11-06 14:58:57 编辑信息 编辑 YAML 重新创建 删除 wms-pod-collating - 运行中 ",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/deployments",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时间 创建 名称 排序 升序 降序 状态 过滤 运行中 更新中 已停止 应用 更新时间 排序 升序 降序 wms-admin-server - 运行中 (1/1) wms-admin-server 2026-11-06 14:59:02 编辑信息 编辑 YAML 重新创建 删除 wms-report-server - 运行中 (1/1) wms-report-server 2026-11-06 14:59:01 编辑信息 编辑 YAML 重新创建 删除 wms-scheduling-server - 运行中 (1/1) wms-scheduling-server 2026-11-06 14:58:57 编辑信息 编辑 YAML 重新创建 删除 wms-pod-collating -",
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}
