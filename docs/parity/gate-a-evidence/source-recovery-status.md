@@ -34,3 +34,6 @@
 - deploy/svc 详情对称 ok（recovery-real-detail-yaml-ab.json）
 - STS/DS/Job/Cron/SC/Snapshot/Roles/SA 列表对称（recovery-storage-sts-ab.json）
 - 无 rebuild-only 泄漏；Gate A 仍未关闭
+## 续：YAML/告警扩面
+- `recovery-list-yaml-alerts-ab.json`
+- Gate A 仍未关闭
