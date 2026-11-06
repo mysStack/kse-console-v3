@@ -353,3 +353,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Service/CM/Secret/SC 列表与 YAML 再抽检 7ca8432。`list-yaml-more-7ca8432.json`
 - CronJob/Jobs 行内 YAML 7ca8432。`cron-job-yaml-7ca8432.json`
 - 项目角色/SA 列表与 YAML 抽检 7ca8432。`roles-sa-yaml-7ca8432.json`
+- StorageClass YAML 再试 7ca8432。`sc-yaml2-7ca8432.json`
