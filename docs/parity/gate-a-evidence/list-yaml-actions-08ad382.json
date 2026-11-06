@@ -1,9 +1,13 @@
 {
   "tool": "list-yaml-actions",
   "commit": "08ad382",
-  "generatedAt": "2026-11-06T04:17:08.289Z",
+  "generatedAt": "2026-11-06T04:18:51.365Z",
   "pass": false,
-  "note": "List-row Edit YAML open/cancel; detail deep-link to /detail may Wujie-dashboard both sides",
+  "summary": {
+    "30881": 1,
+    "30883": 2
+  },
+  "note": "Longer wait + more-menu fallback for list-row YAML",
   "sides": [
     {
       "label": "30881",
@@ -19,18 +23,18 @@
       "cm": {
         "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
         "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
-        "listOk": false,
-        "text": " ",
-        "clicked": "",
+        "listOk": true,
+        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "clicked": "menu-yaml",
         "opened": false
       },
       "svc": {
         "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
         "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
-        "listOk": false,
-        "text": " ",
-        "clicked": "",
-        "opened": false
+        "listOk": true,
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "clicked": "menu-yaml",
+        "opened": true
       }
     },
     {
@@ -48,16 +52,16 @@
         "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
         "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
         "listOk": true,
-        "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14",
-        "clicked": "table-item-editYaml",
+        "text": " 配置字典配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。了解更多定制内容字段创建时间创建名称排序升序降序字段创建时间排序升序降序未发现匹配的结果您可以尝试刷新数据或清空搜索条件。每页显示：10102050100总数：01 / 11 ",
+        "clicked": "menu-yaml",
         "opened": true
       },
       "svc": {
         "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
         "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/services",
         "listOk": true,
-        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 wms-pod-collating-se",
-        "clicked": "table-item-editYaml",
+        "text": "服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 了解更多 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定制内容 服务类型 应用 内部访问 外部访问 创建时间 创建 名称 排序 升序 降序 服务类型 应用 内部访问 外部访问 创建时间 排序 升序 降序 未发现匹配的结果 您可以尝试刷新数据或清空搜索条件。 每页显示：10 10 20 50 100 总数：0 1 / 1 1",
+        "clicked": "menu-yaml",
         "opened": true
       }
     }
