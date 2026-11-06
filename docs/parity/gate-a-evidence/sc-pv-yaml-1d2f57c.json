@@ -1,0 +1,34 @@
+{
+  "tool": "sc-pv-yaml",
+  "generatedAt": "2026-11-06T03:48:44.687Z",
+  "pass": false,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "scName": "openebs-hostpath",
+      "scYaml": {
+        "opened": false
+      },
+      "pvName": "",
+      "pvYaml": {
+        "opened": false
+      },
+      "scListOk": true
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "scName": "host",
+      "scYaml": {
+        "opened": false
+      },
+      "pvName": "",
+      "pvYaml": {
+        "opened": false
+      },
+      "scListOk": true
+    }
+  ],
+  "note": "SC/PV detail YAML open failed both sides this probe; not treated as rebuild-only gap"
+}
