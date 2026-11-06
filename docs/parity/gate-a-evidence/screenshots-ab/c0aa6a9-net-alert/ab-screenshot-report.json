@@ -1,0 +1,58 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.02,
+  "pass": true,
+  "compare": [
+    {
+      "path": "/clusters/host/projects/dev-wms/networkpolicies",
+      "mismatched": 3910,
+      "total": 1296000,
+      "ratio": 0.003016975308641975,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30881__clusters_host_projects_dev-wms_networkpolicies.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30883__clusters_host_projects_dev-wms_networkpolicies.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/diff__clusters_host_projects_dev-wms_networkpolicies.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/alert-rules",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30881__clusters_host_projects_dev-wms_alert-rules.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30883__clusters_host_projects_dev-wms_alert-rules.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/diff__clusters_host_projects_dev-wms_alert-rules.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/alerts",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30881__clusters_host_projects_dev-wms_alerts.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30883__clusters_host_projects_dev-wms_alerts.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/diff__clusters_host_projects_dev-wms_alerts.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/serviceaccounts",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30881__clusters_host_projects_dev-wms_serviceaccounts.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/30883__clusters_host_projects_dev-wms_serviceaccounts.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-net-alert/diff__clusters_host_projects_dev-wms_serviceaccounts.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-06T01:55:33.183Z"
+}
