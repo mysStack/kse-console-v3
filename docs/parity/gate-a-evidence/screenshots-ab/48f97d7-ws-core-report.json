@@ -1,0 +1,106 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.03,
+  "pass": true,
+  "compare": [
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/deployments",
+      "mismatched": 13032,
+      "total": 1296000,
+      "ratio": 0.010055555555555555,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_deployments.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_deployments.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_deployments.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+      "mismatched": 34820,
+      "total": 1296000,
+      "ratio": 0.026867283950617285,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_pods.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_pods.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_pods.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+      "mismatched": 19813,
+      "total": 1296000,
+      "ratio": 0.015287808641975308,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_configmaps.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_configmaps.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_configmaps.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+      "mismatched": 10192,
+      "total": 1296000,
+      "ratio": 0.007864197530864198,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_secrets.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_secrets.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_secrets.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/services",
+      "mismatched": 26678,
+      "total": 1296000,
+      "ratio": 0.020584876543209875,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_services.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_services.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_services.png"
+      }
+    },
+    {
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/composing",
+      "mismatched": 24652,
+      "total": 1296000,
+      "ratio": 0.019021604938271604,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__dev-workspace_clusters_host_projects_dev-wms_composing.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__dev-workspace_clusters_host_projects_dev-wms_composing.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__dev-workspace_clusters_host_projects_dev-wms_composing.png"
+      }
+    },
+    {
+      "path": "/extensions/management",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__extensions_management.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__extensions_management.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__extensions_management.png"
+      }
+    },
+    {
+      "path": "/extensions/marketplace",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30881__extensions_marketplace.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/30883__extensions_marketplace.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/48f97d7-ws-core/diff__extensions_marketplace.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-06T02:30:17.140Z"
+}

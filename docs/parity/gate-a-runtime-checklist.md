@@ -242,3 +242,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - Pods filter gap vs sealed（成功完成/失败/未知）已修源码，待重编验收。`pods-status-filter-gap.md`
 - 2026-11-06 `48f97d7` 已挂 30883；Pod 状态过滤文案验收通过：等待中/运行中/成功完成/失败/未知。`pods-filter-verify.json`
 - 未宣称 Gate A 关闭；仍为 hostPath A/B，未替换官方镜像。
+- ws-core `/dev-workspace` 截图 A/B（阈值 0.03）pass；pods ratio≈0.027 仍属 live 漂移。`48f97d7-ws-core-report.json`
+- Ingress YAML 只读：`dev-web/matrix`（dev-wms 无路由）两侧打开/取消 pass。`ingress-yaml-48f97d7.json`

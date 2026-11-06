@@ -1,0 +1,45 @@
+{
+  "tool": "ingress-yaml-workspace",
+  "generatedAt": "2026-11-06T02:31:10.129Z",
+  "workspace": "dev-workspace",
+  "project": "dev-web",
+  "ingressName": "matrix",
+  "pass": true,
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+      "detailPath": "/dev-workspace/clusters/host/projects/dev-web/ingresses/matrix",
+      "listOk": true,
+      "detailOk": true,
+      "yaml": {
+        "opened": true,
+        "closed": true,
+        "editors": 1,
+        "modals": 1,
+        "ok": true,
+        "via": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses/matrix/resource-status"
+      },
+      "snip": "应用路由 matrix 编辑信息 更多操作 编辑 YAML 编辑路由规则 编辑注解 删除 属性 集群: host 项目: dev-web 应用: - 网关地址: 192.168.2.242 Ingress Class: - 创建时间: 2026-05-27 10:33:36 创建者: admin 资源状态 元数据 事件"
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-web/ingresses",
+      "detailPath": "/dev-workspace/clusters/host/projects/dev-web/ingresses/matrix",
+      "listOk": true,
+      "detailOk": true,
+      "yaml": {
+        "opened": true,
+        "closed": true,
+        "editors": 1,
+        "modals": 1,
+        "ok": true,
+        "via": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-web/ingresses/matrix/resource-status"
+      },
+      "snip": "应用路由 matrix 编辑信息 更多操作 编辑 YAML 编辑路由规则 编辑注解 删除 属性 集群: host 项目: dev-web 应用: - 网关地址: 192.168.2.242 创建时间: 2026-05-27 10:33:36 创建者: admin 资源状态 元数据 事件 规则 matrix.dev-13"
+    }
+  ],
+  "note": "read-only; hostPath A/B only; dev-wms empty so use dev-web/matrix"
+}
