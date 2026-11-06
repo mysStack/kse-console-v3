@@ -1,0 +1,76 @@
+{
+  "tool": "project-base",
+  "commit": "08ad382",
+  "generatedAt": "2026-11-06T04:44:41.495Z",
+  "pass": true,
+  "classify": {
+    "30881": {
+      "baseInfo": "embed",
+      "overview": "embed",
+      "quota": "dashboard"
+    },
+    "30883": {
+      "baseInfo": "embed",
+      "overview": "embed",
+      "quota": "dashboard"
+    }
+  },
+  "sides": [
+    {
+      "label": "30881",
+      "base": "http://192.168.2.131:30881",
+      "baseInfo": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑注解 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "overview": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 10 容器组 6 部署 0 有状态副本集 0 守护进程集 4 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 无上限 内存上限 资源类型 0 已使用 无上限 配额 无上限 查看更多 dev-wms wms服务 基本信息 host 集群 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 项目成员和角色 1 项目成员 3 项目角色 最近登录用户 查看更多",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "quota": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    },
+    {
+      "label": "30883",
+      "base": "http://192.168.2.131:30883",
+      "baseInfo": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 了解更多 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "overview": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/overview",
+        "text": "概览 dev-wms wms服务 host 集群 dev-workspace 企业空间 admin 创建者 默认容器配额未设置 默认容器配额用于指定项目中创建的容器的默认 CPU 预留、CPU 上限、内存预留和内存上限。 编辑配额 资源状态 应用资源 物理资源 最近 12 小时 9 容器组 6 部署 0 有状态副本集 0 守护进程集 3 任务 3 定时任务 0 持久卷声明 6 服务 0 应用路由 帮助信息 💁 如何邀请用户到当前项目中？ 💁 如何设置项目网关？ 资源用量 Top 5 资源名称 按 CPU 用量排",
+        "ok": true,
+        "isDashboard": false,
+        "notFound": false
+      },
+      "quota": {
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 12:44:26平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 12:44:37最后更新时间0企业空间0用户最近访问dev-wmshost项目 ",
+        "ok": false,
+        "isDashboard": true,
+        "notFound": false
+      }
+    }
+  ]
+}
