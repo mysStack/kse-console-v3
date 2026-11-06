@@ -1,0 +1,88 @@
+{
+  "tool": "project-settings",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:53:28.697Z",
+  "pass": true,
+  "results": {
+    "base-info": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑注解 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 8 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用 无上限 配额 用量 无上限 任务 资源类型 2 已使用 无上限 配额 用量 无上限 定时任务 资源类型 3 已使用 无上",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/base-info",
+        "text": "基本信息 基本信息提供项目的信息概览，您可以查看项目的信息以及默认容器配额。 了解更多 如何使用资源配额? 什么是默认容器配额? 项目信息 dev-wms 名称 dev-workspace 企业空间 admin 创建者 2026-03-30 00:29:39 创建时间 管理 编辑信息 编辑项目配额 编辑默认容器配额 删除项目 6 服务 3 项目角色 1 项目成员 默认容器配额 无预留 CPU 预留 无上限 CPU 上限 无预留 内存预留 无上限 内存上限 无 GPU 类型 无上限 GPU 上限 项目配额 CPU 上限 资源类型 0 已使用 无上限 配额 用量 无上限 内存上限 资源类型 0 已使用 无上限 配额 用量 无上限 容器组 资源类型 8 已使用 无上限 配额 用量 无上限 部署 资源类型 6 已使用 无上限 配额 用量 无上限 任务 资源类型 2 已使用 无上限 配额 用量 无上限 定时任务 资源类型 3 已使用 无上",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "members": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:52:15平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:52:21最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      }
+    },
+    "roles": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/roles",
+        "text": "项目角色 项目角色定义了在当前项目下用户所拥有的权限。 定制内容 描述 创建时间 创建 名称 排序 升序 降序 描述 创建时间 排序 升序 降序 viewer 查看项目中的所有资源。 2026-03-30 00:29:40 operator 管理项目中除用户和角色之外的资源。 2026-03-30 00:29:40 admin 管理项目中的所有资源。 2026-03-30 00:29:40 每页显示：10 10 20 50 100 总数：3 1 / 1 1",
+        "leak": false,
+        "toDashboard": false,
+        "classification": "v3dist-ok"
+      }
+    },
+    "quota": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+        "text": " ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/quota",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+        "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:53:16平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:53:21最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+        "leak": false,
+        "toDashboard": true,
+        "classification": "host-dashboard"
+      }
+    }
+  }
+}
