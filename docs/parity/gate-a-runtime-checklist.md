@@ -359,3 +359,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 告警规则组热身重试 7ca8432。`alert-rules-ops2-7ca8432.json`
 - Soft：告警规则组 iframe 偶发未挂载（两侧对称）。`alert-rules-iframe-soft.md`
 - 稳定列表心跳 Deploy/Service/Pod/CM 7ca8432。`heartbeat-7ca8432.json`
+- S2I/SA 心跳 7ca8432。`s2i-sa-hb-7ca8432.json`
