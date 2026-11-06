@@ -26,7 +26,7 @@ export default class ProjectMemberStore extends Base {
   list = new MemberList()
 
   getResourceUrl = ({ namespace }) =>
-    `kapis/iam.kubesphere.io/v1alpha2/namespaces/${namespace}/users`
+    `kapis/iam.kubesphere.io/v1beta1/namespaces/${namespace}/namespacemembers`
 
   @action
   addMember(namespace, name, role) {

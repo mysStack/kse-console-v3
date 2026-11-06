@@ -81,7 +81,11 @@ export default class UsersStore extends Base {
   }
 
   getModule({ cluster, workspace, namespace, devops } = {}) {
-    if (namespace || devops) {
+    // KS 4.1 IAM resource names (v1alpha2 "members" 404s).
+    if (namespace) {
+      return 'namespacemembers'
+    }
+    if (devops) {
       return 'members'
     }
 
@@ -97,7 +101,7 @@ export default class UsersStore extends Base {
   }
 
   getResourceUrl = (params = {}) =>
-    `kapis/iam.kubesphere.io/v1alpha2${this.getPath(params)}/${this.getModule(
+    `kapis/iam.kubesphere.io/v1beta1${this.getPath(params)}/${this.getModule(
       params
     )}`
 
