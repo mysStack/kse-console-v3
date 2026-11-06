@@ -330,3 +330,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - S2I 7ca8432 热身后 iframe 验收。`s2i-verify-7ca8432c.json`
 - 网络隔离/网关/项目角色 7ca8432 对称抽检。`net-roles-gw-7ca8432.json`
 - 告警/概览配额/宿主 CRD/集群角色 分类抽检 7ca8432。`crd-limits-alerts-7ca8432.json`
+- Deployments/STS/Jobs 行内 YAML 抽检 7ca8432。`wl-yaml-7ca8432.json`
