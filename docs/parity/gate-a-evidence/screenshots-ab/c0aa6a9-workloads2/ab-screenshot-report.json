@@ -1,0 +1,58 @@
+{
+  "tool": "ab-screenshot",
+  "base81": "http://192.168.2.131:30881",
+  "base83": "http://192.168.2.131:30883",
+  "maxDiffRatio": 0.02,
+  "pass": true,
+  "compare": [
+    {
+      "path": "/clusters/host/projects/dev-wms/ingresses",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30881__clusters_host_projects_dev-wms_ingresses.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30883__clusters_host_projects_dev-wms_ingresses.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/diff__clusters_host_projects_dev-wms_ingresses.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/volumes",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30881__clusters_host_projects_dev-wms_volumes.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30883__clusters_host_projects_dev-wms_volumes.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/diff__clusters_host_projects_dev-wms_volumes.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/statefulsets",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30881__clusters_host_projects_dev-wms_statefulsets.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30883__clusters_host_projects_dev-wms_statefulsets.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/diff__clusters_host_projects_dev-wms_statefulsets.png"
+      }
+    },
+    {
+      "path": "/clusters/host/projects/dev-wms/daemonsets",
+      "mismatched": 0,
+      "total": 1296000,
+      "ratio": 0,
+      "pass": true,
+      "files": {
+        "baseline": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30881__clusters_host_projects_dev-wms_daemonsets.png",
+        "parity": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/30883__clusters_host_projects_dev-wms_daemonsets.png",
+        "diff": "/home/bruce/code/ks-develop/kse-console-v3/docs/parity/gate-a-evidence/screenshots-ab/c0aa6a9-workloads2/diff__clusters_host_projects_dev-wms_daemonsets.png"
+      }
+    }
+  ],
+  "generatedAt": "2026-11-06T01:53:39.555Z"
+}
