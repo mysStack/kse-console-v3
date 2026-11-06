@@ -1,0 +1,42 @@
+{
+  "tool": "sc-yaml-ws-apps",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:55:08.475Z",
+  "scYaml": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "frameUrl": "http://192.168.2.131:30881/clusters/host/storageclasses",
+      "clicked": false,
+      "hasYaml": false,
+      "listOk": true,
+      "text": "扩展市场 应用商店 工作台 admin platform-admin host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务帐户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 网关设置 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。了解更多 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+      "pass": true
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "frameUrl": "http://192.168.2.131:30883/clusters/host/storageclasses",
+      "clicked": false,
+      "hasYaml": false,
+      "listOk": true,
+      "text": "扩展市场 应用商店 工作台 admin platform-admin host 集群 概览 节点 集群节点 项目 应用负载 工作负载 任务 容器组 服务 应用路由 配置 保密字典 配置字典 服务帐户 定制资源定义 存储 持久卷声明 存储类 集群设置 基本信息 集群可见性 集群成员 集群角色 网关设置 存储类 存储类（StorageClass）支持动态卷供应，使管理员能够按需创建新的卷。了解更多 工具箱 提供集群分析和控制工具。 分析工具 kubeconfig 查看或下载当前集群的 kubeconfig 文件。 控制工具 kubectl 命令行工具，用于控制当前集群。 👻 按下“shift+左键”可在浏览器新窗口中打开 kubectl。",
+      "pass": true
+    }
+  },
+  "wsApps": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "path": "/dev-workspace/apps",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+      "text": " ",
+      "classification": "host-dashboard"
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "path": "/dev-workspace/apps",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+      "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:54:53平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:54:57最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+      "classification": "host-dashboard"
+    }
+  },
+  "pass": true
+}

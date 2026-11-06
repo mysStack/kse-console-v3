@@ -336,3 +336,5 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - unsupported 二次扫描（含 S2I 回归）7ca8432。`unsupported-scan2-7ca8432.json`
 - 告警规则组/告警/监控/日志 分类抽检 7ca8432。`alert-rules-mon-7ca8432.json`
 - 项目基本信息/成员/角色/配额 分类抽检 7ca8432。`project-settings-7ca8432.json`
+- Soft：项目成员/配额深链两侧 host-dashboard。`members-quota-host-soft.md`
+- SC 列表/YAML 重试 + 企业空间应用分类 7ca8432。`sc-yaml-ws-apps-7ca8432.json`
