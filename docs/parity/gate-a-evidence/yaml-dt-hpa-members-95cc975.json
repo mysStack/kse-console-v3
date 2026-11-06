@@ -1,0 +1,82 @@
+{
+  "tool": "yaml-dt-hpa-members",
+  "liveCommit": "95cc975",
+  "generatedAt": "2026-11-06T05:14:00.232Z",
+  "configmapYaml": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL_DISABLE_PEER_VERIFICATION 2026-10-21 14:31:1",
+      "pass": false
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/configmaps",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 了解更多 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创建时间 排序 升序 降序 ewms-rabbitmq-config - RABBITMQ_PORT,RABBITMQ_URL,RABBITMQ_USERNAME 2026-10-21 14:31:14 编辑信息 编辑 YAML 编辑设置 删除 wms-simulation-config - SIMULATION_IMPORT_PATH 2026-10-21 14:31:12 编辑信息 编辑 YAML 编辑设置 删除 wms-scheduling-dispatcher-config - REDIS_SSL_DISABLE_PEER_VERIFICATION 2026-10-21 14",
+      "pass": false
+    }
+  },
+  "secretYaml": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认 1 2026-10-21 14:30:48 编辑信息 编辑 YAML 编辑设置 删除 e",
+      "pass": false
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "listPath": "/dev-workspace/clusters/host/projects/dev-wms/secrets",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/secrets",
+      "clicked": false,
+      "hasYaml": false,
+      "text": "保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 了解更多 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序 类型 字段数量 创建时间 排序 升序 降序 probe-script-history - 默认 1 2026-10-23 17:13:32 编辑信息 编辑 YAML 编辑设置 删除 jobpilot-internal-token - 默认 1 2026-10-23 13:50:13 编辑信息 编辑 YAML 编辑设置 删除 ewms-mqtt-secret - 默认 1 2026-10-21 14:30:49 编辑信息 编辑 YAML 编辑设置 删除 ewms-postgres-secret - 默认 1 2026-10-21 14:30:48 编辑信息 编辑 YAML 编辑设置",
+      "pass": false
+    }
+  },
+  "hpa": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+      "text": " ",
+      "leak": false,
+      "pass": false
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/hpa",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+      "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:13:37平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:13:44最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+      "leak": false,
+      "pass": true
+    }
+  },
+  "members": {
+    "sealed": {
+      "base": "http://192.168.2.131:30881",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+      "frameUrl": "http://192.168.2.131:30881/consolev3/dashboard",
+      "text": " ",
+      "leak": false,
+      "pass": false
+    },
+    "rebuild": {
+      "base": "http://192.168.2.131:30883",
+      "path": "/dev-workspace/clusters/host/projects/dev-wms/members",
+      "frameUrl": "http://192.168.2.131:30883/consolev3/dashboard",
+      "text": " 您好 adminplatform-admin最后登录时间：2026-11-06 13:13:53平台信息4.1.4-12+7bf4ea82300ec1平台版本-集群平台资源2026-11-06 13:13:58最后更新时间0企业空间0用户最近访问未发现最近访问的资源您可以对平台资源进行访问。 ",
+      "leak": false,
+      "pass": true
+    }
+  },
+  "pass": false
+}
