@@ -1,0 +1,62 @@
+{
+  "tool": "ds-sts-pods",
+  "liveCommit": "7ca8432",
+  "generatedAt": "2026-11-06T05:44:00.642Z",
+  "pass": true,
+  "results": {
+    "daemonsets": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/daemonsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现守护进程集 请创建一个守护进程集。 创建",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "statefulsets": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/statefulsets",
+        "text": "工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 了解更多 部署 有状态副本集 守护进程集 未发现有状态副本集 请创建一个有状态副本集。 创建",
+        "leak": false,
+        "pass": true
+      }
+    },
+    "pods": {
+      "sealed": {
+        "base": "http://192.168.2.131:30881",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30881/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899062-q5zkn 已完成 成功完成 dev01（192.168.2.131） 10.42.0.85 2026-11-06 13:42:00 查看 YAML 删除 wms-admin-29899062-slxhv 已完成 成功完成 dev01（192.168.2.131） 10.42.0.72 2026-11-06 13:42:00 查看 YAML 删除 wms-schedulin",
+        "leak": false,
+        "pass": true
+      },
+      "rebuild": {
+        "base": "http://192.168.2.131:30883",
+        "path": "/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "frameUrl": "http://192.168.2.131:30883/consolev3/dev-workspace/clusters/host/projects/dev-wms/pods",
+        "text": "容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 应用 定制内容 状态 节点 容器组 IP 地址 应用 更新时间 名称 排序 升序 降序 状态 过滤 等待中 运行中 成功完成 失败 未知 节点 容器组 IP 地址 应用 更新时间 排序 升序 降序 wms-scheduling-29899062-q5zkn 已完成 成功完成 dev01（192.168.2.131） 10.42.0.85 2026-11-06 13:42:00 查看 YAML 删除 wms-admin-29899062-slxhv 已完成 成功完成 dev01（192.168.2.131） 10.42.0.72 2026-11-06 13:42:00 查看 YAML 删除 wms-scheduling-server-5",
+        "leak": false,
+        "pass": true
+      }
+    }
+  }
+}

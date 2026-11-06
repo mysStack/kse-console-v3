@@ -332,3 +332,4 @@ Enabled-extension open-only A/B on 30881 vs 30883. Evidence: `docs/parity/gate-a
 - 告警/概览配额/宿主 CRD/集群角色 分类抽检 7ca8432。`crd-limits-alerts-7ca8432.json`
 - Deployments/STS/Jobs 行内 YAML 抽检 7ca8432。`wl-yaml-7ca8432.json`
 - Secret 创建/镜像仓库 UI 抽检 7ca8432。`registry-secret-create-7ca8432.json`
+- DaemonSet/STS/Pods 列表 7ca8432 回归抽检。`ds-sts-pods-7ca8432.json`
